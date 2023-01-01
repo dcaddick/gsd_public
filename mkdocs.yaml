@@ -2,3 +2,5 @@ site_name: "Get Security Done"
 plugins:
 - simple:
 - search:
+- toc-sidebar:
+- awesome-list:
