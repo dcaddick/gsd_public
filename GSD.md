@@ -31,7 +31,8 @@ Quick wins to improve Security using existing entitlements
 - [ ] Assumed knowledge
 - [ ] Acronym Table?
 - [ ] Short paragraph on each heading - Preview at top or separate tab?
-- [ ] ToC/Index
+- [x] ToC/Index
+- [ ] Add new Theme - https://github.com/byrnereese/mkdocs-bootstrap4
 - [ ] Shadow Hunter & In to the Breach - Immersive workshops for SecOps
 - [ ] Zero Trust - <https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/creating-mfa-policies-with-zero-trust-advanced-deployment-guide/ba-p/3688849>
 - [ ] MIP/AIP - <https://techcommunity.microsoft.com/t5/security-compliance-and-identity/azure-information-protection-and-the-information-protection/ba-p/3671070>
