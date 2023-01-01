@@ -1,0 +1,1769 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://dcaddick.github.io/GSD/">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Get Security Done (GSD) - Microsoft Security & M365 Defender - dcaddick/gsd_public</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="None" data-md-color-accent="None">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#get-security-done-gsd-microsoft-security-m365-defender" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="dcaddick/gsd_public" class="md-header__button md-logo" aria-label="dcaddick/gsd_public" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            dcaddick/gsd_public
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Get Security Done (GSD) - Microsoft Security & M365 Defender
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dcaddick/gsd_public" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="dcaddick/gsd_public" class="md-nav__button md-logo" aria-label="dcaddick/gsd_public" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    dcaddick/gsd_public
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dcaddick/gsd_public" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Demo site
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CondAccess/" class="md-nav__link">
+        CondAccess
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Get Security Done (GSD) - Microsoft Security & M365 Defender
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Get Security Done (GSD) - Microsoft Security & M365 Defender
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#bottom-line" class="md-nav__link">
+    Bottom line:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-reference-material" class="md-nav__link">
+    Core reference material:
+  </a>
+  
+    <nav class="md-nav" aria-label="Core reference material:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#incident-response" class="md-nav__link">
+    Incident Response:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#still-to-do" class="md-nav__link">
+    Still to do:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#m365-defender-console" class="md-nav__link">
+    M365 Defender Console:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mdi-microsoft-defender-for-identity" class="md-nav__link">
+    MDI (Microsoft Defender for Identity):
+  </a>
+  
+    <nav class="md-nav" aria-label="MDI (Microsoft Defender for Identity):">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    Troubleshooting:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mdca-microsoft-defender-for-cloud-apps-was-mcas" class="md-nav__link">
+    MDCA (Microsoft Defender for Cloud Apps, was MCAS):
+  </a>
+  
+    <nav class="md-nav" aria-label="MDCA (Microsoft Defender for Cloud Apps, was MCAS):">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#troubleshooting_1" class="md-nav__link">
+    Troubleshooting
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#intune-mde-microsoft-defender-for-endpoint" class="md-nav__link">
+    Intune - MDE (Microsoft Defender for Endpoint):
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mde-microsoft-defender-for-endpoint" class="md-nav__link">
+    MDE (Microsoft Defender for Endpoint):
+  </a>
+  
+    <nav class="md-nav" aria-label="MDE (Microsoft Defender for Endpoint):">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mde-using-asr-stand-alone-e3" class="md-nav__link">
+    MDE using ASR stand-alone (E3)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mdo-microsoft-defender-for-office" class="md-nav__link">
+    MDO (Microsoft Defender for Office):
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mdc-microsoft-defender-for-cloud" class="md-nav__link">
+    MDC (Microsoft Defender for Cloud):
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conditional-access" class="md-nav__link">
+    Conditional Access:
+  </a>
+  
+    <nav class="md-nav" aria-label="Conditional Access:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#automation-of-ca-as-code" class="md-nav__link">
+    Automation of "CA-as-Code"
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sentinel-tips-and-best-practices" class="md-nav__link">
+    Sentinel Tips and Best Practices:
+  </a>
+  
+    <nav class="md-nav" aria-label="Sentinel Tips and Best Practices:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#azure-log-management" class="md-nav__link">
+    Azure Log Management:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filtering-logs" class="md-nav__link">
+    Filtering Logs:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sentinel-recommendation-to-enable-m365-defender-connector" class="md-nav__link">
+    Sentinel - Recommendation to enable M365 Defender Connector:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#asd-essential-8-now-acsc" class="md-nav__link">
+    ASD Essential 8 (now ACSC)
+  </a>
+  
+    <nav class="md-nav" aria-label="ASD Essential 8 (now ACSC)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hardening-guidance-from-acsc" class="md-nav__link">
+    Hardening Guidance from ACSC:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hardening-azure-ad" class="md-nav__link">
+    Hardening Azure AD:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ad-onprem" class="md-nav__link">
+    AD onPrem:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#identity" class="md-nav__link">
+    Identity:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exchange-permissions-check" class="md-nav__link">
+    Exchange Permissions check:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mde-from-mvps" class="md-nav__link">
+    MDE (from MVP's):
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wdac-windows-defender-application-control" class="md-nav__link">
+    WDAC: (Windows Defender Application Control)
+  </a>
+  
+    <nav class="md-nav" aria-label="WDAC: (Windows Defender Application Control)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#additional-resources" class="md-nav__link">
+    Additional Resources:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#defender-for-business" class="md-nav__link">
+    Defender for Business:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ninja-security-training" class="md-nav__link">
+    Ninja Security Training:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#product-trials" class="md-nav__link">
+    Product Trials:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fasttrack" class="md-nav__link">
+    FastTrack:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interactive-guides" class="md-nav__link">
+    Interactive Guides:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#microsoft-private-security-communities-nda" class="md-nav__link">
+    Microsoft Private Security Communities (NDA):
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#for-partners" class="md-nav__link">
+    For PARTNERS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mission-goal" class="md-nav__link">
+    Mission Goal:
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MDAC/" class="md-nav__link">
+        MDAC
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MDE/" class="md-nav__link">
+        MDE
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MDI/" class="md-nav__link">
+        MDI
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MDO/" class="md-nav__link">
+        MDO
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../partner/" class="md-nav__link">
+        Partner
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#bottom-line" class="md-nav__link">
+    Bottom line:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-reference-material" class="md-nav__link">
+    Core reference material:
+  </a>
+  
+    <nav class="md-nav" aria-label="Core reference material:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#incident-response" class="md-nav__link">
+    Incident Response:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#still-to-do" class="md-nav__link">
+    Still to do:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#m365-defender-console" class="md-nav__link">
+    M365 Defender Console:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mdi-microsoft-defender-for-identity" class="md-nav__link">
+    MDI (Microsoft Defender for Identity):
+  </a>
+  
+    <nav class="md-nav" aria-label="MDI (Microsoft Defender for Identity):">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    Troubleshooting:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mdca-microsoft-defender-for-cloud-apps-was-mcas" class="md-nav__link">
+    MDCA (Microsoft Defender for Cloud Apps, was MCAS):
+  </a>
+  
+    <nav class="md-nav" aria-label="MDCA (Microsoft Defender for Cloud Apps, was MCAS):">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#troubleshooting_1" class="md-nav__link">
+    Troubleshooting
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#intune-mde-microsoft-defender-for-endpoint" class="md-nav__link">
+    Intune - MDE (Microsoft Defender for Endpoint):
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mde-microsoft-defender-for-endpoint" class="md-nav__link">
+    MDE (Microsoft Defender for Endpoint):
+  </a>
+  
+    <nav class="md-nav" aria-label="MDE (Microsoft Defender for Endpoint):">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mde-using-asr-stand-alone-e3" class="md-nav__link">
+    MDE using ASR stand-alone (E3)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mdo-microsoft-defender-for-office" class="md-nav__link">
+    MDO (Microsoft Defender for Office):
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mdc-microsoft-defender-for-cloud" class="md-nav__link">
+    MDC (Microsoft Defender for Cloud):
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conditional-access" class="md-nav__link">
+    Conditional Access:
+  </a>
+  
+    <nav class="md-nav" aria-label="Conditional Access:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#automation-of-ca-as-code" class="md-nav__link">
+    Automation of "CA-as-Code"
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sentinel-tips-and-best-practices" class="md-nav__link">
+    Sentinel Tips and Best Practices:
+  </a>
+  
+    <nav class="md-nav" aria-label="Sentinel Tips and Best Practices:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#azure-log-management" class="md-nav__link">
+    Azure Log Management:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filtering-logs" class="md-nav__link">
+    Filtering Logs:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sentinel-recommendation-to-enable-m365-defender-connector" class="md-nav__link">
+    Sentinel - Recommendation to enable M365 Defender Connector:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#asd-essential-8-now-acsc" class="md-nav__link">
+    ASD Essential 8 (now ACSC)
+  </a>
+  
+    <nav class="md-nav" aria-label="ASD Essential 8 (now ACSC)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hardening-guidance-from-acsc" class="md-nav__link">
+    Hardening Guidance from ACSC:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hardening-azure-ad" class="md-nav__link">
+    Hardening Azure AD:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ad-onprem" class="md-nav__link">
+    AD onPrem:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#identity" class="md-nav__link">
+    Identity:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exchange-permissions-check" class="md-nav__link">
+    Exchange Permissions check:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mde-from-mvps" class="md-nav__link">
+    MDE (from MVP's):
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wdac-windows-defender-application-control" class="md-nav__link">
+    WDAC: (Windows Defender Application Control)
+  </a>
+  
+    <nav class="md-nav" aria-label="WDAC: (Windows Defender Application Control)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#additional-resources" class="md-nav__link">
+    Additional Resources:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#defender-for-business" class="md-nav__link">
+    Defender for Business:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ninja-security-training" class="md-nav__link">
+    Ninja Security Training:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#product-trials" class="md-nav__link">
+    Product Trials:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fasttrack" class="md-nav__link">
+    FastTrack:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interactive-guides" class="md-nav__link">
+    Interactive Guides:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#microsoft-private-security-communities-nda" class="md-nav__link">
+    Microsoft Private Security Communities (NDA):
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#for-partners" class="md-nav__link">
+    For PARTNERS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mission-goal" class="md-nav__link">
+    Mission Goal:
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="get-security-done-gsd-microsoft-security-m365-defender">Get Security Done (GSD) - Microsoft Security &amp; M365 Defender</h1>
+<p>Quick wins to improve Security using existing entitlements</p>
+<h2 id="bottom-line">Bottom line:</h2>
+<blockquote>
+<p>Ideally this page will be highlighting how to get the best out of both your M365 E5 security and compliance entitlements. What is the best way to step lightly thru this and gain maximum benefit for the least effort? Most of the focus here is more on the M365 SaaS Security platform elements, not necessarily on Sentinel or Azure, but there will be plenty of crossover.</p>
+</blockquote>
+<p><img alt="" src="./images/image1.jpg" /></p>
+<h2 id="core-reference-material">Core reference material:</h2>
+<ul>
+<li><strong>Microsoft Cybersecurity Reference Architecture -- <a href="https://aka.ms/MCRA">https://aka.ms/MCRA</a></strong></li>
+<li><strong>Security collateral inc. CISO Workshops, and lots more -- <a href="https://aka.ms/MarksList">https://aka.ms/MarksList</a></strong><ul>
+<li>Please - if you haven't come across these two links above
+    before now - go and review and come back after</li>
+</ul>
+</li>
+<li>ASD Essential 8 Security controls - Microsoft Whitepaper - <a href="http://aka.ms/e8guides">http://aka.ms/e8guides</a></li>
+<li>Everything regards M365 Features and Licensing - <a href="https://m365maps.com/matrix.htm">Feature Matrix | M365 Maps</a> <ul>
+<li>Aaron Dinnage, Microsoft Canberra</li>
+<li>Plan comparison in detail - <a href="https://aka.ms/M365EnterprisePlans">https://aka.ms/M365EnterprisePlans</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="incident-response">Incident Response:</h3>
+<ul>
+<li>CISO Lens Incident Response Template - November 2022 <a href="https://www.cisolens.com/reports#h.a769cex3vkl">https://www.cisolens.com/reports#h.a769cex3vkl</a></li>
+<li>ACSC Exercise in a box <a href="https://www.cyber.gov.au/exercise-in-a-box">https://www.cyber.gov.au/exercise-in-a-box</a></li>
+<li>Standardised Executive Reporting - an industry report from the CISO Lens community (June 2022)
+        <a href="https://www.cisolens.com/reports#h.z10davb23frq">https://www.cisolens.com/reports#h.z10davb23frq</a></li>
+</ul>
+<h2 id="still-to-do">Still to do:</h2>
+<ul>
+<li>[ ] Fix Tables</li>
+<li>[ ] Assumed knowledge</li>
+<li>[ ] Acronym Table?</li>
+<li>[ ] Short paragraph on each heading - Preview at top or separate tab?</li>
+<li>[ ] ToC/Index</li>
+<li>[ ] Shadow Hunter &amp; In to the Breach - Immersive workshops for SecOps</li>
+<li>[ ] Zero Trust - <a href="https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/creating-mfa-policies-with-zero-trust-advanced-deployment-guide/ba-p/3688849">https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/creating-mfa-policies-with-zero-trust-advanced-deployment-guide/ba-p/3688849</a></li>
+<li>[ ] MIP/AIP - <a href="https://techcommunity.microsoft.com/t5/security-compliance-and-identity/azure-information-protection-and-the-information-protection/ba-p/3671070">https://techcommunity.microsoft.com/t5/security-compliance-and-identity/azure-information-protection-and-the-information-protection/ba-p/3671070</a><ul>
+<li>Adaptive Protection (DLP rules based on Insider Risk)</li>
+<li>Login as GA (or eqiv.) - <a href="https://admin.microsoft.com/adminportal/home?#/modernonboarding/mipsetupguide">https://admin.microsoft.com/adminportal/home?#/modernonboarding/mipsetupguide</a></li>
+<li><img alt="" src="./images/image2.png" /></li>
+<li>Docs - <a href="https://learn.microsoft.com/en-gb/microsoft-365/compliance/information-protection">https://learn.microsoft.com/en-gb/microsoft-365/compliance/information-protection</a></li>
+<li>DLP - <a href="https://learn.microsoft.com/en-gb/microsoft-365/compliance/dlp-learn-about-dlp">https://learn.microsoft.com/en-gb/microsoft-365/compliance/dlp-learn-about-dlp</a></li>
+<li>What's new - <a href="https://learn.microsoft.com/en-gb/microsoft-365/compliance/whats-new">https://learn.microsoft.com/en-gb/microsoft-365/compliance/whats-new</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="m365-defender-console">M365 Defender Console:</h2>
+<ul>
+<li>Evaluate Defender 365: <a href="https://learn.microsoft.com/en-gb/microsoft-365/security/defender/eval-overview">https://learn.microsoft.com/en-gb/microsoft-365/security/defender/eval-overview</a><ul>
+<li>Good step by step guide to getting everything turned on - but it is aimed at folks just starting</li>
+</ul>
+</li>
+<li>Test Use Cases: <a href="https://learn.microsoft.com/en-gb/microsoft-365/security/defender/integrate-microsoft-365-defender-secops-use-cases">https://learn.microsoft.com/en-gb/microsoft-365/security/defender/integrate-microsoft-365-defender-secops-use-cases</a></li>
+<li>SOC Maintenance Tasks: <a href="https://learn.microsoft.com/en-gb/microsoft-365/security/defender/integrate-microsoft-365-defender-secops-tasks">https://learn.microsoft.com/en-gb/microsoft-365/security/defender/integrate-microsoft-365-defender-secops-tasks</a></li>
+</ul>
+<h2 id="mdi-microsoft-defender-for-identity">MDI (Microsoft Defender for Identity):</h2>
+<ul>
+<li>Go to <a href="https://portal.atp.azure.com">https://portal.atp.azure.com</a> and if you see this, it's not been installed
+<img alt="" src="./images/image3.png" /></li>
+<li>Use Attack Simulations to <strong>validate MDI is installed correctly</strong> and Alerts are being surfaced accurately:
+    <a href="https://learn.microsoft.com/en-us/defender-for-identity/playbooks">https://learn.microsoft.com/en-us/defender-for-identity/playbooks</a></li>
+<li>Use Labs for <strong>in depth checking</strong>: <a href="https://learn.microsoft.com/en-us/defender-for-identity/playbook-lab-overview">https://learn.microsoft.com/en-us/defender-for-identity/playbook-lab-overview</a></li>
+<li><a href="https://learn.microsoft.com/en-us/defender-for-identity/playbook-domain-dominance">https://learn.microsoft.com/en-us/defender-for-identity/playbook-domain-dominance</a></li>
+<li>Review Security Assessments to validate what potentially needs remediation: <a href="https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports">https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports</a></li>
+<li>Full list of the 44 Alerts that are being checked on your behalf when fully deployed: <a href="https://learn.microsoft.com/en-us/defender-for-identity/alerts-overview">https://learn.microsoft.com/en-us/defender-for-identity/alerts-overview</a></li>
+<li>If you do not use the default Administrator account (ideally have it disabled?) then please add it to the Honeytoken account list: <a href="https://learn.microsoft.com/en-us/defender-for-identity/entity-tags#honeytoken-tags">https://learn.microsoft.com/en-us/defender-for-identity/entity-tags#honeytoken-tags</a></li>
+<li><a href="https://thalpius.com/2022/12/14/microsoft-defender-for-identity-auditing-checker-using-sentinel">https://thalpius.com/2022/12/14/microsoft-defender-for-identity-auditing-checker-using-sentinel</a></li>
+</ul>
+<h3 id="troubleshooting">Troubleshooting:</h3>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-known-issues">https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-known-issues</a></li>
+<li><a href="https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-using-logs">https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-using-logs</a></li>
+</ul>
+<h2 id="mdca-microsoft-defender-for-cloud-apps-was-mcas">MDCA (Microsoft Defender for Cloud Apps, was MCAS):</h2>
+<ul>
+<li>URL <a href="https://security.microsoft.com/cloudapps/settings">https://security.microsoft.com/cloudapps/settings</a></li>
+</ul>
+<hr />
+<p><strong>Bad Image</strong>                                                 <strong>Good Image</strong></p>
+<hr />
+<p><img alt="" src="./images/image4.png" />   <img alt="" src="./images/image5.png" /></p>
+<hr />
+<ul>
+<li>
+<h3 id="troubleshooting_1">Troubleshooting</h3>
+<p><a href="https://learn.microsoft.com/en-us/defender-cloud-apps/troubleshooting-cloud-discovery">https://learn.microsoft.com/en-us/defender-cloud-apps/troubleshooting-cloud-discovery</a></p>
+</li>
+<li>Tune the system: <a href="https://learn.microsoft.com/en-us/defender-cloud-apps/tutorial-suspicious-activity">https://learn.microsoft.com/en-us/defender-cloud-apps/tutorial-suspicious-activity</a></li>
+<li>Tell it what the Corporate IP address's are: <a href="https://learn.microsoft.com/en-us/defender-cloud-apps/ip-tags">https://learn.microsoft.com/en-us/defender-cloud-apps/ip-tags</a></li>
+<li>Set the IP's in bulk if needed: <a href="https://learn.microsoft.com/en-us/defender-cloud-apps/api-data-enrichment-manage-script">https://learn.microsoft.com/en-us/defender-cloud-apps/api-data-enrichment-manage-script</a></li>
+<li>Best Practices: <a href="https://learn.microsoft.com/en-us/defender-cloud-apps/best-practices">https://learn.microsoft.com/en-us/defender-cloud-apps/best-practices</a></li>
+<li>Daily Activities: <a href="https://learn.microsoft.com/en-us/defender-cloud-apps/daily-activities-to-protect-your-cloud-environment">https://learn.microsoft.com/en-us/defender-cloud-apps/daily-activities-to-protect-your-cloud-environment</a></li>
+<li>Apps list</li>
+<li>Sanctioned/Unsanctioned</li>
+<li>Don't forget this is based on MDE
+ </li>
+</ul>
+<h2 id="intune-mde-microsoft-defender-for-endpoint">Intune - MDE (Microsoft Defender for Endpoint):</h2>
+<ul>
+<li>Easy starting point, step-by-step guide: <a href="https://learn.microsoft.com/en-us/mem/solutions/cloud-native-endpoints/cloud-native-windows-endpoints">https://learn.microsoft.com/en-us/mem/solutions/cloud-native-endpoints/cloud-native-windows-endpoints</a></li>
+<li>Ideally start with Security Baselines: <a href="https://endpoint.microsoft.com/#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/securityBaselines">https://endpoint.microsoft.com/#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/securityBaselines</a>  <br />
+These are updated every 6 months and you'll be prompted to update/accept changes</li>
+</ul>
+<p><img alt="" src="./images/image6.png" />
+-   ASR rules deployment steps: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-deployment">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-deployment</a>
+-   If needed import your old GPO's: <a href="https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/policyAnalyticsReport">https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/policyAnalyticsReport</a></p>
+<h2 id="mde-microsoft-defender-for-endpoint">MDE (Microsoft Defender for Endpoint):</h2>
+<ul>
+<li>Consider enabling Block at First Sight from AV: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-block-at-first-sight-microsoft-defender-antivirus">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-block-at-first-sight-microsoft-defender-antivirus</a></li>
+<li>Block at First Sight - test/demo: <a href="https://demo.wd.microsoft.com/Page/BAFS">https://demo.wd.microsoft.com/Page/BAFS</a></li>
+<li><strong>Demonstrate &amp; Test security controls:</strong> ASR, SmartScreen, PUA, etc... <a href="https://demo.wd.microsoft.com/">https://demo.wd.microsoft.com/</a></li>
+<li>Scenarios &amp; Features: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/defender-endpoint-demonstrations">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/defender-endpoint-demonstrations</a></li>
+<li>Plan Deployment: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/deployment-strategy">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/deployment-strategy</a></li>
+<li><strong>Linux Advanced Guidance:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/comprehensive-guidance-on-linux-deployment">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/comprehensive-guidance-on-linux-deployment</a></li>
+<li>Architecture: <a href="https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf">https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf</a></li>
+<li>Deployment Phases: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/deployment-phases">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/deployment-phases</a>
+    Defender for Endpoint is for Endpoints, Servers actually belong in "Defender for Cloud":
+    <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migrating-mde-server-to-cloud">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migrating-mde-server-to-cloud</a></li>
+<li>Configure Device Discovery: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-device-discovery">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-device-discovery</a></li>
+<li><strong>Check it's working --&gt;</strong> Simulated Attacks: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-simulations">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-simulations</a></li>
+<li>Automation Levels: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/automation-levels?view=o365-worldwide">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/automation-levels?view=o365-worldwide</a></li>
+<li><strong>Configure AIR capabilities:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-automated-investigations-remediation">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-automated-investigations-remediation</a></li>
+<li><strong>Attack Surface Reduction (ASR) rules:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction</a></li>
+<li>ASR Rules Deployment: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-deployment">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-deployment</a></li>
+<li>Troubleshooting: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/check-sensor-status">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/check-sensor-status</a></li>
+<li><strong>Troubleshooting mode for devices</strong>: <a href="https://jeffreyappel.nl/microsoft-defender-for-endpoint-troubleshooting-mode-how-to-use-it/">https://jeffreyappel.nl/microsoft-defender-for-endpoint-troubleshooting-mode-how-to-use-it/</a></li>
+<li>Migration Guide: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migration-guides">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migration-guides</a></li>
+</ul>
+<p><img alt="" src="./images/image7.png" /></p>
+<h3 id="mde-using-asr-stand-alone-e3">MDE using ASR stand-alone (E3)</h3>
+<ul>
+<li><a href="https://www.computerworld.com/article/3604651/decoding-windows-defender-s-hidden-settings.html">https://www.computerworld.com/article/3604651/decoding-windows-defender-s-hidden-settings.html</a></li>
+<li><a href="https://github.com/AndyFul/ConfigureDefender">https://github.com/AndyFul/ConfigureDefender</a></li>
+<li><a href="https://www.defenderui.com/">https://www.defenderui.com/</a></li>
+<li><a href="https://github.com/beerisgood/Windows11_Hardening">https://github.com/beerisgood/Windows11_Hardening</a></li>
+<li><a href="https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-define-the-av-baseline-part4a/">https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-define-the-av-baseline-part4a/</a></li>
+</ul>
+<h2 id="mdo-microsoft-defender-for-office">MDO (Microsoft Defender for Office):</h2>
+<ul>
+<li>Try in Audit mode: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/try-microsoft-defender-for-office-365">https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/try-microsoft-defender-for-office-365</a></li>
+<li>Enhanced Filters aka Skip Listing: <a href="https://learn.microsoft.com/en-us/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors">https://learn.microsoft.com/en-us/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors</a></li>
+<li>Step-by-Step guide: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/step-by-step-guides/step-by-step-guide-overview">https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/step-by-step-guides/step-by-step-guide-overview</a></li>
+<li>SecOps Guide: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/mdo-sec-ops-guide">https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/mdo-sec-ops-guide</a></li>
+<li>Features: <a href="https://learn.microsoft.com/en-us/office365/servicedescriptions/microsoft-defender-for-office-365-features">https://learn.microsoft.com/en-us/office365/servicedescriptions/microsoft-defender-for-office-365-features</a></li>
+<li><strong>AIR:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/office-365-air">https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/office-365-air</a></li>
+<li><strong>How AIR works:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/office-365-air">https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/office-365-air</a></li>
+<li>Protect against Threats: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/protect-against-threats">https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/protect-against-threats</a></li>
+<li>Recommended Settings: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365">https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365</a></li>
+<li>Config Analyzer: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/configuration-analyzer-for-security-policies">https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/configuration-analyzer-for-security-policies</a></li>
+</ul>
+<h2 id="mdc-microsoft-defender-for-cloud">MDC (Microsoft Defender for Cloud):</h2>
+<ul>
+<li>How to deploy MDC at scale: <a href="https://onedrive.live.com/?authkey=%21AIzlpf%2DTsBYFMbk&amp;cid=66C31D2DBF8E0F71&amp;id=66C31D2DBF8E0F71%212663&amp;parId=66C31D2DBF8E0F71%212662&amp;o=OneUp">https://onedrive.live.com/?authkey=%21AIzlpf%2DTsBYFMbk&amp;cid=66C31D2DBF8E0F71&amp;id=66C31D2DBF8E0F71%212663&amp;parId=66C31D2DBF8E0F71%212662&amp;o=OneUp</a></li>
+<li>Don't forget the Community at Github: <a href="https://github.com/Azure/Microsoft-Defender-for-Cloud">https://github.com/Azure/Microsoft-Defender-for-Cloud</a><ul>
+<li>Labs to help you get started in deployment: <a href="https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Labs">https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Labs</a></li>
+<li>Onboarding: <a href="https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Onboarding">https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Onboarding</a></li>
+<li>Policy: <a href="https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Policy">https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Policy</a></li>
+<li>Powershell Scripts: <a href="https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Powershell%20scripts">https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Powershell%20scripts</a></li>
+<li><strong>Simulations (check it's working):</strong> <a href="https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Simulations">https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Simulations</a></li>
+<li>Workbooks: <a href="https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workbooks">https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workbooks</a></li>
+<li>Workflow Automation: <a href="https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workflow%20automation">https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workflow%20automation</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="conditional-access">Conditional Access:</h2>
+<blockquote>
+<p><strong>NOTE: please be aware there is no inherent "BLOCK" by default</strong></p>
+<p>You need to make sure you are BLOCKING by default unless explicitly allowing access - walk thru the 14 default Policies to better understand this
+To make sure that you are fully covered please use this PowerBI based tool
+<strong><a href="https://github.com/AzureAD/AzureADAssessment">https://github.com/AzureAD/AzureADAssessment</a> &lt;-- confirm your maturity based on this</strong></p>
+<p><a href="https://www.linkedin.com/feed/update/urn:li:activity:7010866303682912256?utm_source=share&amp;utm_medium=member_ios">https://www.linkedin.com/feed/update/urn:li:activity:7010866303682912256?utm_source=share&amp;utm_medium=member_ios</a>
+  </p>
+</blockquote>
+<p>The <a href="https://www.linkedin.com/feed/hashtag/?keywords=microsoft">#Microsoft</a> content:
+-   <a href="https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design">https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design</a>
+-   <a href="https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-architecture">https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-architecture</a>
+-   <a href="https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-framework">https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-framework</a>
+-   <a href="https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-apis">https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-apis</a>
+-   <a href="https://github.com/Azure-Samples/azure-ad-conditional-access-apis/tree/main/03-deploy">https://github.com/Azure-Samples/azure-ad-conditional-access-apis/tree/main/03-deploy</a>
+-   <a href="https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access">https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access</a>
+-   <a href="https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps">https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps</a>
+-   <a href="https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policies">https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policies</a>
+-   <a href="https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/">https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/</a>
+-   <a href="https://learn.microsoft.com/en-us/powershell/module/azuread/get-azureadmsconditionalaccesspolicy?view=azureadps-2.0">https://learn.microsoft.com/en-us/powershell/module/azuread/get-azureadmsconditionalaccesspolicy?view=azureadps-2.0</a>
+-   <a href="https://techcommunity.microsoft.com/t5/itops-talk-blog/deep-dive-how-does-conditional-access-block-legacy/ba-p/3265345">https://techcommunity.microsoft.com/t5/itops-talk-blog/deep-dive-how-does-conditional-access-block-legacy/ba-p/3265345</a></p>
+<blockquote>
+<p>Here is a great companion for Sentinel: 
+<a href="https://danielchronlund.com/2022/04/21/a-powerfull-conditional-access-change-dashboard-for-microsoft-sentinel/">https://danielchronlund.com/2022/04/21/a-powerfull-conditional-access-change-dashboard-for-microsoft-sentinel/</a>
+</p>
+</blockquote>
+<h3 id="automation-of-ca-as-code">Automation of "CA-as-Code"</h3>
+<ul>
+<li>
+<p>Thomas N. - <a href="https://www.cloud-architekt.net/speaking/">https://www.cloud-architekt.net/speaking/</a> The most recent deck -- 2022-06-11 Scottish Summit 2022 "Deploying and Managing Conditional Access at Scale" <a href="https://github.com/Cloud-Architekt/meetups/blob/master/2022-06-10%20ScottishSummit-Deploying-and-Managing-ConditionalAccess-at-Scale.pdf">Slides</a></p>
+</li>
+<li>
+<p>Excellent article here that is really worth the time reading as this will highlight how to enable this in detail: <a href="https://www.cloud-architekt.net/aadops-conditional-access/">https://www.cloud-architekt.net/aadops-conditional-access/</a></p>
+</li>
+</ul>
+<blockquote>
+<p>He also points out the others that have done great work in this space:</p>
+</blockquote>
+<ul>
+<li>Fortigi/ConditionalAccess: (https://github.com/Fortigi/ConditionalAccess)</li>
+<li>AlexFilipin/ConditionalAccess: (https://github.com/AlexFilipin/ConditionalAccess)</li>
+<li>DanielChronlund/DCToolbox: Tools for Microsoft cloud fans (https://github.com/DanielChronlund/DCToolbox)<blockquote>
+<p>One other important point -- don't get caught up trying to manage GUID's:</p>
+</blockquote>
+</li>
+<li><a href="https://github.com/Fortigi/ConditionalAccess">Fortigi has published some build scripts on GitHub</a> to convert those GUIDs to readable display names.</li>
+<li>This also covers known GUIDs such as AAD Role and Application ID to DisplayName.</li>
+</ul>
+<h2 id="sentinel-tips-and-best-practices">Sentinel Tips and Best Practices:</h2>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/azure/sentinel/best-practices">https://learn.microsoft.com/en-us/azure/sentinel/best-practices</a></li>
+<li><a href="https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/best-practices-for-designing-a-microsoft-sentinel-or-azure/ba-p/832574">https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/best-practices-for-designing-a-microsoft-sentinel-or-azure/ba-p/832574</a></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/sentinel/extend-sentinel-across-workspaces-tenants">https://learn.microsoft.com/en-us/azure/sentinel/extend-sentinel-across-workspaces-tenants</a></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/sentinel/best-practices-workspace-architecture">https://learn.microsoft.com/en-us/azure/sentinel/best-practices-workspace-architecture</a></li>
+<li><a href="https://azure.microsoft.com/en-gb/offers/sentinel-microsoft-365-offer/">Microsoft Sentinel benefit for Microsoft 365 E5
+    Customers</a></li>
+<li>Security Data Types -
+    <a href="https://docs.microsoft.com/en-us/azure/defender-for-cloud/enhanced-security-features-overview#what-data-types-are-included-in-the-500-mb-data-daily-allowance">https://docs.microsoft.com/en-us/azure/defender-for-cloud/enhanced-security-features-overview#what-data-types-are-included-in-the-500-mb-data-daily-allowance</a></li>
+<li>General recommendation is for Customers to focus efforts on increasing efficiency and reducing TTR (time to remediate) via Automation &amp; SOAR natively within Microsoft Sentinel will naturally improve C3 (SecOps) efficiency without the need for any additional tools.<ul>
+<li>More information:</li>
+<li><a href="https://www.microsoft.com/security/blog/2019/10/07/ciso-series-lessons-learned-from-the-microsoft-soc-part-3a-choosing-soc-tools/">CISO series: Lessons learned from the Microsoft SOC---Part 3a: Choosing SOC tools</a></li>
+<li><a href="https://www.microsoft.com/security/blog/2019/12/23/ciso-series-lessons-learned-from-the-microsoft-soc-part-3b-a-day-in-the-life/">CISO series: Lessons learned from the Microsoft SOC---Part 3b: A day in the life</a></li>
+<li><a href="https://www.microsoft.com/security/blog/2020/05/04/lessons-learned-microsoft-soc-part-3c/">CISO Series: Lessons learned from the Microsoft SOC---Part 3c: A day in the life part 2</a></li>
+</ul>
+</li>
+</ul>
+<p>-   Raw logs by their very nature have a significant cost related to "data gravity" - the more Customers move/copy the logs the more complex the environment as well as more expensive the solution becomes - the design principle that should be recommend is to adhere to the MS Best Practices as much as possible.
+    <a href="https://learn.microsoft.com/en-us/azure/sentinel/best-practices-data">https://learn.microsoft.com/en-us/azure/sentinel/best-practices-data</a>
+-   Should there be any business justification or requirement for "raw logs" please consider a much more efficient method is the ability to stream "advanced hunting" events:
+    -   Why ingest or duplicate massive data sets across multiple systems based on a "just in case" scenario
+    -   A much more efficient system would be to define the "advanced hunting" event that is being searched for and as and when matches are discovered the event is forwarded
+    -   This process will respect data gravity and reduce costs significantly
+    -   More information can be found here: <a href="https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365-defender-sentinel-integration#advanced-hunting-event-collection">Advanced hunting event collection</a></p>
+<ul>
+<li>
+<h3 id="azure-log-management">Azure Log Management:</h3>
+<ul>
+<li>
+<p><a href="https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Fazure-monitor%2Flogs%2Fworkspace-design&amp;data=05%7C01%7Cdavecaddick%40microsoft.com%7Ca9c6aea6a2e34b1a57c008dabba5de49%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638028618327569401%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=1CPvtNtBZPRUtrYS464Iw0I%2B1E9BNKr7Fid9cVN9hbQ%3D&amp;reserved=0">Design a Log Analytics workspace architecture - Azure Monitor</a></p>
+</li>
+<li>
+<p><a href="https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Fsentinel%2Fbest-practices-workspace-architecture&amp;data=05%7C01%7Cdavecaddick%40microsoft.com%7Ca9c6aea6a2e34b1a57c008dabba5de49%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638028618327569401%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=FJ25vCIn0M75eSXIeSiSkGnLEAQYoNbzUKKAdcPfAM8%3D&amp;reserved=0">Workspace architecture best practices for Microsoft Sentinel</a></p>
+</li>
+<li>
+<p><a href="https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Fsentinel%2Fbest-practices-data&amp;data=05%7C01%7Cdavecaddick%40microsoft.com%7Ca9c6aea6a2e34b1a57c008dabba5de49%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638028618327569401%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=gVLZDafeeOVo4O%2FCFrtjb98t2GIx5wKaOkXZplFxmXc%3D&amp;reserved=0">Best practices for data collection in Microsoft Sentinel</a></p>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="filtering-logs">Filtering Logs:</h3>
+<pre><code>Can be used to reduce data noise, reduce ingestion and retention/storage costs with the goal being to focus on the logs and events that are relevant - This is typically performed by one of the methods for the following scenarios:
+</code></pre>
+<ul>
+<li>
+<p>Server Log Ingestion - Azure Monitor Agent Directly can filter out logs that are not relevant for Microsoft Sentinel <a href="https://docs.microsoft.com/en-us/azure/sentinel/best-practices-data#filter-your-logs-before-ingestion">https://docs.microsoft.com/en-us/azure/sentinel/best-practices-data#filter-your-logs-before-ingestion</a></p>
+</li>
+<li>
+<p>Syslog and CEF Ingestion -- Using a log forwarder such as Logstash can parse the logs based on Customers defined rules
+    <a href="https://docs.microsoft.com/en-us/azure/sentinel/best-practices-data#filter-your-logs-before-ingestion">https://docs.microsoft.com/en-us/azure/sentinel/best-practices-data#filter-your-logs-before-ingestion</a></p>
+</li>
+<li>
+<p>Custom REST API Ingestion -- Via the Function or Logic App, data can be stripped away prior to sending to Microsoft sentinel</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Looking deeper into the "Free data meters" it is possible to use this URL to find the following Table
+    <a href="https://docs.microsoft.com/en-us/azure/sentinel/billing?tabs=free-data-meters#understand-your-microsoft-sentinel-bill">https://docs.microsoft.com/en-us/azure/sentinel/billing?tabs=free-data-meters#understand-your-microsoft-sentinel-bill</a></p>
+</li>
+<li>
+<p>The following table shows how Microsoft Sentinel and Log Analytics costs appear in the Service name and Meter columns of your Azure bill for free data services. For more information, see <a href="https://docs.microsoft.com/en-us/azure/azure-monitor/usage-estimated-costs#view-data-allocation-benefits">View Data Allocation Benefits</a>.</p>
+</li>
+</ul>
+<blockquote>
+<p><img alt="" src="./images/image8.png" /></p>
+</blockquote>
+<h3 id="sentinel-recommendation-to-enable-m365-defender-connector">Sentinel - Recommendation to enable M365 Defender Connector:</h3>
+<ul>
+<li>
+<p>More information: <a href="https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365-defender-sentinel-integration">https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365-defender-sentinel-integration</a></p>
+</li>
+<li>
+<p><a href="https://learn.microsoft.com/en-us/azure/sentinel/microsoft-365-defender-sentinel-integration#microsoft-365-defender-incidents-and-microsoft-incident-creation-rules">Incident creation rules</a> that need to be mindful of to avoid creating multiple Incidents</p>
+</li>
+<li>
+<p><a href="https://learn.microsoft.com/en-us/azure/sentinel/microsoft-365-defender-sentinel-integration#working-with-microsoft-365-defender-incidents-in-microsoft-sentinel-and-bi-directional-sync">Bi-directional Sync</a> between M365 Defender &amp; Sentinel</p>
+</li>
+<li>
+<p>Focus on bringing all source logging relevant to the Users Device into the one location where it can be corelated quickly and seamlessly into a SOAR process to reduce friction and improve TTR times for SecOps
+More information: <a href="https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365-defender-sentinel-integration">https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365-defender-sentinel-integration</a></p>
+</li>
+</ul>
+<blockquote>
+<p><strong>Sentinel Free Data ingestion:</strong> always remember "data collection" is NOT detection!!</p>
+</blockquote>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/azure/sentinel/billing?tabs=free-data-meters#free-data-sources">https://learn.microsoft.com/en-us/azure/sentinel/billing?tabs=free-data-meters#free-data-sources</a></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/sentinel/billing-monitor-costs#view-costs-by-using-cost-analysis">https://learn.microsoft.com/en-us/azure/sentinel/billing-monitor-costs#view-costs-by-using-cost-analysis</a></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/sentinel/billing-monitor-costs#run-queries-to-understand-your-data-ingestion">https://learn.microsoft.com/en-us/azure/sentinel/billing-monitor-costs#run-queries-to-understand-your-data-ingestion</a></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/sentinel/billing-monitor-costs#deploy-a-workbook-to-visualize-data-ingestion">https://learn.microsoft.com/en-us/azure/sentinel/billing-monitor-costs#deploy-a-workbook-to-visualize-data-ingestion</a></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/sentinel/billing-reduce-costs#separate-non-security-data-in-a-different-workspace">https://learn.microsoft.com/en-us/azure/sentinel/billing-reduce-costs#separate-non-security-data-in-a-different-workspace</a></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/sentinel/billing-reduce-costs#optimize-log-analytics-costs-with-dedicated-clusters">https://learn.microsoft.com/en-us/azure/sentinel/billing-reduce-costs#optimize-log-analytics-costs-with-dedicated-clusters</a></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/sentinel/best-practices-data#filter-your-logs-before-ingestion">https://learn.microsoft.com/en-us/azure/sentinel/best-practices-data#filter-your-logs-before-ingestion</a></li>
+</ul>
+<h2 id="asd-essential-8-now-acsc">ASD Essential 8 (now ACSC)</h2>
+<ul>
+<li>Great high level on all Essential 8 - <a href="https://www.microsoft.com/en-au/business/topic/security/essential-eight/">https://www.microsoft.com/en-au/business/topic/security/essential-eight/</a></li>
+<li>6 videos that walk thru - <a href="https://info.microsoft.com/AU-SCRTY-CATALOG-FY21-02Feb-14-TheEssentialEightforSecurityinPractice-SRDEM61939_CatalogDisplayPage.html">https://info.microsoft.com/AU-SCRTY-CATALOG-FY21-02Feb-14-TheEssentialEightforSecurityinPractice-SRDEM61939_CatalogDisplayPage.html</a></li>
+<li>MCRA <a href="https://aka.ms/MCRA">https://aka.ms/MCRA</a> or <a href="https://learn.microsoft.com/en-us/security/cybersecurity-reference-architecture/mcra">https://learn.microsoft.com/en-us/security/cybersecurity-reference-architecture/mcra</a></li>
+<li>General on Essential 8 - <a href="https://www.microsoft.com/en-au/business/topic/security/">https://www.microsoft.com/en-au/business/topic/security/</a></li>
+<li>Daily backups: <a href="https://www.microsoft.com/en-au/business/topic/security/essential-eight/daily-backups/">https://www.microsoft.com/en-au/business/topic/security/essential-eight/daily-backups/</a></li>
+<li>Australian IRAP - <a href="https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-australia-irap">https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-australia-irap</a> &amp; <a href="https://servicetrust.microsoft.com/Viewpage/AustraliaIRAP">https://servicetrust.microsoft.com/Viewpage/AustraliaIRAP</a></li>
+<li>Local Australian guide in Service Trust Portal <a href="https://aka.ms/e8guides">https://aka.ms/e8guides</a></li>
+</ul>
+<h3 id="hardening-guidance-from-acsc">Hardening Guidance from ACSC:</h3>
+<ul>
+<li><a href="https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-windows-10-version-21h1-workstations">https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-windows-10-version-21h1-workstations</a></li>
+<li><a href="https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-365-office-2021-office-2019-and-office-2016">https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-365-office-2021-office-2019-and-office-2016</a></li>
+<li><a href="https://www.cyber.gov.au/acsc/view-all-content/publications/microsoft-office-macro-security">https://www.cyber.gov.au/acsc/view-all-content/publications/microsoft-office-macro-security</a></li>
+<li><a href="https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines">https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines</a></li>
+<li><a href="https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines/blob/main/policies/Windows%20Security%20Baseline%20(for%20use%20with%20ACSC%20Windows%20Hardening%20Guidelines).json">Windows Security Baseline (for use with ACSC Windows Hardening Guidelines)</a></li>
+<li><a href="https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines/blob/main/policies/ACSC%20Windows%20Hardening%20Guidelines-Attack%20Surface%20Reduction.json">ACSC Windows Hardening Guidelines-Attack Surface Reduction</a></li>
+<li>WDAC Policy creation from DTA - <a href="https://desktop.gov.au/blueprint/abac/wdac-policy-creation.html">https://desktop.gov.au/blueprint/abac/wdac-policy-creation.html</a></li>
+</ul>
+<h3 id="hardening-azure-ad">Hardening Azure AD:</h3>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/azure/security/fundamentals/steps-secure-identity">Secure your Azure AD identity infrastructure - Azure Active Directory</a></li>
+<li>Also worth reviewing our Essential 8 guidance, especially MFA (aka.ms/e8guides)</li>
+<li>Microsoft Azure <strong>Identity Security Compass</strong> - <a href="https://learn.microsoft.com/en-us/security/compass/compass">Microsoft Security Best Practices</a></li>
+<li>Active Directory - <a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory">Best Practices for Securing Active Directory</a></li>
+</ul>
+<h3 id="ad-onprem">AD onPrem:</h3>
+<p>A list of resources from DART perspective on Active Directory - courtesy
+of Matt Zorich (Twitter @reprise99)
+-   BloodHound Edges - <a href="https://bloodhound.readthedocs.io/en/latest/data-analysis/edges.html">https://bloodhound.readthedocs.io/en/latest/data-analysis/edges.html</a>
+-   AD Security - <a href="https://adsecurity.org/?page_id=4031">https://adsecurity.org/?page_id=4031</a>
+-   <a href="https://t.co/Y4BRxwdLu5">http://ired.team</a> notes - <a href="https://t.co/0w3Uo7TOSI">https://ired.team/offensive-security-experiments/active-directory-kerberos-abuse...</a>
+-   SID History Persistence - <a href="https://t.co/M7QX7w31Fw">https://adsecurity.org/?p=1772</a>
+-   How AdminSdHolder &amp; SDProp work - <a href="https://t.co/5HPCBDnuZG">https://techcommunity.microsoft.com/t5/ask-the-directory-services-team/five-common-questions-about-adminsdholder-and-sdprop/ba-p/396293...</a>
+-   Recovering from systemic identity compromise - <a href="https://t.co/Dfp1IWkS7z">https://learn.microsoft.com/en-us/azure/security/fundamentals/recover-from-identity-compromise</a>
+-   Abusing Active Directory ACLs/ACEs - <a href="https://t.co/ZWUMlP58yv">https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/acl-persistence-abuse...</a>
+-   Defender for Identity Alerts Overview - <a href="https://t.co/kkqqFsEB6i">https://learn.microsoft.com/en-us/defender-for-identity/alerts-overview...</a>
+-   Best practices for securing AD - <a href="https://t.co/a2suvfmpZm">https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory</a>
+-   Mimikatz DCSync Abuse - <a href="https://t.co/K51OQsXWSy">https://adsecurity.org/?p=1729</a>
+-   Kerberoasting Overview - <a href="https://t.co/EqWNu84RoG">https://ired.team/offensive-security-experiments/active-directory-kerberos-abuse/t1208-kerberoasting...</a>
+-   Monitoring AD for signs of compromise - <a href="https://t.co/enuOOAjAr1">https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise</a></p>
+<h3 id="identity">Identity:</h3>
+<ul>
+<li>Best Practices: <a href="https://learn.microsoft.com/en-us/security/compass/compass">https://learn.microsoft.com/en-us/security/compass/compass</a></li>
+<li><a href="https://jeffreyappel.nl/tips-for-preventing-against-new-modern-identity-attacks-aitm-mfa-fatigue-prt-oauth/">https://jeffreyappel.nl/tips-for-preventing-against-new-modern-identity-attacks-aitm-mfa-fatigue-prt-oauth/</a>
+    look at Partner section</li>
+<li>MDCA (was MCAS) policies from AADIP P2 moving to D365 Console</li>
+<li><a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-365-security-center-defender-cloud-apps?view=o365-worldwide&amp;WT.mc_id=AZ-MVP-5004291#control">https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-365-security-center-defender-cloud-apps?view=o365-worldwide&amp;WT.mc_id=AZ-MVP-5004291#control</a></li>
+<li><a href="https://www.linkedin.com/posts/sami-lamppu_microsoft-defender-for-cloud-apps-in-microsoft-activity-7011278821773471744-TcvX">https://www.linkedin.com/posts/sami-lamppu_microsoft-defender-for-cloud-apps-in-microsoft-activity-7011278821773471744-TcvX</a>?</li>
+</ul>
+<h3 id="exchange-permissions-check">Exchange Permissions check:</h3>
+<ul>
+<li><a href="https://office365itpros.com/2020/03/16/exchange-online-mailbox-permissions/">https://office365itpros.com/2020/03/16/exchange-online-mailbox-permissions/</a></li>
+<li><a href="https://github.com/12Knocksinna/Office365itpros/blob/master/ReportMailboxPermissionsMailboxes.PS1">https://github.com/12Knocksinna/Office365itpros/blob/master/ReportMailboxPermissionsMailboxes.PS1</a></li>
+<li><a href="https://office365itpros.com/2020/03/23/reporting-exchange-online-folder-permissions/">https://office365itpros.com/2020/03/23/reporting-exchange-online-folder-permissions/</a></li>
+<li><a href="https://github.com/12Knocksinna/Office365itpros/blob/master/ReportPermissionsFolderLevel.PS1">https://github.com/12Knocksinna/Office365itpros/blob/master/ReportPermissionsFolderLevel.PS1</a><blockquote>
+<p>The two are subtly different, the first is on mailboxes, the second is
+more focused on the Outlook Folders</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="mde-from-mvps">MDE (from MVP's):</h2>
+<ul>
+<li>Defender for Endpoint Policy Must Haves -
+    <a href="https://www.linkedin.com/posts/emannon_1dfv-2dfv-3dfv-activity-6989618122601230338-q2uK">https://www.linkedin.com/posts/emannon_1dfv-2dfv-3dfv-activity-6989618122601230338-q2uK</a>?</li>
+<li>Do you use Defender for Endpoint -
+    <a href="https://www.linkedin.com/posts/emannon_defender-mde-zeek-activity-6989307538726948864-C2Oj">https://www.linkedin.com/posts/emannon_defender-mde-zeek-activity-6989307538726948864-C2Oj</a>?</li>
+<li>
+<ol>
+<li>Do you use MDE for EDR/NGAV❓</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>Did you deploy the MDE network scanner⁉️
+    <a href="https://www.linkedin.com/posts/emannon_msftadvocate-defender-iotsecurity-activity-6986838402071478272-dLRV">https://www.linkedin.com/posts/emannon_msftadvocate-defender-iotsecurity-activity-6986838402071478272-dLRV</a>?</li>
+</ol>
+</li>
+<li><a href="https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-what-is-defender-for-endpoint-part1/">https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-what-is-defender-for-endpoint-part1/</a></li>
+<li><a href="https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-configure-defender-for-endpoint-part2/">https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-configure-defender-for-endpoint-part2/</a></li>
+<li><a href="https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-onboard-defender-for-endpoint-part3/">https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-onboard-defender-for-endpoint-part3/</a></li>
+<li><a href="https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-onboard-using-microsoft-intune-part3a/">https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-onboard-using-microsoft-intune-part3a/</a></li>
+<li><a href="https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-onboard-using-defender-for-cloud-part3b/">https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-onboard-using-defender-for-cloud-part3b/</a></li>
+<li><a href="https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-onboard-using-azure-arc-part3c/">https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-onboard-using-azure-arc-part3c/</a></li>
+<li><a href="https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-onboard-using-gpo-mecm-part3d/">https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-onboard-using-gpo-mecm-part3d/</a></li>
+<li><a href="https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-configure-av-next-generation-protection-part4/">https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-configure-av-next-generation-protection-part4/</a></li>
+<li><a href="https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-define-the-av-baseline-part4a/">https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-define-the-av-baseline-part4a/</a></li>
+</ul>
+<p>### Migration:</p>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migration-guides">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migration-guides</a></li>
+<li><a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/switch-to-mde-overview">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/switch-to-mde-overview</a></li>
+</ul>
+<h2 id="wdac-windows-defender-application-control">WDAC: (Windows Defender Application Control)</h2>
+<p>Work in Progress, please review all content before starting, and be cautious in deployment</p>
+<ul>
+<li>
+<p>From Eric Mannon: <a href="https://www.linkedin.com/feed/update/urn:li:activity:6996238396973051904/">https://www.linkedin.com/feed/update/urn:li:activity:6996238396973051904/</a></p>
+</li>
+<li>
+<p><strong>Read the above article first</strong></p>
+</li>
+<li>
+<p>1st- Install WDACme on all W10 workstations</p>
+</li>
+<li>2nd- Enable "Smart Application Control" in Evaluation mode on W11 endpoints that support it</li>
+<li>3rd- Lock down Tier 0 (DC's, ADFS &amp; AD Connect servers) with WDAC Microsoft-only mode in block mode. (No 3rd party software should ever be installed on the Tier 0 server type)</li>
+<li>4th- Deploy a supplemental policy to block the Microsoft recommended block list</li>
+<li>🔑Golden rule: "Audit is better than nothing"</li>
+<li>🎯Desired state: "Zero Trust for unapproved code"</li>
+</ul>
+<p>🎒Resources:</p>
+<ul>
+<li>WDAC Deployment: <a href="https://lnkd.in/em8sV9AK">https://lnkd.in/em8sV9AK</a></li>
+<li>⛄️ Olaf Hartong's: WDACMe: <a href="https://lnkd.in/gU33rPzf">https://lnkd.in/gU33rPzf</a></li>
+<li>W11 Smart App Control: <a href="https://lnkd.in/e5X3WF9H">https://lnkd.in/e5X3WF9H</a></li>
+<li>Recommended Block Rules: <a href="https://lnkd.in/eZEwcwM9">https://lnkd.in/eZEwcwM9</a></li>
+<li>WDAC Policy Wizard: <a href="https://lnkd.in/gwFuvmd4">https://lnkd.in/gwFuvmd4</a></li>
+<li>Hunting WDAC Events in KQL: <a href="https://lnkd.in/eJE8WHZG">https://lnkd.in/eJE8WHZG</a></li>
+</ul>
+<h3 id="additional-resources">Additional Resources:</h3>
+<ul>
+<li>WDAC Policy creation from DTA - <a href="https://desktop.gov.au/blueprint/abac/wdac-policy-creation.html">https://desktop.gov.au/blueprint/abac/wdac-policy-creation.html</a></li>
+<li><a href="https://www.cyber.gov.au/acsc/view-all-content/publications/implementing-application-control">https://www.cyber.gov.au/acsc/view-all-content/publications/implementing-application-control</a></li>
+<li><a href="https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create-wdac-deny-policy">https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create-wdac-deny-policy</a></li>
+<li><a href="https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/deploying-windows-10-application-control-policy/ba-p/2486267">https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/deploying-windows-10-application-control-policy/ba-p/2486267</a></li>
+<li><a href="https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/select-types-of-rules-to-create">https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/select-types-of-rules-to-create</a></li>
+<li><a href="https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules">https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules</a></li>
+<li><a href="https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-deployment-guide">https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-deployment-guide</a></li>
+</ul>
+<h2 id="defender-for-business">Defender for Business:</h2>
+<ul>
+<li>Review the technical documentation  <a href="https://aka.ms/MDB-Docs">https://aka.ms/MDB-Docs</a> </li>
+<li>Review the Partner asset  <a href="https://aka.ms/MDBPartnerKit">https://aka.ms/MDBPartnerKit</a> </li>
+<li>Attend SMB Partner Webinars  <a href="https://aka.ms/M365MDBSeries">https://aka.ms/M365MDBSeries</a>  </li>
+<li>Join Office Hours  <a href="https://aka.ms/MDB-Office-Hours">https://aka.ms/MDB-Office-Hours</a>  </li>
+<li>Be aware of Lighthouse  <a href="https://aka.ms/M365Lighthouse">https://aka.ms/M365Lighthouse</a></li>
+</ul>
+<p>Updated Guides: 
+-   <a href="https://cloudpartners.transform.microsoft.com/download?assetname=assets/UpsellGuide-Microsoft365ExchangeOnlineToBusinessPremium.pptx&amp;download=1">Exchange Online to Business Premium</a>
+-   <a href="https://cloudpartners.transform.microsoft.com/download?assetname=assets/UpsellGuide-Microsoft365BusinessStandardToBusinessPremium.pptx&amp;download=1">Business Standard to Business Premium</a>
+-   <a href="https://cloudpartners.transform.microsoft.com/download?assetname=assets/UpsellGuide-Microsoft365BusinessBasicToBusinessPremium.pptx&amp;download=1">Business Basic to Business Premium</a></p>
+<p>Updated Microsoft 365 Business Premium Customer Pitch Decks:
+-   <a href="https://aka.ms/BPBDMPitchDeck">Business Decision Maker Pitch Deck</a>
+-   <a href="https://aka.ms/BPITDMPItchDeck">IT Decision Maker Pitch Deck</a> 
+-   Updated Webinar: <a href="https://cloudpartners.transform.microsoft.com/download?assetname=assets/Training%20Videos/Microsoft%20365%20SMB/Driving%20a%20Customer%20Conversation%20on%20Security%20-%20Upselling%20to%20Microsoft%20365%20Business%20Premium.mp4">Having a customer conversation on security for Business Premium upsell</a> </p>
+<h2 id="ninja-security-training">Ninja Security Training:</h2>
+<ul>
+<li>M365 Defender : <a href="https://aka.ms/m365dninja">https://aka.ms/m365dninja</a></li>
+<li>Microsoft Defender for Endpoint: <a href="https://aka.ms/mdeninja">https://aka.ms/mdeninja</a></li>
+<li>Microsoft Defender for Identity : <a href="https://aka.ms/MDINinja">https://aka.ms/MDINinja</a></li>
+<li>Microsoft Defender for O365 : <a href="https://aka.ms/mdoninja">https://aka.ms/mdoninja</a></li>
+<li>Microsoft Defender for Cloud Apps: <a href="http://aka.ms/mcasninja">http://aka.ms/mcasninja</a> (formerly MCAS)</li>
+<li>Microsoft Sentinel : <a href="https://aka.ms/sentinelninja">https://aka.ms/sentinelninja</a></li>
+<li>Microsoft Sentinel for MSSP : <a href="http://aka.ms/azsentinelmssp">http://aka.ms/azsentinelmssp</a></li>
+<li>Microsoft Defender for Cloud : <a href="http://aka.ms/ascninja">http://aka.ms/ascninja</a></li>
+<li>Azure Network Security Ninja : <a href="http://aka.ms/aznetsecninja">http://aka.ms/aznetsecninja</a></li>
+<li>Microsoft Defender for IoT: <a href="https://aka.ms/d4iotninja">https://aka.ms/d4iotninja</a></li>
+<li>Microsoft Purview Information Protection: <a href="https://aka.ms/mipninja">https://aka.ms/mipninja</a>
+ <img alt="thumbnail image 1 of blog post titled The Microsoft Purview Information Protection Ninja Training is
+ here!" src="./images/image9.png" /></li>
+<li>Microsoft Purview DLP ninja: <a href="https://aka.ms/DLPNinja">https://aka.ms/DLPNinja</a>
+ <img alt="" src="./images/image10.png" /></li>
+<li>Microsoft Purview Insider Risk Management: <a href="https://aka.ms/insiderriskninja">https://aka.ms/insiderriskninja</a>
+ <img alt="" src="./images/image11.png" /></li>
+<li>Microsoft Purview eDiscovery: <a href="https://aka.ms/ediscoveryninja">https://aka.ms/ediscoveryninja</a>
+ <img alt="thumbnail image 2 of blog post titled Become a Microsoft Purview eDiscovery Ninja" src="./images/image12.png" /></li>
+<li>Microsoft Purview Communication Compliance: <a href="https://aka.ms/communicationcomplianceninja">https://aka.ms/communicationcomplianceninja</a></li>
+<li>Microsoft Purview Compliance Manager: <a href="http://aka.ms/compliancemanagerninja">http://aka.ms/compliancemanagerninja</a></li>
+<li>Sentinel Automation: <a href="https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-automation-ninja/ba-p/3563377">https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-automation-ninja/ba-p/3563377</a></li>
+<li>Sentinel Notebooks: <a href="https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/becoming-a-microsoft-sentinel-notebooks-ninja-the-series/ba-p/2693491">https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/becoming-a-microsoft-sentinel-notebooks-ninja-the-series/ba-p/2693491</a></li>
+<li>Microsoft Threat Intelligence: <a href="https://techcommunity.microsoft.com/t5/microsoft-defender-threat/become-a-microsoft-defender-threat-intelligence-ninja-the/ba-p/3656965">https://techcommunity.microsoft.com/t5/microsoft-defender-threat/become-a-microsoft-defender-threat-intelligence-ninja-the/ba-p/3656965</a></li>
+<li>Must Learn KQL: <a href="https://github.com/rod-trent/MustLearnKQL">https://github.com/rod-trent/MustLearnKQL</a></li>
+<li>Kusto Detective Agency: <a href="https://detective.kusto.io">https://detective.kusto.io</a></li>
+<li>Microsoft Defender for Endpoint Trial: <a href="https://aka.ms/mdetrial">https://aka.ms/mdetrial</a></li>
+<li>Exam SC-900: <a href="https://learn.microsoft.com/en-us/certifications/exams/sc-900">https://learn.microsoft.com/en-us/certifications/exams/sc-900</a></li>
+<li>Exam SC-200: <a href="https://learn.microsoft.com/en-us/certifications/exams/sc-200">https://learn.microsoft.com/en-us/certifications/exams/sc-200</a></li>
+</ul>
+<h2 id="product-trials">Product Trials:</h2>
+<ul>
+<li><a href="https://signup.microsoft.com/Signup?OfferId=a0db242a-96d7-4f99-bd52-05c0d5556257&amp;ali=1">Microsoft Defender for Identity</a></li>
+<li><a href="https://signup.microsoft.com/signup/logout?OfferId=20298c4d-d500-47fa-b3cd-a3f7d75d9253">Microsoft Defender for Office 365 P2</a></li>
+<li><a href="https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e&amp;ru=https://aka.ms/MDEp2OpenTrial">Microsoft Defender for Endpoint P2</a></li>
+<li><a href="https://signup.microsoft.com/Signup?OfferId=b73fce33-ac89-4175-b199-0173b4c74b1f&amp;ali=1">Microsoft 365 E5 Security</a></li>
+<li><a href="https://azure.microsoft.com/en-us/free/">Microsoft Defender for IoT</a></li>
+<li><a href="https://signup.microsoft.com/Signup?OfferId=757C4C34-D589-46E4-9579-120BBA5C92ED">Microsoft Defender for Cloud Apps</a></li>
+<li><a href="https://signup.microsoft.com/get-started/signup?products=a52e9277-0d85-4480-8cae-a84bc2ab32ae&amp;culture=en-us&amp;country=US&amp;ali=1&amp;bac=1&amp;signedinuser=v-kschaefer%40microsoft.com">Microsoft Defender for Cloud Apps -- App Governance add-on</a></li>
+<li><a href="https://azure.microsoft.com/en-us/free/">Microsoft Sentinel</a></li>
+<li><a href="https://docs.microsoft.com/microsoft-365/security/office-365-security/trial-playbook-defender-for-office-365">Microsoft Defender for Office 365</a></li>
+<li><a href="https://github.com/Azure/Azure-Sentinel">Microsoft Sentinel Labs</a></li>
+<li><a href="https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/defender-endpoint-trial-playbook?view=o365-worldwide">Microsoft Defender for Endpoint P2</a></li>
+<li><a href="https://docs.microsoft.com/microsoft-365/compliance/compliance-easy-trials-compliance-playbook">Microsoft Purview Solutions</a></li>
+<li><a href="https://docs.microsoft.com/microsoft-365/compliance/compliance-easy-trials-compliance-manager-assessment-playbook">Microsoft Purview Compliance Manager premium assessments</a></li>
+<li><a href="https://signup.microsoft.com/signup?OfferId=7B74C69A-2BFC-41C9-AAF1-23070354622D">Microsoft 365 E5 Insider Risk Management</a></li>
+<li><a href="https://signup.microsoft.com/signup?OfferId=503D4D1D-0169-4E1F-AE26-DB041C54C5C4">Microsoft 365 E5 Information Protection &amp; Governance</a></li>
+<li><a href="https://signup.microsoft.com/Signup?OfferId=d53d8416-fd1f-4552-831c-b5828ef2cbde&amp;ali=1">Microsoft 365 E5 Compliance</a></li>
+<li><a href="https://signup.microsoft.com/get-started/signup?products=e320704d-b7c9-4012-b6a6-0a2679790360&amp;culture=en-us&amp;country=US&amp;ali=1">Microsoft Compliance Manager premium assessment</a></li>
+<li><a href="https://signup.microsoft.com/signup?OfferId=c6ca396f-4467-4761-95f6-b6d9a5386716">Microsoft 365 E5 eDiscovery &amp; Audit</a></li>
+<li><a href="https://docs.microsoft.com/privacy/priva/priva-trial-playbook">Microsoft Priva</a></li>
+<li><a href="https://signup.microsoft.com/get-started/signup?products=e6b633e0-1b1e-4d95-b414-3ce9e8023c39">Microsoft Priva Privacy Risk Management</a></li>
+<li><a href="https://signup.microsoft.com/get-started/signup?products=1c6c565d-cae2-4648-aa92-bf52b523fdbd">Microsoft Priva Subject Rights Requests</a></li>
+</ul>
+<h2 id="fasttrack">FastTrack:</h2>
+<ul>
+<li>FastTrack Core Deck: <a href="https://aka.ms/FastTrackCoreDeck">https://aka.ms/FastTrackCoreDeck</a></li>
+<li>FastTrack Benefit Description Deck: <a href="https://aka.ms/FastTrackBenefitDeck">https://aka.ms/FastTrackBenefitDeck</a></li>
+<li>FastTrack Ready Partners: <a href="https://aka.ms/FastTrackReadyPartners">https://aka.ms/FastTrackReadyPartners</a></li>
+<li>FastTrack customer one-pager: <a href="https://aka.ms/FastTrackOnePager">https://aka.ms/FastTrackOnePager</a></li>
+</ul>
+<h2 id="interactive-guides">Interactive Guides:</h2>
+<hr />
+<p><strong>Product</strong>      <strong>Title</strong>                                                                                                                                               <strong>Link</strong></p>
+<hr />
+<p>Defender for     Protect your hybrid cloud with Defender for Cloud                                                                                                       <a href="https://aka.ms/ASC_InteractiveGuide">https://aka.ms/ASC_InteractiveGuide</a>
+  Cloud                                                                                                                                                                    </p>
+<p>Microsoft        Modernize your security operations with Microsoft Sentinel                                                                                              <a href="https://aka.ms/AzureSentinel_SOC_InteractiveGuide">https://aka.ms/AzureSentinel_SOC_InteractiveGuide</a>
+  Sentinel                                                                                                                                                                 </p>
+<p>Microsoft 365    Protect your organization with Microsoft 365 Defender                                                                                                   <a href="https://aka.ms/ProtectwithMSD-InteractiveGuide">https://aka.ms/ProtectwithMSD-InteractiveGuide</a>
+  Defender                                                                                                                                                                 </p>
+<p>Microsoft 365    Protect your organization with Microsoft Threat Protection                                                                                              <a href="https://aka.ms/MTP_Interactive_Guide">https://aka.ms/M365D_Interactive_Guide</a>
+  Defender                                                                                                                                                                 </p>
+<p>Microsoft Cloud  Detect threats and manage alerts with Microsoft Cloud App Security                                                                                      <a href="https://aka.ms/DetectThreatsandAlertsMCAS_InteractiveGuide">https://aka.ms/DetectThreatsandAlertsMCAS_InteractiveGuide</a>
+  App Security                                                                                                                                                             </p>
+<p>Microsoft Cloud  Discover, protect, and control your apps with Microsoft Cloud App Security                                                                              <a href="https://aka.ms/DiscoverProtectControlAppswithMCAS_InteractiveGuide">https://aka.ms/DiscoverProtectControlAppswithMCAS_InteractiveGuide</a>
+  App Security                                                                                                                                                             </p>
+<p>Microsoft        Investigate and remediate threats with Microsoft Defender Endpoint                                                                                      <a href="https://aka.ms/MDATP_IR_Interactive_Guide">https://aka.ms/MSDE_IR_Interactive_Guide</a>
+  Defender for                                                                                                                                                           <br />
+  Endpoint                                                                                                                                                                 </p>
+<p>Microsoft        Investigate and remediate threats with Microsoft Defender for Endpoint                                                                                  <a href="https://aka.ms/InvestigateandRemediateThreats_MSDE_InteractiveGuide">https://aka.ms/InvestigateandRemediateThreats_MSDE_InteractiveGuide</a>
+  Defender for                                                                                                                                                           <br />
+  Endpoint                                                                                                                                                                 </p>
+<p>Microsoft        Reduce organizational risk with Threat and Vulnerability Management                                                                                     <a href="https://aka.ms/ReduceRiskwithMSDE_InteractiveGuide">https://aka.ms/ReduceRiskwithMSDE_InteractiveGuide</a>
+  Defender for                                                                                                                                                           <br />
+  Endpoint                                                                                                                                                                 </p>
+<p>Microsoft        Reduce organizational risk with Threat and Vulnerability Management                                                                                     <a href="https://aka.ms/MDATP_TVM_Interactive_Guide">https://aka.ms/MSDE_TVM_Interactive_Guide</a>
+  Defender for                                                                                                                                                           <br />
+  Endpoint                                                                                                                                                                 </p>
+<p>Microsoft        Detect suspicious activities and potential attacks with Microsoft Defender for Identity                                                                 <a href="https://aka.ms/DetectwithMSDI.InteractiveGuide">https://aka.ms/DetectwithMSDI.InteractiveGuide</a>
+  Defender for                                                                                                                                                           <br />
+  Identity                                                                                                                                                                 </p>
+<p>Microsoft        Detect suspicious activities and potential attacks with Microsoft Defender for Identity                                                                 <a href="https://aka.ms/AATP_InteractiveGuide">https://aka.ms/MSDI_InteractiveGuide</a>
+  Defender for                                                                                                                                                           <br />
+  Identity                                                                                                                                                                 </p>
+<p>Microsoft        Investigate and respond to attacks with Microsoft Defender for Identity                                                                                 <a href="https://aka.ms/InvestigateRespondwithMSDI">https://aka.ms/InvestigateRespondwithMSDI</a>
+  Defender for                                                                                                                                                           <br />
+  Identity                                                                                                                                                                 </p>
+<p>Microsoft        Safeguard your organization with Microsoft Defender for Office 365                                                                                      <a href="https://aka.ms/SafeguardwithMSDO.InteractiveGuide">https://aka.ms/SafeguardwithMSDO.InteractiveGuide</a>
+  Defender for                                                                                                                                                           <br />
+  O365                                                                                                                                                                     </p>
+<p>Microsoft        Safeguard your organization with Office 365 Advanced Threat Protection                                                                                  <a href="https://aka.ms/Protection_with_MSDO_InteractiveGuide">https://aka.ms/Protection_with_MSDO_InteractiveGuide</a>
+  Defender for                                                                                                                                                           <br />
+  O365                                                                                                                                                                     </p>
+<p>Microsoft        Minimize internal risks with Microsoft Purview Insider Risk Management                                                                                  <a href="https://insider-risk-management.azureedge.net/">https://insider-risk-management.azureedge.net/</a>
+  Purview Insider                                                                                                                                                        <br />
+  Risk                                                                                                                                                                     </p>
+<p>Microsoft        <a href="https://mslearn.cloudguides.com/en-us/guides/Minimize%20communication%20risks%20with%20communication%20compliance%20in%20Microsoft%20365">Minimize communication risks with Microsoft Purview Communication                                                                                       
+  Purview          Compliance</a> <br />
+  Communications                                                                                                                                                         <br />
+  risk                                                                                                                                                                     </p>
+<p>Microsoft        <a href="https://mslearn.cloudguides.com/en-us/guides/Protect%20sensitive%20data%20with%20Microsoft%20Information%20Protection">Protect sensitive data with Microsoft Purview Information                                                                                               
+  Purview          Protection</a>                    <br />
+  Information                                                                                                                                                            <br />
+  protection                                                                                                                                                               </p>
+<p>Microsoft        <a href="https://mslearn.cloudguides.com/en-us/guides/Conduct%20forensic%20investigations%20with%20Advanced%20Audit%20in%20Microsoft%20365">Conduct forensic investigation with Audit (Premium) in Microsoft                                                                                        
+  Purview Forensic Purview</a>           <br />
+  investigation of                                                                                                                                                       <br />
+  security events                                                                                                                                                          </p>
+<p>Microsoft        Identify legally relevant information with eDiscovery (Premium) in Microsoft Purview                                                                    <a href="https://content.cloudguides.com/en-us/guides/Advanced%20eDiscovery">https://content.cloudguides.com/en-us/guides/Advanced%20eDiscovery</a>
+  Purview Legal                                                                                                                                                          <br />
+  information                                                                                                                                                            <br />
+  identification                                                                                                                                                           </p>
+<hr />
+<h2 id="microsoft-private-security-communities-nda">Microsoft Private Security Communities (NDA):</h2>
+<p>If you want to keep up to date with the latest + connect with your peers from Microsoft, Partners and Customers this is an invaluable
+resource</p>
+<ul>
+<li>
+<p>Microsoft Cloud Security Private Community - <a href="https://aka.ms/prseccom">https://aka.ms/prseccom</a></p>
+</li>
+<li>
+<p>Microsoft 365 Defender Customer Connection Program - <a href="https://aka.ms/M365DefenderCCPSignUp">https://aka.ms/M365DefenderCCPSignUp</a></p>
+</li>
+</ul>
+<p>Both of the Team Channels above are covered by your NDA with Microsoft from either a Partner or Customer perspective.</p>
+<p>+-------------------------------------+--------------------------------+
+| <strong>Microsoft Cloud Security Private  | </strong>Microsoft 365 Defender       |
+| Community<strong>                         | Customer Connection Program</strong>  |
++=====================================+================================+
+| <img alt="" src="./images/image            | ![](./images/image14.png  |
+| 13.png) | g" /> |
+|                                     |                                |
+|                                     |                                |
+|                                     |                                |
+|                                     | <img alt="" src="./images/image15.png  |
+|                                     | g" /> |
+|                                     |                                |
+|                                     |                                |
++-------------------------------------+--------------------------------+</p>
+<p><a href="https://aka.ms/JoinCCP">https://aka.ms/JoinCCP</a></p>
+<p>---This form is currently only used for Compliance &amp; Privacy Community requests---
+ - To join the Windows CCP visit <a href="https://aka.ms/JoinWCCP">https://aka.ms/JoinWCCP</a>
+ - To join the M365 Defender CCP visit <a href="https://aka.ms/M365DefenderCCPSignUp">https://aka.ms/M365DefenderCCPSignUp</a>
+ - To join the MEM CCP visit <a href="https://aka.ms/JoinMEMCCP">https://aka.ms/JoinMEMCCP</a>
+ - To join the Compliance &amp; Privacy CCP visit <a href="https://aka.ms/JoinCompliancePrivacyCCP">https://aka.ms/JoinCompliancePrivacyCCP</a></p>
+<h2 id="for-partners">For PARTNERS:</h2>
+<ul>
+<li>Everything you wanted to know about Sentinel Architecture <a href="https://aka.ms/PartnerSocArchitecture">https://aka.ms/PartnerSocArchitecture</a></li>
+</ul>
+<p>All content listed will require Microsoft Partner login: i.e. use your work creds &amp; password this is already federated for you</p>
+<ul>
+<li>
+<p>MS Partner - go to <a href="https://cdx.transform.microsoft.com">https://cdx.transform.microsoft.com</a> and get access to 5 x 90day demo Tenants for free + 1 for 1 year</p>
+<ul>
+<li>You will need to add Az Subs from either Pay-as-you-Go or MSDN for Items like Sentinel that require LAW, etc...</li>
+<li>Don't build it - <strong>Use a premade one</strong> - be aware that from the same location you can get access to CIE Demo tenants with additional pre-canned content for customer demos  (CIE = Customer Immersive Experiences)</li>
+<li>Don't waste time building demos "unless" the customer already has specific requirements</li>
+<li>Use this one below to access Contoso Hotels as a 3,000 seat Production demo hosted by Microsoft</li>
+<li>Search for or Choose "<a href="https://cdx.transform.microsoft.com/experience-detail/b5f74c78-5bb8-487c-ac1f-265e89390be1">Microsoft Sentinel &amp; Microsoft 365 Defender (SIEM &amp; XDR)</a>"</li>
+<li>Add the Customer name and you will get access to the following + the <strong>Launch button will pop up with Partner Creds (good for
+    24h)</strong>:<ul>
+<li><a href="https://dxpprodstore.blob.core.windows.net/dxpprodcontainer/7BCA54F9-A2F7-45DE-9297-CB8739A4C614/SIEM%26XDR_Demo_Guide_v1.0_December2022.docx?sv=2021-06-08&amp;st=2022-12-15T13%3A23%3A47Z&amp;se=2022-12-15T13%3A53%3A47Z&amp;sr=b&amp;sp=r&amp;sig=3NXKSmChp8tnwiKxWfq1cg3O06uufH4UOu7hma8ECjg%3D">SIEM&amp;XDR_Demo_Guide_v1.0_December2022</a></li>
+<li><a href="https://dxpprodstore.blob.core.windows.net/dxpprodcontainer/7BCA54F9-A2F7-45DE-9297-CB8739A4C614/XDR%20Sentinel%20Investigation%20Guide.pptx?sv=2021-06-08&amp;st=2022-12-15T13%3A23%3A53Z&amp;se=2022-12-15T13%3A53%3A53Z&amp;sr=b&amp;sp=r&amp;sig=w1abDz%2B0zgH%2FxCEBiXIQjD3vz8UiCxZMwe1YrVRQW7s%3D">XDR Sentinel Investigation Guide</a></li>
+<li><a href="https://msit.microsoftstream.com/video/50d70840-98dc-ac1e-c9d6-f1ed700f48ac?referrer=https:%2F%2Fstatics.teams.cdn.office.net%2F">SIEM &amp; XDR Demo scenario walkthrough recording (Heike Ritter - 59m)</a></li>
+</ul>
+</li>
+<li>SIEM &amp; XDR - CxE walks you through the new security operation demo based on the AiTM (Adversary in the Middle) phishing attack leveraging both Microsoft 365 Defender &amp; Microsoft Sentinel.</li>
+<li>Defender Security Console - <a href="https://security.microsoft.com/homepage?tid=4b2462a4-bbee-495a-a0e1-f23ae524cc9c">https://security.microsoft.com/homepage?tid=4b2462a4-bbee-495a-a0e1-f23ae524cc9c</a></li>
+</ul>
+</li>
+<li>
+<p>Partner: <a href="https://cloudpartners.transform.microsoft.com/">https://cloudpartners.transform.microsoft.com/</a></p>
+</li>
+<li>Security Workshops: <a href="https://cloudpartners.transform.microsoft.com/workshops?tab=security-usage">https://cloudpartners.transform.microsoft.com/workshops?tab=security-usage</a></li>
+<li>Security Training: <a href="https://readiness.transform.microsoft.com/learning-paths/b7963402-e1ba-4485-8889-af04614e2d1b">https://readiness.transform.microsoft.com/learning-paths/b7963402-e1ba-4485-8889-af04614e2d1b</a></li>
+<li>
+<p>Build Intent Workshops: <a href="https://partner.microsoft.com/en-us/partnership/partner-incentives/modern-work-and-security-build-intent-workshops">https://partner.microsoft.com/en-us/partnership/partner-incentives/modern-work-and-security-build-intent-workshops</a></p>
+</li>
+<li>
+<p>Workshops Available: Partners can nominate Customers and receive USD $5K funding upon successful PoE submission</p>
+</li>
+</ul>
+<hr />
+<p><strong>Sales</strong>                                                                                                                                   <strong>Usage</strong></p>
+<hr />
+<p><a href="https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-usage-defend-against-threats-with-siem-plus-xdr">Defend Against Threats with SIEM Plus                                                                                                      [Defend Against Threats with SIEM Plus
+  XDR](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-defend-against-threats-with-siem-plus-xdr)   XDR</a></p>
+<p><a href="https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-usage-secure-identities-and-access">Executive Order 14028 (Zero                                                                                                                [Secure Identities and
+  Trust)](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-executive-order-14028)                    Access</a></p>
+<p><a href="https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-usage-mitigate-compliance-and-privacy-risks">Mitigate Compliance and Privacy                                                                                                            [Mitigate Compliance and Privacy
+  Risks](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-mitigate-compliance-and-privacy-risks)     Risks</a></p>
+<p><a href="https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-usage-protect-and-govern-sensitive-data">Protect and Govern Sensitive                                                                                                               [Protect and Govern Sensitive
+  Data](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-protect-and-govern-sensitive-data)          Data</a></p>
+<p><a href="https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-usage-secure-multi-cloud-environments">Secure Multi-Cloud                                                                                                                         [Secure Multi-Cloud
+  Environments](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-secure-multi-cloud-environments)    Environments</a></p>
+<hr />
+<ul>
+<li>Partner Incentives Overview:
+    <a href="https://partner.microsoft.com/en-se/partnership/partner-incentives/">https://partner.microsoft.com/en-se/partnership/partner-incentives/</a></li>
+</ul>
+<h2 id="mission-goal">Mission Goal:</h2>
+<p>Inspired by Mark Simos's "Mark's List" and a discussion after an "In to the Breach" training exercise over a few beers it was discussed that there should be a local version focused more around "Getting Security Done" (hence the short link to GSD) with a specific focus on the M365 Security platform, but not restricted to just that as we'd like to adopt a very customer centric view point on this.
+(of course here in Australia we might typically refer to this as Get Shit Done)</p>
+<p>So with that planning got under way to create <a href="https://aka.ms/GSD">https://aka.ms/GSD</a>, and of course we could always refer to this as Global Security Deployment?</p>
+<p>Please note this will be a mix of both Microsoft &amp; non-Microsoft content, if it is of value and can help you with said mission of GSD for Security in the Microsoft Platform, then we'd like to include it - having said that, please feel free to provide feedback on the good, the bad and the ugly as we'd like to improve this over time.</p>
+<p>While this will start off as a LinkedIn Article - it may well transition to either GitHubPages.io or to a hosted WordPress sometime early next year.</p>
+<p>Feel free to provide suggestions</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../CondAccess/" class="md-footer__link md-footer__link--prev" aria-label="Previous: CondAccess" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              CondAccess
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../MDAC/" class="md-footer__link md-footer__link--next" aria-label="Next: MDAC" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              MDAC
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+    
+    
+  </body>
+</html>
