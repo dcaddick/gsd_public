@@ -4,3 +4,5 @@ plugins:
 - search:
 - toc-sidebar:
 - awesome-list:
+- table-reader:
+- mermaid2:
