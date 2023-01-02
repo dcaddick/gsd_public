@@ -30,7 +30,7 @@ jobs:
           # (optional) The edit URI
           edit_uri: edit/main/
         #   # (optional) Specify a google analytics key 
-          google_analytics: G-QS5J5W9G3Q
+        #   # google_analytics: G-QS5J5W9G3Q
         #   # (optional) Specify a different theme [mkdocs|readthedocs|material]
           theme: material
         #   # (optional) Load a configuration file from a string
