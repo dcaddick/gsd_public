@@ -1,10 +1,4 @@
 site_name: "Get Security Done"
-plugins:
-- simple:
-- search:
-# - awesome-list:
-# - table-reader:
-# - mermaid2:
 
 nav:
     - About this Project: 'README.md'
@@ -71,10 +65,13 @@ theme:
     logo: logo
 # Plugins
 plugins:
-  - search
-  - minify:
-      minify_html: true
-  - macros
+    - search:
+    - simple:
+# - awesome-list:
+# - table-reader:
+# - mermaid2:
+#  - minify:
+    - macros:
 # Customization
 extra:
   analytics:
