@@ -8,9 +8,9 @@ plugins:
 
 theme:
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.instant
+  #  - navigation.tabs
+  #  - navigation.tabs.sticky
+  #  - navigation.instant
   
 theme:
   palette: 
