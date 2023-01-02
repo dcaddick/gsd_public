@@ -6,3 +6,5 @@ plugins:
 - awesome-list:
 - table-reader:
 - mermaid2:
+nav:
+- 'Microsoft Defender for Endpoint (MDE)': 'MDE.md'
