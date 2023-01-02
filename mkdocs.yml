@@ -8,6 +8,11 @@ plugins:
 
 theme:
   name: material
+  palette:
+    primary: green
+
+theme:
+  name: material
   palette: 
     # Palette toggle for light mode
     - scheme: default
