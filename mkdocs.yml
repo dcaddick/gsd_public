@@ -7,9 +7,6 @@ plugins:
 # - mermaid2:
 
 theme:
-  palette:
-    primary: green
-
 
 nav:
     - About this Project: 'README.md'
