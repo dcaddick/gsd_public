@@ -7,5 +7,10 @@ plugins:
 # - mermaid2:
 
 nav:
-    - Introduction: 'index.md'
-    - Microsoft Defender for Endpoint (MDE): 'MDE.md'
+    - About this Project: 'README.md'
+    - Full project in one Page: 'GSD.md'
+    - Microsoft Defender for Identity (MDI): 'MDI.md'
+    - Conditional Access (CA): 'CondAccess.md'
+    - Microsoft Defender for Cloud Apps (MDAC): 'MDAC.md'
+    - Microsoft Defender for Office (MDO): 'MDO.md'
+    - Partner Content: 'partner.md'
