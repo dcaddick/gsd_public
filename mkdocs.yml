@@ -2,7 +2,7 @@ site_name: "Get Security Done"
 plugins:
 - simple:
 - search:
-- awesome-list:
+# - awesome-list:
 - table-reader:
 - mermaid2:
 nav:
