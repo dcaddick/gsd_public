@@ -1,0 +1,9 @@
+site_name: "Get Security Done"
+plugins:
+- simple:
+- search:
+# - awesome-list:
+# - table-reader:
+# - mermaid2:
+nav:
+- 'Microsoft Defender for Endpoint (MDE)': 'MDE.md'
