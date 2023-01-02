@@ -6,6 +6,11 @@ plugins:
 # - table-reader:
 # - mermaid2:
 
+theme:
+  palette:
+    primary: green
+
+
 nav:
     - About this Project: 'README.md'
     - Full project in one Page: 'GSD.md'
