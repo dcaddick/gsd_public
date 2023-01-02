@@ -10,7 +10,8 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
-    
+    - navigation.instant
+  
 theme:
   palette: 
     # Palette toggle for light mode
