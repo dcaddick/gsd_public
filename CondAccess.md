@@ -10,7 +10,7 @@
   
 
 The [#Microsoft](https://www.linkedin.com/feed/hashtag/?keywords=microsoft) content:
--   <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design>
+ -   <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design>
 -   <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-architecture>
 -   <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-framework>
 -   <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-apis>

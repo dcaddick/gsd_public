@@ -5,7 +5,6 @@ Quick wins to improve Security using existing entitlements
 
 > Ideally this page will be highlighting how to get the best out of both your M365 E5 security and compliance entitlements. What is the best way to step lightly thru this and gain maximum benefit for the least effort? Most of the focus here is more on the M365 SaaS Security platform elements, not necessarily on Sentinel or Azure, but there will be plenty of crossover.
 
- 
 ![](./images/image1.jpg)
 
  
@@ -26,15 +25,14 @@ Quick wins to improve Security using existing entitlements
  -   Standardised Executive Reporting - an industry report from the CISO Lens community (June 2022)
         <https://www.cisolens.com/reports#h.z10davb23frq>
 
- 
-
 ## Still to do:
 
 - [ ] Fix Tables
 - [ ] Assumed knowledge
 - [ ] Acronym Table?
 - [ ] Short paragraph on each heading - Preview at top or separate tab?
-- [ ] ToC/Index
+- [x] ToC/Index
+- [ ] Add new Theme - https://github.com/byrnereese/mkdocs-bootstrap4
 - [ ] Shadow Hunter & In to the Breach - Immersive workshops for SecOps
 - [ ] Zero Trust - <https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/creating-mfa-policies-with-zero-trust-advanced-deployment-guide/ba-p/3688849>
 - [ ] MIP/AIP - <https://techcommunity.microsoft.com/t5/security-compliance-and-identity/azure-information-protection-and-the-information-protection/ba-p/3671070>
