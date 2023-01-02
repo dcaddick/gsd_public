@@ -6,6 +6,11 @@ plugins:
 # - table-reader:
 # - mermaid2:
 
+theme:
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+
 nav:
     - About this Project: 'README.md'
     - Full project in one Page: 'GSD.md'
