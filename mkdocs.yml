@@ -9,18 +9,21 @@ plugins:
 theme:
   name: material
   palette: 
-    - primary: green
+    primary: green 
+
+theme:
+  name: material
+  palette: 
     # Palette toggle for light mode
     - scheme: default
       toggle:
-        icon: material/brightness-7 
+        icon: material/weather-sunny 
         name: Switch to dark mode
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-night
         name: Switch to light mode
-
 
 nav:
     - About this Project: 'README.md'
