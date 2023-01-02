@@ -70,8 +70,8 @@ plugins:
 # - awesome-list:
 # - table-reader:
 # - mermaid2:
-#  - minify:
-    - macros:
+# - minify:
+# - macros:
 # Customization
 extra:
   analytics:
