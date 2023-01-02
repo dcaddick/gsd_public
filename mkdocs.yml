@@ -6,20 +6,15 @@ plugins:
 # - table-reader:
 # - mermaid2:
 
-#theme:
-#  name: material
-#  palette: 
-#    primary: green 
-
 theme:
   name: material
   palette: 
     # Palette toggle for light mode
-    - scheme: default
-     primary: green 
+    - scheme: default 
       toggle:
         icon: material/weather-sunny 
         name: Switch to dark mode
+     primary: green
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
