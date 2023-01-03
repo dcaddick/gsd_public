@@ -10,8 +10,8 @@ This something that we'd like to change
 ## Inspiration
 Inspired by Mark Simos’s [Mark’s List](https://aka.ms/markslist) and a discussion after an “In to the Breach” training exercise over a few beers it was discussed that there should be a local version focused more around “Getting Security Done” (hence the short link to GSD) with a specific focus on the M365 Security platform, but not restricted to just that as we'd like to adopt a very customer centric view point on this. (of course here in Australia we might typically refer to this as Get Shit Done - hence the GSD acronym)
 
-Into the Breach & Shadow Hunter
-(https://www.microsoft.com/en-gb/events/microsoft-immersion-workshops/#security)
+[Into the Breach & Shadow Hunter](<https://www.microsoft.com/en-gb/events/microsoft-immersion-workshops/#security>)
+Great training experience to get a taste of what a fully configured Defender 365 or Defender for Cloud Security stack is capable off from a SecOps perspective
 
 ## General format & ways of working
 For least friction and best outcome for the effort, start with enabling telemetry and visibility, and work your way from there in each Solution - so with that being said the intention (and eventiual aim) is for each page to have the following sections. 
