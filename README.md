@@ -16,12 +16,11 @@ Into the Breach & Shadow Hunter
 For least friction and best outcome for the effort, start with enabling telemetry and visibility, and work your way from there in each Solution - so with that being said the intention (and eventiual aim) is for each page to have the following sections. 
 
 Please work thru these from top to bottom:
-
-- Enable Telemetry
-- Validate via Alerts
-- Enable Reporting
-- Step up Security Controls
-- Troubleshooting  
+-   Enable Telemetry
+-   Validate via Alerts
+-   Enable Reporting
+-   Step up Security Controls
+-   Troubleshooting  
 
 As you might have guessed by now, this is no small undertaking, so please bear with us while this gets built out. In the meantime we will continue to share any handy tips and tricks to reduce friction for those of you at the Deployment "coal face"
 
