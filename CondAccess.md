@@ -10,6 +10,7 @@
   
 
 The Microsoft content:
+
 -   Design - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design>
 -   Architecture - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-architecture>
 -   Framework - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-framework>
