@@ -9,7 +9,20 @@ This something that we'd like to change
 ## Inspiration
 Inspired by Mark Simos’s [Mark’s List](https://aka.ms/markslist) and a discussion after an “In to the Breach” training exercise over a few beers it was discussed that there should be a local version focused more around “Getting Security Done” (hence the short link to GSD) with a specific focus on the M365 Security platform, but not restricted to just that as we'd like to adopt a very customer centric view point on this. (of course here in Australia we might typically refer to this as Get Shit Done - hence the GSD acronym)
 
-Into the Breach = <https://www.microsoft.com/en-gb/events/microsoft-immersion-workshops/#security>
+Into the Breach & Shadow Hunter
+(https://www.microsoft.com/en-gb/events/microsoft-immersion-workshops/#security)
+
+## General format & ways of working
+For least friction and best outcome for the effort, start with enabling telemetry and visibility, and work your way from there in each Solution - so with that being said the intention (and eventiual aim) is for each page to have the following sections. 
+
+Please work thru these from top to bottom:
+- Enable Telemetry
+- Validate via Alerts
+- Enable Reporting
+- Step up Security Controls
+- Troubleshooting  
+
+As you might have guessed by now, this is no small undertaking, so please bear with us while this gets built out. In the meantime we will continue to share any handy tips and tricks to reduce friction for those of you at the Deployment "coal face"
 
 ## Work in Progress
 So with that, planning got under way to create [aka.ms/GSD](https://aka.ms/GSD), and of course we could always refer to this as Global Security Deployment? Please be aware this should always be considered a "work in progress" and will be updated as we go.
