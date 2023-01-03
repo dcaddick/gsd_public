@@ -14,6 +14,7 @@ Please make sure you review the MCRA slide deck & slide 15 - all of the slide is
 
 ## Ninja Security Training:
 Subset here:
+
 -   M365 Defender : <https://aka.ms/m365dninja>
 -   Microsoft Defender for Endpoint: <https://aka.ms/mdeninja>
 -   Microsoft Defender for Identity : <https://aka.ms/MDINinja>
@@ -23,4 +24,5 @@ Subset here:
 
 ## How was this site created
 From MkDocs & Material:
+
 - <https://squidfunk.github.io/mkdocs-material/getting-started/>
