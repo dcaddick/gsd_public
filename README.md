@@ -16,6 +16,7 @@ Into the Breach & Shadow Hunter
 For least friction and best outcome for the effort, start with enabling telemetry and visibility, and work your way from there in each Solution - so with that being said the intention (and eventiual aim) is for each page to have the following sections. 
 
 Please work thru these from top to bottom:
+
 - Enable Telemetry
 - Validate via Alerts
 - Enable Reporting

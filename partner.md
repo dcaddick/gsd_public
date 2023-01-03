@@ -1,14 +1,8 @@
 ## Partner only Content
 
 !!! note
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
-
--   Everything you wanted to know about Sentinel Architecture <https://aka.ms/PartnerSocArchitecture>
-
-All content listed will require Microsoft Partner login: i.e. use your work creds & password this is already federated for you
+All content listed here will require Microsoft Partner login:
+i.e. use your work creds & password as this content/site is already federated for you **IF** your organization is a Microsoft Security Partner
 
 ### Demo tenants
 MS Partner - go to <https://cdx.transform.microsoft.com> and get access to 5 x 90day demo Tenants for free + 1 for 1 year
