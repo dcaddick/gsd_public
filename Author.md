@@ -5,7 +5,11 @@ I admit it's my fault, as I started collecting all the useful links that I had i
 
 - icon: fontawesome/brands/github
 link: https://github.com/dcaddick/
+
 - icon: fontawesome/brands/twitter
+
+:fontawesome-brands-twitter:{ .twitter }
+
 link: https://twitter.com/dcaddick
 - icon: fontawesome/brands/linkedin
 link: https://linkedin.com/in/dcaddick/
