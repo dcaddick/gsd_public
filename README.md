@@ -6,5 +6,4 @@ So with that planning got under way to create https://aka.ms/GSD, and of course 
 
 Please note this will be a mix of both Microsoft & non-Microsoft content, if it is of value and can help you with said mission of GSD for Security in the Microsoft Platform, then we'd like to include it - having said that, please feel free to provide feedback on the good, the bad and the ugly as we'd like to improve this over time.
 
-
 The full page that started all this can be found here [GSD](./GSD.md) doc
