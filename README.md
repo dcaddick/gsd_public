@@ -1,5 +1,5 @@
 # Get Security Done
-[aka.ms/GSD]<https://aka.ms/GSD>)
+[aka.ms/GSD](<https://aka.ms/GSD>)
 
 ## Current state
 I have been focusing on the Microsoft Defender Security suite of tools for the last 5+ years now and over the years I have reviewed quite a few tenancies and a surprising trend has been that over 80+% have only turned on the first 10 - 15% of the config - so this leaves a BIG gap between what organizations think is protected and the reality.
