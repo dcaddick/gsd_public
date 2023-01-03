@@ -28,7 +28,7 @@ Quick wins to improve Security using existing entitlements
 ## Still to do:
 
 - [ ] Fix Tables
-- [ ] Assumed knowledge
+- [x] Assumed knowledge
 - [ ] Acronym Table?
 - [ ] Short paragraph on each heading - Preview at top or separate tab?
 - [x] ToC/Index
