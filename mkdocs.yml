@@ -57,7 +57,7 @@ theme:
 plugins:
     - search
     - simple
-    - social
+    #- social
     #- awesome-list
     #- table-reader
     #- img2fig
