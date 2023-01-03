@@ -15,6 +15,7 @@ Works for oobe in Canberra and absolute gun at Automating Markdown - thanks for 
 -   **LinkedIn**: <https://www.linkedin.com/in/martin-caddick-60065b1/>
 
 **José Lázaro Pinos**
+Thanks for reviewing and providing feedback and advice
 Works for Microsoft as Partner Security Solution Architect, London UK
 
 -   **LinkedIn**: <https://www.linkedin.com/in/josepinos365/>
