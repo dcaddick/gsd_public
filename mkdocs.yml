@@ -58,7 +58,7 @@ plugins:
     - search
     - simple
     - social
-    - awesome-list
+    #- awesome-list
     - table-reader
     - mermaid2
     - macros
