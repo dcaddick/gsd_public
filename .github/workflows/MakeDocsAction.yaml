@@ -19,7 +19,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Build docs
-        uses: athackst/mkdocs-simple-plugin@v2.1.3
+        uses: athackst/mkdocs-simple-plugin@v2.2.0
         with:
         #   # (optional) Specify branch 
         #   publish_branch: main # gh-pages 
