@@ -59,7 +59,7 @@ plugins:
     - simple
     - social
     #- awesome-list
-    - table-reader
+    #- table-reader
     #- mermaid2
     #- macros
 # - minify
