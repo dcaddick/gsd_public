@@ -28,6 +28,8 @@ jobs:
           # (optional) The URL of the site
           site_url: https://dcaddick.github.io
           # (optional) The edit URI
+          remote_branch: gh-pages
+          remote_name: gh-pages
           edit_uri: edit/main/
         #   # (optional) Specify a google analytics key 
         #   # google_analytics: G-QS5J5W9G3Q
