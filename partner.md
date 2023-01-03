@@ -1,5 +1,11 @@
 ## Partner only Content
 
+!!! note
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+
 -   Everything you wanted to know about Sentinel Architecture <https://aka.ms/PartnerSocArchitecture>
 
 All content listed will require Microsoft Partner login: i.e. use your work creds & password this is already federated for you

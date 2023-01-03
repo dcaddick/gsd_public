@@ -20,6 +20,9 @@ nav:
 # Configuration
 theme:
   name: material
+  icon: 
+    admonition:
+      <type>: octicons/alert-16 # material/alert
 #  custom_dir: !ENV [THEME_DIR, "material"]
 # Default values, taken from mkdocs_theme.yml
   features:
