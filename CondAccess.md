@@ -9,15 +9,15 @@
 > <https://www.linkedin.com/feed/update/urn:li:activity:7010866303682912256?utm_source=share&utm_medium=member_ios>
   
 
-The [#Microsoft](https://www.linkedin.com/feed/hashtag/?keywords=microsoft) content:
- -   <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design>
--   <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-architecture>
--   <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-framework>
--   <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-apis>
--   <https://github.com/Azure-Samples/azure-ad-conditional-access-apis/tree/main/03-deploy>
--   <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access>
--   <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps>
--   <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policies>
+The Microsoft content:
+-   Design - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design>
+-   Architecture - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-architecture>
+-   Framework - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-framework>
+-   API - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-apis>
+-   Deployment - <https://github.com/Azure-Samples/azure-ad-conditional-access-apis/tree/main/03-deploy>
+-   Plan - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access>
+-   CA for Cloud Apps - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps>
+-   Concept for CA Policies - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policies>
 -   <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/>
 -   <https://learn.microsoft.com/en-us/powershell/module/azuread/get-azureadmsconditionalaccesspolicy?view=azureadps-2.0>
 -   <https://techcommunity.microsoft.com/t5/itops-talk-blog/deep-dive-how-does-conditional-access-block-legacy/ba-p/3265345>
