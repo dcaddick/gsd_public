@@ -23,4 +23,4 @@ Subset here:
 
 ## How was this site created
 From MkDocs & Material:
-- (https://squidfunk.github.io/mkdocs-material/getting-started/)
+- <https://squidfunk.github.io/mkdocs-material/getting-started/>
