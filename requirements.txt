@@ -8,3 +8,4 @@ mkdocs-material==8.5.11
 mkdocs==1.4.1
 mkdocstrings-python-legacy==0.2.3
 mkdocstrings==0.19.1
+mkdocs-table-reader-plugin==1.2
