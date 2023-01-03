@@ -63,7 +63,7 @@ plugins:
     #- img2fig
     #- mermaid2
     #- macros
-# - minify
+    # - minify
 # Customization
 extra:
   analytics:
