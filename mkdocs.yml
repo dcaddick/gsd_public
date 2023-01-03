@@ -62,7 +62,7 @@ plugins:
     #- table-reader
     #- img2fig
     #- mermaid2
-    #- macros
+    - macros
     # - minify
 # Customization
 extra:
