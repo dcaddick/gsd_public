@@ -13,8 +13,8 @@ nav:
     - Microsoft Sentinel Content: 'Sentinel.md'
     - Ninja Security Training Content: 'Ninja.md'
     - Security Interactive Guides & Product Trials: 'Guides.md'
-    -
-    -
+    #
+    #
     - Partner Content: 'partner.md'
 
 # Configuration
