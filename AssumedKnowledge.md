@@ -20,3 +20,7 @@ Subset here:
 -   Microsoft Defender for O365 : <https://aka.ms/mdoninja>
 -   Microsoft Defender for Cloud Apps: <http://aka.ms/mcasninja> (formerly MCAS)
 -   More at [Ninja Security Training](./Ninja.md)
+
+## How was this site created
+From MkDocs & Material:
+- (https://squidfunk.github.io/mkdocs-material/getting-started/)
