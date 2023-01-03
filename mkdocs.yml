@@ -2,6 +2,7 @@ site_name: "Get Security Done"
 
 nav:
     - About this Project: 'README.md'
+    - Author(s): 'Author.md' 
     - Assumed Knowledge: 'AssumedKnowledge.md'
     - Full project in one Page: 'GSD.md'
     - Microsoft Defender for Identity (MDI): 'MDI.md'
@@ -13,8 +14,6 @@ nav:
     - Microsoft Sentinel Content: 'Sentinel.md'
     - Ninja Security Training Content: 'Ninja.md'
     - Security Interactive Guides & Product Trials: 'Guides.md'
-    #
-    #
     - Partner Content: 'partner.md'
 
 # Configuration
