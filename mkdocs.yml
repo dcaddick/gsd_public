@@ -17,8 +17,7 @@ nav:
 theme:
   name: material
 #  custom_dir: !ENV [THEME_DIR, "material"]
-  # Default values, taken from mkdocs_theme.yml
-  # language: bn
+# Default values, taken from mkdocs_theme.yml
   features:
     # - content.code.annotate
     # - content.tabs.link
@@ -56,13 +55,14 @@ theme:
     logo: logo
 # Plugins
 plugins:
-    - search:
-    - simple:
-# - awesome-list:
-# - table-reader:
-# - mermaid2:
-# - minify:
-# - macros:
+    - search
+    - simple
+    - social
+    - awesome-list
+    - table-reader
+    - mermaid2
+    - macros
+# - minify
 # Customization
 extra:
   analytics:
@@ -71,10 +71,6 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/dcaddick/
-#    - icon: fontawesome/brands/gitter
-#      link: https://gitter.im/squidfunk/mkdocs-material
-#    - icon: fontawesome/brands/docker
-#      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/dcaddick
     - icon: fontawesome/brands/linkedin
