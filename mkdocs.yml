@@ -60,6 +60,7 @@ plugins:
     - social
     #- awesome-list
     #- table-reader
+    #- img2fig
     #- mermaid2
     #- macros
 # - minify
