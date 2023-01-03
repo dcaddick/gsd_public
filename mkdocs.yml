@@ -9,6 +9,7 @@ nav:
     - Microsoft Defender for Cloud Apps (MDAC): 'MDAC.md'
     - Microsoft Defender for Endpoint (MDE): 'MDE.md'
     - Microsoft Defender for Office (MDO): 'MDO.md'
+    - Microsoft Information Protection (MIP/AIP): 'MIP.md'
     - Microsoft Sentinel Content: 'Sentinel.md'
     - Ninja Security Training Content: 'Ninja.md'
     - Security Interactive Guides & Product Trials: 'Guides.md'
