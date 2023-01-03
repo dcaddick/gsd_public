@@ -59,9 +59,9 @@ plugins:
     - simple
     - social
     #- awesome-list
-    #- table-reader
-    - mermaid2
-    - macros
+    - table-reader
+    #- mermaid2
+    #- macros
 # - minify
 # Customization
 extra:
