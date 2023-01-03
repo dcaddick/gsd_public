@@ -13,7 +13,7 @@ However, if you've already got a reasonably good handle on this, don't let us st
 Please make sure you review the MCRA slide deck & slide 15 - all of the slide is hyperlinked to other additional useful info - so have a good browse first and then if you have further questions on these 4 solution areas it might be worth reviewing the Ninja Training section?
 
 ## Ninja Security Training:
-Subset here:
+Subset here of the core pillars:
 
 -   M365 Defender : <https://aka.ms/m365dninja>
 -   Microsoft Defender for Endpoint: <https://aka.ms/mdeninja>
