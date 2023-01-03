@@ -1,7 +1,7 @@
 ## Partner only Content
 
-!!! note
-All content listed here will require Microsoft Partner login:
+>!!! note
+>All content listed here will require Microsoft Partner login:
 i.e. use your work creds & password as this content/site is already federated for you **IF** your organization is a Microsoft Security Partner
 
 ### Demo tenants
