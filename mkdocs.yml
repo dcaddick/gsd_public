@@ -58,6 +58,7 @@ theme:
 plugins:
     - search
     - simple
+    - privacy
     #- social
     #- awesome-list
     #- table-reader
