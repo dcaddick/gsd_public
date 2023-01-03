@@ -4,8 +4,9 @@
 >
 > You need to make sure you are BLOCKING by default unless explicitly allowing access - walk thru the 14 default Policies to better understand this
 > To make sure that you are fully covered please use this PowerBI based tool
-**<https://github.com/AzureAD/AzureADAssessment> <-- confirm your maturity based on this**
->
+**<https://github.com/AzureAD/AzureADAssessment> <-- confirm your maturity based on this Tool**
+
+**UPDATE** 142 Page - CA demystified Whitepaper - still to be reviewed 
 > <https://www.linkedin.com/feed/update/urn:li:activity:7010866303682912256?utm_source=share&utm_medium=member_ios>
   
 
@@ -19,9 +20,9 @@ The Microsoft content:
 -   Plan - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access>
 -   CA for Cloud Apps - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps>
 -   Concept for CA Policies - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policies>
--   <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/>
--   <https://learn.microsoft.com/en-us/powershell/module/azuread/get-azureadmsconditionalaccesspolicy?view=azureadps-2.0>
--   <https://techcommunity.microsoft.com/t5/itops-talk-blog/deep-dive-how-does-conditional-access-block-legacy/ba-p/3265345>
+-   Docs - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/>
+-   Powershell syntax and examples - <https://learn.microsoft.com/en-us/powershell/module/azuread/get-azureadmsconditionalaccesspolicy?view=azureadps-2.0>
+-   Deep dive: How does Conditional Access block Legacy Authentication? - <https://techcommunity.microsoft.com/t5/itops-talk-blog/deep-dive-how-does-conditional-access-block-legacy/ba-p/3265345>
 
 
 > Here is a great companion for Sentinel: 
