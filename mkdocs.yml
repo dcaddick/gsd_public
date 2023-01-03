@@ -2,6 +2,7 @@ site_name: "Get Security Done"
 
 nav:
     - About this Project: 'README.md'
+    - Assumed Knowledge: 'AssumedKnowledge.md'
     - Full project in one Page: 'GSD.md'
     - Microsoft Defender for Identity (MDI): 'MDI.md'
     - Conditional Access (CA): 'CondAccess.md'
@@ -9,8 +10,8 @@ nav:
     - Microsoft Defender for Endpoint (MDE): 'MDE.md'
     - Microsoft Defender for Office (MDO): 'MDO.md'
     - Microsoft Sentinel Content: 'Sentinel.md'
-    - Ninja Training Content: 'Ninja.md'
-    - Interactive Guides & Product Trials: 'Guides.md'
+    - Ninja Security Training Content: 'Ninja.md'
+    - Security Interactive Guides & Product Trials: 'Guides.md'
     - Partner Content: 'partner.md'
 
 # Configuration
