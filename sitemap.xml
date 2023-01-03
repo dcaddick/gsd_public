@@ -16,6 +16,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://dcaddick.github.io/Guides/</loc>
+         <lastmod>2023-01-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://dcaddick.github.io/MDAC/</loc>
          <lastmod>2023-01-03</lastmod>
          <changefreq>daily</changefreq>
@@ -32,6 +37,21 @@
     </url>
     <url>
          <loc>https://dcaddick.github.io/MDO/</loc>
+         <lastmod>2023-01-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dcaddick.github.io/MIP/</loc>
+         <lastmod>2023-01-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dcaddick.github.io/Ninja/</loc>
+         <lastmod>2023-01-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dcaddick.github.io/Sentinel/</loc>
          <lastmod>2023-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
