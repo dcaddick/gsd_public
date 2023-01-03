@@ -9,6 +9,6 @@ mkdocs==1.4.2
 mkdocstrings-python-legacy==0.2.3
 mkdocstrings==0.19.1
 # mkdocs-mermaid2-plugin
-mkdocs-table-reader-plugin
-mkdocs-img2fig-plugin
-mkdocs-macros-plugin
+# mkdocs-table-reader-plugin
+# mkdocs-img2fig-plugin
+# mkdocs-macros-plugin
