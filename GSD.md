@@ -481,7 +481,33 @@ Updated Microsoft 365 Business Premium Customer Pitch Decks:
 -   Exam SC-900: <https://learn.microsoft.com/en-us/certifications/exams/sc-900>
 -   Exam SC-200: <https://learn.microsoft.com/en-us/certifications/exams/sc-200>
 
+
+## Interactive Guides:
+
+ ![](./images/InteractiveGuides.png)
  
+-   [Defender for Cloud](<https://aka.ms/ASC_InteractiveGuide>)
+-   [Microsoft Sentinel](https://aka.ms/AzureSentinel_SOC_InteractiveGuide)
+-   [M365 Defender](https://aka.ms/ProtectwithMSD-InteractiveGuide)
+-   [M365 Defender - Threat Protection](https://aka.ms/M365D_Interactive_Guide)
+-   [MCAS - Detect Threat and manage Alerts](https://aka.ms/DetectThreatsandAlertsMCAS_InteractiveGuide)
+-   [MCAS - Discover, protect and control your Apps](https://aka.ms/DiscoverProtectControlAppswithMCAS_InteractiveGuide)
+-   [MDE - ](https://aka.ms/MSDE_IR_Interactive_Guide)
+-   [MDE - ](https://aka.ms/InvestigateandRemediateThreats_MSDE_InteractiveGuide)
+-   [MDE - ](https://aka.ms/ReduceRiskwithMSDE_InteractiveGuide)
+-   [MDE - Threat and Vulnerability Management](https://aka.ms/MSDE_TVM_Interactive_Guide)
+-   [MDI - Detect Suspicious Activities](https://aka.ms/DetectwithMSDI.InteractiveGuide)
+-   [MDI - ](https://aka.ms/MSDI_InteractiveGuide)
+-   [MDI - Investigate and Respond to Attacks](https://aka.ms/InvestigateRespondwithMSDI)
+-   [MDO - ](https://aka.ms/SafeguardwithMSDO.InteractiveGuide)
+-   [MDO - ](https://aka.ms/Protection_with_MSDO_InteractiveGuide)
+-   [Purview Insider Risk Management](https://insider-risk-management.azureedge.net/)
+-   [Purview Communications Risk](https://mslearn.cloudguides.com/en-us/guides/Minimize%20communication%20risks%20with%20communication%20compliance%20in%20Microsoft%20365) 
+-   [Purview Information Protection](https://mslearn.cloudguides.com/en-us/guides/Protect%20sensitive%20data%20with%20Microsoft%20Information%20Protection)
+-   [Purview Forensic investigation of Security events](https://mslearn.cloudguides.com/en-us/guides/Conduct%20forensic%20investigations%20with%20Advanced%20Audit%20in%20Microsoft%20365)
+-   [Purview eDiscovery](https://content.cloudguides.com/en-us/guides/Advanced%20eDiscovery)
+
+
 
 ## Product Trials:
 
@@ -518,6 +544,7 @@ Updated Microsoft 365 Business Premium Customer Pitch Decks:
  
 
 ## Interactive Guides:
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Product**      **Title**                                                                                                                                               **Link**
