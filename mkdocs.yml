@@ -65,7 +65,7 @@ plugins:
     - simple
     #- social
     #- awesome-list
-    - table-reader
+    #- table-reader
     #- img2fig
     #- mermaid2
     - macros
