@@ -87,6 +87,9 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - admonition
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.emoji:
