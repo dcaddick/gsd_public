@@ -26,7 +26,7 @@ jobs:
 
       - name: Install plugins
         run: | 
-          python -m pip install --upgrade pip setuptools wheel
+          python -m pip install --upgrade pip setuptools wheel --use-pep517
           pip install mkdocs-minify-plugin==0.3.0
           pip install mkdocs-blog-plugin 
           pip3 install mkdocs-table-reader-plugin
@@ -41,8 +41,6 @@ jobs:
           # (optional) The URL of the site
           site_url: https://dcaddick.github.io
           # (optional) The edit URI
-          remote_branch: gh-pages
-          remote_name: gh-pages
           edit_uri: edit/main/
         #   # (optional) Specify a google analytics key 
         #   # google_analytics: G-QS5J5W9G3Q
