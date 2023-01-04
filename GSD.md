@@ -483,8 +483,10 @@ Updated Microsoft 365 Business Premium Customer Pitch Decks:
 
 
 ## Interactive Guides:
+(Still working on Tables)
 
  ![](./images/InteractiveGuides.png)
+
  
 -   [Defender for Cloud](<https://aka.ms/ASC_InteractiveGuide>)
 -   [Microsoft Sentinel](https://aka.ms/AzureSentinel_SOC_InteractiveGuide)
@@ -492,15 +494,15 @@ Updated Microsoft 365 Business Premium Customer Pitch Decks:
 -   [M365 Defender - Threat Protection](https://aka.ms/M365D_Interactive_Guide)
 -   [MCAS - Detect Threat and manage Alerts](https://aka.ms/DetectThreatsandAlertsMCAS_InteractiveGuide)
 -   [MCAS - Discover, protect and control your Apps](https://aka.ms/DiscoverProtectControlAppswithMCAS_InteractiveGuide)
--   [MDE - ](https://aka.ms/MSDE_IR_Interactive_Guide)
--   [MDE - ](https://aka.ms/InvestigateandRemediateThreats_MSDE_InteractiveGuide)
--   [MDE - ](https://aka.ms/ReduceRiskwithMSDE_InteractiveGuide)
+-   [MDE - Investigate Threats](https://aka.ms/MSDE_IR_Interactive_Guide)
+-   [MDE - Investigate and Remediate Threats](https://aka.ms/InvestigateandRemediateThreats_MSDE_InteractiveGuide)
+-   [MDE - Reduce Risk](https://aka.ms/ReduceRiskwithMSDE_InteractiveGuide)
 -   [MDE - Threat and Vulnerability Management](https://aka.ms/MSDE_TVM_Interactive_Guide)
 -   [MDI - Detect Suspicious Activities](https://aka.ms/DetectwithMSDI.InteractiveGuide)
--   [MDI - ](https://aka.ms/MSDI_InteractiveGuide)
+-   [MDI - Investigate Suspicious Activities](https://aka.ms/MSDI_InteractiveGuide)
 -   [MDI - Investigate and Respond to Attacks](https://aka.ms/InvestigateRespondwithMSDI)
--   [MDO - ](https://aka.ms/SafeguardwithMSDO.InteractiveGuide)
--   [MDO - ](https://aka.ms/Protection_with_MSDO_InteractiveGuide)
+-   [MDO - Safeguard Email](https://aka.ms/SafeguardwithMSDO.InteractiveGuide)
+-   [MDO - Enable Protection](https://aka.ms/Protection_with_MSDO_InteractiveGuide)
 -   [Purview Insider Risk Management](https://insider-risk-management.azureedge.net/)
 -   [Purview Communications Risk](https://mslearn.cloudguides.com/en-us/guides/Minimize%20communication%20risks%20with%20communication%20compliance%20in%20Microsoft%20365) 
 -   [Purview Information Protection](https://mslearn.cloudguides.com/en-us/guides/Protect%20sensitive%20data%20with%20Microsoft%20Information%20Protection)
@@ -542,96 +544,6 @@ Updated Microsoft 365 Business Premium Customer Pitch Decks:
 -   FastTrack customer one-pager: <https://aka.ms/FastTrackOnePager>
 
  
-
-## Interactive Guides:
-
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Product**      **Title**                                                                                                                                               **Link**
----------------- ------------------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------
-  Defender for     Protect your hybrid cloud with Defender for Cloud                                                                                                       <https://aka.ms/ASC_InteractiveGuide>
-  Cloud                                                                                                                                                                    
-
-  Microsoft        Modernize your security operations with Microsoft Sentinel                                                                                              <https://aka.ms/AzureSentinel_SOC_InteractiveGuide>
-  Sentinel                                                                                                                                                                 
-
-  Microsoft 365    Protect your organization with Microsoft 365 Defender                                                                                                   <https://aka.ms/ProtectwithMSD-InteractiveGuide>
-  Defender                                                                                                                                                                 
-
-  Microsoft 365    Protect your organization with Microsoft Threat Protection                                                                                              [https://aka.ms/M365D_Interactive_Guide](https://aka.ms/MTP_Interactive_Guide)
-  Defender                                                                                                                                                                 
-
-  Microsoft Cloud  Detect threats and manage alerts with Microsoft Cloud App Security                                                                                      <https://aka.ms/DetectThreatsandAlertsMCAS_InteractiveGuide>
-  App Security                                                                                                                                                             
-
-  Microsoft Cloud  Discover, protect, and control your apps with Microsoft Cloud App Security                                                                              <https://aka.ms/DiscoverProtectControlAppswithMCAS_InteractiveGuide>
-  App Security                                                                                                                                                             
-
-  Microsoft        Investigate and remediate threats with Microsoft Defender Endpoint                                                                                      [https://aka.ms/MSDE_IR_Interactive_Guide](https://aka.ms/MDATP_IR_Interactive_Guide)
-  Defender for                                                                                                                                                             
-  Endpoint                                                                                                                                                                 
-
-  Microsoft        Investigate and remediate threats with Microsoft Defender for Endpoint                                                                                  <https://aka.ms/InvestigateandRemediateThreats_MSDE_InteractiveGuide>
-  Defender for                                                                                                                                                             
-  Endpoint                                                                                                                                                                 
-
-  Microsoft        Reduce organizational risk with Threat and Vulnerability Management                                                                                     <https://aka.ms/ReduceRiskwithMSDE_InteractiveGuide>
-  Defender for                                                                                                                                                             
-  Endpoint                                                                                                                                                                 
-
-  Microsoft        Reduce organizational risk with Threat and Vulnerability Management                                                                                     [https://aka.ms/MSDE_TVM_Interactive_Guide](https://aka.ms/MDATP_TVM_Interactive_Guide)
-  Defender for                                                                                                                                                             
-  Endpoint                                                                                                                                                                 
-
-  Microsoft        Detect suspicious activities and potential attacks with Microsoft Defender for Identity                                                                 <https://aka.ms/DetectwithMSDI.InteractiveGuide>
-  Defender for                                                                                                                                                             
-  Identity                                                                                                                                                                 
-
-  Microsoft        Detect suspicious activities and potential attacks with Microsoft Defender for Identity                                                                 [https://aka.ms/MSDI_InteractiveGuide](https://aka.ms/AATP_InteractiveGuide)
-  Defender for                                                                                                                                                             
-  Identity                                                                                                                                                                 
-
-  Microsoft        Investigate and respond to attacks with Microsoft Defender for Identity                                                                                 <https://aka.ms/InvestigateRespondwithMSDI>
-  Defender for                                                                                                                                                             
-  Identity                                                                                                                                                                 
-
-  Microsoft        Safeguard your organization with Microsoft Defender for Office 365                                                                                      <https://aka.ms/SafeguardwithMSDO.InteractiveGuide>
-  Defender for                                                                                                                                                             
-  O365                                                                                                                                                                     
-
-  Microsoft        Safeguard your organization with Office 365 Advanced Threat Protection                                                                                  <https://aka.ms/Protection_with_MSDO_InteractiveGuide>
-  Defender for                                                                                                                                                             
-  O365                                                                                                                                                                     
-
-  Microsoft        Minimize internal risks with Microsoft Purview Insider Risk Management                                                                                  <https://insider-risk-management.azureedge.net/>
-  Purview Insider                                                                                                                                                          
-  Risk                                                                                                                                                                     
-
-  Microsoft        [Minimize communication risks with Microsoft Purview Communication                                                                                       
-  Purview          Compliance](https://mslearn.cloudguides.com/en-us/guides/Minimize%20communication%20risks%20with%20communication%20compliance%20in%20Microsoft%20365)   
-  Communications                                                                                                                                                           
-  risk                                                                                                                                                                     
-
-  Microsoft        [Protect sensitive data with Microsoft Purview Information                                                                                               
-  Purview          Protection](https://mslearn.cloudguides.com/en-us/guides/Protect%20sensitive%20data%20with%20Microsoft%20Information%20Protection)                      
-  Information                                                                                                                                                              
-  protection                                                                                                                                                               
-
-  Microsoft        [Conduct forensic investigation with Audit (Premium) in Microsoft                                                                                        
-  Purview Forensic Purview](https://mslearn.cloudguides.com/en-us/guides/Conduct%20forensic%20investigations%20with%20Advanced%20Audit%20in%20Microsoft%20365)             
-  investigation of                                                                                                                                                         
-  security events                                                                                                                                                          
-
-  Microsoft        Identify legally relevant information with eDiscovery (Premium) in Microsoft Purview                                                                    <https://content.cloudguides.com/en-us/guides/Advanced%20eDiscovery>
-  Purview Legal                                                                                                                                                            
-  information                                                                                                                                                              
-  identification                                                                                                                                                           
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
- 
-
- 
-
 ## Microsoft Private Security Communities (NDA):
 
 If you want to keep up to date with the latest + connect with your peers from Microsoft, Partners and Customers this is an invaluable
