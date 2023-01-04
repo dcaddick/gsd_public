@@ -1,4 +1,4 @@
-## Sentinel Tips and Best Practices:
+## Sentinel Tips from the Field:
 
 -   <https://learn.microsoft.com/en-us/azure/sentinel/best-practices>
 -   <https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/best-practices-for-designing-a-microsoft-sentinel-or-azure/ba-p/832574>
