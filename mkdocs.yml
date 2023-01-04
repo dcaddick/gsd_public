@@ -66,8 +66,9 @@ plugins:
     #- social
     #- awesome-list
     - table-reader
-    - img2fig
-    #- mermaid2
+    #- img2fig
+    - mermaid2
+    - mkdocs-video
     - macros
     # - minify
 # Customization

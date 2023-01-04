@@ -30,7 +30,9 @@ jobs:
           pip install mkdocs-minify-plugin==0.3.0
           pip install mkdocs-blog-plugin 
           pip3 install mkdocs-table-reader-plugin
-          pip install mkdocs-img2fig-plugin
+          pip install mkdocs-mermaid2-plugin
+          pip install mkdocs-video
+         # pip install mkdocs-img2fig-plugin
 
       - name: Build docs
         uses: athackst/mkdocs-simple-plugin@v2.1.3
