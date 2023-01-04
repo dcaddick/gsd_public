@@ -8,6 +8,7 @@
 -   Microsoft Sentinel : <https://aka.ms/sentinelninja>
 -   Microsoft Sentinel for MSSP : <http://aka.ms/azsentinelmssp>
 -   Microsoft Defender for Cloud : <http://aka.ms/ascninja>
+-   Microsoft Defender Threat Intelligence : <https://techcommunity.microsoft.com/t5/microsoft-defender-threat/become-a-microsoft-defender-threat-intelligence-ninja-the/ba-p/3656965>
 -   Azure Network Security Ninja : <http://aka.ms/aznetsecninja>
 -   Microsoft Defender for IoT: <https://aka.ms/d4iotninja>
 -   Microsoft Purview Information Protection: <https://aka.ms/mipninja>
