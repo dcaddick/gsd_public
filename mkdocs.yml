@@ -63,13 +63,12 @@ theme:
 plugins:
     - search
     - simple
-    - table-reader
-    - macros
     #- social
     #- awesome-list
+    #- table-reader
     #- img2fig
     #- mermaid2
-    #- mkdocs-video
+    - macros
     # - minify
 # Customization
 extra:
