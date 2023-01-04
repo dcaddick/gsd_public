@@ -668,8 +668,10 @@ All content listed will require Microsoft Partner login: i.e. use your work cred
 -   Security Training: <https://readiness.transform.microsoft.com/learning-paths/b7963402-e1ba-4485-8889-af04614e2d1b>
 -   Build Intent Workshops: <https://partner.microsoft.com/en-us/partnership/partner-incentives/modern-work-and-security-build-intent-workshops>
 
+### Build Intent Workshops
 -   Workshops Available: Partners can nominate Customers and receive USD $5K funding upon successful PoE submission
--   Full list of workshops below with direct links
+-   Make sure you review the content below, it's typically very recent (within 6 months), and laid out very well in a structured manner with plenty of content in slide decks along with example SoW's & estimate effort
+-   Full list of workshops below with direct links below the table
 
 | **Sales**                                 | **Usage**                                  |  
 |-------------------------------------------|--------------------------------------------|
@@ -703,5 +705,5 @@ All content listed will require Microsoft Partner login: i.e. use your work cred
 
 -   [Secure Multi-Cloud Environments - Usage](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-usage-secure-multi-cloud-environments)   
 
--   Partner Incentives Overview:
+Partner Incentives Overview:
     <https://partner.microsoft.com/en-se/partnership/partner-incentives/>
