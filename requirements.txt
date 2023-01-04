@@ -9,9 +9,9 @@ mkdocs==1.4.2  # static site generator for documentation in Markdown
 mkdocs-minify-plugin==0.4.0  # strips whitespaces in HTML markdown documentation pages
 mkdocstrings-python-legacy==0.2.3
 mkdocstrings==0.19.1
-mkdocs-table-reader-plugin>=0.5  # enables automatic CSV imports as a table into a markdown page
+# mkdocs-table-reader-plugin>=0.5  # enables automatic CSV imports as a table into a markdown page
 # mkdocs-img2fig-plugin==0.9.3  # converts markdown encoded images to HTML figures
-mkdocs-mermaid2-plugin
+# mkdocs-mermaid2-plugin
 # mkdocs-table-reader-plugin
 # mkdocs-img2fig-plugin
 # mkdocs-macros-plugin

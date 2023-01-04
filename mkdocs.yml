@@ -67,8 +67,8 @@ plugins:
     #- awesome-list
     - table-reader
     #- img2fig
-    - mermaid2
-    - mkdocs-video
+    #- mermaid2
+    #- mkdocs-video
     - macros
     # - minify
 # Customization
