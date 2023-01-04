@@ -6,7 +6,7 @@ i.e. use your work creds & password as this content/site is already federated fo
 
 ## Partner Enablement
 Get the latest up to date on Secuirty, Compliance and Identity Management
-http://aka.ms/scipartnerenablement
+<http://aka.ms/scipartnerenablement>
 
 ### Demo tenants
 MS Partner - go to <https://cdx.transform.microsoft.com> and get access to 5 x 90day demo Tenants for free + 1 for 1 year
