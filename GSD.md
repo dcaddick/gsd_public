@@ -483,11 +483,7 @@ Updated Microsoft 365 Business Premium Customer Pitch Decks:
 
 
 ## Interactive Guides:
-(Still working on Tables)
 
- ![](./images/InteractiveGuides.png)
-
- 
 -   [Defender for Cloud](<https://aka.ms/ASC_InteractiveGuide>)
 -   [Microsoft Sentinel](https://aka.ms/AzureSentinel_SOC_InteractiveGuide)
 -   [M365 Defender](https://aka.ms/ProtectwithMSD-InteractiveGuide)
@@ -509,6 +505,8 @@ Updated Microsoft 365 Business Premium Customer Pitch Decks:
 -   [Purview Forensic investigation of Security events](https://mslearn.cloudguides.com/en-us/guides/Conduct%20forensic%20investigations%20with%20Advanced%20Audit%20in%20Microsoft%20365)
 -   [Purview eDiscovery](https://content.cloudguides.com/en-us/guides/Advanced%20eDiscovery)
 
+ ![](./images/InteractiveGuides.png)
+(Still working on Tables)
 
 
 ## Product Trials:
