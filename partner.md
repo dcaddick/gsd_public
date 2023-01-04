@@ -5,7 +5,7 @@
 i.e. use your work creds & password as this content/site is already federated for you **IF** your organization is a Microsoft Security Partner
 
 ## Partner Enablement
-Get the latest up to date on Secuirty, Compliance and Identity Management
+Get the latest up to date on Security, Compliance and Identity Management
 <http://aka.ms/scipartnerenablement>
 
 ## Demo tenants
