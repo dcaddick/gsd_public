@@ -4,7 +4,7 @@ nav:
     - About this Project: 'README.md'
     - Author(s): 'Author.md' 
     - Assumed Knowledge: 'AssumedKnowledge.md'
-    - Full project in one Page: 'GSD.md'
+    - Original GSD project in one Page: 'GSD.md'
     - 1. Microsoft Defender for Identity (MDI): 'MDI.md'
     - 2. Conditional Access (CA): 'CondAccess.md'
     - 3. Microsoft Defender for Cloud Apps (MDAC): 'MDAC.md'
