@@ -1,8 +1,3 @@
-
-
-
-
-
 ## Product Trials:
 
 -   [Microsoft Defender for Identity](https://signup.microsoft.com/Signup?OfferId=a0db242a-96d7-4f99-bd52-05c0d5556257&ali=1)
