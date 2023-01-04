@@ -24,7 +24,6 @@
 -   Microsoft Purview Compliance Manager: <http://aka.ms/compliancemanagerninja>
 -   Sentinel Automation: <https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-automation-ninja/ba-p/3563377>
 -   Sentinel Notebooks: <https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/becoming-a-microsoft-sentinel-notebooks-ninja-the-series/ba-p/2693491>
--   Microsoft Threat Intelligence: <https://techcommunity.microsoft.com/t5/microsoft-defender-threat/become-a-microsoft-defender-threat-intelligence-ninja-the/ba-p/3656965>
 -   Must Learn KQL: <https://github.com/rod-trent/MustLearnKQL>
 -   Kusto Detective Agency: <https://detective.kusto.io>
 -   Microsoft Defender for Endpoint Trial: <https://aka.ms/mdetrial>
