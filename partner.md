@@ -66,5 +66,5 @@ MS Partner - go to <https://cdx.transform.microsoft.com> and get access to 5 x 9
 
 -   [Secure Multi-Cloud Environments - Usage](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-usage-secure-multi-cloud-environments)   
 
--   Partner Incentives Overview:
+Partner Incentives Overview:
     <https://partner.microsoft.com/en-se/partnership/partner-incentives/>
