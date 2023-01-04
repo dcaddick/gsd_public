@@ -669,7 +669,7 @@ All content listed will require Microsoft Partner login: i.e. use your work cred
 -   Build Intent Workshops: <https://partner.microsoft.com/en-us/partnership/partner-incentives/modern-work-and-security-build-intent-workshops>
 
 -   Workshops Available: Partners can nominate Customers and receive USD $5K funding upon successful PoE submission
-
+-   Full list of workshops below with direct links
 
 | **Sales**                                 | **Usage**                                  |  
 |-------------------------------------------|--------------------------------------------|
@@ -679,17 +679,29 @@ All content listed will require Microsoft Partner login: i.e. use your work cred
 | Protect and Govern Sensitive Data         | Protect and Govern Sensitive Data          |
 | Secure Multi-Cloud Environments           | Secure Multi-Cloud Environments            |
 
-  [Defend Against Threats with SIEM Plus XDR](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-defend-against-threats-with-siem-plus-xdr)
+**Sales**
 
-  [Executive Order 14028 (Zero Trust)](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-executive-order-14028)
- 
-  [Secure Identities and Access](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-usage-secure-identities-and-access)
+-   [Defend Against Threats with SIEM Plus XDR](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-defend-against-threats-with-siem-plus-xdr)
 
-  [Mitigate Compliance and Privacy Risks](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-mitigate-compliance-and-privacy-risks) 
+-   [Executive Order 14028 (Zero Trust)](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-executive-order-14028)
 
-  [Protect and Govern Sensitive Data](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-protect-and-govern-sensitive-data)   
+-   [Mitigate Compliance and Privacy Risks](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-mitigate-compliance-and-privacy-risks) 
 
-  [Secure Multi-Cloud Environments](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-secure-multi-cloud-environments)   
+-   [Protect and Govern Sensitive Data](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-protect-and-govern-sensitive-data)   
+
+-   [Secure Multi-Cloud Environments](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-secure-multi-cloud-environments)   
+
+**Usage**
+
+-   [Defend Against Threats with SIEM Plus XDR - Usage](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-usage-defend-against-threats-with-siem-plus-xdr)
+
+-   [Secure Identities and Access - Usage](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-usage-secure-identities-and-access)
+
+-   [Mitigate Compliance and Privacy Risks - Usage](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-usage-mitigate-compliance-and-privacy-risks) 
+
+-   [Protect and Govern Sensitive Data - Usage](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-usage-protect-and-govern-sensitive-data)   
+
+-   [Secure Multi-Cloud Environments - Usage](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-usage-secure-multi-cloud-environments)   
 
 -   Partner Incentives Overview:
     <https://partner.microsoft.com/en-se/partnership/partner-incentives/>
