@@ -1,5 +1,8 @@
 ## Sentinel Tips from the Field:
 
+Cost Optimization tips from Rod Trent:
+<https://github.com/rod-trent/Azure-Sentinel-Cost-Troubleshooting-Kit>
+
 -   <https://learn.microsoft.com/en-us/azure/sentinel/best-practices>
 -   <https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/best-practices-for-designing-a-microsoft-sentinel-or-azure/ba-p/832574>
 -   <https://learn.microsoft.com/en-us/azure/sentinel/extend-sentinel-across-workspaces-tenants>
