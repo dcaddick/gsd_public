@@ -65,7 +65,7 @@ theme:
 plugins:
     - search
     - simple
-    - glightbox
+    #- glightbox
     #- social
     #- awesome-list
     #- table-reader
