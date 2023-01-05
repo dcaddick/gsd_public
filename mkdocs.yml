@@ -1,5 +1,7 @@
+# Most settings taken from https://squidfunk.github.io/mkdocs-material/setup/
 site_name: "Get Security Done"
 
+# Left hand Navigation menu
 nav:
     - About this Project: 'README.md'
     - Author(s): 'Author.md' 
@@ -71,8 +73,19 @@ plugins:
     #- mermaid2
     - macros
     # - minify
+
 # Customization
 extra:
+  consent:
+    actions:
+      - accept
+      - manage
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
   analytics:
     provider: google
     property: G-QS5J5W9G3Q
@@ -84,6 +97,7 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/dcaddick/
 
+# Markdown Extensions 
 markdown_extensions:
   - attr_list
   - md_in_html
