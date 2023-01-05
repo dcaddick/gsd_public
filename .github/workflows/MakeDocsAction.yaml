@@ -23,7 +23,7 @@ jobs:
         run: | 
           python -m pip install --upgrade pip setuptools wheel
           pip install mkdocs-minify-plugin==0.3.0
-          pip3 install mkdocs-table-reader-plugin
+        # pip install mkdocs-table-reader-plugin
 
       - name: Build docs
         uses: athackst/mkdocs-simple-plugin@v2.1.3

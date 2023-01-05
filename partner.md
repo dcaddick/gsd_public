@@ -1,8 +1,14 @@
 ## Partner only Content
 
->!!! note
->All content listed here will require Microsoft Partner login:
+???+ warning "All content listed here will require Microsoft Partner login"
+    i.e. use your Partner creds & password as this content/site is already federated for you **IF** your organization     is a Microsoft Security Partner
+
+{==
+
+All content listed here will require Microsoft Partner login:
 i.e. use your work creds & password as this content/site is already federated for you **IF** your organization is a Microsoft Security Partner
+
+==}
 
 ## Partner Enablement
 Get the latest up to date on Security, Compliance and Identity Management
@@ -66,5 +72,5 @@ MS Partner - go to <https://cdx.transform.microsoft.com> and get access to 5 x 9
 
 -   [Secure Multi-Cloud Environments - Usage](https://partner.microsoft.com/en-us/partnership/partner-incentives/build-intent-workshops-usage-secure-multi-cloud-environments)   
 
--   Partner Incentives Overview:
+Partner Incentives Overview:
     <https://partner.microsoft.com/en-se/partnership/partner-incentives/>

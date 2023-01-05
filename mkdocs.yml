@@ -82,3 +82,17 @@ extra:
       link: https://twitter.com/dcaddick
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/dcaddick/
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
