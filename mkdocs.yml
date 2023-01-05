@@ -1,4 +1,4 @@
-# Most settings taken from https://squidfunk.github.io/mkdocs-material/setup/
+# Most settings taken from https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types
 site_name: "Get Security Done"
 
 # Left hand Navigation menu
