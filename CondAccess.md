@@ -1,16 +1,15 @@
 ## Conditional Access:
 
-> **NOTE: please be aware there is no inherent "BLOCK" by default**
->
-> You need to make sure you are BLOCKING by default unless explicitly allowing access - walk thru the 14 default Policies to better understand this
-> To make sure that you are fully covered please use this PowerBI based tool
-**<https://github.com/AzureAD/AzureADAssessment> <-- confirm your maturity based on this Tool**
+!!! warning "**NOTE: please be aware there is no inherent "BLOCK" by default**"
+    You need to make sure you are BLOCKING by default unless explicitly allowing access - walk thru the 14 default Policies to better understand this. To make sure that you are fully covered please use this PowerBI based tool **<https://github.com/AzureAD/AzureADAssessment>** 
+    **Confirm your maturity based on this Tool ^^^^^^**
 
-**UPDATE** 142 Page - CA demystified Whitepaper - still to be reviewed 
-> <https://www.linkedin.com/feed/update/urn:li:activity:7010866303682912256?utm_source=share&utm_medium=member_ios>
+!!! Note
+    **UPDATE** 142 Page - CA demystified Whitepaper - still to be reviewed 
+    <https://github.com/kennethvs/cabaseline202212/blob/main/Conditional%20Access%20demystified-v1.4%20-%20December%202022.pdf>
   
 
-The Microsoft content:
+**The Microsoft content:**
 
 -   Design - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design>
 -   Architecture - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-architecture>
@@ -25,8 +24,9 @@ The Microsoft content:
 -   Deep dive: How does Conditional Access block Legacy Authentication? - <https://techcommunity.microsoft.com/t5/itops-talk-blog/deep-dive-how-does-conditional-access-block-legacy/ba-p/3265345>
 
 
-> Here is a great companion for Sentinel: 
-<https://danielchronlund.com/2022/04/21/a-powerfull-conditional-access-change-dashboard-for-microsoft-sentinel/>
+!!! Note 
+    Here is a great companion for Sentinel: 
+    <https://danielchronlund.com/2022/04/21/a-powerfull-conditional-access-change-dashboard-for-microsoft-sentinel/>
 >
 
 ### Automation of "CA-as-Code"
@@ -35,11 +35,14 @@ The Microsoft content:
 
 -   Excellent article here that is really worth the time reading as this will highlight how to enable this in detail: <https://www.cloud-architekt.net/aadops-conditional-access/>
 
-> He also points out the others that have done great work in this space:
+!!! Tip
+    He also points out the others that have done great work in this space:
 
 -   Fortigi/ConditionalAccess: (https://github.com/Fortigi/ConditionalAccess)
 -   AlexFilipin/ConditionalAccess: (https://github.com/AlexFilipin/ConditionalAccess)
 -   DanielChronlund/DCToolbox: Tools for Microsoft cloud fans (https://github.com/DanielChronlund/DCToolbox)
-> One other important point -- don't get caught up trying to manage GUID's:
+
+!!! Info
+    One other important point -- don't get caught up trying to manage GUID's:
 -   [Fortigi has published some build scripts on GitHub](https://github.com/Fortigi/ConditionalAccess) to convert those GUIDs to readable display names.
 -   This also covers known GUIDs such as AAD Role and Application ID to DisplayName.
