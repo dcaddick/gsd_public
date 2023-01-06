@@ -1,5 +1,19 @@
 ## Conditional Access:
 
+## Ways of working
+First decision point - how are we going to do this?
+Questions to help you determine this are:
+-   Is it small or a large Tenancy?
+-   Do we want to avoid CAB approval process for a PoC?
+-   Need it done right now to address a strategic problem?
+-   Do we want to go fast, or take our time?
+-   If you are a Partner or MSSP please choose the "As-Code" method
+
+Result:
+* Fast and quick - start with telemetry below and do it on the fly using Policies in Reporting Mode, iterate from there...
+* Larger implmentations - please take the time to review the process below to enable via "CA-as-Code" as the ROI is well worth it - especially if doing it for more than one customer or tenant :wink:
+
+
 ## Enable Telemetry
 !!! warning "**NOTE: please be aware there is no inherent "BLOCK" by default**"
     You need to make sure you are BLOCKING by default unless explicitly allowing access - walk thru the 14 default Policies to better understand this. To make sure that you are fully covered please use this PowerBI based tool **<https://github.com/AzureAD/AzureADAssessment>** 
