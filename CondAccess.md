@@ -1,4 +1,4 @@
-## Conditional Access:
+## Conditional Access
 
 ## Ways of working
 First decision point - how are we going to do this?
@@ -27,7 +27,7 @@ Result:
     <https://github.com/kennethvs/cabaseline202212/blob/main/Conditional%20Access%20demystified-v1.4%20-%20December%202022.pdf>
   
 
-## **The Microsoft content:**
+## The Microsoft content
 
 -   Design - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design>
 -   Architecture - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-architecture>
