@@ -48,3 +48,24 @@
     One other important point -- don't get caught up trying to manage GUID's:
 -   [Fortigi has published some build scripts on GitHub](https://github.com/Fortigi/ConditionalAccess) to convert those GUIDs to readable display names.
 -   This also covers known GUIDs such as AAD Role and Application ID to DisplayName.
+
+## Validate and Test
+
+https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/what-if-tool
+
+https://www.cloud-architekt.net/aadops-conditional-access/
+
+## Enable Reporting
+
+https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-insights-reporting
+
+## Review and Improve as needed
+
+Rerun check with AzureAD Assessment Tool
+
+## Troubleshooting
+
+https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access#troubleshoot-conditional-access-policy
+
+
+Check for common misconfigurations - https://www.trustedsec.com/blog/common-conditional-access-misconfigurations-and-bypasses-in-azure/
