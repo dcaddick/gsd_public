@@ -1,5 +1,6 @@
 ## Conditional Access:
 
+## Enable Telemetry
 !!! warning "**NOTE: please be aware there is no inherent "BLOCK" by default**"
     You need to make sure you are BLOCKING by default unless explicitly allowing access - walk thru the 14 default Policies to better understand this. To make sure that you are fully covered please use this PowerBI based tool **<https://github.com/AzureAD/AzureADAssessment>** 
     **Confirm your maturity based on this Tool ^^^^^^**
