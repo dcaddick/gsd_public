@@ -10,7 +10,7 @@
     <https://github.com/kennethvs/cabaseline202212/blob/main/Conditional%20Access%20demystified-v1.4%20-%20December%202022.pdf>
   
 
-**The Microsoft content:**
+## **The Microsoft content:**
 
 -   Design - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design>
 -   Architecture - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-architecture>
@@ -30,7 +30,7 @@
     <https://danielchronlund.com/2022/04/21/a-powerfull-conditional-access-change-dashboard-for-microsoft-sentinel/>
 >
 
-### Automation of "CA-as-Code"
+## Automation of "CA-as-Code"
 
 -   Thomas N. - <https://www.cloud-architekt.net/speaking/> The most recent deck -- 2022-06-11 Scottish Summit 2022 "Deploying and Managing Conditional Access at Scale" [Slides](https://github.com/Cloud-Architekt/meetups/blob/master/2022-06-10%20ScottishSummit-Deploying-and-Managing-ConditionalAccess-at-Scale.pdf)
 
