@@ -28,20 +28,15 @@ Quick wins to improve Security using existing entitlements
 ## Still to do:
 
 - [ ] Fix Tables
+- [ ] Fix images
 - [x] Assumed knowledge
 - [ ] Acronym Table?
 - [ ] Short paragraph on each heading - Preview at top or separate tab?
 - [x] ToC/Index
-- [ ] Add new Theme - https://github.com/byrnereese/mkdocs-bootstrap4
-- [ ] Shadow Hunter & In to the Breach - Immersive workshops for SecOps
+- [ ] Add new Theme - https://github.com/byrnereese/mkdocs-bootstrap4  ???
+- [x] Shadow Hunter & In to the Breach - Immersive workshops for SecOps
 - [ ] Zero Trust - <https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/creating-mfa-policies-with-zero-trust-advanced-deployment-guide/ba-p/3688849>
-- [ ] MIP/AIP - <https://techcommunity.microsoft.com/t5/security-compliance-and-identity/azure-information-protection-and-the-information-protection/ba-p/3671070>
-    -   Adaptive Protection (DLP rules based on Insider Risk)
-    -   Login as GA (or eqiv.) - <https://admin.microsoft.com/adminportal/home?#/modernonboarding/mipsetupguide>
-    -   ![](./images/image2.png)
-    -   Docs - <https://learn.microsoft.com/en-gb/microsoft-365/compliance/information-protection>
-    -   DLP - <https://learn.microsoft.com/en-gb/microsoft-365/compliance/dlp-learn-about-dlp>
-    -   What's new - <https://learn.microsoft.com/en-gb/microsoft-365/compliance/whats-new>
+- [ ] CISA recommendations - https://www.cisa.gov/sites/default/files/publications/Microsoft%20Azure%20Active%20Directory%20M365%20Minimum%20Viable%20SCB%20Draft%20v0.1.pdf
 
 
 ## M365 Defender Console:
