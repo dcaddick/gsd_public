@@ -90,19 +90,15 @@ Quick wins to improve Security using existing entitlements
 -   Sanctioned/Unsanctioned
 -   Don't forget this is based on MDE
  
-
 ## Intune - MDE (Microsoft Defender for Endpoint):
 
 -   Easy starting point, step-by-step guide: <https://learn.microsoft.com/en-us/mem/solutions/cloud-native-endpoints/cloud-native-windows-endpoints>
 -   Ideally start with Security Baselines: <https://endpoint.microsoft.com/#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/securityBaselines>    
 These are updated every 6 months and you'll be prompted to update/accept changes
 
-
 ![](./images/image6.png)
 -   ASR rules deployment steps: <https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-deployment>
 -   If needed import your old GPO's: <https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/policyAnalyticsReport>
-
- 
 
 ## MDE (Microsoft Defender for Endpoint):
 
@@ -136,8 +132,6 @@ These are updated every 6 months and you'll be prompted to update/accept changes
 -   <https://github.com/beerisgood/Windows11_Hardening>
 -   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-define-the-av-baseline-part4a/>
 
- 
-
 ## MDO (Microsoft Defender for Office):
 
 -   Try in Audit mode: <https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/try-microsoft-defender-for-office-365>
@@ -165,8 +159,6 @@ These are updated every 6 months and you'll be prompted to update/accept changes
     -   Workbooks: <https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workbooks>
     -   Workflow Automation: <https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workflow%20automation>
 
- 
-
 ## Conditional Access:
 
 > **NOTE: please be aware there is no inherent "BLOCK" by default**
@@ -176,7 +168,6 @@ These are updated every 6 months and you'll be prompted to update/accept changes
 **<https://github.com/AzureAD/AzureADAssessment> <-- confirm your maturity based on this**
 >
 > <https://www.linkedin.com/feed/update/urn:li:activity:7010866303682912256?utm_source=share&utm_medium=member_ios>
-  
 
 The [#Microsoft](https://www.linkedin.com/feed/hashtag/?keywords=microsoft) content:
 -   <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design>
@@ -190,7 +181,6 @@ The [#Microsoft](https://www.linkedin.com/feed/hashtag/?keywords=microsoft) co
 -   <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/>
 -   <https://learn.microsoft.com/en-us/powershell/module/azuread/get-azureadmsconditionalaccesspolicy?view=azureadps-2.0>
 -   <https://techcommunity.microsoft.com/t5/itops-talk-blog/deep-dive-how-does-conditional-access-block-legacy/ba-p/3265345>
-
 
 > Here is a great companion for Sentinel: 
 <https://danielchronlund.com/2022/04/21/a-powerfull-conditional-access-change-dashboard-for-microsoft-sentinel/>
@@ -263,8 +253,6 @@ The [#Microsoft](https://www.linkedin.com/feed/hashtag/?keywords=microsoft) co
 
 > ![](./images/image8.png)
 
- 
-
 ### Sentinel - Recommendation to enable M365 Defender Connector:
 - More information: <https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365-defender-sentinel-integration>
 
@@ -274,8 +262,6 @@ The [#Microsoft](https://www.linkedin.com/feed/hashtag/?keywords=microsoft) co
 
 -   Focus on bringing all source logging relevant to the Users Device into the one location where it can be corelated quickly and seamlessly into a SOAR process to reduce friction and improve TTR times for SecOps
 More information: <https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365-defender-sentinel-integration>
-
- 
 
 >**Sentinel Free Data ingestion:** always remember "data collection" is NOT detection!!
 
@@ -287,8 +273,6 @@ More information: <https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365
 - <https://learn.microsoft.com/en-us/azure/sentinel/billing-reduce-costs#optimize-log-analytics-costs-with-dedicated-clusters>
 - <https://learn.microsoft.com/en-us/azure/sentinel/best-practices-data#filter-your-logs-before-ingestion>
 
- 
-
 ## ASD Essential 8 (now ACSC)
 
 -   Great high level on all Essential 8 - <https://www.microsoft.com/en-au/business/topic/security/essential-eight/>
@@ -298,8 +282,6 @@ More information: <https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365
 -   Daily backups: <https://www.microsoft.com/en-au/business/topic/security/essential-eight/daily-backups/>
 -   Australian IRAP - <https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-australia-irap> & <https://servicetrust.microsoft.com/Viewpage/AustraliaIRAP>
 -   Local Australian guide in Service Trust Portal <https://aka.ms/e8guides>
-
- 
 
 ### Hardening Guidance from ACSC:
 
@@ -311,16 +293,12 @@ More information: <https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365
 -   [ACSC Windows Hardening Guidelines-Attack Surface Reduction](https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines/blob/main/policies/ACSC%20Windows%20Hardening%20Guidelines-Attack%20Surface%20Reduction.json)
 -   WDAC Policy creation from DTA - <https://desktop.gov.au/blueprint/abac/wdac-policy-creation.html>
 
- 
-
 ### Hardening Azure AD:
 
 -   [Secure your Azure AD identity infrastructure - Azure Active Directory](https://learn.microsoft.com/en-us/azure/security/fundamentals/steps-secure-identity)
 -   Also worth reviewing our Essential 8 guidance, especially MFA (aka.ms/e8guides)
 -   Microsoft Azure **Identity Security Compass** - [Microsoft Security Best Practices](https://learn.microsoft.com/en-us/security/compass/compass)
 -   Active Directory - [Best Practices for Securing Active Directory](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory)
-
- 
 
 ### AD onPrem:
 
@@ -339,8 +317,6 @@ of Matt Zorich (Twitter @reprise99)
 -   Kerberoasting Overview - [https://ired.team/offensive-security-experiments/active-directory-kerberos-abuse/t1208-kerberoasting...](https://t.co/EqWNu84RoG)
 -   Monitoring AD for signs of compromise - [https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise](https://t.co/enuOOAjAr1)
 
- 
-
 ### Identity:
 
 -   Best Practices: <https://learn.microsoft.com/en-us/security/compass/compass>
@@ -350,8 +326,6 @@ of Matt Zorich (Twitter @reprise99)
 -   <https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-365-security-center-defender-cloud-apps?view=o365-worldwide&WT.mc_id=AZ-MVP-5004291#control>
 -   <https://www.linkedin.com/posts/sami-lamppu_microsoft-defender-for-cloud-apps-in-microsoft-activity-7011278821773471744-TcvX>?
 
- 
-
 ### Exchange Permissions check:
 
 -   <https://office365itpros.com/2020/03/16/exchange-online-mailbox-permissions/>
@@ -360,8 +334,6 @@ of Matt Zorich (Twitter @reprise99)
 -    <https://github.com/12Knocksinna/Office365itpros/blob/master/ReportPermissionsFolderLevel.PS1>
 > The two are subtly different, the first is on mailboxes, the second is
 > more focused on the Outlook Folders
-
- 
 
 ## MDE (from MVP's):
 
@@ -386,8 +358,6 @@ of Matt Zorich (Twitter @reprise99)
 
 -   <https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migration-guides>
 -   <https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/switch-to-mde-overview>
-
- 
 
 ## WDAC: (Windows Defender Application Control)
 
@@ -423,7 +393,6 @@ Work in Progress, please review all content before starting, and be cautious in 
 -   <https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules>
 -   <https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-deployment-guide>
 
- 
 ## Defender for Business:
 
 -   Review the technical documentation  <https://aka.ms/MDB-Docs> 
@@ -441,8 +410,6 @@ Updated Microsoft 365 Business Premium Customer Pitch Decks:
 -   [Business Decision Maker Pitch Deck](https://aka.ms/BPBDMPitchDeck)
 -   [IT Decision Maker Pitch Deck](https://aka.ms/BPITDMPItchDeck) 
 -   Updated Webinar: [Having a customer conversation on security for Business Premium upsell](https://cloudpartners.transform.microsoft.com/download?assetname=assets/Training%20Videos/Microsoft%20365%20SMB/Driving%20a%20Customer%20Conversation%20on%20Security%20-%20Upselling%20to%20Microsoft%20365%20Business%20Premium.mp4) 
-
- 
 
 ## Ninja Security Training:
 
@@ -476,7 +443,6 @@ Updated Microsoft 365 Business Premium Customer Pitch Decks:
 -   Exam SC-900: <https://learn.microsoft.com/en-us/certifications/exams/sc-900>
 -   Exam SC-200: <https://learn.microsoft.com/en-us/certifications/exams/sc-200>
 
-
 ## Interactive Guides:
 
 -   [Defender for Cloud](<https://aka.ms/ASC_InteractiveGuide>)
@@ -502,7 +468,6 @@ Updated Microsoft 365 Business Premium Customer Pitch Decks:
 
  ![](./images/InteractiveGuides.png)
 (Still working on Tables)
-
 
 ## Product Trials:
 
@@ -548,22 +513,20 @@ resource
 
 Both of the Team Channels above are covered by your NDA with Microsoft from either a Partner or Customer perspective.
 
-+-------------------------------------+--------------------------------+
-| **Microsoft Cloud Security Private  | **Microsoft 365 Defender       |
-| Community**                         | Customer Connection Program**  |
-+=====================================+================================+
-| ![](./images/image            | ![](./images/image14.png  |
-| 13.png) | g) |
++--------------------------------------------+--------------------------------+
+| **Microsoft Cloud Security Private         | **Microsoft 365 Defender       |
+| Community**                                | Customer Connection Program**  |
++============================================+================================+
+| ![](./images/image13.png)           | ![](./images/image14.png) |
+|  | g) |
 |                                     |                                |
 |                                     |                                |
 |                                     |                                |
-|                                     | ![](./images/image15.png  |
-|                                     | g) |
+|                                     | ![](./images/image15.png)  |
+|                                     |                                |
 |                                     |                                |
 |                                     |                                |
 +-------------------------------------+--------------------------------+
-
-  
 
  <https://aka.ms/JoinCCP>
 
@@ -572,8 +535,6 @@ Both of the Team Channels above are covered by your NDA with Microsoft from eith
  - To join the M365 Defender CCP visit <https://aka.ms/M365DefenderCCPSignUp>
  - To join the MEM CCP visit <https://aka.ms/JoinMEMCCP>
  - To join the Compliance & Privacy CCP visit <https://aka.ms/JoinCompliancePrivacyCCP>
-
- 
 
 ## For PARTNERS:
 
