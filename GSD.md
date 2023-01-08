@@ -165,11 +165,11 @@ These are updated every 6 months and you'll be prompted to update/accept changes
 First decision point - how are we going to do this?
 Questions to help you determine this are:
 
--   Is it small or a large Tenancy?
--   Do we want to avoid CAB approval process for a PoC?
--   Need it done right now to address a strategic problem?
--   Do we want to go fast, or take our time?
--   If you are a Partner or MSSP please choose the "As-Code" method
+1.   Is it small or a large Tenancy?
+2.   Do we want to avoid CAB approval process for a PoC?
+3.   Need it done right now to address a strategic problem?
+4.   Do we want to go fast, or take our time?
+5.   If you are a Partner or MSSP please choose the "As-Code" method
 
 Result:
 
