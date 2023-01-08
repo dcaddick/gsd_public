@@ -1,9 +1,8 @@
 # Get Security Done (GSD) - Microsoft Security & M365 Defender
 Quick wins to improve Security using existing entitlements
 
-## Bottom line:
-
-> Ideally this page will be highlighting how to get the best out of both your M365 E5 security and compliance entitlements. What is the best way to step lightly thru this and gain maximum benefit for the least effort? Most of the focus here is more on the M365 SaaS Security platform elements, not necessarily on Sentinel or Azure, but there will be plenty of crossover.
+!!! Note
+    Ideally this page will be highlighting how to get the best out of both your M365 E5 security and compliance entitlements. What is the best way to step lightly thru this and gain maximum benefit for the least effort? Most of the focus here is more on the M365 SaaS Security platform elements, not necessarily on Sentinel or Azure, but there will be plenty of crossover.
 
 ![](./images/image1.jpg)
 
@@ -29,7 +28,8 @@ Quick wins to improve Security using existing entitlements
 
 - [ ] Fix Tables
 - [ ] Fix images
-- [x] Assumed knowledge
+- [x] Assumed Knowledge
+- [x] Assumed Licenses
 - [ ] Acronym Table?
 - [ ] Short paragraph on each heading - Preview at top or separate tab?
 - [x] ToC/Index
@@ -60,12 +60,9 @@ Quick wins to improve Security using existing entitlements
 -   If you do not use the default Administrator account (ideally have it disabled?) then please add it to the Honeytoken account list: <https://learn.microsoft.com/en-us/defender-for-identity/entity-tags#honeytoken-tags>
 -   <https://thalpius.com/2022/12/14/microsoft-defender-for-identity-auditing-checker-using-sentinel>
 
-  
-
 ### Troubleshooting:
 -   <https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-known-issues>
 -   <https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-using-logs>
-
 
 ## MDCA (Microsoft Defender for Cloud Apps, was MCAS):
 
@@ -145,8 +142,6 @@ These are updated every 6 months and you'll be prompted to update/accept changes
 -   Recommended Settings: <https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365>
 -   Config Analyzer: <https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/configuration-analyzer-for-security-policies>
 
- 
-
 ## MDC (Microsoft Defender for Cloud):
 
 -   How to deploy MDC at scale: <https://onedrive.live.com/?authkey=%21AIzlpf%2DTsBYFMbk&cid=66C31D2DBF8E0F71&id=66C31D2DBF8E0F71%212663&parId=66C31D2DBF8E0F71%212662&o=OneUp>
@@ -161,7 +156,7 @@ These are updated every 6 months and you'll be prompted to update/accept changes
 
 ## Conditional Access
 
-## Ways of working
+### Ways of working
 First decision point - how are we going to do this?
 Questions to help you determine this are:
 
@@ -177,7 +172,7 @@ Result:
 * Larger implmentations - please take the time to review the process below to enable via "CA-as-Code" as the ROI is well worth it - especially if doing it for more than one customer or tenant :wink:
 
 
-## Enable Telemetry
+### Enable Telemetry
 !!! warning "**NOTE: please be aware there is no inherent "BLOCK" by default**"
     You need to make sure you are BLOCKING by default unless explicitly allowing access - walk thru the 14 default Policies to better understand this. To make sure that you are fully covered please use this PowerBI based tool **<https://github.com/AzureAD/AzureADAssessment>** 
     **Confirm your maturity based on this Tool ^^^^^^**
@@ -188,7 +183,7 @@ Result:
     <https://github.com/kennethvs/cabaseline202212/blob/main/Conditional%20Access%20demystified-v1.4%20-%20December%202022.pdf>
   
 
-## The Microsoft content
+### The Microsoft content
 
 -   Design - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design>
 -   Architecture - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-architecture>
@@ -208,7 +203,7 @@ Result:
     <https://danielchronlund.com/2022/04/21/a-powerfull-conditional-access-change-dashboard-for-microsoft-sentinel/>
 >
 
-## Automation of "CA-as-Code"
+### Automation of "CA-as-Code"
 
 -   Thomas N. - <https://www.cloud-architekt.net/speaking/> The most recent deck -- 2022-06-11 Scottish Summit 2022 "Deploying and Managing Conditional Access at Scale" [Slides](https://github.com/Cloud-Architekt/meetups/blob/master/2022-06-10%20ScottishSummit-Deploying-and-Managing-ConditionalAccess-at-Scale.pdf)
 
@@ -228,24 +223,23 @@ Result:
 -   [Fortigi has published some build scripts on GitHub](https://github.com/Fortigi/ConditionalAccess) to convert those GUIDs to readable display names.
 -   This also covers known GUIDs such as AAD Role and Application ID to DisplayName.
 
-## Validate and Test
+### Validate and Test
 
 https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/what-if-tool
 
 https://www.cloud-architekt.net/aadops-conditional-access/
 
-## Enable Reporting
+### Enable Reporting
 
 https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-insights-reporting
 
-## Review and Improve as needed
+### Review and Improve as needed
 
 Rerun check with AzureAD Assessment Tool
 
-## Troubleshooting
+### Troubleshooting
 
 https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access#troubleshoot-conditional-access-policy
-
 
 Check for common misconfigurations - https://www.trustedsec.com/blog/common-conditional-access-misconfigurations-and-bypasses-in-azure/
 
@@ -275,7 +269,7 @@ Check for common misconfigurations - https://www.trustedsec.com/blog/common-cond
     -   More information can be found here: [Advanced hunting event collection](https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365-defender-sentinel-integration#advanced-hunting-event-collection)
 
 
--   ### Azure Log Management:
+### Azure Log Management:
 
     -   [Design a Log Analytics workspace architecture - Azure Monitor](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Fazure-monitor%2Flogs%2Fworkspace-design&data=05%7C01%7Cdavecaddick%40microsoft.com%7Ca9c6aea6a2e34b1a57c008dabba5de49%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638028618327569401%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=1CPvtNtBZPRUtrYS464Iw0I%2B1E9BNKr7Fid9cVN9hbQ%3D&reserved=0)
 
@@ -284,7 +278,7 @@ Check for common misconfigurations - https://www.trustedsec.com/blog/common-cond
     -   [Best practices for data collection in Microsoft Sentinel](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Fsentinel%2Fbest-practices-data&data=05%7C01%7Cdavecaddick%40microsoft.com%7Ca9c6aea6a2e34b1a57c008dabba5de49%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638028618327569401%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=gVLZDafeeOVo4O%2FCFrtjb98t2GIx5wKaOkXZplFxmXc%3D&reserved=0)
 
 
--   ### Filtering Logs: 
+### Filtering Logs: 
     Can be used to reduce data noise, reduce ingestion and retention/storage costs with the goal being to focus on the logs and events that are relevant - This is typically performed by one of the methods for the following scenarios:
 
     -   Server Log Ingestion - Azure Monitor Agent Directly can filter out logs that are not relevant for Microsoft Sentinel <https://docs.microsoft.com/en-us/azure/sentinel/best-practices-data#filter-your-logs-before-ingestion>
@@ -311,15 +305,14 @@ Check for common misconfigurations - https://www.trustedsec.com/blog/common-cond
 -   Focus on bringing all source logging relevant to the Users Device into the one location where it can be corelated quickly and seamlessly into a SOAR process to reduce friction and improve TTR times for SecOps
 More information: <https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365-defender-sentinel-integration>
 
->**Sentinel Free Data ingestion:** always remember "data collection" is NOT detection!!
-
-- <https://learn.microsoft.com/en-us/azure/sentinel/billing?tabs=free-data-meters#free-data-sources>
-- <https://learn.microsoft.com/en-us/azure/sentinel/billing-monitor-costs#view-costs-by-using-cost-analysis>
-- <https://learn.microsoft.com/en-us/azure/sentinel/billing-monitor-costs#run-queries-to-understand-your-data-ingestion>
-- <https://learn.microsoft.com/en-us/azure/sentinel/billing-monitor-costs#deploy-a-workbook-to-visualize-data-ingestion>
-- <https://learn.microsoft.com/en-us/azure/sentinel/billing-reduce-costs#separate-non-security-data-in-a-different-workspace>
-- <https://learn.microsoft.com/en-us/azure/sentinel/billing-reduce-costs#optimize-log-analytics-costs-with-dedicated-clusters>
-- <https://learn.microsoft.com/en-us/azure/sentinel/best-practices-data#filter-your-logs-before-ingestion>
+!!! Note "**Sentinel Free Data ingestion:** always remember "data collection" is NOT detection!!"
+-   <https://learn.microsoft.com/en-us/azure/sentinel/billing?tabs=free-data-meters#free-data-sources>
+-   <https://learn.microsoft.com/en-us/azure/sentinel/billing-monitor-costs#view-costs-by-using-cost-analysis>
+-   <https://learn.microsoft.com/en-us/azure/sentinel/billing-monitor-costs#run-queries-to-understand-your-data-ingestion>
+-   <https://learn.microsoft.com/en-us/azure/sentinel/billing-monitor-costs#deploy-a-workbook-to-visualize-data-ingestion>
+-   <https://learn.microsoft.com/en-us/azure/sentinel/billing-reduce-costs#separate-non-security-data-in-a-different-workspace>
+-   <https://learn.microsoft.com/en-us/azure/sentinel/billing-reduce-costs#optimize-log-analytics-costs-with-dedicated-clusters>
+-   <https://learn.microsoft.com/en-us/azure/sentinel/best-practices-data#filter-your-logs-before-ingestion>
 
 ## ASD Essential 8 (now ACSC)
 
