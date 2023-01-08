@@ -53,6 +53,8 @@ Result:
 
 -   Excellent article here that is really worth the time reading as this will highlight how to enable this in detail: <https://www.cloud-architekt.net/aadops-conditional-access/>
 
+![](https://www.cloud-architekt.net/assets/images/2021-08-11-aadops-conditional-access/aadops4.png)
+
 !!! Tip
     He also points out the others that have done great work in this space:
 
