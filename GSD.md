@@ -159,7 +159,7 @@ These are updated every 6 months and you'll be prompted to update/accept changes
     -   Workbooks: <https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workbooks>
     -   Workflow Automation: <https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workflow%20automation>
 
-# Conditional Access
+## Conditional Access
 
 ## Ways of working
 First decision point - how are we going to do this?
