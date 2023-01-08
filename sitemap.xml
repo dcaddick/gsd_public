@@ -66,6 +66,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://dcaddick.github.io/Updates/</loc>
+         <lastmod>2023-01-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://dcaddick.github.io/partner/</loc>
          <lastmod>2023-01-08</lastmod>
          <changefreq>daily</changefreq>
