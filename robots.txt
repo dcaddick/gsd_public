@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /*.md$
+Disallow: /CNAME
+Disallow: /README.md
+Disallow: /404.html
