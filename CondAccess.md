@@ -12,7 +12,8 @@ Questions to help you determine this are:
 
 Result:
 
-* Fast and quick - start with telemetry below and do it on the fly using Policies in Reporting Mode, iterate from there...
+* Fast and quick - start with telemetry below and do it on the fly using the 14 default Policies in ReportOnly Mode, iterate from there...
+    [View 14 x CA Policy Templates](https://portal.azure.com/#view/Microsoft_AAD_ConditionalAccess/CaTemplates.ReactView)
 * Larger implmentations - please take the time to review the process below to enable via "CA-as-Code" as the ROI is well worth it - especially if doing it for more than one customer or tenant :wink:
 
 
