@@ -4,13 +4,6 @@
 ???+ warning "All content listed here will require Microsoft Partner login"
     i.e. use your Partner creds & password as this content/site is already federated for you **IF** your organization     is a Microsoft Security Partner
 
-{==
-
-All content listed here will require Microsoft Partner login:
-i.e. use your work creds & password as this content/site is already federated for you **IF** your organization is a Microsoft Security Partner
-
-==}
-
 ## Partner Enablement
 Get the latest up to date on Security, Compliance and Identity Management
 <http://aka.ms/scipartnerenablement>
