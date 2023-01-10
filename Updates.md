@@ -43,3 +43,15 @@ M365 RBAC released
 -   Edit and Delete Roles - https://learn.microsoft.com/en-us/microsoft-365/security/defender/edit-delete-rbac-roles?
 ![image](./images/M365_SecOps_Permissions.png)
 ![image](./images/M365_SecConfig_Permissions.png)
+
+**Technical Legacy Debt**
+-   **Goal:** Understand who owns the legacy environment
+-   Validate (again) if the legacy systems are actually required - absence of ownership is a good indicator that this platform may be considered for retirement
+-   Consider passing on the cost of additional controls and operations burden - if the PROBLEM of legacy systems never have an owner, then the problem will never get solved.  And even if the problem is managed, if there is no additional cost burden, then there is less motivation to actually solve (i.e. retire) the legacy platform problem.
+-   Use a scream test - shutdown legacy system and see who screams ;-)
+-   **Goal:** Reduce the exposure by limiting the access
+-   Move these systems to a controlled network environment - e.g. segregated network zone with firewalls to limit access - only allow the traffic absolutely essential for the legacy application
+-   Deploy extensive monitoring of these systems - with high severity alerts being generated
+-   Consider migrating these legacy systems off the production domain (goal is to reduce the legacy authentication protocols being run across the whole environment - perhaps they have their own segregated domain with constrained Trust relationships back to production)
+-   Consider Applocker as another compensating control - intent is to only allow the legacy app to run, and NOTHING ELSE
+-   Have limits and controls around remote access - MFA / jumphost etc - reduce the ability for non-authorised users to access these vulnerable systems
