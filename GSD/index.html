@@ -1676,15 +1676,9 @@ more focused on the Outlook Folders</p>
 <h2 id="wdac-windows-defender-application-control">WDAC: (Windows Defender Application Control)</h2>
 <p>Work in Progress, please review all content before starting, and be cautious in deployment</p>
 <ul>
-<li>
-<p>From Eric Mannon: <a href="https://www.linkedin.com/feed/update/urn:li:activity:6996238396973051904/">https://www.linkedin.com/feed/update/urn:li:activity:6996238396973051904/</a></p>
-</li>
-<li>
-<p><strong>Read the above article first</strong></p>
-</li>
-<li>
-<p>1st- Install WDACme on all W10 workstations</p>
-</li>
+<li>From Eric Mannon: <a href="https://www.linkedin.com/feed/update/urn:li:activity:6996238396973051904/">https://www.linkedin.com/feed/update/urn:li:activity:6996238396973051904/</a></li>
+<li><strong>Read the above article first</strong></li>
+<li>1st- Install WDACme on all W10 workstations</li>
 <li>2nd- Enable "Smart Application Control" in Evaluation mode on W11 endpoints that support it</li>
 <li>3rd- Lock down Tier 0 (DC's, ADFS &amp; AD Connect servers) with WDAC Microsoft-only mode in block mode. (No 3rd party software should ever be installed on the Tier 0 server type)</li>
 <li>4th- Deploy a supplemental policy to block the Microsoft recommended block list</li>
@@ -1702,6 +1696,8 @@ more focused on the Outlook Folders</p>
 </ul>
 <h3 id="additional-resources">Additional Resources:</h3>
 <ul>
+<li>Creating a policy for machines already in use (this is the hard one)
+https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create-initial-default-policy#create-a-custom-base-policy-to-minimize-user-impact-on-in-use-client-devices</li>
 <li>WDAC Policy creation from DTA - <a href="https://desktop.gov.au/blueprint/abac/wdac-policy-creation.html">https://desktop.gov.au/blueprint/abac/wdac-policy-creation.html</a></li>
 <li><a href="https://www.cyber.gov.au/acsc/view-all-content/publications/implementing-application-control">https://www.cyber.gov.au/acsc/view-all-content/publications/implementing-application-control</a></li>
 <li><a href="https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create-wdac-deny-policy">https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create-wdac-deny-policy</a></li>
