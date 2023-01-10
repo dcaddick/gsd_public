@@ -20,3 +20,8 @@ This covers M365 (think AIR) as well as Sentinel
 
 Expand on Private Communities?
 
+
+Not everybody consumes info in the same way, but this is how I consume/manage the constant flow of info:
+-   Text, links and graphics (pptx and pdf preferably) so that I can skim FAST
+-   Others like Video, I find it too time consuming
+-   Plus I focus on searching for the great content & then tracking the people that created that and build a network
