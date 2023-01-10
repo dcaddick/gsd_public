@@ -22,6 +22,14 @@
 
 ![](./images/image7.png)
 
+## M365 RBAC
+**Released late Dec 2022**
+-   Shortcut to RBAC Permissions - https://security.microsoft.com/mtp_roles
+-   Compare RBAC Roles - https://learn.microsoft.com/en-us/microsoft-365/security/defender/compare-rbac-roles?
+-   Edit and Delete Roles - https://learn.microsoft.com/en-us/microsoft-365/security/defender/edit-delete-rbac-roles?
+![image](./images/M365_SecOps_Permissions.png)
+![image](./images/M365_SecConfig_Permissions.png)
+
 ### MDE using ASR stand-alone (E3)
 
 -   <https://www.computerworld.com/article/3604651/decoding-windows-defender-s-hidden-settings.html>

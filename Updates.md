@@ -9,16 +9,7 @@
 ![image](https://user-images.githubusercontent.com/19640455/211226033-59cc6005-7616-4e5d-952d-5a632de478ac.png)
 
 
-WDAC
-https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create-initial-default-policy#create-a-custom-base-policy-to-minimize-user-impact-on-in-use-client-devices
 
-
-!!! tip Most folks skip Defender in preference for Sentinel?  
-    -   Start from the desired outcome and work your way back from there
-    -   What is it that SecOps need? - more automation, less manual work ;-)
-    - What does that look like? Showcase an example from Contoso Hotels
-    - Enable Automated Investigation & Remediation (AIR) at MDI, MDO, MDE and M365 Defender console levels - **don't skip this!**
-    -   Now that we have the first level triage in place, let's now move on to Sentinel...
 
 
 
@@ -35,14 +26,6 @@ Not everybody consumes info in the same way, but this is how I consume/manage th
 -   Text, links and graphics (pptx and pdf preferably) so that I can skim FAST
 -   Others like Video, I find it too time consuming
 -   Plus I focus on searching for the great content & then tracking the people that created that and build a network
-
-
-M365 RBAC released
--   Shortcut to RBAC Permissions - https://security.microsoft.com/mtp_roles
--   Compare RBAC Roles - https://learn.microsoft.com/en-us/microsoft-365/security/defender/compare-rbac-roles?
--   Edit and Delete Roles - https://learn.microsoft.com/en-us/microsoft-365/security/defender/edit-delete-rbac-roles?
-![image](./images/M365_SecOps_Permissions.png)
-![image](./images/M365_SecConfig_Permissions.png)
 
 **Technical Legacy Debt**
 -   **Goal:** Understand who owns the legacy environment
