@@ -1,4 +1,28 @@
-## Product Trials:
+## Interactive Guides:
+
+-   [Defender for Cloud](<https://aka.ms/ASC_InteractiveGuide>)
+-   [Microsoft Sentinel](https://aka.ms/AzureSentinel_SOC_InteractiveGuide)
+-   [M365 Defender](https://aka.ms/ProtectwithMSD-InteractiveGuide)
+-   [M365 Defender - Threat Protection](https://aka.ms/M365D_Interactive_Guide)
+-   [MCAS - Detect Threat and manage Alerts](https://aka.ms/DetectThreatsandAlertsMCAS_InteractiveGuide)
+-   [MCAS - Discover, protect and control your Apps](https://aka.ms/DiscoverProtectControlAppswithMCAS_InteractiveGuide)
+-   [MDE - Investigate Threats](https://aka.ms/MSDE_IR_Interactive_Guide)
+-   [MDE - Investigate and Remediate Threats](https://aka.ms/InvestigateandRemediateThreats_MSDE_InteractiveGuide)
+-   [MDE - Reduce Risk](https://aka.ms/ReduceRiskwithMSDE_InteractiveGuide)
+-   [MDE - Threat and Vulnerability Management](https://aka.ms/MSDE_TVM_Interactive_Guide)
+-   [MDI - Detect Suspicious Activities](https://aka.ms/DetectwithMSDI.InteractiveGuide)
+-   [MDI - Investigate Suspicious Activities](https://aka.ms/MSDI_InteractiveGuide)
+-   [MDI - Investigate and Respond to Attacks](https://aka.ms/InvestigateRespondwithMSDI)
+-   [MDO - Safeguard Email](https://aka.ms/SafeguardwithMSDO.InteractiveGuide)
+-   [MDO - Enable Protection](https://aka.ms/Protection_with_MSDO_InteractiveGuide)
+-   [Purview Insider Risk Management](https://insider-risk-management.azureedge.net/)
+-   [Purview Communications Risk](https://mslearn.cloudguides.com/en-us/guides/Minimize%20communication%20risks%20with%20communication%20compliance%20in%20Microsoft%20365) 
+-   [Purview Information Protection](https://mslearn.cloudguides.com/en-us/guides/Protect%20sensitive%20data%20with%20Microsoft%20Information%20Protection)
+-   [Purview Forensic investigation of Security events](https://mslearn.cloudguides.com/en-us/guides/Conduct%20forensic%20investigations%20with%20Advanced%20Audit%20in%20Microsoft%20365)
+-   [Purview eDiscovery](https://content.cloudguides.com/en-us/guides/Advanced%20eDiscovery)
+
+ ![](./images/InteractiveGuides.png)
+(Still working on Tables)## Product Trials:
 
 -   [Microsoft Defender for Identity](https://signup.microsoft.com/Signup?OfferId=a0db242a-96d7-4f99-bd52-05c0d5556257&ali=1)
 -   [Microsoft Defender for Office 365 P2](https://signup.microsoft.com/signup/logout?OfferId=20298c4d-d500-47fa-b3cd-a3f7d75d9253)
