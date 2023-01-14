@@ -48,8 +48,83 @@ Quick wins to improve Security using existing M365 E5 entitlements
 
 
 
+## 1.   MDI (Microsoft Defender for Identity):
 
-## 1.   Conditional Access
+### Ways of working
+First decision point - do you have **ANY** Domain Controllers within your environment? If so then you should install MDI **NOW** and make it the very top of your Security ToDo list.
+
+Anecdotes:
+
+-   Small Customer in 2018
+
+### Enable Telemetry
+
+Start here - <https://learn.microsoft.com/en-us/defender-for-identity/prerequisites>
+1.  Capacity planning - <https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning>
+2.   Download the Sizing tool - <https://github.com/microsoft/ATA-AATP-Sizing-Tool/releases>
+3.   Download the Sensor - <https://learn.microsoft.com/en-us/defender-for-identity/download-sensor>
+4.   Install the Sensor on DC's - <https://learn.microsoft.com/en-us/defender-for-identity/install-sensor>
+5.   Basic Settings that you should review **NOW** - <https://www.microsoft.com/videoplayer/embed/RWFVEX>
+
+This will do for now, especially if you are in a crisis mode, check the console for the DC's being online - now move on to validation below.
+Please follow up with all other Configuration steps as soon as practible, especially if you also have ADFS in play. 
+For ADFS please also check - <https://learn.microsoft.com/en-us/defender-for-identity/active-directory-federation-services>
+
+![](https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png)
+
+### Validate and Test
+
+Be conscious that if you are testing that MDI is working correctly that this may trigger **high impact** Alerts to your Blue Team or existing SecOps IF it's already installed and being monitored - or for that matter if another tooling is in place to monitor the same behaviour - so if doing some major testing it's worthwhile letting them know before hand? And on that, make sure you schedule some time to review afterwards about what testing/alerting was created & what was visible from a SecOps perspective? 
+
+This would be valuable lessons on effectiveness - even more so if there is missing alerts?? :( 
+
+-   Specific Validation information - <https://learn.microsoft.com/en-us/defender-for-identity/configure-sensor-settings#validate-installations>
+-   Make sure that Advanced Settings has Integration enabled - <https://learn.microsoft.com/en-us/defender-for-identity/classic-integrate-mde>
+-   Make doubly sure this Integration is enabled between ALL elements of MDI, MDE, MDO, MDCA and the M365 Defender Console
+![](https://learn.microsoft.com/en-us/defender-for-identity/media/msde-enable.png)
+-   Use Attack Simulations to **validate MDI is installed correctly** and Alerts are being surfaced accurately:
+    <https://learn.microsoft.com/en-us/defender-for-identity/playbooks>
+-   Use Labs for **in depth checking**: <https://learn.microsoft.com/en-us/defender-for-identity/playbook-lab-overview>
+-   <https://learn.microsoft.com/en-us/defender-for-identity/playbook-domain-dominance>
+-   Go to <https://portal.atp.azure.com> and if you see this, it's not been installed correctly
+![](./images/image3.png)
+
+### Enable Reporting
+
+Once enabled you should now have a lot more visibility into the Security Posture of the onPrem environment - including the following:
+
+-    Domain controllers with Print Spooler service available
+-    Dormant entities in sensitive groups
+-    Entities exposing credentials in clear text
+-    Microsoft LAPS usage
+-    Legacy protocols usage
+-    Riskiest lateral movement paths (LMP)
+-    Unmonitored domain controllers
+-    Unsecure account attributes
+-    Unsecure domain configurations
+-    Unsecure Kerberos delegation
+-    Unsecure SID History attributes
+-    Weak cipher usage
+
+More details can be found here & example below - <https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports>
+![](https://learn.microsoft.com/en-us/defender-for-identity/media/select-assessment.png)
+
+### Review and Improve as needed
+
+-   Review Security Assessments to validate what potentially needs remediation: <https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports>
+-   Full list of the 44 Alerts that are being checked on your behalf when fully deployed: <https://learn.microsoft.com/en-us/defender-for-identity/alerts-overview>
+-   If you do not use the default Administrator account (ideally have it disabled?) then please add it to the Honeytoken account list: <https://learn.microsoft.com/en-us/defender-for-identity/entity-tags#honeytoken-tags>
+-   Audit checking via Sentinel for MDI - <https://thalpius.com/2022/12/14/microsoft-defender-for-identity-auditing-checker-using-sentinel>
+
+### Troubleshooting
+
+-   <https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-known-issues>
+-   <https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-using-logs>
+
+
+
+
+## 2.   Conditional Access
 
 ### Ways of working
 First decision point - how are we going to do this?
@@ -141,83 +216,10 @@ Check for common misconfigurations - https://www.trustedsec.com/blog/common-cond
 
 
  
-## MDI (Microsoft Defender for Identity):
-
-### Ways of working
-First decision point - do you have **ANY** Domain Controllers within your environment? If so then you should install MDI **NOW** and make it the very top of your Security ToDo list.
-
-Anecdotes:
-
--   Small Customer in 2018
-
-### Enable Telemetry
-
-Start here - <https://learn.microsoft.com/en-us/defender-for-identity/prerequisites>
-1.  Capacity planning - <https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning>
-2.   Download the Sizing tool - <https://github.com/microsoft/ATA-AATP-Sizing-Tool/releases>
-3.   Download the Sensor - <https://learn.microsoft.com/en-us/defender-for-identity/download-sensor>
-4.   Install the Sensor on DC's - <https://learn.microsoft.com/en-us/defender-for-identity/install-sensor>
-5.   Basic Settings that you should review **NOW** - <https://www.microsoft.com/videoplayer/embed/RWFVEX>
-
-This will do for now, especially if you are in a crisis mode, check the console for the DC's being online - now move on to validation below.
-Please follow up with all other Configuration steps as soon as practible, especially if you also have ADFS in play. 
-For ADFS please also check - <https://learn.microsoft.com/en-us/defender-for-identity/active-directory-federation-services>
-
-![](https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png)
-
-### Validate and Test
-
-Be conscious that if you are testing that MDI is working correctly that this may trigger **high impact** Alerts to your Blue Team or existing SecOps IF it's already installed and being monitored - or for that matter if another tooling is in place to monitor the same behaviour - so if doing some major testing it's worthwhile letting them know before hand? And on that, make sure you schedule some time to review afterwards about what testing/alerting was created & what was visible from a SecOps perspective? 
-
-This would be valuable lessons on effectiveness - even more so if there is missing alerts?? :( 
-
--   Specific Validation information - <https://learn.microsoft.com/en-us/defender-for-identity/configure-sensor-settings#validate-installations>
--   Make sure that Advanced Settings has Integration enabled - <https://learn.microsoft.com/en-us/defender-for-identity/classic-integrate-mde>
--   Make doubly sure this Integration is enabled between ALL elements of MDI, MDE, MDO, MDCA and the M365 Defender Console
-![](https://learn.microsoft.com/en-us/defender-for-identity/media/msde-enable.png)
--   Use Attack Simulations to **validate MDI is installed correctly** and Alerts are being surfaced accurately:
-    <https://learn.microsoft.com/en-us/defender-for-identity/playbooks>
--   Use Labs for **in depth checking**: <https://learn.microsoft.com/en-us/defender-for-identity/playbook-lab-overview>
--   <https://learn.microsoft.com/en-us/defender-for-identity/playbook-domain-dominance>
--   Go to <https://portal.atp.azure.com> and if you see this, it's not been installed correctly
-![](./images/image3.png)
-
-### Enable Reporting
-
-Once enabled you should now have a lot more visibility into the Security Posture of the onPrem environment - including the following:
-
--    Domain controllers with Print Spooler service available
--    Dormant entities in sensitive groups
--    Entities exposing credentials in clear text
--    Microsoft LAPS usage
--    Legacy protocols usage
--    Riskiest lateral movement paths (LMP)
--    Unmonitored domain controllers
--    Unsecure account attributes
--    Unsecure domain configurations
--    Unsecure Kerberos delegation
--    Unsecure SID History attributes
--    Weak cipher usage
-
-More details can be found here & example below - <https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports>
-![](https://learn.microsoft.com/en-us/defender-for-identity/media/select-assessment.png)
-
-### Review and Improve as needed
-
--   Review Security Assessments to validate what potentially needs remediation: <https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports>
--   Full list of the 44 Alerts that are being checked on your behalf when fully deployed: <https://learn.microsoft.com/en-us/defender-for-identity/alerts-overview>
--   If you do not use the default Administrator account (ideally have it disabled?) then please add it to the Honeytoken account list: <https://learn.microsoft.com/en-us/defender-for-identity/entity-tags#honeytoken-tags>
--   Audit checking via Sentinel for MDI - <https://thalpius.com/2022/12/14/microsoft-defender-for-identity-auditing-checker-using-sentinel>
-
-### Troubleshooting
-
--   <https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-known-issues>
--   <https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-using-logs>
 
 
 
-
-## MDCA (Microsoft Defender for Cloud Apps, was MCAS):
+## 3.   MDCA (Microsoft Defender for Cloud Apps, was MCAS):
 
 -   URL <https://security.microsoft.com/cloudapps/settings>
 
@@ -240,17 +242,9 @@ More details can be found here & example below - <https://learn.microsoft.com/en
 -   Sanctioned/Unsanctioned
 -   Don't forget this is based on MDE
  
-## Intune - MDE (Microsoft Defender for Endpoint):
 
--   Easy starting point, step-by-step guide: <https://learn.microsoft.com/en-us/mem/solutions/cloud-native-endpoints/cloud-native-windows-endpoints>
--   Ideally start with Security Baselines: <https://endpoint.microsoft.com/#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/securityBaselines>    
-These are updated every 6 months and you'll be prompted to update/accept changes
 
-![](./images/image6.png)
--   ASR rules deployment steps: <https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-deployment>
--   If needed import your old GPO's: <https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/policyAnalyticsReport>
-
-## MDE (Microsoft Defender for Endpoint):
+## 4.   MDE (Microsoft Defender for Endpoint):
 
 -   Consider enabling Block at First Sight from AV: <https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-block-at-first-sight-microsoft-defender-antivirus>
 -   Block at First Sight - test/demo: <https://demo.wd.microsoft.com/Page/BAFS>
@@ -274,6 +268,16 @@ These are updated every 6 months and you'll be prompted to update/accept changes
 
 ![](./images/image7.png)
 
+### Intune - MDE (Microsoft Defender for Endpoint):
+
+-   Easy starting point, step-by-step guide: <https://learn.microsoft.com/en-us/mem/solutions/cloud-native-endpoints/cloud-native-windows-endpoints>
+-   Ideally start with Security Baselines: <https://endpoint.microsoft.com/#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/securityBaselines>    
+These are updated every 6 months and you'll be prompted to update/accept changes
+
+![](./images/image6.png)
+-   ASR rules deployment steps: <https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-deployment>
+-   If needed import your old GPO's: <https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/policyAnalyticsReport>
+
 ### MDE using ASR stand-alone (E3)
 
 -   <https://www.computerworld.com/article/3604651/decoding-windows-defender-s-hidden-settings.html>
@@ -282,7 +286,7 @@ These are updated every 6 months and you'll be prompted to update/accept changes
 -   <https://github.com/beerisgood/Windows11_Hardening>
 -   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-define-the-av-baseline-part4a/>
 
-## MDO (Microsoft Defender for Office):
+## 5.   MDO (Microsoft Defender for Office):
 
 -   Try in Audit mode: <https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/try-microsoft-defender-for-office-365>
 -   Enhanced Filters aka Skip Listing: <https://learn.microsoft.com/en-us/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors>
@@ -295,7 +299,7 @@ These are updated every 6 months and you'll be prompted to update/accept changes
 -   Recommended Settings: <https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365>
 -   Config Analyzer: <https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/configuration-analyzer-for-security-policies>
 
-## MDC (Microsoft Defender for Cloud):
+## 6.   MDC (Microsoft Defender for Cloud):
 
 -   How to deploy MDC at scale: <https://onedrive.live.com/?authkey=%21AIzlpf%2DTsBYFMbk&cid=66C31D2DBF8E0F71&id=66C31D2DBF8E0F71%212663&parId=66C31D2DBF8E0F71%212662&o=OneUp>
 -   Don't forget the Community at Github: <https://github.com/Azure/Microsoft-Defender-for-Cloud>
@@ -308,7 +312,7 @@ These are updated every 6 months and you'll be prompted to update/accept changes
     -   Workflow Automation: <https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workflow%20automation>
 
 
-## Sentinel Tips and Best Practices:
+## 7.   Sentinel Tips and Best Practices:
 
 -   <https://learn.microsoft.com/en-us/azure/sentinel/best-practices>
 -   <https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/best-practices-for-designing-a-microsoft-sentinel-or-azure/ba-p/832574>
@@ -379,7 +383,19 @@ More information: <https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365
 -   <https://learn.microsoft.com/en-us/azure/sentinel/billing-reduce-costs#optimize-log-analytics-costs-with-dedicated-clusters>
 -   <https://learn.microsoft.com/en-us/azure/sentinel/best-practices-data#filter-your-logs-before-ingestion>
 
-## ASD Essential 8 (now ACSC)
+## 8.   Microsoft Information Protection (MIP/AIP)
+
+This page will also cover DLP, but we'll probably build out a whole new section on Purview as this site matures, thank you for your patience - please feel free to provide feedback via raising an issue in Github.
+
+- MIP/AIP - <https://techcommunity.microsoft.com/t5/security-compliance-and-identity/azure-information-protection-and-the-information-protection/ba-p/3671070>
+-   Adaptive Protection (DLP rules based on Insider Risk)
+-   Login as GA (or eqiv.) - <https://admin.microsoft.com/adminportal/home?#/modernonboarding/mipsetupguide>
+-   ![](./images/image2.png)
+-   Docs - <https://learn.microsoft.com/en-gb/microsoft-365/compliance/information-protection>
+-   DLP - <https://learn.microsoft.com/en-gb/microsoft-365/compliance/dlp-learn-about-dlp>
+-   What's new - <https://learn.microsoft.com/en-gb/microsoft-365/compliance/whats-new>
+
+## 9.   ASD Essential 8 (now ACSC)
 
 -   Great high level on all Essential 8 - <https://www.microsoft.com/en-au/business/topic/security/essential-eight/>
 -   6 videos that walk thru - <https://info.microsoft.com/AU-SCRTY-CATALOG-FY21-02Feb-14-TheEssentialEightforSecurityinPractice-SRDEM61939_CatalogDisplayPage.html>
@@ -465,7 +481,7 @@ of Matt Zorich (Twitter @reprise99)
 -   <https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migration-guides>
 -   <https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/switch-to-mde-overview>
 
-## WDAC: (Windows Defender Application Control)
+## 9.   WDAC: (Windows Defender Application Control)
 
 Work in Progress, please review all content before starting, and be cautious in deployment
 
