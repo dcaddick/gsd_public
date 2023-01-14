@@ -66,14 +66,7 @@ theme:
 # Plugins
 plugins:
     - search
-    - git-revision-date-localized:
-    type: timeago
-    custom_format: "%d. %B %Y"
-    timezone: Australia/Perth
-    locale: en
-    fallback_to_build_date: false
-    enable_creation_date: true
-    enabled: true
+    - git-revision-date-localized
     - simple
     #- glightbox
     #- social
