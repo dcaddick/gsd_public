@@ -19,6 +19,8 @@ nav:
     - Partner Content: 'partner.md'
 
 # Configuration
+repo_url: https://github.com/dcaddick/gsd_public
+repo_name: "Get Security Done"
 theme:
   name: material
   icon: 
@@ -73,6 +75,8 @@ plugins:
     #- mermaid2
     - macros
     # - minify
+    - git-revision-date-localized:
+      enable_creation_date: true
 
 # Customization
 extra:

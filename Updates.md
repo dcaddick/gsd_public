@@ -22,7 +22,7 @@ First decision point - do you have **ANY** Domain Controllers within your enviro
 ![image](https://user-images.githubusercontent.com/19640455/211226033-59cc6005-7616-4e5d-952d-5a632de478ac.png)
 
 
-
+Discussions: <https://github.com/dcaddick/gsd_public/discussions>
 
 
 Automate from Outlook ToDo into Planner 
