@@ -56,7 +56,8 @@ Once enabled you should now have a lot more visibility into the Security Posture
 -    Unsecure SID History attributes
 -    Weak cipher usage
 
-More details can be found here - <https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports>
+More details can be found here & example below - <https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports>
+![](https://learn.microsoft.com/en-us/defender-for-identity/media/select-assessment.png)
 
 ## Review and Improve as needed
 
