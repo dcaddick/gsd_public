@@ -49,7 +49,7 @@ Quick wins to improve Security using existing M365 E5 entitlements
 
 
 
-## Conditional Access
+## 1.   Conditional Access
 
 ### Ways of working
 First decision point - how are we going to do this?
