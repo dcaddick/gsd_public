@@ -24,6 +24,9 @@ First decision point - do you have **ANY** Domain Controllers within your enviro
 
 Discussions: <https://github.com/dcaddick/gsd_public/discussions>
 
+check out other "saved posts" from LinkedIn
+https://www.linkedin.com/my-items/saved-posts/
+
 
 Automate from Outlook ToDo into Planner 
 https://make.preview.powerautomate.com/galleries/public/templates/67477f30373611e7870df906aa521b7a/create-planner-tasks-for-flagged-emails-in-office-365?fromflowportal=true&environment=839eace6-59ab-4243-97ec-a5b8fcc104e4 
