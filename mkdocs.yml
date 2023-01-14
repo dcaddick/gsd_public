@@ -75,8 +75,7 @@ plugins:
     #- mermaid2
     - macros
     # - minify
-    - git-revision-date-localized:
-      enable_creation_date: true
+    - git-revision-date-localized
 
 # Customization
 extra:
