@@ -1,4 +1,17 @@
 
+## Ways of working
+First decision point - do you have **ANY** Domain Controllers within your environment? If so then you should install MDI **NOW** and make it the very top of your Security ToDo list.
+
+## Enable Telemetry
+
+## Validate and Test
+
+## Enable Reporting
+
+## Review and Improve as needed
+
+## Troubleshooting
+
 · Infographic: #BeCyberSmart with Devices and Data
 · Infographic: #BeCyberSmart with Phishing
 · Infographic: #BeCyberSmart with Scams
@@ -9,10 +22,6 @@
 ![image](https://user-images.githubusercontent.com/19640455/211226033-59cc6005-7616-4e5d-952d-5a632de478ac.png)
 
 
-Automatically auto-scale yur Sentinel pricing tiers
-https://koosg.medium.com/auto-scale-your-sentinel-pricing-tiers-3d1f46b4c6ce
-
-This looks adventerous - but you might at least want to review the logic and have an alert sent to the team when you should be **prompted** to review or change the pricing tier? Don't forget to make sure the LAW is changed as well at the same time :)
 
 
 

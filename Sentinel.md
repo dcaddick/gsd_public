@@ -84,3 +84,11 @@ More information: <https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365
 - <https://learn.microsoft.com/en-us/azure/sentinel/billing-reduce-costs#separate-non-security-data-in-a-different-workspace>
 - <https://learn.microsoft.com/en-us/azure/sentinel/billing-reduce-costs#optimize-log-analytics-costs-with-dedicated-clusters>
 - <https://learn.microsoft.com/en-us/azure/sentinel/best-practices-data#filter-your-logs-before-ingestion>
+
+
+
+
+This looks adventerous - but you might at least want to review the logic and have an alert sent to the team when you should be **prompted** to review or change the pricing tier? Don't forget to make sure the LAW is changed as well at the same time :)
+
+Automatically auto-scale yur Sentinel pricing tiers
+https://koosg.medium.com/auto-scale-your-sentinel-pricing-tiers-3d1f46b4c6ce
