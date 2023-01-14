@@ -1,6 +1,6 @@
 ## Microsoft Information Protection (MIP/AIP)
 
-This page also covers DLP, but we'll probably build out a whole new section on Purview after this is matured
+This page will also cover DLP, but we'll probably build out a whole new section on Purview as this site matures, thank you for your patience - please feel free to provide feedback via raising an issue in Github.
 
 - MIP/AIP - <https://techcommunity.microsoft.com/t5/security-compliance-and-identity/azure-information-protection-and-the-information-protection/ba-p/3671070>
 -   Adaptive Protection (DLP rules based on Insider Risk)

@@ -1,6 +1,7 @@
 ## Sentinel Tips from the Field:
 
 !!! tip You want SOAR? Most folks skip Defender in preference for Sentinel...  
+
     -   Start from the desired outcome and work your way back from there
     -   What is it that SecOps need? - more automation, less manual work ;-)
     -   What does that look like? Showcase an example from Contoso Hotels
@@ -28,10 +29,10 @@ Cost Optimization tips from Rod Trent:
 -   Raw logs by their very nature have a significant cost related to "data gravity" - the more Customers move/copy the logs the more complex the environment as well as more expensive the solution becomes - the design principle that should be recommend is to adhere to the MS Best Practices as much as possible.
     <https://learn.microsoft.com/en-us/azure/sentinel/best-practices-data>
 -   Should there be any business justification or requirement for "raw logs" please consider a much more efficient method is the ability to stream "advanced hunting" events:
-    -   Why ingest or duplicate massive data sets across multiple systems based on a "just in case" scenario
-    -   A much more efficient system would be to define the "advanced hunting" event that is being searched for and as and when matches are discovered the event is forwarded
-    -   This process will respect data gravity and reduce costs significantly
-    -   More information can be found here: [Advanced hunting event collection](https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365-defender-sentinel-integration#advanced-hunting-event-collection)
+-   Why ingest or duplicate massive data sets across multiple systems based on a "just in case" scenario
+-   A much more efficient system would be to define the "advanced hunting" event that is being searched for and as and when matches are discovered the event is forwarded
+-   This process will respect data gravity and reduce costs significantly
+-   More information can be found here: [Advanced hunting event collection](https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365-defender-sentinel-integration#advanced-hunting-event-collection)
 
 
 -   ### Azure Log Management:

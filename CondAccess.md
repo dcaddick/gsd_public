@@ -59,9 +59,9 @@ Result:
 !!! Tip
     He also points out the others that have done great work in this space:
 
--   Fortigi/ConditionalAccess: (https://github.com/Fortigi/ConditionalAccess)
--   AlexFilipin/ConditionalAccess: (https://github.com/AlexFilipin/ConditionalAccess)
--   DanielChronlund/DCToolbox: Tools for Microsoft cloud fans (https://github.com/DanielChronlund/DCToolbox)
+-   Fortigi/ConditionalAccess: <https://github.com/Fortigi/ConditionalAccess> 
+-   AlexFilipin/ConditionalAccess: <https://github.com/AlexFilipin/ConditionalAccess>
+-   DanielChronlund/DCToolbox: Tools for Microsoft cloud fans <https://github.com/DanielChronlund/DCToolbox>
 
 !!! Info
     One other important point -- don't get caught up trying to manage GUID's:
@@ -70,21 +70,24 @@ Result:
 
 ## Validate and Test
 
-https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/what-if-tool
+<(https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/what-if-tool>
 
-https://www.cloud-architekt.net/aadops-conditional-access/
+<https://www.cloud-architekt.net/aadops-conditional-access/>
+
 
 ## Enable Reporting
 
-https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-insights-reporting
+<https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-insights-reporting>
 
 ## Review and Improve as needed
 
 Rerun check with AzureAD Assessment Tool
 
+Possible alternative to AAD Assessment tool: [CAOptics](<https://github.com/jsa2/caOptics>) 
+
 ## Troubleshooting
 
-https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access#troubleshoot-conditional-access-policy
+<https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access#troubleshoot-conditional-access-policy>
 
 
-Check for common misconfigurations - https://www.trustedsec.com/blog/common-conditional-access-misconfigurations-and-bypasses-in-azure/
+Check for common misconfigurations - <https://www.trustedsec.com/blog/common-conditional-access-misconfigurations-and-bypasses-in-azure/>

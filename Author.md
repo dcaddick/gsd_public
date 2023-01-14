@@ -3,7 +3,7 @@
 ## **About**
 GSD is my personal collection of Notes and Links regarding Getting various aspects of Defender Security platform deployed, this is something that I was collecting in OneNote as I come across good content so that I can have it "all in one place" for ready reference later.
 
-While I work for Microsoft Australia I curate this content in my free time, so it goes without saying that this is not official Microsoft material. The site contains visual representations of the various products & will frequently reference Microsoft's own online documentation and partner-facing resources. This site does not represent Microsoft, and no warranty is given or implied. You should always work with your Microsoft account team or authorised reseller if you have any questions or concerns.
+While I work for Microsoft Australia I curate this content in my free time, so it should goe without saying that this is not official Microsoft material. This site will contain some visual representations of the various products & will frequently reference Microsoft's own online documentation as well as occassionaly some partner-facing resources. This site does not represent Microsoft, and no warranty is given or implied. You should always work with your Microsoft account team or authorised reseller if you have any questions or concerns.
 
 I try to carefully balance the level of detail to ensure all the important solutions and features are accounted for, but not every feature is present and after all this content is a work in progress ;-) and will be updated on a regular basis. Please note there will always be gaps! If you see something missing and believe it should be there please contact me and I will do my best to add it.
 Please fee free to raise an Issue via Github.

@@ -9,7 +9,10 @@
 ![image](https://user-images.githubusercontent.com/19640455/211226033-59cc6005-7616-4e5d-952d-5a632de478ac.png)
 
 
+Automatically auto-scale yur Sentinel pricing tiers
+https://koosg.medium.com/auto-scale-your-sentinel-pricing-tiers-3d1f46b4c6ce
 
+This looks adventerous - but you might at least want to review the logic and have an alert sent to the team when you should be **prompted** to review or change the pricing tier? Don't forget to make sure the LAW is changed as well at the same time :)
 
 
 

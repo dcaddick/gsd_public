@@ -24,6 +24,7 @@
 
 ## M365 RBAC
 **Released late Dec 2022**
+
 -   Shortcut to RBAC Permissions - https://security.microsoft.com/mtp_roles
 -   Compare RBAC Roles - https://learn.microsoft.com/en-us/microsoft-365/security/defender/compare-rbac-roles?
 -   Edit and Delete Roles - https://learn.microsoft.com/en-us/microsoft-365/security/defender/edit-delete-rbac-roles?
