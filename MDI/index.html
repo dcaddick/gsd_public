@@ -357,18 +357,47 @@
     MDI (Microsoft Defender for Identity):
   </a>
   
-    <nav class="md-nav" aria-label="MDI (Microsoft Defender for Identity):">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#troubleshooting" class="md-nav__link">
-    Troubleshooting:
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ways-of-working" class="md-nav__link">
+    Ways of working
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#enable-telemetry" class="md-nav__link">
+    Enable Telemetry
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#validate-and-test" class="md-nav__link">
+    Validate and Test
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enable-reporting" class="md-nav__link">
+    Enable Reporting
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-and-improve-as-needed" class="md-nav__link">
+    Review and Improve as needed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    Troubleshooting
+  </a>
   
 </li>
       
@@ -544,18 +573,47 @@
     MDI (Microsoft Defender for Identity):
   </a>
   
-    <nav class="md-nav" aria-label="MDI (Microsoft Defender for Identity):">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#troubleshooting" class="md-nav__link">
-    Troubleshooting:
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ways-of-working" class="md-nav__link">
+    Ways of working
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#enable-telemetry" class="md-nav__link">
+    Enable Telemetry
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#validate-and-test" class="md-nav__link">
+    Validate and Test
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enable-reporting" class="md-nav__link">
+    Enable Reporting
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-and-improve-as-needed" class="md-nav__link">
+    Review and Improve as needed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    Troubleshooting
+  </a>
   
 </li>
       
@@ -577,22 +635,66 @@
   <h1>1. Microsoft Defender for Identity (MDI)</h1>
 
 <h2 id="mdi-microsoft-defender-for-identity">MDI (Microsoft Defender for Identity):</h2>
+<h2 id="ways-of-working">Ways of working</h2>
+<p>First decision point - do you have <strong>ANY</strong> Domain Controllers within your environment? If so then you should install MDI <strong>NOW</strong> and make it the very top of your Security ToDo list.</p>
+<p>Anecdotes:</p>
 <ul>
-<li>Go to <a href="https://portal.atp.azure.com">https://portal.atp.azure.com</a> and if you see this, it's not been installed
-<img alt="" src="../images/image3.png" /></li>
+<li>Small Customer in 2018</li>
+</ul>
+<h2 id="enable-telemetry">Enable Telemetry</h2>
+<p>Start here - <a href="https://learn.microsoft.com/en-us/defender-for-identity/prerequisites">https://learn.microsoft.com/en-us/defender-for-identity/prerequisites</a>
+Capacity planning - <a href="https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning">https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning</a>
+Download the Sizing tool - <a href="https://github.com/microsoft/ATA-AATP-Sizing-Tool/releases">https://github.com/microsoft/ATA-AATP-Sizing-Tool/releases</a>
+Download the Sensor - <a href="https://learn.microsoft.com/en-us/defender-for-identity/download-sensor">https://learn.microsoft.com/en-us/defender-for-identity/download-sensor</a>
+Install the Sensor on DC's - <a href="https://learn.microsoft.com/en-us/defender-for-identity/install-sensor">https://learn.microsoft.com/en-us/defender-for-identity/install-sensor</a>
+Basic Settings that you should review NOW - <a href="https://www.microsoft.com/videoplayer/embed/RWFVEX">https://www.microsoft.com/videoplayer/embed/RWFVEX</a></p>
+<p>This will do for now, especially if you are in a crisis mode, check the console for the DC's being online - now move on to validation below.
+Please follow up with all other Configuration steps as soon as practible, especially if you also have ADFS in play. 
+For ADFS please also check - <a href="https://learn.microsoft.com/en-us/defender-for-identity/active-directory-federation-services">https://learn.microsoft.com/en-us/defender-for-identity/active-directory-federation-services</a></p>
+<p><img alt="" src="https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png" /></p>
+<h2 id="validate-and-test">Validate and Test</h2>
+<p>Be conscious that if you are testing that MDI is working correctly that this may trigger <strong>high impact</strong> Alerts to your Blue Team or existing SecOps IF it's already installed and being monitored - or for that matter if another tooling is in place to monitor the same behaviour - so if doing some major testing it's worthwhile letting them know before hand? And on that, make sure you schedule some time to review afterwards about what testing/alerting was created &amp; what was visible from a SecOps perspective? </p>
+<p>This would be valuable lessons on effectiveness - even more so if there is missing alerts?? :( </p>
+<ul>
+<li>Specific Validation information - <a href="https://learn.microsoft.com/en-us/defender-for-identity/configure-sensor-settings#validate-installations">https://learn.microsoft.com/en-us/defender-for-identity/configure-sensor-settings#validate-installations</a></li>
+<li>Make sure that Advanced Settings has Integration enabled - <a href="https://learn.microsoft.com/en-us/defender-for-identity/classic-integrate-mde">https://learn.microsoft.com/en-us/defender-for-identity/classic-integrate-mde</a></li>
+<li>Make doubly sure this Integration is enabled between ALL elements of MDI, MDE, MDO, MDCA and the M365 Defender Console
+<img alt="" src="https://learn.microsoft.com/en-us/defender-for-identity/media/msde-enable.png" /></li>
 <li>Use Attack Simulations to <strong>validate MDI is installed correctly</strong> and Alerts are being surfaced accurately:
     <a href="https://learn.microsoft.com/en-us/defender-for-identity/playbooks">https://learn.microsoft.com/en-us/defender-for-identity/playbooks</a></li>
 <li>Use Labs for <strong>in depth checking</strong>: <a href="https://learn.microsoft.com/en-us/defender-for-identity/playbook-lab-overview">https://learn.microsoft.com/en-us/defender-for-identity/playbook-lab-overview</a></li>
 <li><a href="https://learn.microsoft.com/en-us/defender-for-identity/playbook-domain-dominance">https://learn.microsoft.com/en-us/defender-for-identity/playbook-domain-dominance</a></li>
-<li>Review Security Assessments to validate what potentially needs remediation: <a href="https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports">https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports</a></li>
+<li>Go to <a href="https://portal.atp.azure.com">https://portal.atp.azure.com</a> and if you see this, it's not been installed correctly
+<img alt="" src="../images/image3.png" /></li>
+</ul>
+<h2 id="enable-reporting">Enable Reporting</h2>
+<p>Once enabled you should now have a lot more visibility into the Security Posture of the onPrem environment - including the following:
+-    Domain controllers with Print Spooler service available
+-    Dormant entities in sensitive groups
+-    Entities exposing credentials in clear text
+-    Microsoft LAPS usage
+-    Legacy protocols usage
+-    Riskiest lateral movement paths (LMP)
+-    Unmonitored domain controllers
+-    Unsecure account attributes
+-    Unsecure domain configurations
+-    Unsecure Kerberos delegation
+-    Unsecure SID History attributes
+-    Weak cipher usage</p>
+<p>More details can be found here - <a href="https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports">https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports</a></p>
+<h2 id="review-and-improve-as-needed">Review and Improve as needed</h2>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-known-issues">https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-known-issues</a></li>
+<li>
+<p><a href="https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-using-logs">https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-using-logs</a></p>
+</li>
+<li>
+<p>Review Security Assessments to validate what potentially needs remediation: <a href="https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports">https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports</a></p>
+</li>
 <li>Full list of the 44 Alerts that are being checked on your behalf when fully deployed: <a href="https://learn.microsoft.com/en-us/defender-for-identity/alerts-overview">https://learn.microsoft.com/en-us/defender-for-identity/alerts-overview</a></li>
 <li>If you do not use the default Administrator account (ideally have it disabled?) then please add it to the Honeytoken account list: <a href="https://learn.microsoft.com/en-us/defender-for-identity/entity-tags#honeytoken-tags">https://learn.microsoft.com/en-us/defender-for-identity/entity-tags#honeytoken-tags</a></li>
 <li><a href="https://thalpius.com/2022/12/14/microsoft-defender-for-identity-auditing-checker-using-sentinel">https://thalpius.com/2022/12/14/microsoft-defender-for-identity-auditing-checker-using-sentinel</a></li>
-</ul>
-<h3 id="troubleshooting">Troubleshooting:</h3>
-<ul>
-<li><a href="https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-known-issues">https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-known-issues</a></li>
-<li><a href="https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-using-logs">https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-using-logs</a></li>
 </ul>
 
 
