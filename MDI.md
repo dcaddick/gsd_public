@@ -10,11 +10,11 @@ Anecdotes:
 ## Enable Telemetry
 
 Start here - <https://learn.microsoft.com/en-us/defender-for-identity/prerequisites>
-Capacity planning - <https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning>
-Download the Sizing tool - <https://github.com/microsoft/ATA-AATP-Sizing-Tool/releases>
-Download the Sensor - <https://learn.microsoft.com/en-us/defender-for-identity/download-sensor>
-Install the Sensor on DC's - <https://learn.microsoft.com/en-us/defender-for-identity/install-sensor>
-Basic Settings that you should review NOW - <https://www.microsoft.com/videoplayer/embed/RWFVEX>
+1.  Capacity planning - <https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning>
+2.   Download the Sizing tool - <https://github.com/microsoft/ATA-AATP-Sizing-Tool/releases>
+3.   Download the Sensor - <https://learn.microsoft.com/en-us/defender-for-identity/download-sensor>
+4.   Install the Sensor on DC's - <https://learn.microsoft.com/en-us/defender-for-identity/install-sensor>
+5.   Basic Settings that you should review **NOW** - <https://www.microsoft.com/videoplayer/embed/RWFVEX>
 
 This will do for now, especially if you are in a crisis mode, check the console for the DC's being online - now move on to validation below.
 Please follow up with all other Configuration steps as soon as practible, especially if you also have ADFS in play. 
@@ -42,6 +42,7 @@ This would be valuable lessons on effectiveness - even more so if there is missi
 ## Enable Reporting
 
 Once enabled you should now have a lot more visibility into the Security Posture of the onPrem environment - including the following:
+
 -    Domain controllers with Print Spooler service available
 -    Dormant entities in sensitive groups
 -    Entities exposing credentials in clear text
