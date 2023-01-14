@@ -605,12 +605,13 @@
   <h1>6. Microsoft Sentinel Content</h1>
 
 <h2 id="sentinel-tips-from-the-field">Sentinel Tips from the Field:</h2>
-<p>!!! tip You want SOAR? Most folks skip Defender in preference for Sentinel...<br />
-    -   Start from the desired outcome and work your way back from there
-    -   What is it that SecOps need? - more automation, less manual work ;-)
-    -   What does that look like? Showcase an example from Contoso Hotels
-    -   Enable Automated Investigation &amp; Remediation (AIR) at MDI, MDO, MDE and M365 Defender console levels - <strong>don't skip this!</strong>
-    -   Now that we have the first level triage in place, let's now move on to Sentinel...</p>
+<p>!!! tip You want SOAR? Most folks skip Defender in preference for Sentinel...  </p>
+<div class="highlight"><pre><span></span><code>-   Start from the desired outcome and work your way back from there
+-   What is it that SecOps need? - more automation, less manual work ;-)
+-   What does that look like? Showcase an example from Contoso Hotels
+-   Enable Automated Investigation &amp; Remediation (AIR) at MDI, MDO, MDE and M365 Defender console levels - **don&#39;t skip this!**
+-   Now that we have the first level triage in place, let&#39;s now move on to Sentinel...
+</code></pre></div>
 <p>Cost Optimization tips from Rod Trent:
 <a href="https://github.com/rod-trent/Azure-Sentinel-Cost-Troubleshooting-Kit">https://github.com/rod-trent/Azure-Sentinel-Cost-Troubleshooting-Kit</a></p>
 <ul>
@@ -633,10 +634,10 @@
 <p>-   Raw logs by their very nature have a significant cost related to "data gravity" - the more Customers move/copy the logs the more complex the environment as well as more expensive the solution becomes - the design principle that should be recommend is to adhere to the MS Best Practices as much as possible.
     <a href="https://learn.microsoft.com/en-us/azure/sentinel/best-practices-data">https://learn.microsoft.com/en-us/azure/sentinel/best-practices-data</a>
 -   Should there be any business justification or requirement for "raw logs" please consider a much more efficient method is the ability to stream "advanced hunting" events:
-    -   Why ingest or duplicate massive data sets across multiple systems based on a "just in case" scenario
-    -   A much more efficient system would be to define the "advanced hunting" event that is being searched for and as and when matches are discovered the event is forwarded
-    -   This process will respect data gravity and reduce costs significantly
-    -   More information can be found here: <a href="https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365-defender-sentinel-integration#advanced-hunting-event-collection">Advanced hunting event collection</a></p>
+-   Why ingest or duplicate massive data sets across multiple systems based on a "just in case" scenario
+-   A much more efficient system would be to define the "advanced hunting" event that is being searched for and as and when matches are discovered the event is forwarded
+-   This process will respect data gravity and reduce costs significantly
+-   More information can be found here: <a href="https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365-defender-sentinel-integration#advanced-hunting-event-collection">Advanced hunting event collection</a></p>
 <ul>
 <li>
 <h3 id="azure-log-management">Azure Log Management:</h3>
