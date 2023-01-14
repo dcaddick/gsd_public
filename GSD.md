@@ -481,7 +481,7 @@ of Matt Zorich (Twitter @reprise99)
 -   <https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migration-guides>
 -   <https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/switch-to-mde-overview>
 
-## 9.   WDAC: (Windows Defender Application Control)
+## 10.   WDAC: (Windows Defender Application Control)
 
 Work in Progress, please review all content before starting, and be cautious in deployment
 
