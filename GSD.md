@@ -46,23 +46,176 @@ Quick wins to improve Security using existing M365 E5 entitlements
 -   Test Use Cases: <https://learn.microsoft.com/en-gb/microsoft-365/security/defender/integrate-microsoft-365-defender-secops-use-cases>
 -   SOC Maintenance Tasks: <https://learn.microsoft.com/en-gb/microsoft-365/security/defender/integrate-microsoft-365-defender-secops-tasks>
 
+
+
+
+## Conditional Access
+
+### Ways of working
+First decision point - how are we going to do this?
+Questions to help you determine this are:
+
+1.   Is it small or a large Tenancy?
+2.   Do we want to avoid CAB approval process for a PoC?
+3.   Need it done right now to address a strategic problem?
+4.   Do we want to go fast, or take our time?
+5.   If you are a Partner or MSSP please choose the "As-Code" method
+
+Result:
+
+* Fast and quick - start with telemetry below and do it on the fly using Policies in Reporting Mode, iterate from there...
+* Larger implmentations - please take the time to review the process below to enable via "CA-as-Code" as the ROI is well worth it - especially if doing it for more than one customer or tenant :wink:
+
+
+### Enable Telemetry
+!!! warning "**NOTE: please be aware there is no inherent "BLOCK" by default**"
+    You need to make sure you are BLOCKING by default unless explicitly allowing access - walk thru the 14 default Policies to better understand this. To make sure that you are fully covered please use this PowerBI based tool **<https://github.com/AzureAD/AzureADAssessment>** 
+    **Confirm your maturity based on this Tool ^^^^^^**
+     ![](./images/AzureADAssessmentTool.png)
+
+!!! Note
+    **UPDATE** 142 Page - CA demystified Whitepaper - still to be reviewed 
+    <https://github.com/kennethvs/cabaseline202212/blob/main/Conditional%20Access%20demystified-v1.4%20-%20December%202022.pdf>
+  
+
+### The Microsoft content
+
+-   Design - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design>
+-   Architecture - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-architecture>
+-   Framework - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-framework>
+-   API - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-apis>
+-   Deployment - <https://github.com/Azure-Samples/azure-ad-conditional-access-apis/tree/main/03-deploy>
+-   Plan - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access>
+-   CA for Cloud Apps - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps>
+-   Concept for CA Policies - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policies>
+-   Docs - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/>
+-   Powershell syntax and examples - <https://learn.microsoft.com/en-us/powershell/module/azuread/get-azureadmsconditionalaccesspolicy?view=azureadps-2.0>
+-   Deep dive: How does Conditional Access block Legacy Authentication? - <https://techcommunity.microsoft.com/t5/itops-talk-blog/deep-dive-how-does-conditional-access-block-legacy/ba-p/3265345>
+
+
+!!! Note 
+    Here is a great companion for Sentinel: 
+    <https://danielchronlund.com/2022/04/21/a-powerfull-conditional-access-change-dashboard-for-microsoft-sentinel/>
+>
+
+### Automation of "CA-as-Code"
+
+-   Thomas N. - <https://www.cloud-architekt.net/speaking/> The most recent deck -- 2022-06-11 Scottish Summit 2022 "Deploying and Managing Conditional Access at Scale" [Slides](https://github.com/Cloud-Architekt/meetups/blob/master/2022-06-10%20ScottishSummit-Deploying-and-Managing-ConditionalAccess-at-Scale.pdf)
+
+-   Excellent article here that is really worth the time reading as this will highlight how to enable this in detail: <https://www.cloud-architekt.net/aadops-conditional-access/>
+
+![](https://www.cloud-architekt.net/assets/images/2021-08-11-aadops-conditional-access/aadops4.png)
+
+!!! Tip
+    He also points out the others that have done great work in this space:
+
+-   Fortigi/ConditionalAccess: (https://github.com/Fortigi/ConditionalAccess)
+-   AlexFilipin/ConditionalAccess: (https://github.com/AlexFilipin/ConditionalAccess)
+-   DanielChronlund/DCToolbox: Tools for Microsoft cloud fans (https://github.com/DanielChronlund/DCToolbox)
+
+!!! Info
+    One other important point -- don't get caught up trying to manage GUID's:
+-   [Fortigi has published some build scripts on GitHub](https://github.com/Fortigi/ConditionalAccess) to convert those GUIDs to readable display names.
+-   This also covers known GUIDs such as AAD Role and Application ID to DisplayName.
+
+### Validate and Test
+
+https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/what-if-tool
+
+https://www.cloud-architekt.net/aadops-conditional-access/
+
+### Enable Reporting
+
+https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-insights-reporting
+
+### Review and Improve as needed
+
+Rerun check with AzureAD Assessment Tool
+
+### Troubleshooting
+
+https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access#troubleshoot-conditional-access-policy
+
+Check for common misconfigurations - https://www.trustedsec.com/blog/common-conditional-access-misconfigurations-and-bypasses-in-azure/
+
+
+
  
 ## MDI (Microsoft Defender for Identity):
 
--   Go to <https://portal.atp.azure.com> and if you see this, it's not been installed
-![](./images/image3.png)
+### Ways of working
+First decision point - do you have **ANY** Domain Controllers within your environment? If so then you should install MDI **NOW** and make it the very top of your Security ToDo list.
+
+Anecdotes:
+
+-   Small Customer in 2018
+
+### Enable Telemetry
+
+Start here - <https://learn.microsoft.com/en-us/defender-for-identity/prerequisites>
+1.  Capacity planning - <https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning>
+2.   Download the Sizing tool - <https://github.com/microsoft/ATA-AATP-Sizing-Tool/releases>
+3.   Download the Sensor - <https://learn.microsoft.com/en-us/defender-for-identity/download-sensor>
+4.   Install the Sensor on DC's - <https://learn.microsoft.com/en-us/defender-for-identity/install-sensor>
+5.   Basic Settings that you should review **NOW** - <https://www.microsoft.com/videoplayer/embed/RWFVEX>
+
+This will do for now, especially if you are in a crisis mode, check the console for the DC's being online - now move on to validation below.
+Please follow up with all other Configuration steps as soon as practible, especially if you also have ADFS in play. 
+For ADFS please also check - <https://learn.microsoft.com/en-us/defender-for-identity/active-directory-federation-services>
+
+![](https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png)
+
+### Validate and Test
+
+Be conscious that if you are testing that MDI is working correctly that this may trigger **high impact** Alerts to your Blue Team or existing SecOps IF it's already installed and being monitored - or for that matter if another tooling is in place to monitor the same behaviour - so if doing some major testing it's worthwhile letting them know before hand? And on that, make sure you schedule some time to review afterwards about what testing/alerting was created & what was visible from a SecOps perspective? 
+
+This would be valuable lessons on effectiveness - even more so if there is missing alerts?? :( 
+
+-   Specific Validation information - <https://learn.microsoft.com/en-us/defender-for-identity/configure-sensor-settings#validate-installations>
+-   Make sure that Advanced Settings has Integration enabled - <https://learn.microsoft.com/en-us/defender-for-identity/classic-integrate-mde>
+-   Make doubly sure this Integration is enabled between ALL elements of MDI, MDE, MDO, MDCA and the M365 Defender Console
+![](https://learn.microsoft.com/en-us/defender-for-identity/media/msde-enable.png)
 -   Use Attack Simulations to **validate MDI is installed correctly** and Alerts are being surfaced accurately:
     <https://learn.microsoft.com/en-us/defender-for-identity/playbooks>
 -   Use Labs for **in depth checking**: <https://learn.microsoft.com/en-us/defender-for-identity/playbook-lab-overview>
 -   <https://learn.microsoft.com/en-us/defender-for-identity/playbook-domain-dominance>
+-   Go to <https://portal.atp.azure.com> and if you see this, it's not been installed correctly
+![](./images/image3.png)
+
+### Enable Reporting
+
+Once enabled you should now have a lot more visibility into the Security Posture of the onPrem environment - including the following:
+
+-    Domain controllers with Print Spooler service available
+-    Dormant entities in sensitive groups
+-    Entities exposing credentials in clear text
+-    Microsoft LAPS usage
+-    Legacy protocols usage
+-    Riskiest lateral movement paths (LMP)
+-    Unmonitored domain controllers
+-    Unsecure account attributes
+-    Unsecure domain configurations
+-    Unsecure Kerberos delegation
+-    Unsecure SID History attributes
+-    Weak cipher usage
+
+More details can be found here & example below - <https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports>
+![](https://learn.microsoft.com/en-us/defender-for-identity/media/select-assessment.png)
+
+### Review and Improve as needed
+
 -   Review Security Assessments to validate what potentially needs remediation: <https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports>
 -   Full list of the 44 Alerts that are being checked on your behalf when fully deployed: <https://learn.microsoft.com/en-us/defender-for-identity/alerts-overview>
 -   If you do not use the default Administrator account (ideally have it disabled?) then please add it to the Honeytoken account list: <https://learn.microsoft.com/en-us/defender-for-identity/entity-tags#honeytoken-tags>
--   <https://thalpius.com/2022/12/14/microsoft-defender-for-identity-auditing-checker-using-sentinel>
+-   Audit checking via Sentinel for MDI - <https://thalpius.com/2022/12/14/microsoft-defender-for-identity-auditing-checker-using-sentinel>
 
-### Troubleshooting:
+### Troubleshooting
+
 -   <https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-known-issues>
 -   <https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-using-logs>
+
+
+
 
 ## MDCA (Microsoft Defender for Cloud Apps, was MCAS):
 
@@ -154,94 +307,6 @@ These are updated every 6 months and you'll be prompted to update/accept changes
     -   Workbooks: <https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workbooks>
     -   Workflow Automation: <https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workflow%20automation>
 
-## Conditional Access
-
-### Ways of working
-First decision point - how are we going to do this?
-Questions to help you determine this are:
-
-1.   Is it small or a large Tenancy?
-2.   Do we want to avoid CAB approval process for a PoC?
-3.   Need it done right now to address a strategic problem?
-4.   Do we want to go fast, or take our time?
-5.   If you are a Partner or MSSP please choose the "As-Code" method
-
-Result:
-
-* Fast and quick - start with telemetry below and do it on the fly using Policies in Reporting Mode, iterate from there...
-* Larger implmentations - please take the time to review the process below to enable via "CA-as-Code" as the ROI is well worth it - especially if doing it for more than one customer or tenant :wink:
-
-
-### Enable Telemetry
-!!! warning "**NOTE: please be aware there is no inherent "BLOCK" by default**"
-    You need to make sure you are BLOCKING by default unless explicitly allowing access - walk thru the 14 default Policies to better understand this. To make sure that you are fully covered please use this PowerBI based tool **<https://github.com/AzureAD/AzureADAssessment>** 
-    **Confirm your maturity based on this Tool ^^^^^^**
-     ![](./images/AzureADAssessmentTool.png)
-
-!!! Note
-    **UPDATE** 142 Page - CA demystified Whitepaper - still to be reviewed 
-    <https://github.com/kennethvs/cabaseline202212/blob/main/Conditional%20Access%20demystified-v1.4%20-%20December%202022.pdf>
-  
-
-### The Microsoft content
-
--   Design - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design>
--   Architecture - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-architecture>
--   Framework - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-framework>
--   API - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-apis>
--   Deployment - <https://github.com/Azure-Samples/azure-ad-conditional-access-apis/tree/main/03-deploy>
--   Plan - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access>
--   CA for Cloud Apps - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps>
--   Concept for CA Policies - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policies>
--   Docs - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/>
--   Powershell syntax and examples - <https://learn.microsoft.com/en-us/powershell/module/azuread/get-azureadmsconditionalaccesspolicy?view=azureadps-2.0>
--   Deep dive: How does Conditional Access block Legacy Authentication? - <https://techcommunity.microsoft.com/t5/itops-talk-blog/deep-dive-how-does-conditional-access-block-legacy/ba-p/3265345>
-
-
-!!! Note 
-    Here is a great companion for Sentinel: 
-    <https://danielchronlund.com/2022/04/21/a-powerfull-conditional-access-change-dashboard-for-microsoft-sentinel/>
->
-
-### Automation of "CA-as-Code"
-
--   Thomas N. - <https://www.cloud-architekt.net/speaking/> The most recent deck -- 2022-06-11 Scottish Summit 2022 "Deploying and Managing Conditional Access at Scale" [Slides](https://github.com/Cloud-Architekt/meetups/blob/master/2022-06-10%20ScottishSummit-Deploying-and-Managing-ConditionalAccess-at-Scale.pdf)
-
--   Excellent article here that is really worth the time reading as this will highlight how to enable this in detail: <https://www.cloud-architekt.net/aadops-conditional-access/>
-
-![](https://www.cloud-architekt.net/assets/images/2021-08-11-aadops-conditional-access/aadops4.png)
-
-!!! Tip
-    He also points out the others that have done great work in this space:
-
--   Fortigi/ConditionalAccess: (https://github.com/Fortigi/ConditionalAccess)
--   AlexFilipin/ConditionalAccess: (https://github.com/AlexFilipin/ConditionalAccess)
--   DanielChronlund/DCToolbox: Tools for Microsoft cloud fans (https://github.com/DanielChronlund/DCToolbox)
-
-!!! Info
-    One other important point -- don't get caught up trying to manage GUID's:
--   [Fortigi has published some build scripts on GitHub](https://github.com/Fortigi/ConditionalAccess) to convert those GUIDs to readable display names.
--   This also covers known GUIDs such as AAD Role and Application ID to DisplayName.
-
-### Validate and Test
-
-https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/what-if-tool
-
-https://www.cloud-architekt.net/aadops-conditional-access/
-
-### Enable Reporting
-
-https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-insights-reporting
-
-### Review and Improve as needed
-
-Rerun check with AzureAD Assessment Tool
-
-### Troubleshooting
-
-https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access#troubleshoot-conditional-access-policy
-
-Check for common misconfigurations - https://www.trustedsec.com/blog/common-conditional-access-misconfigurations-and-bypasses-in-azure/
 
 ## Sentinel Tips and Best Practices:
 
