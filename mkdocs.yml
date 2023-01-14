@@ -65,17 +65,25 @@ theme:
     logo: logo
 # Plugins
 plugins:
-    - search
-    - git-revision-date-localized
-    - simple
-    #- glightbox
-    #- social
-    #- awesome-list
-    #- table-reader
-    #- img2fig
-    #- mermaid2
-    - macros
-    # - minify 
+  - search
+  - simple
+  #- git-authors:
+  #      exclude:
+  #          - index.md
+  - git-revision-date-localized:
+      type: timeago
+      timezone: Europe/Amsterdam
+      locale: en
+      fallback_to_build_date: false
+      enable_creation_date: true
+  #- glightbox
+  #- social
+  #- awesome-list
+  #- table-reader
+  #- img2fig
+  #- mermaid2
+  - macros
+  # - minify 
 
 # Customization
 extra:
