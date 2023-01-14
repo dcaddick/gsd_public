@@ -24,9 +24,6 @@ jobs:
           python -m pip install --upgrade pip setuptools wheel
           pip install mkdocs-minify-plugin==0.3.0
           pip install mkdocs-git-revision-date-localized-plugin
-          pip install -r tests/test_requirements.txt
-          pip install -e .
-          pytest --cov=mkdocs_git_revision_date_localized_plugin --cov-report term-missing tests/
         # pip install mkdocs-table-reader-plugin
         # pip install mkdocs-glightbox
 
