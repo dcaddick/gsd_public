@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://dcaddick.github.io/ASD/</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://dcaddick.github.io/AssumedKnowledge/</loc>
          <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
@@ -27,6 +32,11 @@
     </url>
     <url>
          <loc>https://dcaddick.github.io/Guides/</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dcaddick.github.io/MDC/</loc>
          <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
