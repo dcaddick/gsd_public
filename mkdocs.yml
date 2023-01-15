@@ -48,8 +48,8 @@ theme:
     # - toc.integrate
   palette:
     - scheme: default
-      primary: green
-      accent: green
+      primary: blue
+      accent: blue
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
