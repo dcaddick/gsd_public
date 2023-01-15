@@ -12,6 +12,7 @@ Anecdotes:
 ## Enable Telemetry
 
 Start here - <https://learn.microsoft.com/en-us/defender-for-identity/prerequisites>
+
 1.  Capacity planning - <https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning>
 2.   Download the Sizing tool - <https://github.com/microsoft/ATA-AATP-Sizing-Tool/releases>
 3.   Download the Sensor - <https://learn.microsoft.com/en-us/defender-for-identity/download-sensor>
