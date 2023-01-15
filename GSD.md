@@ -128,6 +128,8 @@ More details can be found here & example below - <https://learn.microsoft.com/en
 
 ## 2.   Conditional Access
 
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_LHXQ7ucR3-MQZM3NO-a4_WRckjsP9FcUA&usqp=CAU)
+
 ### Ways of working
 First decision point - how are we going to do this?
 Questions to help you determine this are:
@@ -223,6 +225,8 @@ Check for common misconfigurations - https://www.trustedsec.com/blog/common-cond
 
 ## 3.   MDCA (Microsoft Defender for Cloud Apps, was MCAS):
 
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQs2hcOLld13doGTbvIknglVMDxEoot1EJ3g&usqp=CAU)
+
 -   URL <https://security.microsoft.com/cloudapps/settings>
 
 ---------------------------------------------------------------------------------------------------------------------------
@@ -247,6 +251,8 @@ Check for common misconfigurations - https://www.trustedsec.com/blog/common-cond
 
 
 ## 4.   MDE (Microsoft Defender for Endpoint):
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwZULy1sOxB6LxDMRu-_FvV72vfFAsTKnM1A&usqp=CAU)
 
 -   Consider enabling Block at First Sight from AV: <https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-block-at-first-sight-microsoft-defender-antivirus>
 -   Block at First Sight - test/demo: <https://demo.wd.microsoft.com/Page/BAFS>
@@ -289,6 +295,8 @@ These are updated every 6 months and you'll be prompted to update/accept changes
 -   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-define-the-av-baseline-part4a/>
 
 ## 5.   MDO (Microsoft Defender for Office):
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUjkG9-rGdaKbfcCGtM3GzTaUfsSxcTmSsSg&usqp=CAU)
 
 -   Try in Audit mode: <https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/try-microsoft-defender-for-office-365>
 -   Enhanced Filters aka Skip Listing: <https://learn.microsoft.com/en-us/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors>
