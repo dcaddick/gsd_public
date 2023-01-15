@@ -1,5 +1,7 @@
 ## MDCA (Microsoft Defender for Cloud Apps, was MCAS):
 
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQs2hcOLld13doGTbvIknglVMDxEoot1EJ3g&usqp=CAU)
+
 -   URL <https://security.microsoft.com/cloudapps/settings>
 
 ---------------------------------------------------------------------------------------------------------------------------
