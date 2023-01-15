@@ -4,6 +4,8 @@ This project is intended to remove friction to "getting shit done" and as such t
 
 However, if you've already got a reasonably good handle on this, don't let us stop you - dive straight in and "get shit done" ;-)
 
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTte8uR6GXxF17WslFf5_j-WN2mJ62Xi5qFhw&usqp=CAU)
+
 ## Assumed Licensing
 
 **ALL** of this content is assuming that your M365 Tenant is at FULL E5 including Security and Compliance.
