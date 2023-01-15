@@ -28,6 +28,7 @@ jobs:
           pip install mkdocs-git-revision-date-localized-plugin
           pip show mkdocs-material --version
           pip3 show mkdocs-material --version
+          pip freeze
         # pip install mkdocs-table-reader-plugin
         # pip install mkdocs-glightbox
 
