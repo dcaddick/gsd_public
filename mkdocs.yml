@@ -25,7 +25,6 @@ repo_url: https://github.com/dcaddick/gsd_public
 repo_name: "Get Security Done"
 theme:
   name: material
-  custom_dir: overrides
   icon: 
     admonition:
       <type>: octicons/alert-16 # material/alert
