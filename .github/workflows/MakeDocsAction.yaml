@@ -24,7 +24,10 @@ jobs:
           python -m pip install --upgrade pip setuptools wheel
           pip install mkdocs-minify-plugin==0.3.0
           pip install mkdocs-techdocs-core
+          pip show mkdocs-techdocs-core
           pip install mkdocs-git-revision-date-localized-plugin
+          pip show mkdocs-material --version
+          pip3 show mkdocs-material --version
         # pip install mkdocs-table-reader-plugin
         # pip install mkdocs-glightbox
 
