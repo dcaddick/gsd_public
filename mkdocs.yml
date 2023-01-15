@@ -68,7 +68,6 @@ theme:
 # Plugins
 plugins:
   - search
-  - progress
   - simple
   #- techdocs-core
   #- git-authors:
