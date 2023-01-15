@@ -22,6 +22,8 @@ Apologies, but this content is focused and aimed at helping people get the solut
 
 Please make sure you review the MCRA slide deck & slide 15 - all of the slide is hyperlinked to other additional useful info - so have a good browse first and then if you have further questions on these 4 solution areas it might be worth reviewing the Ninja Training section?
 
+![](./images/image1.jpg)
+
 ## Ninja Security Training
 Subset here of the core pillars:
 
