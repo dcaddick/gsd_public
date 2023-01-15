@@ -1,5 +1,7 @@
 ## MDE (Microsoft Defender for Endpoint):
 
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwZULy1sOxB6LxDMRu-_FvV72vfFAsTKnM1A&usqp=CAU)
+
 -   Consider enabling Block at First Sight from AV: <https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-block-at-first-sight-microsoft-defender-antivirus>
 -   Block at First Sight - test/demo: <https://demo.wd.microsoft.com/Page/BAFS>
 -   **Demonstrate & Test security controls:** ASR, SmartScreen, PUA, etc... <https://demo.wd.microsoft.com/>
