@@ -69,7 +69,7 @@ theme:
 plugins:
   - search
   - simple
-  - techdocs-core
+  #- techdocs-core
   #- git-authors:
   #      exclude:
   #          - index.md
