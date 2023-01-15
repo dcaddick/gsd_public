@@ -70,10 +70,10 @@ plugins:
   - search
   - simple
   #- techdocs-core
-  - git-authors #:
+  - git-authors:
   #      exclude:
   #          - index.md
-  - git-revision-date-localized #:
+  - git-revision-date-localized:
   #    type: timeago
   #    timezone: Europe/Amsterdam
   #    locale: en
