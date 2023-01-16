@@ -684,8 +684,7 @@
 </li>
 <li>
 <h3 id="filtering-logs">Filtering Logs:</h3>
-<div class="highlight"><pre><span></span><code>Can be used to reduce data noise, reduce ingestion and retention/storage costs with the goal being to focus on the logs and events that are relevant - This is typically performed by one of the methods for the following scenarios:
-</code></pre></div>
+<p>Can be used to reduce data noise, reduce ingestion and retention/storage costs with the goal being to focus on the logs and events that are relevant - This is typically performed by one of the methods for the following scenarios:</p>
 <ul>
 <li>
 <p>Server Log Ingestion - Azure Monitor Agent Directly can filter out logs that are not relevant for Microsoft Sentinel <a href="https://docs.microsoft.com/en-us/azure/sentinel/best-practices-data#filter-your-logs-before-ingestion">https://docs.microsoft.com/en-us/azure/sentinel/best-practices-data#filter-your-logs-before-ingestion</a></p>
@@ -697,16 +696,14 @@
 <li>
 <p>Custom REST API Ingestion -- Via the Function or Logic App, data can be stripped away prior to sending to Microsoft sentinel</p>
 </li>
-</ul>
-</li>
 <li>
 <p>Looking deeper into the "Free data meters" it is possible to use this URL to find the following Table
-    <a href="https://docs.microsoft.com/en-us/azure/sentinel/billing?tabs=free-data-meters#understand-your-microsoft-sentinel-bill">https://docs.microsoft.com/en-us/azure/sentinel/billing?tabs=free-data-meters#understand-your-microsoft-sentinel-bill</a></p>
-</li>
-<li>
-<p>The following table shows how Microsoft Sentinel and Log Analytics costs appear in the Service name and Meter columns of your Azure bill for free data services. For more information, see <a href="https://docs.microsoft.com/en-us/azure/azure-monitor/usage-estimated-costs#view-data-allocation-benefits">View Data Allocation Benefits</a>.</p>
+<a href="https://docs.microsoft.com/en-us/azure/sentinel/billing?tabs=free-data-meters#understand-your-microsoft-sentinel-bill">https://docs.microsoft.com/en-us/azure/sentinel/billing?tabs=free-data-meters#understand-your-microsoft-sentinel-bill</a></p>
 </li>
 </ul>
+</li>
+</ul>
+<p>The following table shows how Microsoft Sentinel and Log Analytics costs appear in the Service name and Meter columns of your Azure bill for free data services. For more information, see <a href="https://docs.microsoft.com/en-us/azure/azure-monitor/usage-estimated-costs#view-data-allocation-benefits">View Data Allocation Benefits</a>.</p>
 <blockquote>
 <p><img alt="" src="../images/image8.png" /></p>
 </blockquote>
@@ -738,7 +735,7 @@ More information: <a href="https://docs.microsoft.com/en-us/azure/sentinel/micro
 <li><a href="https://learn.microsoft.com/en-us/azure/sentinel/billing-reduce-costs#optimize-log-analytics-costs-with-dedicated-clusters">https://learn.microsoft.com/en-us/azure/sentinel/billing-reduce-costs#optimize-log-analytics-costs-with-dedicated-clusters</a></li>
 <li><a href="https://learn.microsoft.com/en-us/azure/sentinel/best-practices-data#filter-your-logs-before-ingestion">https://learn.microsoft.com/en-us/azure/sentinel/best-practices-data#filter-your-logs-before-ingestion</a></li>
 </ul>
-<p>This looks adventerous - but you might at least want to review the logic and have an alert sent to the team when you should be <strong>prompted</strong> to review or change the pricing tier? Don't forget to make sure the LAW is changed as well at the same time :)</p>
+<p>This recent addition looks adventerous - but you might at least want to review the logic and have an alert sent to the team when you should be <strong>prompted</strong> to review or change the pricing tier? Don't forget to make sure the LAW is changed as well at the same time :)</p>
 <p>Automatically auto-scale yur Sentinel pricing tiers
 https://koosg.medium.com/auto-scale-your-sentinel-pricing-tiers-3d1f46b4c6ce</p>
 
