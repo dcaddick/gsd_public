@@ -16,12 +16,16 @@ First decision point - Simple or Complex, i.e. do you need to be concerned about
 <https://learn.microsoft.com/en-us/defender-cloud-apps/ip-tags>
 - Set the IP's in bulk if needed:
 <https://learn.microsoft.com/en-us/defender-cloud-apps/api-data-enrichment-manage-script>
+-   Enable File Monitoring:
+<https://learn.microsoft.com/en-us/defender-cloud-apps/file-filters>
 - Add native App Connectors: (Atlassian, Google, Azure, AWS, Box, DocuSign, Github, Okta, Salesforce, ServiceNow, Slack, Workday, etc... )
 <https://learn.microsoft.com/en-us/defender-cloud-apps/enable-instant-visibility-protection-and-governance-actions-for-your-apps>
 - Best Practices:
 <https://learn.microsoft.com/en-us/defender-cloud-apps/best-practices>
 - Daily Activities:
 <https://learn.microsoft.com/en-us/defender-cloud-apps/daily-activities-to-protect-your-cloud-environment>
+
+[]!(./images/MDCA_EnableFileMonitoring.png)
 
 ### Validate and Test
 
