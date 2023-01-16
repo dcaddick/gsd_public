@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#mdca-microsoft-defender-for-cloud-apps-was-mcas" class="md-skip">
+        <a href="#mdca-was-mcas" class="md-skip">
           Skip to content
         </a>
       
@@ -383,12 +383,47 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#mdca-microsoft-defender-for-cloud-apps-was-mcas" class="md-nav__link">
-    MDCA (Microsoft Defender for Cloud Apps, was MCAS):
+  <a href="#mdca-was-mcas" class="md-nav__link">
+    MDCA (was MCAS):
   </a>
   
-    <nav class="md-nav" aria-label="MDCA (Microsoft Defender for Cloud Apps, was MCAS):">
+    <nav class="md-nav" aria-label="MDCA (was MCAS):">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ways-of-working" class="md-nav__link">
+    Ways of working
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enable-telemetry" class="md-nav__link">
+    Enable Telemetry
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#validate-and-test" class="md-nav__link">
+    Validate and Test
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enable-reporting" class="md-nav__link">
+    Enable Reporting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#review-and-improve-as-needed" class="md-nav__link">
+    Review and Improve as needed
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#troubleshooting" class="md-nav__link">
@@ -570,12 +605,47 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#mdca-microsoft-defender-for-cloud-apps-was-mcas" class="md-nav__link">
-    MDCA (Microsoft Defender for Cloud Apps, was MCAS):
+  <a href="#mdca-was-mcas" class="md-nav__link">
+    MDCA (was MCAS):
   </a>
   
-    <nav class="md-nav" aria-label="MDCA (Microsoft Defender for Cloud Apps, was MCAS):">
+    <nav class="md-nav" aria-label="MDCA (was MCAS):">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ways-of-working" class="md-nav__link">
+    Ways of working
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enable-telemetry" class="md-nav__link">
+    Enable Telemetry
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#validate-and-test" class="md-nav__link">
+    Validate and Test
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enable-reporting" class="md-nav__link">
+    Enable Reporting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#review-and-improve-as-needed" class="md-nav__link">
+    Review and Improve as needed
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#troubleshooting" class="md-nav__link">
@@ -606,27 +676,68 @@
 
   <h1>3. Microsoft Defender for Cloud Apps (MDCA)</h1>
 
-<h2 id="mdca-microsoft-defender-for-cloud-apps-was-mcas">MDCA (Microsoft Defender for Cloud Apps, was MCAS):</h2>
+<h2 id="mdca-was-mcas">MDCA (was MCAS):</h2>
 <p><img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQs2hcOLld13doGTbvIknglVMDxEoot1EJ3g&amp;usqp=CAU" /></p>
+<h3 id="ways-of-working">Ways of working</h3>
+<p>First decision point - Simple or Complex, i.e. do you need to be concerned about RBAC for instance becuase of the scale of the installation or the number of different parties that <strong>may</strong> need access to part or some parts of the console?  <a href="https://learn.microsoft.com/en-us/defender-cloud-apps/manage-admins">https://learn.microsoft.com/en-us/defender-cloud-apps/manage-admins</a></p>
+<h3 id="enable-telemetry">Enable Telemetry</h3>
 <ul>
-<li>URL <a href="https://security.microsoft.com/cloudapps/settings">https://security.microsoft.com/cloudapps/settings</a></li>
+<li>Basic Setup --&gt; Start here:
+<a href="https://learn.microsoft.com/en-us/defender-cloud-apps/general-setup">https://learn.microsoft.com/en-us/defender-cloud-apps/general-setup</a>
+<a href="https://learn.microsoft.com/en-us/defender-cloud-apps/get-started">https://learn.microsoft.com/en-us/defender-cloud-apps/get-started</a></li>
+<li>Tell it what the Corporate IP address's are: 
+<a href="https://learn.microsoft.com/en-us/defender-cloud-apps/ip-tags">https://learn.microsoft.com/en-us/defender-cloud-apps/ip-tags</a></li>
+<li>Set the IP's in bulk if needed:
+<a href="https://learn.microsoft.com/en-us/defender-cloud-apps/api-data-enrichment-manage-script">https://learn.microsoft.com/en-us/defender-cloud-apps/api-data-enrichment-manage-script</a></li>
+<li>Add native App Connectors: (Atlassian, Google, Azure, AWS, Box, DocuSign, Github, Okta, Salesforce, ServiceNow, Slack, Workday, etc... )
+<a href="https://learn.microsoft.com/en-us/defender-cloud-apps/enable-instant-visibility-protection-and-governance-actions-for-your-apps">https://learn.microsoft.com/en-us/defender-cloud-apps/enable-instant-visibility-protection-and-governance-actions-for-your-apps</a></li>
+<li>Best Practices:
+<a href="https://learn.microsoft.com/en-us/defender-cloud-apps/best-practices">https://learn.microsoft.com/en-us/defender-cloud-apps/best-practices</a></li>
+<li>Daily Activities:
+<a href="https://learn.microsoft.com/en-us/defender-cloud-apps/daily-activities-to-protect-your-cloud-environment">https://learn.microsoft.com/en-us/defender-cloud-apps/daily-activities-to-protect-your-cloud-environment</a></li>
 </ul>
-<hr />
-<p><strong>Bad Image</strong>                                                 <strong>Good Image</strong></p>
-<hr />
-<p><img alt="" src="../images/image4.png" />   <img alt="" src="../images/image5.png" /></p>
-<hr />
+<h3 id="validate-and-test">Validate and Test</h3>
 <ul>
-<li>
+<li>Enable MDI Integration
+<a href="https://learn.microsoft.com/en-us/defender-cloud-apps/mdi-integration">https://learn.microsoft.com/en-us/defender-cloud-apps/mdi-integration</a></li>
+<li>Govern discovered Apps using MDE (enables blocking of unwanted Apps)
+<a href="https://learn.microsoft.com/en-us/defender-cloud-apps/mde-govern">https://learn.microsoft.com/en-us/defender-cloud-apps/mde-govern</a></li>
+<li>Investigating via Dashboard:
+<a href="https://learn.microsoft.com/en-us/defender-cloud-apps/investigate">https://learn.microsoft.com/en-us/defender-cloud-apps/investigate</a></li>
+<li>Tune the system: 
+<a href="https://learn.microsoft.com/en-us/defender-cloud-apps/tutorial-suspicious-activity">https://learn.microsoft.com/en-us/defender-cloud-apps/tutorial-suspicious-activity</a></li>
+<li>Investigate &amp; remediate risky OAuth Apps:
+<a href="https://learn.microsoft.com/en-us/defender-cloud-apps/investigate-risky-oauth">https://learn.microsoft.com/en-us/defender-cloud-apps/investigate-risky-oauth</a></li>
+</ul>
+<h3 id="enable-reporting">Enable Reporting</h3>
+<ul>
+<li>Investigate Apps discovered by MDE 
+<a href="https://learn.microsoft.com/en-us/defender-cloud-apps/mde-investigation">https://learn.microsoft.com/en-us/defender-cloud-apps/mde-investigation</a></li>
+<li>Governance for Connected Apps:
+<a href="https://learn.microsoft.com/en-us/defender-cloud-apps/governance-actions">https://learn.microsoft.com/en-us/defender-cloud-apps/governance-actions</a>
+This is where this process gets really good, have a real good look at all the possibilities here to be able to be able to track what is being done with data inside the environment - don't jump in &amp; start blocking things before you understand the full business implications. </li>
+<li>Governance for discovered Apps:
+<a href="https://learn.microsoft.com/en-us/defender-cloud-apps/governance-discovery">https://learn.microsoft.com/en-us/defender-cloud-apps/governance-discovery</a>
+Now we can take this one step further and we can now determine which of the 26,000 SaaS Apps I want to allow or block - the only real limitation (to a certain extent) is that the user is using corporate credentials from our AAD via an endpoint enabled with MDE </li>
+</ul>
+<h3 id="review-and-improve-as-needed">Review and Improve as needed</h3>
+<ul>
+<li>Add Conditional Access App Control into the mix - this is where we are starting to get more into Zero Trust - so don't jump in here first, make sure the rest of the Security settings are in place and then come back to this in a later phase
+<a href="https://learn.microsoft.com/en-us/defender-cloud-apps/proxy-intro-aad">https://learn.microsoft.com/en-us/defender-cloud-apps/proxy-intro-aad</a></li>
+</ul>
+<p>There is a lot more to be covered, but this will do for now, if you have questions please let us know?
+<a href="https://github.com/dcaddick/gsd_public/discussions">https://github.com/dcaddick/gsd_public/discussions</a></p>
 <h3 id="troubleshooting">Troubleshooting</h3>
-<p><a href="https://learn.microsoft.com/en-us/defender-cloud-apps/troubleshooting-cloud-discovery">https://learn.microsoft.com/en-us/defender-cloud-apps/troubleshooting-cloud-discovery</a></p>
+<ul>
+<li>Advanced Settings URL:
+<a href="https://security.microsoft.com/cloudapps/settings">https://security.microsoft.com/cloudapps/settings</a></li>
+<li>
+<p>Troubleshooting: 
+<a href="https://learn.microsoft.com/en-us/defender-cloud-apps/troubleshooting-cloud-discovery">https://learn.microsoft.com/en-us/defender-cloud-apps/troubleshooting-cloud-discovery</a></p>
 </li>
-<li>Tune the system: <a href="https://learn.microsoft.com/en-us/defender-cloud-apps/tutorial-suspicious-activity">https://learn.microsoft.com/en-us/defender-cloud-apps/tutorial-suspicious-activity</a></li>
-<li>Tell it what the Corporate IP address's are: <a href="https://learn.microsoft.com/en-us/defender-cloud-apps/ip-tags">https://learn.microsoft.com/en-us/defender-cloud-apps/ip-tags</a></li>
-<li>Set the IP's in bulk if needed: <a href="https://learn.microsoft.com/en-us/defender-cloud-apps/api-data-enrichment-manage-script">https://learn.microsoft.com/en-us/defender-cloud-apps/api-data-enrichment-manage-script</a></li>
-<li>Best Practices: <a href="https://learn.microsoft.com/en-us/defender-cloud-apps/best-practices">https://learn.microsoft.com/en-us/defender-cloud-apps/best-practices</a></li>
-<li>Daily Activities: <a href="https://learn.microsoft.com/en-us/defender-cloud-apps/daily-activities-to-protect-your-cloud-environment">https://learn.microsoft.com/en-us/defender-cloud-apps/daily-activities-to-protect-your-cloud-environment</a></li>
-<li>Apps list</li>
+<li>
+<p>Apps list</p>
+</li>
 <li>Sanctioned/Unsanctioned</li>
 <li>Don't forget this is based on MDE</li>
 </ul>
