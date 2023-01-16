@@ -1,6 +1,6 @@
 ## Sentinel Tips from the Field:
 
-!!! tip You want SOAR? 
+!!! tip "You want SOAR?" 
 
     -   Most folks skip Defender in preference for Sentinel...  
     -   Start from the desired outcome and work your way back from there
