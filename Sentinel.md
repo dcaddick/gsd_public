@@ -5,7 +5,7 @@
     -   Start from the desired outcome and work your way back from there
     -   What is it that SecOps need? - more automation, less manual work ;-)
     -   What does that look like? Showcase an example from Contoso Hotels
-    -   Enable Automated Investigation & Remediation (AIR) at MDI, MDO, MDE and M365 Defender console levels - **don't skip this!**
+    -   Enable Automated Investigation & Remediation (AIR) at MDI, MDO, MDE and M365 Defender console levels - **don't skip this!** - as this enables SOAR "at source"
     -   Now that we have the first level triage in place, let's now move on to Sentinel...
 
 
