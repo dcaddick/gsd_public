@@ -1,6 +1,7 @@
 ## Sentinel Tips from the Field:
 
 !!! tip You want SOAR? 
+
     -   Most folks skip Defender in preference for Sentinel...  
     -   Start from the desired outcome and work your way back from there
     -   What is it that SecOps need? - more automation, less manual work ;-)
@@ -91,5 +92,5 @@ More information: <https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365
 
 This recent addition looks adventerous - but you might at least want to review the logic and have an alert sent to the team when you should be **prompted** to review or change the pricing tier? Don't forget to make sure the LAW is changed as well at the same time :)
 
-Automatically auto-scale your Sentinel pricing tiers
-https://koosg.medium.com/auto-scale-your-sentinel-pricing-tiers-3d1f46b4c6ce
+Automatically auto-scale your Sentinel pricing tiers:
+<https://koosg.medium.com/auto-scale-your-sentinel-pricing-tiers-3d1f46b4c6ce>
