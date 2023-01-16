@@ -44,6 +44,7 @@ Cost Optimization tips from Rod Trent:
 
 
 -   ### Filtering Logs: 
+
     Can be used to reduce data noise, reduce ingestion and retention/storage costs with the goal being to focus on the logs and events that are relevant - This is typically performed by one of the methods for the following scenarios:
 
     -   Server Log Ingestion - Azure Monitor Agent Directly can filter out logs that are not relevant for Microsoft Sentinel <https://docs.microsoft.com/en-us/azure/sentinel/best-practices-data#filter-your-logs-before-ingestion>
@@ -53,10 +54,11 @@ Cost Optimization tips from Rod Trent:
 
     -   Custom REST API Ingestion -- Via the Function or Logic App, data can be stripped away prior to sending to Microsoft sentinel
 
--   Looking deeper into the "Free data meters" it is possible to use this URL to find the following Table
+    -   Looking deeper into the "Free data meters" it is possible to use this URL to find the following Table
     <https://docs.microsoft.com/en-us/azure/sentinel/billing?tabs=free-data-meters#understand-your-microsoft-sentinel-bill>
 
--   The following table shows how Microsoft Sentinel and Log Analytics costs appear in the Service name and Meter columns of your Azure bill for free data services. For more information, see [View Data Allocation Benefits](https://docs.microsoft.com/en-us/azure/azure-monitor/usage-estimated-costs#view-data-allocation-benefits).
+
+The following table shows how Microsoft Sentinel and Log Analytics costs appear in the Service name and Meter columns of your Azure bill for free data services. For more information, see [View Data Allocation Benefits](https://docs.microsoft.com/en-us/azure/azure-monitor/usage-estimated-costs#view-data-allocation-benefits).
 
 > ![](./images/image8.png)
 
@@ -85,9 +87,7 @@ More information: <https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365
 - <https://learn.microsoft.com/en-us/azure/sentinel/best-practices-data#filter-your-logs-before-ingestion>
 
 
-
-
-This looks adventerous - but you might at least want to review the logic and have an alert sent to the team when you should be **prompted** to review or change the pricing tier? Don't forget to make sure the LAW is changed as well at the same time :)
+This recent addition looks adventerous - but you might at least want to review the logic and have an alert sent to the team when you should be **prompted** to review or change the pricing tier? Don't forget to make sure the LAW is changed as well at the same time :)
 
 Automatically auto-scale yur Sentinel pricing tiers
 https://koosg.medium.com/auto-scale-your-sentinel-pricing-tiers-3d1f46b4c6ce
