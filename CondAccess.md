@@ -1,5 +1,3 @@
-## Conditional Access
-
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_LHXQ7ucR3-MQZM3NO-a4_WRckjsP9FcUA&usqp=CAU)
 
 ## Ways of working

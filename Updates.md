@@ -1,16 +1,16 @@
 
-## Ways of working
+### Ways of working
 First decision point - do you have **ANY** Domain Controllers within your environment? If so then you should install MDI **NOW** and make it the very top of your Security ToDo list.
 
-## Enable Telemetry
+### Enable Telemetry
 
-## Validate and Test
+### Validate and Test
 
-## Enable Reporting
+### Enable Reporting
 
-## Review and Improve as needed
+### Review and Improve as needed
 
-## Troubleshooting
+### Troubleshooting
 
 · Infographic: #BeCyberSmart with Devices and Data
 · Infographic: #BeCyberSmart with Phishing

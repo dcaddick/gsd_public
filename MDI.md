@@ -1,4 +1,4 @@
-## MDI (Microsoft Defender for Identity):
+![](https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png)
 
 ## Ways of working
 First decision point - do you have **ANY** Domain Controllers within your environment? If so then you should install MDI **NOW** and make it the very top of your Security ToDo list.
@@ -22,8 +22,6 @@ Start here - <https://learn.microsoft.com/en-us/defender-for-identity/prerequisi
 This will do for now, especially if you are in a crisis mode, check the console for the DC's being online - now move on to validation below.
 Please follow up with all other Configuration steps as soon as practible, especially if you also have ADFS in play. 
 For ADFS please also check - <https://learn.microsoft.com/en-us/defender-for-identity/active-directory-federation-services>
-
-![](https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png)
 
 ## Validate and Test
 
