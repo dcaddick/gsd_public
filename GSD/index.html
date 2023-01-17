@@ -380,15 +380,15 @@
     1.   MDI (Microsoft Defender for Identity):
   </a>
   
-    <nav class="md-nav" aria-label="1.   MDI (Microsoft Defender for Identity):">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#ways-of-working" class="md-nav__link">
     Ways of working
   </a>
   
-</li>
+    <nav class="md-nav" aria-label="Ways of working">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#enable-telemetry" class="md-nav__link">
@@ -1026,15 +1026,15 @@
     1.   MDI (Microsoft Defender for Identity):
   </a>
   
-    <nav class="md-nav" aria-label="1.   MDI (Microsoft Defender for Identity):">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#ways-of-working" class="md-nav__link">
     Ways of working
   </a>
   
-</li>
+    <nav class="md-nav" aria-label="Ways of working">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#enable-telemetry" class="md-nav__link">
@@ -1490,11 +1490,13 @@
 <li>SOC Maintenance Tasks: <a href="https://learn.microsoft.com/en-gb/microsoft-365/security/defender/integrate-microsoft-365-defender-secops-tasks">https://learn.microsoft.com/en-gb/microsoft-365/security/defender/integrate-microsoft-365-defender-secops-tasks</a></li>
 </ul>
 <h2 id="1-mdi-microsoft-defender-for-identity">1.   MDI (Microsoft Defender for Identity):</h2>
-<h3 id="ways-of-working">Ways of working</h3>
+<h2 id="ways-of-working">Ways of working</h2>
 <p>First decision point - do you have <strong>ANY</strong> Domain Controllers within your environment? If so then you should install MDI <strong>NOW</strong> and make it the very top of your Security ToDo list.</p>
 <p>Anecdotes:</p>
 <ul>
-<li>Small Customer in 2018</li>
+<li>Small Customer in 2018, back when this was called "Azure ATP", installed only as a PoC and in under 48 hours it had identified a mis-configured Server that was exposed to the internet and was being brute-forced via RDP from Eastern Europe.</li>
+<li>Larger environment 2020, client not sure but was wanting to lock down Legacy Auth, suggested that as they had E5 <strong>strong recommendation</strong> to deploy MDI ASAP across DC's. After getting CAB Approval to deploy, and with less than 10% coverage of DC's in just over a week it popped up with "NTDIS Exfil via SMB"</li>
+<li>Security Value = <strong>Priceless</strong></li>
 </ul>
 <h3 id="enable-telemetry">Enable Telemetry</h3>
 <p>Start here - <a href="https://learn.microsoft.com/en-us/defender-for-identity/prerequisites">https://learn.microsoft.com/en-us/defender-for-identity/prerequisites</a>
