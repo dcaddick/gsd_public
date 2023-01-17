@@ -49,7 +49,6 @@ Quick wins to improve Security using existing M365 E5 entitlements
 -   SOC Maintenance Tasks: <https://learn.microsoft.com/en-gb/microsoft-365/security/defender/integrate-microsoft-365-defender-secops-tasks>
 
 
-
 ## 1.   MDI (Microsoft Defender for Identity):
 
 ## Ways of working
