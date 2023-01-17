@@ -1,4 +1,4 @@
-## Assumed Knowledge
+## Assumed Knowledge  Page last revised on: {{ git_revision_date }}
 
 This project is intended to remove friction to "getting shit done" and as such there is a certain amount of "assumed knowledge" that you are already somewhat experienced with the Microsoft Defender Security Suite of tools - in particular the 4 main pillars of MDI, MDE, MDO and MDCA (was MCAS) - if not then please consider having a good review of the Core Reference material below.
 
