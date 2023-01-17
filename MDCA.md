@@ -25,7 +25,12 @@ First decision point - Simple or Complex, i.e. do you need to be concerned about
 - Daily Activities:
 <https://learn.microsoft.com/en-us/defender-cloud-apps/daily-activities-to-protect-your-cloud-environment>
 
-[]!(./images/MDCA_EnableFileMonitoring.png)
+!!! warning
+    -   For best protection, we recommend selecting all Office 365 components.
+    -   The Office 365 files component, requires the Office 365 activities component and Defender for Cloud Apps file monitoring (Settings > Files > Enable file monitoring).
+    -   Make sure the **last** checkbox (Office 365 Files) in the image below is **"checked"**
+
+![](https://learn.microsoft.com/en-us/defender-cloud-apps/media/connect-o365-components.png)
 
 ### Validate and Test
 
