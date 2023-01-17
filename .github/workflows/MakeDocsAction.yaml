@@ -1,45 +1,58 @@
-name: MakeDocsAction
-on:
-  push:
-    branches:
-      - master
+# This is a basic workflow to help you get started with Actions
+name: MakeDocs
 
-permissions:
-  contents: write
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  # pull_request:
+  #   branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
-  documentation:
-    name: Build documentation
+  docs:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
 
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      #- name: Install plugins
+      #  run: | 
+      #    python -m pip install --upgrade pip setuptools wheel
+      #    pip install mkdocs-minify-plugin==0.3.0
+      #    pip install mkdocs-plugin-progress
+      #    pip install mkdocs-techdocs-core
+      #    pip show --verbose mkdocs-techdocs-core
+      #    pip install mkdocs-git-revision-date-localized-plugin
+      #    pip show --verbose mkdocs-git-revision-date-localized-plugin
+      #    pip show --verbose mkdocs-material --version
+        # pip install mkdocs-table-reader-plugin
+        # pip install mkdocs-glightbox
+
+      - name: Build and push docs
+        uses: athackst/mkdocs-simple-plugin@v2.1.3
         with:
-          fetch-depth: 0
-
-      - name: Set up Python runtime
-        uses: actions/setup-python@v4
-        with:
-          python-version: 3.x
-
-      - name: Set up build cache
-        uses: actions/cache@v3
-        id: cache
-        with:
-          path: .cache
-
-      - name: Install Python dependencies
-        run: |
-          pip install \
-            "cairosvg>=2.5" \
-            "mkdocs-git-committers-plugin-2>=1.1.1" \
-            "mkdocs-git-revision-date-localized-plugin>=1.0" \
-            "mkdocs-minify-plugin>=0.3" \
-            "mkdocs-rss-plugin>=1.2" \
-            "mkdocs-redirects>=1.0" \
-            "pillow<10"
-      - name: Deploy documentation
-        run: |
-          mkdocs gh-deploy --force
-          mkdocs --version
+        #   # (optional) Specify branch 
+        #   publish_branch: main # gh-pages 
+          # (optional) The URL of the repository the docs should point to
+          repo_url: https://github.com/dcaddick/gsd_public
+          # (optional) The URL of the site
+          site_url: https://dcaddick.github.io
+          # (optional) The edit URI
+          edit_uri: edit/main/
+        #   # (optional) Specify a google analytics key 
+        #   # google_analytics: G-QS5J5W9G3Q
+        #   # (optional) Specify a different theme [mkdocs|readthedocs|material]
+          theme: material
+        #   # (optional) Load a configuration file from a string
+          config: "mkdocs.yml"
+        #   # (optional) Version or alias.  Specify multiple aliases with space
+        #   # example: version: v0.1.0 latest
+        #   version: latest
+        #   # (optional) The version that will be served by the root of your site
+        #   default_version: latest
+        #   # (optional) Whether to push the docs to the remote branch
+        #   # push: 1
