@@ -13,6 +13,6 @@ mkdocs-git-revision-date-plugin
 mkdocs-git-authors-plugin
 # mkdocs-git-revision-date-localized-plugin
 # mkdocs-table-reader-plugin  # enables automatic CSV imports as a table into a markdown page
-# mkdocs-img2fig-plugin  # converts markdown encoded images to HTML figures
+mkdocs-img2fig-plugin  # converts markdown encoded images to HTML figures
 # mkdocs-mermaid2-plugin
 mkdocs-glightbox
