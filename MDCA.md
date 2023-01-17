@@ -25,10 +25,23 @@ First decision point - Simple or Complex, i.e. do you need to be concerned about
 - Daily Activities:
 <https://learn.microsoft.com/en-us/defender-cloud-apps/daily-activities-to-protect-your-cloud-environment>
 
+The best practices discussed in the link above include:
+
+-   Discover and assess cloud apps
+-   Apply cloud governance policies
+-   Limit exposure of shared data and enforce collaboration policies
+-   Discover, classify, label, and protect regulated and sensitive data stored in the cloud
+-   Enforce DLP and compliance policies for data stored in the cloud
+-   Block and protect download of sensitive data to unmanaged or risky devices
+-   Secure collaboration with external users by enforcing real-time session controls
+-   Detect cloud threats, compromised accounts, malicious insiders, and ransomware
+-   Use the audit trail of activities for forensic investigations
+-   Secure IaaS services and custom apps
+
 !!! warning
     -   For best protection, we recommend selecting all Office 365 components.
     -   The Office 365 files component, requires the Office 365 activities component and Defender for Cloud Apps file monitoring (Settings > Files > Enable file monitoring).
-    -   Make sure the **last** checkbox (Office 365 Files) in the image below is **"checked"**
+    -   Make sure the **last** checkbox (Office 365 Files) in the image below is **"checked"** [link to more details](<https://learn.microsoft.com/en-us/defender-cloud-apps/connect-office-365>) 
 
 ![](https://learn.microsoft.com/en-us/defender-cloud-apps/media/connect-o365-components.png)
 
