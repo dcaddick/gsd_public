@@ -81,7 +81,7 @@ plugins:
   #- awesome-list
   #- table-reader
   - img2fig
-  #- mermaid2
+  - mermaid2
   #- macros
   #- minify 
 
