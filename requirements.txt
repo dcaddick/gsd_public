@@ -1,8 +1,6 @@
 # flake8==6.0.0
 # Jinja2==3.1.2
 # mike==1.1.2
-pillow 
-cairosvg
 mkdocs-awesome-pages-plugin==2.8.0  # enables naive configuration of page titles and their order
 mkdocs-click==0.8.0
 mkdocs-macros-plugin==0.7.0
