@@ -47,17 +47,26 @@ The best practices discussed in the link above include:
 
 ### Validate and Test
 
-- Enable MDI Integration
+-   Enable MDE Integration
+<https://learn.microsoft.com/en-us/defender-cloud-apps/mde-integration> 
+-   Enable MDI Integration
 <https://learn.microsoft.com/en-us/defender-cloud-apps/mdi-integration>
-- Govern discovered Apps using MDE (enables blocking of unwanted Apps)
+-   Govern discovered Apps using MDE (enables blocking of unwanted Apps)
 <https://learn.microsoft.com/en-us/defender-cloud-apps/mde-govern>
-- Investigating via Dashboard:
+-   Investigating via Dashboard:
 <https://learn.microsoft.com/en-us/defender-cloud-apps/investigate>
-- Tune the system: 
+-   Tune the system: 
 <https://learn.microsoft.com/en-us/defender-cloud-apps/tutorial-suspicious-activity>
-- Investigate & remediate risky OAuth Apps:
+-   Investigate & remediate risky OAuth Apps:
 <https://learn.microsoft.com/en-us/defender-cloud-apps/investigate-risky-oauth>
 
+!!! note
+    -   It takes up to two hours after you enable the integration for the data to show up in Defender for Cloud Apps.
+    -   [List of supported Firewalls and Proxies](<https://learn.microsoft.com/en-us/defender-cloud-apps/set-up-cloud-discovery#supported-firewalls-and-proxies->)
+    -   Follow link above for Integration steps with ZScaler, iboss, Menlo, etc...
+
+
+![](https://learn.microsoft.com/en-us/defender-cloud-apps/media/mde-settings.png)
 
 ### Enable Reporting
 
@@ -88,4 +97,4 @@ There is a lot more to be covered, but this will do for now, if you have questio
 
 -   Apps list
 -   Sanctioned/Unsanctioned
--   Don't forget this is based on MDE
+-   Don't forget this is based on MDE so go back and check the MDE integration link above
