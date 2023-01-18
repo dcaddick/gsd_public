@@ -1,4 +1,4 @@
-## MDC (Microsoft Defender for Cloud):
+## **MDC (Microsoft Defender for Cloud)**
 
 -   How to deploy MDC at scale: <https://onedrive.live.com/?authkey=%21AIzlpf%2DTsBYFMbk&cid=66C31D2DBF8E0F71&id=66C31D2DBF8E0F71%212663&parId=66C31D2DBF8E0F71%212662&o=OneUp>
 -   Don't forget the Community at Github: <https://github.com/Azure/Microsoft-Defender-for-Cloud>

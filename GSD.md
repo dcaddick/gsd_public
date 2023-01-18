@@ -1,4 +1,4 @@
-# Get Security Done (GSD) - Microsoft Security & M365 Defender
+# **Get Security Done (GSD) - Microsoft Security & M365 Defender**
 Quick wins to improve Security using existing M365 E5 entitlements
 
 !!! Note
@@ -7,7 +7,7 @@ Quick wins to improve Security using existing M365 E5 entitlements
 ![](./images/image1.jpg)
 
  
-## Core reference material:
+## **Core reference material**
 
 -   **Microsoft Cybersecurity Reference Architecture -- <https://aka.ms/MCRA>**
 -   **Security collateral inc. CISO Workshops, and lots more -- <https://aka.ms/MarksList>**
@@ -18,13 +18,13 @@ Quick wins to improve Security using existing M365 E5 entitlements
     - Aaron Dinnage, Microsoft Canberra
     - Plan comparison in detail - <https://aka.ms/M365EnterprisePlans>
     
-### Incident Response:
+### **Incident Response**
  -   CISO Lens Incident Response Template - November 2022 <https://www.cisolens.com/reports#h.a769cex3vkl>
  -   ACSC Exercise in a box <https://www.cyber.gov.au/exercise-in-a-box>
  -   Standardised Executive Reporting - an industry report from the CISO Lens community (June 2022)
         <https://www.cisolens.com/reports#h.z10davb23frq>
 
-## Still to do:
+## **Still to do**
 
 - [ ] Get plugins working, date updated, contributors, etc...
 - [ ] Link in announcement to discussion board
@@ -41,7 +41,7 @@ Quick wins to improve Security using existing M365 E5 entitlements
 - [ ] Zero Trust - <https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/creating-mfa-policies-with-zero-trust-advanced-deployment-guide/ba-p/3688849>
 - [ ] CISA recommendations?
 
-## M365 Defender Console:
+## **M365 Defender Console**
 
 -   Evaluate Defender 365: <https://learn.microsoft.com/en-gb/microsoft-365/security/defender/eval-overview>
     -   Good step by step guide to getting everything turned on - but it is aimed at folks just starting
@@ -49,7 +49,7 @@ Quick wins to improve Security using existing M365 E5 entitlements
 -   SOC Maintenance Tasks: <https://learn.microsoft.com/en-gb/microsoft-365/security/defender/integrate-microsoft-365-defender-secops-tasks>
 
 
-## 1.   MDI (Microsoft Defender for Identity):
+## **1.   MDI (Microsoft Defender for Identity)**
 
 ## Ways of working
 First decision point - do you have **ANY** Domain Controllers within your environment? If so then you should install MDI **NOW** and make it the very top of your Security ToDo list.
@@ -127,7 +127,7 @@ More details can be found here & example below - <https://learn.microsoft.com/en
 
 
 
-## 2.   Conditional Access
+## **2.   Conditional Access**
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_LHXQ7ucR3-MQZM3NO-a4_WRckjsP9FcUA&usqp=CAU)
 

@@ -1,4 +1,4 @@
-## ASD Essential 8 (now ACSC)
+## **ASD Essential 8 (now ACSC)**
 
 -   Great high level on all Essential 8 - <https://www.microsoft.com/en-au/business/topic/security/essential-eight/>
 -   6 videos that walk thru - <https://info.microsoft.com/AU-SCRTY-CATALOG-FY21-02Feb-14-TheEssentialEightforSecurityinPractice-SRDEM61939_CatalogDisplayPage.html>
@@ -8,7 +8,7 @@
 -   Australian IRAP - <https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-australia-irap> & <https://servicetrust.microsoft.com/Viewpage/AustraliaIRAP>
 -   Local Australian guide in Service Trust Portal <https://aka.ms/e8guides>
 
-### Hardening Guidance from ACSC:
+### **Hardening Guidance from ACSC**
 
 -   <https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-windows-10-version-21h1-workstations>
 -   <https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-365-office-2021-office-2019-and-office-2016>
@@ -18,14 +18,14 @@
 -   [ACSC Windows Hardening Guidelines-Attack Surface Reduction](https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines/blob/main/policies/ACSC%20Windows%20Hardening%20Guidelines-Attack%20Surface%20Reduction.json)
 -   WDAC Policy creation from DTA - <https://desktop.gov.au/blueprint/abac/wdac-policy-creation.html>
 
-### Hardening Azure AD:
+### **Hardening Azure AD**
 
 -   [Secure your Azure AD identity infrastructure - Azure Active Directory](https://learn.microsoft.com/en-us/azure/security/fundamentals/steps-secure-identity)
 -   Also worth reviewing our Essential 8 guidance, especially MFA (aka.ms/e8guides)
 -   Microsoft Azure **Identity Security Compass** - [Microsoft Security Best Practices](https://learn.microsoft.com/en-us/security/compass/compass)
 -   Active Directory - [Best Practices for Securing Active Directory](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory)
 
-### AD onPrem:
+### **AD onPrem**
 
 A list of resources from DART perspective on Active Directory - courtesy
 of Matt Zorich (Twitter @reprise99)
@@ -42,7 +42,7 @@ of Matt Zorich (Twitter @reprise99)
 -   Kerberoasting Overview - [https://ired.team/offensive-security-experiments/active-directory-kerberos-abuse/t1208-kerberoasting...](https://t.co/EqWNu84RoG)
 -   Monitoring AD for signs of compromise - [https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise](https://t.co/enuOOAjAr1)
 
-### Identity:
+### **Identity**
 
 -   Best Practices: <https://learn.microsoft.com/en-us/security/compass/compass>
 -   <https://jeffreyappel.nl/tips-for-preventing-against-new-modern-identity-attacks-aitm-mfa-fatigue-prt-oauth/>
@@ -51,7 +51,7 @@ of Matt Zorich (Twitter @reprise99)
 -   <https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-365-security-center-defender-cloud-apps?view=o365-worldwide&WT.mc_id=AZ-MVP-5004291#control>
 -   <https://www.linkedin.com/posts/sami-lamppu_microsoft-defender-for-cloud-apps-in-microsoft-activity-7011278821773471744-TcvX>?
 
-### Exchange Permissions check:
+### **Exchange Permissions check**
 
 -   <https://office365itpros.com/2020/03/16/exchange-online-mailbox-permissions/>
 -    <https://github.com/12Knocksinna/Office365itpros/blob/master/ReportMailboxPermissionsMailboxes.PS1>

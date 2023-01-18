@@ -1,6 +1,6 @@
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_LHXQ7ucR3-MQZM3NO-a4_WRckjsP9FcUA&usqp=CAU)
 
-## Ways of working
+## **Ways of working**
 First decision point - how are we going to do this?
 Questions to help you determine this are:
 
@@ -17,7 +17,7 @@ Result:
 * Larger implmentations - please take the time to review the process below to enable via "CA-as-Code" as the ROI is well worth it - especially if doing it for more than one customer or tenant :wink:
 
 
-## Enable Telemetry
+## **Enable Telemetry**
 !!! warning "**NOTE: please be aware there is no inherent "BLOCK" by default**"
     You need to make sure you are BLOCKING by default unless explicitly allowing access - walk thru the 14 default Policies to better understand this. To make sure that you are fully covered please use this PowerBI based tool **<https://github.com/AzureAD/AzureADAssessment>** 
     **Confirm your maturity based on this Tool ^^^^^^**
@@ -28,7 +28,7 @@ Result:
     <https://github.com/kennethvs/cabaseline202212/blob/main/Conditional%20Access%20demystified-v1.4%20-%20December%202022.pdf>
   
 
-## The Microsoft content
+## **The Microsoft content**
 
 -   Design - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design>
 -   Architecture - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-architecture>
@@ -48,7 +48,7 @@ Result:
     <https://danielchronlund.com/2022/04/21/a-powerfull-conditional-access-change-dashboard-for-microsoft-sentinel/>
 >
 
-## Automation of "CA-as-Code"
+## **Automation of "CA-as-Code"**
 
 -   Thomas N. - <https://www.cloud-architekt.net/speaking/> The most recent deck -- 2022-06-11 Scottish Summit 2022 "Deploying and Managing Conditional Access at Scale" [Slides](https://github.com/Cloud-Architekt/meetups/blob/master/2022-06-10%20ScottishSummit-Deploying-and-Managing-ConditionalAccess-at-Scale.pdf)
 
@@ -68,24 +68,24 @@ Result:
 -   [Fortigi has published some build scripts on GitHub](https://github.com/Fortigi/ConditionalAccess) to convert those GUIDs to readable display names.
 -   This also covers known GUIDs such as AAD Role and Application ID to DisplayName.
 
-## Validate and Test
+## **Validate and Test**
 
 <(https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/what-if-tool>
 
 <https://www.cloud-architekt.net/aadops-conditional-access/>
 
 
-## Enable Reporting
+## **Enable Reporting**
 
 <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-insights-reporting>
 
-## Review and Improve as needed
+## **Review and Improve as needed**
 
 Rerun check with AzureAD Assessment Tool
 
 Possible alternative to AAD Assessment tool: [CAOptics](<https://github.com/jsa2/caOptics>) 
 
-## Troubleshooting
+## **Troubleshooting**
 
 <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access#troubleshoot-conditional-access-policy>
 

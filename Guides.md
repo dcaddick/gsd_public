@@ -1,4 +1,4 @@
-## Interactive Guides:
+## **Interactive Guides**
 
 -   [Defender for Cloud](<https://aka.ms/ASC_InteractiveGuide>)
 -   [Microsoft Sentinel](https://aka.ms/AzureSentinel_SOC_InteractiveGuide)

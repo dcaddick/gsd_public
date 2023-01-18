@@ -10,7 +10,7 @@ Please fee free to raise an Issue via Github.
 
 Any and all feedback is greatly appreciated!
 
-## Authors 
+## **Authors** 
 **David Caddick**
 I admit it's my fault 😆, as I started collecting all the useful links that I had in OneNote from the last 5 years of helping Microsoft Partners grow their Security business, as well as some of the great content that was now coming across my desk here in Microsoft - it just seemed to make sense to get it out of OneNote and into somewhere more accessible to help reduce friction for Customers and Partners wanting to get stuff done.
 Works for Microsoft as Senior Security Specialist, Perth Western Australia
@@ -31,7 +31,7 @@ Works for Microsoft as Partner Security Solution Architect, London UK
 
 -   **LinkedIn**: <https://www.linkedin.com/in/josepinos365/>
 
-## Feedback
+## **Feedback**
 
 -   Please feel free to submit Feedback, Issues or requests to be added here ;-)
 -   Please raise issues here: - <https://github.com/dcaddick/gsd_public/issues>
