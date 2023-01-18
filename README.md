@@ -1,5 +1,5 @@
 # Get Security Done
-[aka.ms/GSD](https://aka.ms/GSD)
+[aka.ms/gsd](https://aka.ms/GSD)
 
 ## **Current state**
 I have been focusing on the Microsoft Defender Security suite of tools & growing the Security business for MS Partners based on the Microsoft Security platform for the last 5+ years or so.

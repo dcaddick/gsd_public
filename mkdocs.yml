@@ -27,6 +27,7 @@ repo_name: "Get Security Done"
 theme:
   name: material
   icon: 
+    repo: fontawesome/brands/git-alt
     admonition:
       <type>: octicons/alert-16 # material/alert
 #  custom_dir: !ENV [THEME_DIR, "material"]
