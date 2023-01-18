@@ -70,7 +70,7 @@ plugins:
   - search
   - simple
   #- git-authors
-  - git-revision-date
+  #- git-revision-date
   - glightbox
   #- social
   #- awesome-list
