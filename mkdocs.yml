@@ -72,6 +72,8 @@ plugins:
   - search
   - simple
   - git-authors
+  - git-revision-date-localized:
+      enable_creation_date: true
   #- git-revision-date
   - glightbox
   #- social
