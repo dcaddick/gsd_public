@@ -354,7 +354,7 @@
 <a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_LHXQ7ucR3-MQZM3NO-a4_WRckjsP9FcUA&amp;usqp=CAU"><img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_LHXQ7ucR3-MQZM3NO-a4_WRckjsP9FcUA&amp;usqp=CAU"/></a>
 <figcaption></figcaption>
 </figure>
-<h2 id="ways-of-working">Ways of working</h2>
+<h2 id="ways-of-working"><strong>Ways of working</strong></h2>
 <p>First decision point - how are we going to do this?
 Questions to help you determine this are:</p>
 <ol>
@@ -370,7 +370,7 @@ Questions to help you determine this are:</p>
     <a href="https://portal.azure.com/#view/Microsoft_AAD_ConditionalAccess/CaTemplates.ReactView">View 14 x CA Policy Templates</a></li>
 <li>Larger implmentations - please take the time to review the process below to enable via "CA-as-Code" as the ROI is well worth it - especially if doing it for more than one customer or tenant <img alt="😉" class="twemoji" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f609.svg" title=":wink:"/></li>
 </ul>
-<h2 id="enable-telemetry">Enable Telemetry</h2>
+<h2 id="enable-telemetry"><strong>Enable Telemetry</strong></h2>
 <div class="admonition warning">
 <p class="admonition-title"><strong>NOTE: please be aware there is no inherent "BLOCK" by default</strong></p>
 <p>You need to make sure you are BLOCKING by default unless explicitly allowing access - walk thru the 14 default Policies to better understand this. To make sure that you are fully covered please use this PowerBI based tool <strong><a href="https://github.com/AzureAD/AzureADAssessment">https://github.com/AzureAD/AzureADAssessment</a></strong>
@@ -386,7 +386,7 @@ Questions to help you determine this are:</p>
 <a href="https://github.com/kennethvs/cabaseline202212/blob/main/Conditional%20Access%20demystified-v1.4%20-%20December%202022.pdf">https://github.com/kennethvs/cabaseline202212/blob/main/Conditional%20Access%20demystified-v1.4%20-%20December%202022.pdf</a>
 </p>
 </div>
-<h2 id="the-microsoft-content">The Microsoft content</h2>
+<h2 id="the-microsoft-content"><strong>The Microsoft content</strong></h2>
 <ul>
 <li>Design - <a href="https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design">https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design</a></li>
 <li>Architecture - <a href="https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-architecture">https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-architecture</a></li>
@@ -406,7 +406,7 @@ Questions to help you determine this are:</p>
 <a href="https://danielchronlund.com/2022/04/21/a-powerfull-conditional-access-change-dashboard-for-microsoft-sentinel/">https://danielchronlund.com/2022/04/21/a-powerfull-conditional-access-change-dashboard-for-microsoft-sentinel/</a></p>
 </div>
 <blockquote></blockquote>
-<h2 id="automation-of-ca-as-code">Automation of "CA-as-Code"</h2>
+<h2 id="automation-of-ca-as-code"><strong>Automation of "CA-as-Code"</strong></h2>
 <ul>
 <li>
 <p>Thomas N. - <a href="https://www.cloud-architekt.net/speaking/">https://www.cloud-architekt.net/speaking/</a> The most recent deck -- 2022-06-11 Scottish Summit 2022 "Deploying and Managing Conditional Access at Scale" <a href="https://github.com/Cloud-Architekt/meetups/blob/master/2022-06-10%20ScottishSummit-Deploying-and-Managing-ConditionalAccess-at-Scale.pdf">Slides</a></p>
@@ -436,15 +436,15 @@ Questions to help you determine this are:</p>
 <li><a href="https://github.com/Fortigi/ConditionalAccess">Fortigi has published some build scripts on GitHub</a> to convert those GUIDs to readable display names.</li>
 <li>This also covers known GUIDs such as AAD Role and Application ID to DisplayName.</li>
 </ul>
-<h2 id="validate-and-test">Validate and Test</h2>
+<h2 id="validate-and-test"><strong>Validate and Test</strong></h2>
 <p>&lt;(https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/what-if-tool&gt;</p>
 <p><a href="https://www.cloud-architekt.net/aadops-conditional-access/">https://www.cloud-architekt.net/aadops-conditional-access/</a></p>
-<h2 id="enable-reporting">Enable Reporting</h2>
+<h2 id="enable-reporting"><strong>Enable Reporting</strong></h2>
 <p><a href="https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-insights-reporting">https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-insights-reporting</a></p>
-<h2 id="review-and-improve-as-needed">Review and Improve as needed</h2>
+<h2 id="review-and-improve-as-needed"><strong>Review and Improve as needed</strong></h2>
 <p>Rerun check with AzureAD Assessment Tool</p>
 <p>Possible alternative to AAD Assessment tool: <a href="https://github.com/jsa2/caOptics">CAOptics</a> </p>
-<h2 id="troubleshooting">Troubleshooting</h2>
+<h2 id="troubleshooting"><strong>Troubleshooting</strong></h2>
 <p><a href="https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access#troubleshoot-conditional-access-policy">https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access#troubleshoot-conditional-access-policy</a></p>
 <p>Check for common misconfigurations - <a href="https://www.trustedsec.com/blog/common-conditional-access-misconfigurations-and-bypasses-in-azure/">https://www.trustedsec.com/blog/common-conditional-access-misconfigurations-and-bypasses-in-azure/</a></p>
 </article>
