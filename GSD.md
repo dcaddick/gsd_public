@@ -51,7 +51,7 @@ Quick wins to improve Security using existing M365 E5 entitlements
 
 ## **1.   MDI (Microsoft Defender for Identity)**
 
-## Ways of working
+## **Ways of working**
 First decision point - do you have **ANY** Domain Controllers within your environment? If so then you should install MDI **NOW** and make it the very top of your Security ToDo list.
 
 Example of **WHY** you do this first:
@@ -60,7 +60,7 @@ Example of **WHY** you do this first:
 -   Larger environment 2020, client not sure but was wanting to lock down Legacy Auth, suggested that as they had E5 **strong recommendation** to deploy MDI ASAP across DC's. After getting CAB Approval to deploy, and with less than 10% coverage of DC's in just over a week it popped up with "NTDIS Exfil via SMB"
 -   Security Value = **Priceless**
 
-### Enable Telemetry
+### **Enable Telemetry**
 
 Start here - <https://learn.microsoft.com/en-us/defender-for-identity/prerequisites>
 1.  Capacity planning - <https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning>
@@ -75,7 +75,7 @@ For ADFS please also check - <https://learn.microsoft.com/en-us/defender-for-ide
 
 ![](https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png)
 
-### Validate and Test
+### **Validate and Test**
 
 Be conscious that if you are testing that MDI is working correctly that this may trigger **high impact** Alerts to your Blue Team or existing SecOps IF it's already installed and being monitored - or for that matter if another tooling is in place to monitor the same behaviour - so if doing some major testing it's worthwhile letting them know before hand? And on that, make sure you schedule some time to review afterwards about what testing/alerting was created & what was visible from a SecOps perspective? 
 
@@ -92,7 +92,7 @@ This would be valuable lessons on effectiveness - even more so if there is missi
 -   Go to <https://portal.atp.azure.com> and if you see this, it's not been installed correctly
 ![](./images/image3.png)
 
-### Enable Reporting
+### **Enable Reporting**
 
 Once enabled you should now have a lot more visibility into the Security Posture of the onPrem environment - including the following:
 
@@ -112,14 +112,14 @@ Once enabled you should now have a lot more visibility into the Security Posture
 More details can be found here & example below - <https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports>
 ![](https://learn.microsoft.com/en-us/defender-for-identity/media/select-assessment.png)
 
-### Review and Improve as needed
+### **Review and Improve as needed**
 
 -   Review Security Assessments to validate what potentially needs remediation: <https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports>
 -   Full list of the 44 Alerts that are being checked on your behalf when fully deployed: <https://learn.microsoft.com/en-us/defender-for-identity/alerts-overview>
 -   If you do not use the default Administrator account (ideally have it disabled?) then please add it to the Honeytoken account list: <https://learn.microsoft.com/en-us/defender-for-identity/entity-tags#honeytoken-tags>
 -   Audit checking via Sentinel for MDI - <https://thalpius.com/2022/12/14/microsoft-defender-for-identity-auditing-checker-using-sentinel>
 
-### Troubleshooting
+### **Troubleshooting**
 
 -   <https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-known-issues>
 -   <https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-using-logs>
@@ -131,7 +131,7 @@ More details can be found here & example below - <https://learn.microsoft.com/en
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_LHXQ7ucR3-MQZM3NO-a4_WRckjsP9FcUA&usqp=CAU)
 
-### Ways of working
+### **Ways of working**
 First decision point - how are we going to do this?
 Questions to help you determine this are:
 
@@ -147,7 +147,7 @@ Result:
 * Larger implmentations - please take the time to review the process below to enable via "CA-as-Code" as the ROI is well worth it - especially if doing it for more than one customer or tenant :wink:
 
 
-### Enable Telemetry
+### **Enable Telemetry**
 !!! warning "**NOTE: please be aware there is no inherent "BLOCK" by default**"
     You need to make sure you are BLOCKING by default unless explicitly allowing access - walk thru the 14 default Policies to better understand this. To make sure that you are fully covered please use this PowerBI based tool **<https://github.com/AzureAD/AzureADAssessment>** 
     **Confirm your maturity based on this Tool ^^^^^^**
@@ -158,7 +158,7 @@ Result:
     <https://github.com/kennethvs/cabaseline202212/blob/main/Conditional%20Access%20demystified-v1.4%20-%20December%202022.pdf>
   
 
-### The Microsoft content
+### **The Microsoft content**
 
 -   Design - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design>
 -   Architecture - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-architecture>
@@ -178,7 +178,7 @@ Result:
     <https://danielchronlund.com/2022/04/21/a-powerfull-conditional-access-change-dashboard-for-microsoft-sentinel/>
 >
 
-### Automation of "CA-as-Code"
+### **Automation of "CA-as-Code"**
 
 -   Thomas N. - <https://www.cloud-architekt.net/speaking/> The most recent deck -- 2022-06-11 Scottish Summit 2022 "Deploying and Managing Conditional Access at Scale" [Slides](https://github.com/Cloud-Architekt/meetups/blob/master/2022-06-10%20ScottishSummit-Deploying-and-Managing-ConditionalAccess-at-Scale.pdf)
 
@@ -198,21 +198,21 @@ Result:
 -   [Fortigi has published some build scripts on GitHub](https://github.com/Fortigi/ConditionalAccess) to convert those GUIDs to readable display names.
 -   This also covers known GUIDs such as AAD Role and Application ID to DisplayName.
 
-### Validate and Test
+### **Validate and Test**
 
 https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/what-if-tool
 
 https://www.cloud-architekt.net/aadops-conditional-access/
 
-### Enable Reporting
+### **Enable Reporting**
 
 https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-insights-reporting
 
-### Review and Improve as needed
+### **Review and Improve as needed**
 
 Rerun check with AzureAD Assessment Tool
 
-### Troubleshooting
+### **Troubleshooting**
 
 https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access#troubleshoot-conditional-access-policy
 
@@ -224,15 +224,15 @@ Check for common misconfigurations - https://www.trustedsec.com/blog/common-cond
 
 
 
-## 3.   Microsoft Defender for Cloud Apps (MDCA), was MCAS):
+## **3.   Microsoft Defender for Cloud Apps (MDCA), was MCAS)**
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQs2hcOLld13doGTbvIknglVMDxEoot1EJ3g&usqp=CAU)
 
-### Ways of working
+### **Ways of working**
 First decision point - Simple or Complex, i.e. do you need to be concerned about RBAC for instance becuase of the scale of the installation or the number of different parties that **may** need access to part or some parts of the console?  <https://learn.microsoft.com/en-us/defender-cloud-apps/manage-admins>
 
 
-### Enable Telemetry
+### **Enable Telemetry**
 
 - Basic Setup --> Start here:
 <https://learn.microsoft.com/en-us/defender-cloud-apps/general-setup>
@@ -270,7 +270,7 @@ The best practices discussed in the link above include:
 
 ![](https://learn.microsoft.com/en-us/defender-cloud-apps/media/connect-o365-components.png)
 
-### Validate and Test
+### **Validate and Test**
 
 -   Enable MDE Integration
 <https://learn.microsoft.com/en-us/defender-cloud-apps/mde-integration> 
@@ -293,7 +293,7 @@ The best practices discussed in the link above include:
 
 ![](https://learn.microsoft.com/en-us/defender-cloud-apps/media/mde-settings.png)
 
-### Enable Reporting
+### **Enable Reporting**
 
 - Investigate Apps discovered by MDE 
 <https://learn.microsoft.com/en-us/defender-cloud-apps/mde-investigation>
@@ -304,7 +304,7 @@ This is where this process gets really good, have a real good look at all the po
 <https://learn.microsoft.com/en-us/defender-cloud-apps/governance-discovery>
 Now we can take this one step further and we can now determine which of the 26,000 SaaS Apps I want to allow or block - the only real limitation (to a certain extent) is that the user is using corporate credentials from our AAD via an endpoint enabled with MDE 
 
-### Review and Improve as needed
+### **Review and Improve as needed**
 
 - Add Conditional Access App Control into the mix - this is where we are starting to get more into Zero Trust - so don't jump in here first, make sure the rest of the Security settings are in place and then come back to this in a later phase
 <https://learn.microsoft.com/en-us/defender-cloud-apps/proxy-intro-aad>
@@ -313,7 +313,7 @@ There is a lot more to be covered, but this will do for now, if you have questio
 <https://github.com/dcaddick/gsd_public/discussions>
 
 
-### Troubleshooting
+### **Troubleshooting**
 
 - Advanced Settings URL:
 <https://security.microsoft.com/cloudapps/settings>
@@ -326,7 +326,7 @@ There is a lot more to be covered, but this will do for now, if you have questio
  
 
 
-## 4.   MDE (Microsoft Defender for Endpoint):
+## **4.   MDE (Microsoft Defender for Endpoint)**
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwZULy1sOxB6LxDMRu-_FvV72vfFAsTKnM1A&usqp=CAU)
 
@@ -352,7 +352,7 @@ There is a lot more to be covered, but this will do for now, if you have questio
 
 ![](./images/image7.png)
 
-### Intune - MDE (Microsoft Defender for Endpoint):
+### **Intune - MDE (Microsoft Defender for Endpoint)**
 
 -   Easy starting point, step-by-step guide: <https://learn.microsoft.com/en-us/mem/solutions/cloud-native-endpoints/cloud-native-windows-endpoints>
 -   Ideally start with Security Baselines: <https://endpoint.microsoft.com/#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/securityBaselines>    
@@ -362,7 +362,7 @@ These are updated every 6 months and you'll be prompted to update/accept changes
 -   ASR rules deployment steps: <https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-deployment>
 -   If needed import your old GPO's: <https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/policyAnalyticsReport>
 
-### MDE using ASR stand-alone (E3)
+### **MDE using ASR stand-alone (E3)**
 
 -   <https://www.computerworld.com/article/3604651/decoding-windows-defender-s-hidden-settings.html>
 -   <https://github.com/AndyFul/ConfigureDefender>
@@ -370,7 +370,7 @@ These are updated every 6 months and you'll be prompted to update/accept changes
 -   <https://github.com/beerisgood/Windows11_Hardening>
 -   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-define-the-av-baseline-part4a/>
 
-## 5.   MDO (Microsoft Defender for Office):
+## **5.   MDO (Microsoft Defender for Office)**
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUjkG9-rGdaKbfcCGtM3GzTaUfsSxcTmSsSg&usqp=CAU)
 
@@ -385,7 +385,7 @@ These are updated every 6 months and you'll be prompted to update/accept changes
 -   Recommended Settings: <https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365>
 -   Config Analyzer: <https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/configuration-analyzer-for-security-policies>
 
-## 6.   MDC (Microsoft Defender for Cloud):
+## **6.   MDC (Microsoft Defender for Cloud)**
 
 -   How to deploy MDC at scale: <https://onedrive.live.com/?authkey=%21AIzlpf%2DTsBYFMbk&cid=66C31D2DBF8E0F71&id=66C31D2DBF8E0F71%212663&parId=66C31D2DBF8E0F71%212662&o=OneUp>
 -   Don't forget the Community at Github: <https://github.com/Azure/Microsoft-Defender-for-Cloud>
@@ -398,7 +398,7 @@ These are updated every 6 months and you'll be prompted to update/accept changes
     -   Workflow Automation: <https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workflow%20automation>
 
 
-## 7.   Sentinel Tips and Best Practices:
+## **7.   Sentinel Tips and Best Practices**
 
 -   <https://learn.microsoft.com/en-us/azure/sentinel/best-practices>
 -   <https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/best-practices-for-designing-a-microsoft-sentinel-or-azure/ba-p/832574>
@@ -424,7 +424,7 @@ These are updated every 6 months and you'll be prompted to update/accept changes
     -   More information can be found here: [Advanced hunting event collection](https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365-defender-sentinel-integration#advanced-hunting-event-collection)
 
 
-### Azure Log Management:
+### **Azure Log Management**
 
     -   [Design a Log Analytics workspace architecture - Azure Monitor](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Fazure-monitor%2Flogs%2Fworkspace-design&data=05%7C01%7Cdavecaddick%40microsoft.com%7Ca9c6aea6a2e34b1a57c008dabba5de49%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638028618327569401%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=1CPvtNtBZPRUtrYS464Iw0I%2B1E9BNKr7Fid9cVN9hbQ%3D&reserved=0)
 
@@ -433,7 +433,7 @@ These are updated every 6 months and you'll be prompted to update/accept changes
     -   [Best practices for data collection in Microsoft Sentinel](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Fsentinel%2Fbest-practices-data&data=05%7C01%7Cdavecaddick%40microsoft.com%7Ca9c6aea6a2e34b1a57c008dabba5de49%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638028618327569401%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=gVLZDafeeOVo4O%2FCFrtjb98t2GIx5wKaOkXZplFxmXc%3D&reserved=0)
 
 
-### Filtering Logs: 
+### **Filtering Logs** 
     Can be used to reduce data noise, reduce ingestion and retention/storage costs with the goal being to focus on the logs and events that are relevant - This is typically performed by one of the methods for the following scenarios:
 
     -   Server Log Ingestion - Azure Monitor Agent Directly can filter out logs that are not relevant for Microsoft Sentinel <https://docs.microsoft.com/en-us/azure/sentinel/best-practices-data#filter-your-logs-before-ingestion>
@@ -450,7 +450,7 @@ These are updated every 6 months and you'll be prompted to update/accept changes
 
 > ![](./images/image8.png)
 
-### Sentinel - Recommendation to enable M365 Defender Connector:
+### **Sentinel - Recommendation to enable M365 Defender Connector**
 - More information: <https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365-defender-sentinel-integration>
 
 -   [Incident creation rules](https://learn.microsoft.com/en-us/azure/sentinel/microsoft-365-defender-sentinel-integration#microsoft-365-defender-incidents-and-microsoft-incident-creation-rules) that need to be mindful of to avoid creating multiple Incidents
@@ -469,7 +469,7 @@ More information: <https://docs.microsoft.com/en-us/azure/sentinel/microsoft-365
 -   <https://learn.microsoft.com/en-us/azure/sentinel/billing-reduce-costs#optimize-log-analytics-costs-with-dedicated-clusters>
 -   <https://learn.microsoft.com/en-us/azure/sentinel/best-practices-data#filter-your-logs-before-ingestion>
 
-## 8.   Microsoft Information Protection (MIP/AIP)
+## **8.   Microsoft Information Protection (MIP/AIP)**
 
 This page will also cover DLP, but we'll probably build out a whole new section on Purview as this site matures, thank you for your patience - please feel free to provide feedback via raising an issue in Github.
 
@@ -481,7 +481,7 @@ This page will also cover DLP, but we'll probably build out a whole new section 
 -   DLP - <https://learn.microsoft.com/en-gb/microsoft-365/compliance/dlp-learn-about-dlp>
 -   What's new - <https://learn.microsoft.com/en-gb/microsoft-365/compliance/whats-new>
 
-## 9.   ASD Essential 8 (now ACSC)
+## **9.   ASD Essential 8 (now ACSC)**
 
 -   Great high level on all Essential 8 - <https://www.microsoft.com/en-au/business/topic/security/essential-eight/>
 -   6 videos that walk thru - <https://info.microsoft.com/AU-SCRTY-CATALOG-FY21-02Feb-14-TheEssentialEightforSecurityinPractice-SRDEM61939_CatalogDisplayPage.html>
@@ -491,7 +491,7 @@ This page will also cover DLP, but we'll probably build out a whole new section 
 -   Australian IRAP - <https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-australia-irap> & <https://servicetrust.microsoft.com/Viewpage/AustraliaIRAP>
 -   Local Australian guide in Service Trust Portal <https://aka.ms/e8guides>
 
-### Hardening Guidance from ACSC:
+### **Hardening Guidance from ACSC**
 
 -   <https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-windows-10-version-21h1-workstations>
 -   <https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-365-office-2021-office-2019-and-office-2016>
@@ -501,14 +501,14 @@ This page will also cover DLP, but we'll probably build out a whole new section 
 -   [ACSC Windows Hardening Guidelines-Attack Surface Reduction](https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines/blob/main/policies/ACSC%20Windows%20Hardening%20Guidelines-Attack%20Surface%20Reduction.json)
 -   WDAC Policy creation from DTA - <https://desktop.gov.au/blueprint/abac/wdac-policy-creation.html>
 
-### Hardening Azure AD:
+### **Hardening Azure AD**
 
 -   [Secure your Azure AD identity infrastructure - Azure Active Directory](https://learn.microsoft.com/en-us/azure/security/fundamentals/steps-secure-identity)
 -   Also worth reviewing our Essential 8 guidance, especially MFA (aka.ms/e8guides)
 -   Microsoft Azure **Identity Security Compass** - [Microsoft Security Best Practices](https://learn.microsoft.com/en-us/security/compass/compass)
 -   Active Directory - [Best Practices for Securing Active Directory](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory)
 
-### AD onPrem:
+### **AD onPrem**
 
 A list of resources from DART perspective on Active Directory - courtesy
 of Matt Zorich (Twitter @reprise99)
@@ -525,7 +525,7 @@ of Matt Zorich (Twitter @reprise99)
 -   Kerberoasting Overview - [https://ired.team/offensive-security-experiments/active-directory-kerberos-abuse/t1208-kerberoasting...](https://t.co/EqWNu84RoG)
 -   Monitoring AD for signs of compromise - [https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise](https://t.co/enuOOAjAr1)
 
-### Identity:
+### **Identity**
 
 -   Best Practices: <https://learn.microsoft.com/en-us/security/compass/compass>
 -   <https://jeffreyappel.nl/tips-for-preventing-against-new-modern-identity-attacks-aitm-mfa-fatigue-prt-oauth/>
@@ -534,7 +534,7 @@ of Matt Zorich (Twitter @reprise99)
 -   <https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-365-security-center-defender-cloud-apps?view=o365-worldwide&WT.mc_id=AZ-MVP-5004291#control>
 -   <https://www.linkedin.com/posts/sami-lamppu_microsoft-defender-for-cloud-apps-in-microsoft-activity-7011278821773471744-TcvX>?
 
-### Exchange Permissions check:
+### **Exchange Permissions check**
 
 -   <https://office365itpros.com/2020/03/16/exchange-online-mailbox-permissions/>
 -    <https://github.com/12Knocksinna/Office365itpros/blob/master/ReportMailboxPermissionsMailboxes.PS1>
@@ -543,7 +543,7 @@ of Matt Zorich (Twitter @reprise99)
 > The two are subtly different, the first is on mailboxes, the second is
 > more focused on the Outlook Folders
 
-## MDE (from MVP's):
+## **MDE (from MVP's)**
 
 -   Defender for Endpoint Policy Must Haves -
     <https://www.linkedin.com/posts/emannon_1dfv-2dfv-3dfv-activity-6989618122601230338-q2uK>?
@@ -562,12 +562,12 @@ of Matt Zorich (Twitter @reprise99)
 -   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-configure-av-next-generation-protection-part4/>
 -   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-define-the-av-baseline-part4a/>
 
- ### Migration:
+ ### **Migration**
 
 -   <https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migration-guides>
 -   <https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/switch-to-mde-overview>
 
-## 10.   WDAC: (Windows Defender Application Control)
+## **10.   WDAC: (Windows Defender Application Control)**
 
 Work in Progress, please review all content before starting, and be cautious in deployment
 
@@ -589,7 +589,7 @@ Work in Progress, please review all content before starting, and be cautious in 
 -   WDAC Policy Wizard: <https://lnkd.in/gwFuvmd4>
 -   Hunting WDAC Events in KQL: <https://lnkd.in/eJE8WHZG>
 
-### Additional Resources:
+### **Additional Resources**
 
 -   Creating a policy for machines already in use (this is the hard one)
 https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/create-initial-default-policy#create-a-custom-base-policy-to-minimize-user-impact-on-in-use-client-devices
@@ -601,7 +601,7 @@ https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-def
 -   <https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/microsoft-recommended-block-rules>
 -   <https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-deployment-guide>
 
-## Defender for Business:
+## **Defender for Business**
 
 -   Review the technical documentation  <https://aka.ms/MDB-Docs> 
 -   Review the Partner asset  <https://aka.ms/MDBPartnerKit> 
@@ -619,7 +619,7 @@ Updated Microsoft 365 Business Premium Customer Pitch Decks:
 -   [IT Decision Maker Pitch Deck](https://aka.ms/BPITDMPItchDeck) 
 -   Updated Webinar: [Having a customer conversation on security for Business Premium upsell](https://cloudpartners.transform.microsoft.com/download?assetname=assets/Training%20Videos/Microsoft%20365%20SMB/Driving%20a%20Customer%20Conversation%20on%20Security%20-%20Upselling%20to%20Microsoft%20365%20Business%20Premium.mp4) 
 
-## Ninja Security Training:
+## **Ninja Security Training**
 
 -   M365 Defender : <https://aka.ms/m365dninja>
 -   Microsoft Defender for Endpoint: <https://aka.ms/mdeninja>
@@ -651,7 +651,7 @@ Updated Microsoft 365 Business Premium Customer Pitch Decks:
 -   Exam SC-900: <https://learn.microsoft.com/en-us/certifications/exams/sc-900>
 -   Exam SC-200: <https://learn.microsoft.com/en-us/certifications/exams/sc-200>
 
-## Interactive Guides:
+## **Interactive Guides**
 
 -   [Defender for Cloud](<https://aka.ms/ASC_InteractiveGuide>)
 -   [Microsoft Sentinel](https://aka.ms/AzureSentinel_SOC_InteractiveGuide)
@@ -677,7 +677,7 @@ Updated Microsoft 365 Business Premium Customer Pitch Decks:
  ![](./images/InteractiveGuides.png)
 (Still working on Tables)
 
-## Product Trials:
+## **Product Trials**
 
 -   [Microsoft Defender for Identity](https://signup.microsoft.com/Signup?OfferId=a0db242a-96d7-4f99-bd52-05c0d5556257&ali=1)
 -   [Microsoft Defender for Office 365 P2](https://signup.microsoft.com/signup/logout?OfferId=20298c4d-d500-47fa-b3cd-a3f7d75d9253)
@@ -702,7 +702,7 @@ Updated Microsoft 365 Business Premium Customer Pitch Decks:
 -   [Microsoft Priva Subject Rights Requests](https://signup.microsoft.com/get-started/signup?products=1c6c565d-cae2-4648-aa92-bf52b523fdbd)
 
 
-## FastTrack:
+## **FastTrack**
 
 -   FastTrack Core Deck: <https://aka.ms/FastTrackCoreDeck>
 -   FastTrack Benefit Description Deck: <https://aka.ms/FastTrackBenefitDeck>
@@ -710,7 +710,7 @@ Updated Microsoft 365 Business Premium Customer Pitch Decks:
 -   FastTrack customer one-pager: <https://aka.ms/FastTrackOnePager>
 
  
-## Microsoft Private Security Communities (NDA):
+## **Microsoft Private Security Communities (NDA)**
 
 If you want to keep up to date with the latest + connect with your peers from Microsoft, Partners and Customers this is an invaluable
 resource
@@ -744,7 +744,7 @@ Both of the Team Channels above are covered by your NDA with Microsoft from eith
  - To join the MEM CCP visit <https://aka.ms/JoinMEMCCP>
  - To join the Compliance & Privacy CCP visit <https://aka.ms/JoinCompliancePrivacyCCP>
 
-## For PARTNERS:
+## **For PARTNERS**
 
 -   Everything you wanted to know about Sentinel Architecture <https://aka.ms/PartnerSocArchitecture>
 
@@ -769,7 +769,7 @@ All content listed will require Microsoft Partner login: i.e. use your work cred
 -   Security Training: <https://readiness.transform.microsoft.com/learning-paths/b7963402-e1ba-4485-8889-af04614e2d1b>
 -   Build Intent Workshops: <https://partner.microsoft.com/en-us/partnership/partner-incentives/modern-work-and-security-build-intent-workshops>
 
-### Build Intent Workshops
+### **Build Intent Workshops**
 -   Workshops Available: Partners can nominate Customers and receive USD $5K funding upon successful PoE submission
 -   Make sure you review the content below, it's typically very recent (within 6 months), and laid out very well in a structured manner with plenty of content in slide decks along with example SoW's & estimate effort
 -   Full list of workshops below with direct links below the table

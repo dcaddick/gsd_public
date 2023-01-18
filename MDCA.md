@@ -2,12 +2,12 @@
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQs2hcOLld13doGTbvIknglVMDxEoot1EJ3g&usqp=CAU)
 
-### Ways of working
+### **Ways of working**
 First decision point - Simple or Complex, i.e. do you need to be concerned about RBAC for instance becuase of the scale of the installation or the number of different parties that **may** need access to part or some parts of the console?  <https://learn.microsoft.com/en-us/defender-cloud-apps/manage-admins>
 
 
 
-### Enable Telemetry
+### **Enable Telemetry**
 
 - Basic Setup --> Start here:
 <https://learn.microsoft.com/en-us/defender-cloud-apps/general-setup>
@@ -45,7 +45,7 @@ The best practices discussed in the link above include:
 
 ![](https://learn.microsoft.com/en-us/defender-cloud-apps/media/connect-o365-components.png)
 
-### Validate and Test
+### **Validate and Test**
 
 -   Enable MDE Integration
 <https://learn.microsoft.com/en-us/defender-cloud-apps/mde-integration> 
@@ -68,7 +68,7 @@ The best practices discussed in the link above include:
 
 ![](https://learn.microsoft.com/en-us/defender-cloud-apps/media/mde-settings.png)
 
-### Enable Reporting
+### **Enable Reporting**
 
 - Investigate Apps discovered by MDE 
 <https://learn.microsoft.com/en-us/defender-cloud-apps/mde-investigation>
@@ -79,7 +79,7 @@ This is where this process gets really good, have a real good look at all the po
 <https://learn.microsoft.com/en-us/defender-cloud-apps/governance-discovery>
 Now we can take this one step further and we can now determine which of the 26,000 SaaS Apps I want to allow or block - the only real limitation (to a certain extent) is that the user is using corporate credentials from our AAD via an endpoint enabled with MDE 
 
-### Review and Improve as needed
+### **Review and Improve as needed**
 
 - Add Conditional Access App Control into the mix - this is where we are starting to get more into Zero Trust - so don't jump in here first, make sure the rest of the Security settings are in place and then come back to this in a later phase
 <https://learn.microsoft.com/en-us/defender-cloud-apps/proxy-intro-aad>
@@ -88,7 +88,7 @@ There is a lot more to be covered, but this will do for now, if you have questio
 <https://github.com/dcaddick/gsd_public/discussions>
 
 
-### Troubleshooting
+### **Troubleshooting**
 
 - Advanced Settings URL:
 <https://security.microsoft.com/cloudapps/settings>

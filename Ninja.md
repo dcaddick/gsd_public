@@ -1,4 +1,4 @@
-## Ninja Security Training:
+## **Ninja Security Training**
 
 -   M365 Defender : <https://aka.ms/m365dninja>
 -   Microsoft Defender for Endpoint: <https://aka.ms/mdeninja>

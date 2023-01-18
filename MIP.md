@@ -1,4 +1,4 @@
-## Microsoft Information Protection (MIP/AIP)
+## **Microsoft Information Protection (MIP/AIP)**
 
 This page will also cover DLP, but we'll probably build out a whole new section on Purview as this site matures, thank you for your patience - please feel free to provide feedback via raising an issue in Github.
 

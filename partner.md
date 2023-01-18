@@ -1,14 +1,14 @@
-## Partner only Content
+## **Partner only Content**
 
 
 ???+ warning "All content listed here will require Microsoft Partner login"
     i.e. use your Partner creds & password as this content/site is already federated for you **IF** your organization     is a Microsoft Security Partner
 
-## Partner Enablement
+## **Partner Enablement**
 Get the latest up to date on Security, Compliance and Identity Management
 <http://aka.ms/scipartnerenablement>
 
-## Demo tenants = 5 x free for 90 days ea.
+## **Demo tenants = 5 x free for 90 days ea.**
 MS Partner - go to <https://cdx.transform.microsoft.com> and get access to 5 x 90 day demo Tenants for free + 1 for 1 year
 
 -   You will need to add Az Subs from either Pay-as-you-Go or MSDN for Items like Sentinel that require LAW, etc...
@@ -29,7 +29,7 @@ MS Partner - go to <https://cdx.transform.microsoft.com> and get access to 5 x 9
 -   Security Training: <https://readiness.transform.microsoft.com/learning-paths/b7963402-e1ba-4485-8889-af04614e2d1b>
 -   Build Intent Workshops: <https://partner.microsoft.com/en-us/partnership/partner-incentives/modern-work-and-security-build-intent-workshops>
 
-## Build Intent Workshops
+## **Build Intent Workshops**
 -   Workshops Available: Partners can nominate Customers and receive USD $5K funding upon successful PoE submission
 -   Make sure you review the content below, it's typically very recent (within 6 months), and laid out very well in a structured manner with plenty of content in slide decks along with example SoW's & estimate effort
 -   Full list of workshops below with direct links below the table
