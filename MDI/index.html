@@ -330,7 +330,10 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <h1>1. Microsoft Defender for Identity (MDI)</h1>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png"><img alt="" src="https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png"/></a></p>
+<figure class="figure-image">
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png"><img alt="" src="https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png"/></a>
+<figcaption></figcaption>
+</figure>
 <h2 id="ways-of-working">Ways of working</h2>
 <p>First decision point - do you have <strong>ANY</strong> Domain Controllers within your environment? If so then you should install MDI <strong>NOW</strong> and make it the very top of your Security ToDo list.</p>
 <p>Example of <strong>WHY</strong> you do this first:</p>
@@ -357,15 +360,23 @@ For ADFS please also check - <a href="https://learn.microsoft.com/en-us/defender
 <ul>
 <li>Specific Validation information - <a href="https://learn.microsoft.com/en-us/defender-for-identity/configure-sensor-settings#validate-installations">https://learn.microsoft.com/en-us/defender-for-identity/configure-sensor-settings#validate-installations</a></li>
 <li>Make sure that Advanced Settings has Integration enabled - <a href="https://learn.microsoft.com/en-us/defender-for-identity/classic-integrate-mde">https://learn.microsoft.com/en-us/defender-for-identity/classic-integrate-mde</a></li>
-<li>Make doubly sure this Integration is enabled between ALL elements of MDI, MDE, MDO, MDCA and the M365 Defender Console
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://learn.microsoft.com/en-us/defender-for-identity/media/msde-enable.png"><img alt="" src="https://learn.microsoft.com/en-us/defender-for-identity/media/msde-enable.png"/></a></li>
+<li>Make doubly sure this Integration is enabled between ALL elements of MDI, MDE, MDO, MDCA and the M365 Defender Console</li>
+</ul>
+<figure class="figure-image">
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://learn.microsoft.com/en-us/defender-for-identity/media/msde-enable.png"><img alt="" src="https://learn.microsoft.com/en-us/defender-for-identity/media/msde-enable.png"/></a>
+<figcaption></figcaption>
+</figure>
+<ul>
 <li>Use Attack Simulations to <strong>validate MDI is installed correctly</strong> and Alerts are being surfaced accurately:
     <a href="https://learn.microsoft.com/en-us/defender-for-identity/playbooks">https://learn.microsoft.com/en-us/defender-for-identity/playbooks</a></li>
 <li>Use Labs for <strong>in depth checking</strong>: <a href="https://learn.microsoft.com/en-us/defender-for-identity/playbook-lab-overview">https://learn.microsoft.com/en-us/defender-for-identity/playbook-lab-overview</a></li>
 <li><a href="https://learn.microsoft.com/en-us/defender-for-identity/playbook-domain-dominance">https://learn.microsoft.com/en-us/defender-for-identity/playbook-domain-dominance</a></li>
-<li>Go to <a href="https://portal.atp.azure.com">https://portal.atp.azure.com</a> and if you see this, it's not been installed correctly
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/image3.png"><img alt="" src="../images/image3.png"/></a></li>
+<li>Go to <a href="https://portal.atp.azure.com">https://portal.atp.azure.com</a> and if you see this, it's not been installed correctly</li>
 </ul>
+<figure class="figure-image">
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="./images/image3.png"><img alt="" src="./images/image3.png"/></a>
+<figcaption></figcaption>
+</figure>
 <h2 id="enable-reporting">Enable Reporting</h2>
 <p>Once enabled you should now have a lot more visibility into the Security Posture of the onPrem environment - including the following:</p>
 <ul>
@@ -382,8 +393,11 @@ For ADFS please also check - <a href="https://learn.microsoft.com/en-us/defender
 <li>Unsecure SID History attributes</li>
 <li>Weak cipher usage</li>
 </ul>
-<p>More details can be found here &amp; example below - <a href="https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports">https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports</a>
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://learn.microsoft.com/en-us/defender-for-identity/media/select-assessment.png"><img alt="" src="https://learn.microsoft.com/en-us/defender-for-identity/media/select-assessment.png"/></a></p>
+<p>More details can be found here &amp; example below - <a href="https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports">https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports</a></p>
+<figure class="figure-image">
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://learn.microsoft.com/en-us/defender-for-identity/media/select-assessment.png"><img alt="" src="https://learn.microsoft.com/en-us/defender-for-identity/media/select-assessment.png"/></a>
+<figcaption></figcaption>
+</figure>
 <h2 id="review-and-improve-as-needed">Review and Improve as needed</h2>
 <ul>
 <li>Review Security Assessments to validate what potentially needs remediation: <a href="https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports">https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports</a></li>
