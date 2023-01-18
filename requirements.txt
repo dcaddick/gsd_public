@@ -10,7 +10,7 @@ mkdocs-minify-plugin==0.4.0  # strips whitespaces in HTML markdown documentation
 mkdocstrings-python-legacy==0.2.3
 mkdocstrings==0.19.1
 mkdocs-git-revision-date-plugin
-# mkdocs-git-authors-plugin
+mkdocs-git-authors-plugin
 # mkdocs-git-revision-date-localized-plugin
 # mkdocs-table-reader-plugin  # enables automatic CSV imports as a table into a markdown page
 mkdocs-img2fig-plugin  # converts markdown encoded images to HTML figures
