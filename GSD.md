@@ -12,7 +12,7 @@ Quick wins to improve Security using existing M365 E5 entitlements
  
 ## **Core reference material**
 
--   **Microsoft Cybersecurity Reference Architecture -- <https://aka.ms/MCRA>**
+-   **Microsoft Cybersecurity Reference Architecture -- <https://aka.ms/MCRA>** [**Direct link**](<https://github.com/MicrosoftDocs/security/blob/main/Downloads/microsoft-cybersecurity-reference-architectures.pptx?raw=true>) 
 -   **Security collateral inc. CISO Workshops, and lots more -- <https://aka.ms/MarksList>**
     -   Please - if you haven't come across these two links above
         before now - go and review and come back after
