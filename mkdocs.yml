@@ -78,8 +78,8 @@ plugins:
   - glightbox
   #- social
   #- awesome-list
-  #- table-reader
-  #- img2fig
+  #- table-reader - DON'T use, relys on pandas, too heavy for this
+  #- img2fig - Not needed
   - mermaid2
   #- macros
   #- minify 

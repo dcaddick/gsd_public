@@ -76,7 +76,7 @@ This will do for now, especially if you are in a crisis mode, check the console 
 Please follow up with all other Configuration steps as soon as practible, especially if you also have ADFS in play. 
 For ADFS please also check - <https://learn.microsoft.com/en-us/defender-for-identity/active-directory-federation-services>
 
-![](https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png)
+![Defender for Identity (MDI) Architecture](https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png)
 
 ### **Validate and Test**
 
