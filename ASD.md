@@ -6,16 +6,23 @@
 -   General on Essential 8 - <https://www.microsoft.com/en-au/business/topic/security/>
 -   Daily backups: <https://www.microsoft.com/en-au/business/topic/security/essential-eight/daily-backups/>
 -   Australian IRAP - <https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-australia-irap> & <https://servicetrust.microsoft.com/Viewpage/AustraliaIRAP>
--   Local Australian guide in Service Trust Portal <https://aka.ms/e8guides>
+
+**Local Australian E8 Guides**
+-   Microsoft Service Trust Portal has the local Essential 8 guides  <https://aka.ms/e8guides> here you will find the PDF's covering the following specifics - you will need to sign in using your own Tenant ID to access the docs
+- 	Microsoft General - Essential Eight - Config Macros - 2022-09
+-   Microsoft General - Essential Eight - User Application Hardening - 2022-09
+-   Microsoft General - Essential Eight - Restricting Admin Priv - 2022-09
+- 	Microsoft General - Essential Eight - Patch OS - 2022-09
+- 	Microsoft General - Essential Eight - Backup - 2022-09
+-   Microsoft General - Essential Eight - Patch Applications - 2022-09
+-   Microsoft General - Essential Eight - MFA - 2022-09
 
 ### **Hardening Guidance from ACSC**
 
--   <https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-windows-10-version-21h1-workstations>
--   <https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-365-office-2021-office-2019-and-office-2016>
--   <https://www.cyber.gov.au/acsc/view-all-content/publications/microsoft-office-macro-security>
--   <https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines>
--   [Windows Security Baseline (for use with ACSC Windows Hardening Guidelines)](https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines/blob/main/policies/Windows%20Security%20Baseline%20(for%20use%20with%20ACSC%20Windows%20Hardening%20Guidelines).json)
--   [ACSC Windows Hardening Guidelines-Attack Surface Reduction](https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines/blob/main/policies/ACSC%20Windows%20Hardening%20Guidelines-Attack%20Surface%20Reduction.json)
+-   For Windows 10 21H1 <https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-windows-10-version-21h1-workstations>
+-   For Office <https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-365-office-2021-office-2019-and-office-2016>
+-   For Macro's <https://www.cyber.gov.au/acsc/view-all-content/publications/microsoft-office-macro-security>
+-   For Intune <https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines>
 -   WDAC Policy creation from DTA - <https://desktop.gov.au/blueprint/abac/wdac-policy-creation.html>
 
 ### **Hardening Azure AD**
