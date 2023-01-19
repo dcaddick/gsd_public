@@ -74,7 +74,7 @@ plugins:
   - git-authors
   - git-revision-date-localized:
       fallback_to_build_date: true
-  #- git-revision-date
+      # enable_creation_date: true
   - glightbox
   #- social
   #- awesome-list
