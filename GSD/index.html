@@ -897,10 +897,7 @@
 <li>While most of the focus here is more on the M365 SaaS Security platform elements, not necessarily on Sentinel or Azure, there will be plenty of crossover.</li>
 </ul>
 </div>
-<figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="./images/image1.jpg"><img alt="" src="./images/image1.jpg"/></a>
-<figcaption></figcaption>
-</figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/image1.jpg"><img alt="" src="../images/image1.jpg"/></a></p>
 <h2 id="core-reference-material"><strong>Core reference material</strong></h2>
 <ul>
 <li><strong>Microsoft Cybersecurity Reference Architecture -- <a href="https://aka.ms/MCRA">https://aka.ms/MCRA</a></strong> - <a href="https://github.com/MicrosoftDocs/security/blob/main/Downloads/microsoft-cybersecurity-reference-architectures.pptx?raw=true"><strong>Direct link</strong></a> </li>
@@ -968,33 +965,22 @@
 <p>This will do for now, especially if you are in a crisis mode, check the console for the DC's being online - now move on to validation below.
 Please follow up with all other Configuration steps as soon as practible, especially if you also have ADFS in play. 
 For ADFS please also check - <a href="https://learn.microsoft.com/en-us/defender-for-identity/active-directory-federation-services">https://learn.microsoft.com/en-us/defender-for-identity/active-directory-federation-services</a></p>
-<figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png"><img alt="" src="https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png"/></a>
-<figcaption></figcaption>
-</figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png"><img alt="" src="https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png"/></a></p>
 <h3 id="validate-and-test"><strong>Validate and Test</strong></h3>
 <p>Be conscious that if you are testing that MDI is working correctly that this may trigger <strong>high impact</strong> Alerts to your Blue Team or existing SecOps IF it's already installed and being monitored - or for that matter if another tooling is in place to monitor the same behaviour - so if doing some major testing it's worthwhile letting them know before hand? And on that, make sure you schedule some time to review afterwards about what testing/alerting was created &amp; what was visible from a SecOps perspective? </p>
 <p>This would be valuable lessons on effectiveness - even more so if there is missing alerts?? :( </p>
 <ul>
 <li>Specific Validation information - <a href="https://learn.microsoft.com/en-us/defender-for-identity/configure-sensor-settings#validate-installations">https://learn.microsoft.com/en-us/defender-for-identity/configure-sensor-settings#validate-installations</a></li>
 <li>Make sure that Advanced Settings has Integration enabled - <a href="https://learn.microsoft.com/en-us/defender-for-identity/classic-integrate-mde">https://learn.microsoft.com/en-us/defender-for-identity/classic-integrate-mde</a></li>
-<li>Make doubly sure this Integration is enabled between ALL elements of MDI, MDE, MDO, MDCA and the M365 Defender Console</li>
-</ul>
-<figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://learn.microsoft.com/en-us/defender-for-identity/media/msde-enable.png"><img alt="" src="https://learn.microsoft.com/en-us/defender-for-identity/media/msde-enable.png"/></a>
-<figcaption></figcaption>
-</figure>
-<ul>
+<li>Make doubly sure this Integration is enabled between ALL elements of MDI, MDE, MDO, MDCA and the M365 Defender Console
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://learn.microsoft.com/en-us/defender-for-identity/media/msde-enable.png"><img alt="" src="https://learn.microsoft.com/en-us/defender-for-identity/media/msde-enable.png"/></a></li>
 <li>Use Attack Simulations to <strong>validate MDI is installed correctly</strong> and Alerts are being surfaced accurately:
     <a href="https://learn.microsoft.com/en-us/defender-for-identity/playbooks">https://learn.microsoft.com/en-us/defender-for-identity/playbooks</a></li>
 <li>Use Labs for <strong>in depth checking</strong>: <a href="https://learn.microsoft.com/en-us/defender-for-identity/playbook-lab-overview">https://learn.microsoft.com/en-us/defender-for-identity/playbook-lab-overview</a></li>
 <li><a href="https://learn.microsoft.com/en-us/defender-for-identity/playbook-domain-dominance">https://learn.microsoft.com/en-us/defender-for-identity/playbook-domain-dominance</a></li>
-<li>Go to <a href="https://portal.atp.azure.com">https://portal.atp.azure.com</a> and if you see this, it's not been installed correctly</li>
+<li>Go to <a href="https://portal.atp.azure.com">https://portal.atp.azure.com</a> and if you see this, it's not been installed correctly
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/image3.png"><img alt="" src="../images/image3.png"/></a></li>
 </ul>
-<figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="./images/image3.png"><img alt="" src="./images/image3.png"/></a>
-<figcaption></figcaption>
-</figure>
 <h3 id="enable-reporting"><strong>Enable Reporting</strong></h3>
 <p>Once enabled you should now have a lot more visibility into the Security Posture of the onPrem environment - including the following:</p>
 <ul>
@@ -1011,11 +997,8 @@ For ADFS please also check - <a href="https://learn.microsoft.com/en-us/defender
 <li>Unsecure SID History attributes</li>
 <li>Weak cipher usage</li>
 </ul>
-<p>More details can be found here &amp; example below - <a href="https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports">https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports</a></p>
-<figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://learn.microsoft.com/en-us/defender-for-identity/media/select-assessment.png"><img alt="" src="https://learn.microsoft.com/en-us/defender-for-identity/media/select-assessment.png"/></a>
-<figcaption></figcaption>
-</figure>
+<p>More details can be found here &amp; example below - <a href="https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports">https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports</a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://learn.microsoft.com/en-us/defender-for-identity/media/select-assessment.png"><img alt="" src="https://learn.microsoft.com/en-us/defender-for-identity/media/select-assessment.png"/></a></p>
 <h3 id="review-and-improve-as-needed"><strong>Review and Improve as needed</strong></h3>
 <ul>
 <li>Review Security Assessments to validate what potentially needs remediation: <a href="https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports">https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports</a></li>
@@ -1029,10 +1012,7 @@ For ADFS please also check - <a href="https://learn.microsoft.com/en-us/defender
 <li><a href="https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-using-logs">https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-using-logs</a></li>
 </ul>
 <h2 id="2-conditional-access"><strong>2.   Conditional Access</strong></h2>
-<figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_LHXQ7ucR3-MQZM3NO-a4_WRckjsP9FcUA&amp;usqp=CAU"><img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_LHXQ7ucR3-MQZM3NO-a4_WRckjsP9FcUA&amp;usqp=CAU"/></a>
-<figcaption></figcaption>
-</figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_LHXQ7ucR3-MQZM3NO-a4_WRckjsP9FcUA&amp;usqp=CAU"><img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_LHXQ7ucR3-MQZM3NO-a4_WRckjsP9FcUA&amp;usqp=CAU"/></a></p>
 <h3 id="ways-of-working_1"><strong>Ways of working</strong></h3>
 <p>First decision point - how are we going to do this?
 Questions to help you determine this are:</p>
@@ -1053,11 +1033,8 @@ Questions to help you determine this are:</p>
 <p class="admonition-title"><strong>NOTE: please be aware there is no inherent "BLOCK" by default</strong></p>
 <p>You need to make sure you are BLOCKING by default unless explicitly allowing access - walk thru the 14 default Policies to better understand this. To make sure that you are fully covered please use this PowerBI based tool <strong><a href="https://github.com/AzureAD/AzureADAssessment">https://github.com/AzureAD/AzureADAssessment</a></strong>
 <strong>Confirm your maturity based on this Tool <sup>^</sup><sup>^</sup></strong>
-<figure class="figure-image"></figure></p>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/AzureADAssessmentTool.png"><img alt="" src="../images/AzureADAssessmentTool.png"/></a></p>
 </div>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="./images/AzureADAssessmentTool.png"><img alt="" src="./images/AzureADAssessmentTool.png"/></a>
-<br/>
-<figcaption></figcaption></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p><strong>UPDATE</strong> 142 Page - CA demystified Whitepaper - still to be reviewed 
@@ -1093,10 +1070,7 @@ Questions to help you determine this are:</p>
 <p>Excellent article here that is really worth the time reading as this will highlight how to enable this in detail: <a href="https://www.cloud-architekt.net/aadops-conditional-access/">https://www.cloud-architekt.net/aadops-conditional-access/</a></p>
 </li>
 </ul>
-<figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://www.cloud-architekt.net/assets/images/2021-08-11-aadops-conditional-access/aadops4.png"><img alt="" src="https://www.cloud-architekt.net/assets/images/2021-08-11-aadops-conditional-access/aadops4.png"/></a>
-<figcaption></figcaption>
-</figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://www.cloud-architekt.net/assets/images/2021-08-11-aadops-conditional-access/aadops4.png"><img alt="" src="https://www.cloud-architekt.net/assets/images/2021-08-11-aadops-conditional-access/aadops4.png"/></a></p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>He also points out the others that have done great work in this space:</p>
@@ -1125,10 +1099,7 @@ Questions to help you determine this are:</p>
 <p>https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access#troubleshoot-conditional-access-policy</p>
 <p>Check for common misconfigurations - https://www.trustedsec.com/blog/common-conditional-access-misconfigurations-and-bypasses-in-azure/</p>
 <h2 id="3-microsoft-defender-for-cloud-apps-mdca-was-mcas"><strong>3.   Microsoft Defender for Cloud Apps (MDCA), was MCAS)</strong></h2>
-<figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQs2hcOLld13doGTbvIknglVMDxEoot1EJ3g&amp;usqp=CAU"><img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQs2hcOLld13doGTbvIknglVMDxEoot1EJ3g&amp;usqp=CAU"/></a>
-<figcaption></figcaption>
-</figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQs2hcOLld13doGTbvIknglVMDxEoot1EJ3g&amp;usqp=CAU"><img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQs2hcOLld13doGTbvIknglVMDxEoot1EJ3g&amp;usqp=CAU"/></a></p>
 <h3 id="ways-of-working_2"><strong>Ways of working</strong></h3>
 <p>First decision point - Simple or Complex, i.e. do you need to be concerned about RBAC for instance becuase of the scale of the installation or the number of different parties that <strong>may</strong> need access to part or some parts of the console?  <a href="https://learn.microsoft.com/en-us/defender-cloud-apps/manage-admins">https://learn.microsoft.com/en-us/defender-cloud-apps/manage-admins</a></p>
 <h3 id="enable-telemetry_2"><strong>Enable Telemetry</strong></h3>
@@ -1170,10 +1141,7 @@ Questions to help you determine this are:</p>
 <li>Make sure the <strong>last</strong> checkbox (Office 365 Files) in the image below is <strong>"checked"</strong> <a href="https://learn.microsoft.com/en-us/defender-cloud-apps/connect-office-365">link to more details</a> </li>
 </ul>
 </div>
-<figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://learn.microsoft.com/en-us/defender-cloud-apps/media/connect-o365-components.png"><img alt="" src="https://learn.microsoft.com/en-us/defender-cloud-apps/media/connect-o365-components.png"/></a>
-<figcaption></figcaption>
-</figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://learn.microsoft.com/en-us/defender-cloud-apps/media/connect-o365-components.png"><img alt="" src="https://learn.microsoft.com/en-us/defender-cloud-apps/media/connect-o365-components.png"/></a></p>
 <h3 id="validate-and-test_2"><strong>Validate and Test</strong></h3>
 <ul>
 <li>Enable MDE Integration
@@ -1197,10 +1165,7 @@ Questions to help you determine this are:</p>
 <li>Follow link above for Integration steps with ZScaler, iboss, Menlo, etc...</li>
 </ul>
 </div>
-<figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://learn.microsoft.com/en-us/defender-cloud-apps/media/mde-settings.png"><img alt="" src="https://learn.microsoft.com/en-us/defender-cloud-apps/media/mde-settings.png"/></a>
-<figcaption></figcaption>
-</figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://learn.microsoft.com/en-us/defender-cloud-apps/media/mde-settings.png"><img alt="" src="https://learn.microsoft.com/en-us/defender-cloud-apps/media/mde-settings.png"/></a></p>
 <h3 id="enable-reporting_2"><strong>Enable Reporting</strong></h3>
 <ul>
 <li>Investigate Apps discovered by MDE 
@@ -1235,10 +1200,7 @@ Now we can take this one step further and we can now determine which of the 26,0
  </li>
 </ul>
 <h2 id="4-mde-microsoft-defender-for-endpoint"><strong>4.   MDE (Microsoft Defender for Endpoint)</strong></h2>
-<figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwZULy1sOxB6LxDMRu-_FvV72vfFAsTKnM1A&amp;usqp=CAU"><img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwZULy1sOxB6LxDMRu-_FvV72vfFAsTKnM1A&amp;usqp=CAU"/></a>
-<figcaption></figcaption>
-</figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwZULy1sOxB6LxDMRu-_FvV72vfFAsTKnM1A&amp;usqp=CAU"><img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwZULy1sOxB6LxDMRu-_FvV72vfFAsTKnM1A&amp;usqp=CAU"/></a></p>
 <ul>
 <li>Consider enabling Block at First Sight from AV: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-block-at-first-sight-microsoft-defender-antivirus">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-block-at-first-sight-microsoft-defender-antivirus</a></li>
 <li>Block at First Sight - test/demo: <a href="https://demo.wd.microsoft.com/Page/BAFS">https://demo.wd.microsoft.com/Page/BAFS</a></li>
@@ -1260,24 +1222,16 @@ Now we can take this one step further and we can now determine which of the 26,0
 <li><strong>Troubleshooting mode for devices</strong>: <a href="https://jeffreyappel.nl/microsoft-defender-for-endpoint-troubleshooting-mode-how-to-use-it/">https://jeffreyappel.nl/microsoft-defender-for-endpoint-troubleshooting-mode-how-to-use-it/</a></li>
 <li>Migration Guide: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migration-guides">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migration-guides</a></li>
 </ul>
-<figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="./images/image7.png"><img alt="" src="./images/image7.png"/></a>
-<figcaption></figcaption>
-</figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/image7.png"><img alt="" src="../images/image7.png"/></a></p>
 <h3 id="intune-mde-microsoft-defender-for-endpoint"><strong>Intune - MDE (Microsoft Defender for Endpoint)</strong></h3>
 <ul>
 <li>Easy starting point, step-by-step guide: <a href="https://learn.microsoft.com/en-us/mem/solutions/cloud-native-endpoints/cloud-native-windows-endpoints">https://learn.microsoft.com/en-us/mem/solutions/cloud-native-endpoints/cloud-native-windows-endpoints</a></li>
 <li>Ideally start with Security Baselines: <a href="https://endpoint.microsoft.com/#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/securityBaselines">https://endpoint.microsoft.com/#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/securityBaselines</a> <br/>
 These are updated every 6 months and you'll be prompted to update/accept changes</li>
 </ul>
-<figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="./images/image6.png"><img alt="" src="./images/image6.png"/></a>
-<figcaption></figcaption>
-</figure>
-<ul>
-<li>ASR rules deployment steps: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-deployment">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-deployment</a></li>
-<li>If needed import your old GPO's: <a href="https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/policyAnalyticsReport">https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/policyAnalyticsReport</a></li>
-</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/image6.png"><img alt="" src="../images/image6.png"/></a>
+-   ASR rules deployment steps: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-deployment">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-deployment</a>
+-   If needed import your old GPO's: <a href="https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/policyAnalyticsReport">https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/policyAnalyticsReport</a></p>
 <h3 id="mde-using-asr-stand-alone-e3"><strong>MDE using ASR stand-alone (E3)</strong></h3>
 <ul>
 <li><a href="https://www.computerworld.com/article/3604651/decoding-windows-defender-s-hidden-settings.html">https://www.computerworld.com/article/3604651/decoding-windows-defender-s-hidden-settings.html</a></li>
@@ -1287,10 +1241,7 @@ These are updated every 6 months and you'll be prompted to update/accept changes
 <li><a href="https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-define-the-av-baseline-part4a/">https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-define-the-av-baseline-part4a/</a></li>
 </ul>
 <h2 id="5-mdo-microsoft-defender-for-office"><strong>5.   MDO (Microsoft Defender for Office)</strong></h2>
-<figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUjkG9-rGdaKbfcCGtM3GzTaUfsSxcTmSsSg&amp;usqp=CAU"><img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUjkG9-rGdaKbfcCGtM3GzTaUfsSxcTmSsSg&amp;usqp=CAU"/></a>
-<figcaption></figcaption>
-</figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUjkG9-rGdaKbfcCGtM3GzTaUfsSxcTmSsSg&amp;usqp=CAU"><img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUjkG9-rGdaKbfcCGtM3GzTaUfsSxcTmSsSg&amp;usqp=CAU"/></a></p>
 <ul>
 <li>Try in Audit mode: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/try-microsoft-defender-for-office-365">https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/try-microsoft-defender-for-office-365</a></li>
 <li>Enhanced Filters aka Skip Listing: <a href="https://learn.microsoft.com/en-us/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors">https://learn.microsoft.com/en-us/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors</a></li>
@@ -1369,10 +1320,7 @@ These are updated every 6 months and you'll be prompted to update/accept changes
 </li>
 </ul>
 <blockquote>
-<p><figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="./images/image8.png"><img alt="" src="./images/image8.png"/></a>
-<br/>
-<figcaption></figcaption></figure></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/image8.png"><img alt="" src="../images/image8.png"/></a></p>
 </blockquote>
 <h3 id="sentinel-recommendation-to-enable-m365-defender-connector"><strong>Sentinel - Recommendation to enable M365 Defender Connector</strong></h3>
 <ul>
@@ -1408,15 +1356,11 @@ More information: <a href="https://docs.microsoft.com/en-us/azure/sentinel/micro
 <li>MIP/AIP - <a href="https://techcommunity.microsoft.com/t5/security-compliance-and-identity/azure-information-protection-and-the-information-protection/ba-p/3671070">https://techcommunity.microsoft.com/t5/security-compliance-and-identity/azure-information-protection-and-the-information-protection/ba-p/3671070</a></li>
 <li>Adaptive Protection (DLP rules based on Insider Risk)</li>
 <li>Login as GA (or eqiv.) - <a href="https://admin.microsoft.com/adminportal/home?#/modernonboarding/mipsetupguide">https://admin.microsoft.com/adminportal/home?#/modernonboarding/mipsetupguide</a></li>
-<li><figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="./images/image2.png"><img alt="" src="./images/image2.png"/></a>
-<br/>
-<figcaption></figcaption></figure></li>
+<li><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/image2.png"><img alt="" src="../images/image2.png"/></a></li>
+<li>Docs - <a href="https://learn.microsoft.com/en-gb/microsoft-365/compliance/information-protection">https://learn.microsoft.com/en-gb/microsoft-365/compliance/information-protection</a></li>
+<li>DLP - <a href="https://learn.microsoft.com/en-gb/microsoft-365/compliance/dlp-learn-about-dlp">https://learn.microsoft.com/en-gb/microsoft-365/compliance/dlp-learn-about-dlp</a></li>
+<li>What's new - <a href="https://learn.microsoft.com/en-gb/microsoft-365/compliance/whats-new">https://learn.microsoft.com/en-gb/microsoft-365/compliance/whats-new</a></li>
 </ul>
-<p>
--   Docs - <a href="https://learn.microsoft.com/en-gb/microsoft-365/compliance/information-protection">https://learn.microsoft.com/en-gb/microsoft-365/compliance/information-protection</a>
--   DLP - <a href="https://learn.microsoft.com/en-gb/microsoft-365/compliance/dlp-learn-about-dlp">https://learn.microsoft.com/en-gb/microsoft-365/compliance/dlp-learn-about-dlp</a>
--   What's new - <a href="https://learn.microsoft.com/en-gb/microsoft-365/compliance/whats-new">https://learn.microsoft.com/en-gb/microsoft-365/compliance/whats-new</a></p>
 <h2 id="9-asd-essential-8-now-acsc"><strong>9.   ASD Essential 8 (now ACSC)</strong></h2>
 <ul>
 <li>Great high level on all Essential 8 - <a href="https://www.microsoft.com/en-au/business/topic/security/essential-eight/">https://www.microsoft.com/en-au/business/topic/security/essential-eight/</a></li>
@@ -1575,30 +1519,13 @@ https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-def
 <li>Microsoft Purview Information Protection: <a href="https://aka.ms/mipninja">https://aka.ms/mipninja</a>
 <a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/image9.png"><img alt="thumbnail image 1 of blog post titled The Microsoft Purview Information Protection Ninja Training is
  here!" src="../images/image9.png"/></a></li>
-<li>
-<p>Microsoft Purview DLP ninja: <a href="https://aka.ms/DLPNinja">https://aka.ms/DLPNinja</a>
-<figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="./images/image10.png"><img alt="" src="./images/image10.png"/></a>
-<figcaption></figcaption>
-</figure></p>
-</li>
-<li>
-<p>Microsoft Purview Insider Risk Management: <a href="https://aka.ms/insiderriskninja">https://aka.ms/insiderriskninja</a>
-<figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="./images/image11.png"><img alt="" src="./images/image11.png"/></a>
-<figcaption></figcaption>
-</figure></p>
-</li>
-<li>
-<p>Microsoft Purview eDiscovery: <a href="https://aka.ms/ediscoveryninja">https://aka.ms/ediscoveryninja</a>
-<figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="./images/image12.png"><img alt="thumbnail image 2 of blog post titled Become a Microsoft Purview eDiscovery Ninja" src="./images/image12.png"/></a>
-<figcaption>thumbnail image 2 of blog post titled Become a Microsoft Purview eDiscovery Ninja</figcaption>
-</figure></p>
-</li>
-<li>
-<p>Microsoft Purview Communication Compliance: <a href="https://aka.ms/communicationcomplianceninja">https://aka.ms/communicationcomplianceninja</a></p>
-</li>
+<li>Microsoft Purview DLP ninja: <a href="https://aka.ms/DLPNinja">https://aka.ms/DLPNinja</a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/image10.png"><img alt="" src="../images/image10.png"/></a></li>
+<li>Microsoft Purview Insider Risk Management: <a href="https://aka.ms/insiderriskninja">https://aka.ms/insiderriskninja</a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/image11.png"><img alt="" src="../images/image11.png"/></a></li>
+<li>Microsoft Purview eDiscovery: <a href="https://aka.ms/ediscoveryninja">https://aka.ms/ediscoveryninja</a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/image12.png"><img alt="thumbnail image 2 of blog post titled Become a Microsoft Purview eDiscovery Ninja" src="../images/image12.png"/></a></li>
+<li>Microsoft Purview Communication Compliance: <a href="https://aka.ms/communicationcomplianceninja">https://aka.ms/communicationcomplianceninja</a></li>
 <li>Microsoft Purview Compliance Manager: <a href="http://aka.ms/compliancemanagerninja">http://aka.ms/compliancemanagerninja</a></li>
 <li>Sentinel Automation: <a href="https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-automation-ninja/ba-p/3563377">https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-automation-ninja/ba-p/3563377</a></li>
 <li>Sentinel Notebooks: <a href="https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/becoming-a-microsoft-sentinel-notebooks-ninja-the-series/ba-p/2693491">https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/becoming-a-microsoft-sentinel-notebooks-ninja-the-series/ba-p/2693491</a></li>
@@ -1632,11 +1559,8 @@ https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-def
 <li><a href="https://mslearn.cloudguides.com/en-us/guides/Conduct%20forensic%20investigations%20with%20Advanced%20Audit%20in%20Microsoft%20365">Purview Forensic investigation of Security events</a></li>
 <li><a href="https://content.cloudguides.com/en-us/guides/Advanced%20eDiscovery">Purview eDiscovery</a></li>
 </ul>
-<figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="./images/InteractiveGuides.png"><img alt="" src="./images/InteractiveGuides.png"/></a>
-<figcaption></figcaption>
-</figure>
-<p>(Still working on Tables)</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/InteractiveGuides.png"><img alt="" src="../images/InteractiveGuides.png"/></a>
+(Still working on Tables)</p>
 <h2 id="product-trials"><strong>Product Trials</strong></h2>
 <ul>
 <li><a href="https://signup.microsoft.com/Signup?OfferId=a0db242a-96d7-4f99-bd52-05c0d5556257&amp;ali=1">Microsoft Defender for Identity</a></li>
@@ -1684,24 +1608,12 @@ resource</p>
 | <strong>Microsoft Cloud Security Private         | </strong>Microsoft 365 Defender       |
 | Community<strong>                                | Customer Connection Program</strong>  |
 +============================================+================================+
-| <figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="./images/image13.png"><img alt="" src="./images/image13.png"/></a>
-<br/>
-<figcaption></figcaption></figure></p>
-<p>           | <figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="./images/image14.png"><img alt="" src="./images/image14.png"/></a>
-<br/>
-<figcaption></figcaption></figure></p>
-<p> |
+| <a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/image13.png"><img alt="" src="../images/image13.png"/></a>           | <a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/image14.png"><img alt="" src="../images/image14.png"/></a> |
 |  | g) |
 |                                     |                                |
 |                                     |                                |
 |                                     |                                |
-|                                     | <figure class="figure-image">
-<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="./images/image15.png"><img alt="" src="./images/image15.png"/></a>
-<br/>
-<figcaption></figcaption></figure></p>
-<p>  |
+|                                     | <a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/image15.png"><img alt="" src="../images/image15.png"/></a>  |
 |                                     |                                |
 |                                     |                                |
 |                                     |                                |
