@@ -1,7 +1,7 @@
 # **Get Security Done (GSD) - Microsoft Security & M365 Defender**
 Quick wins to improve Security using existing M365 E5 entitlements
 
-!!! warning "Disclaimer" (you know the drill)
+!!! warning "Disclaimer (you know the drill :-))"
     -   Essentially this is "Notes from the Field" - not necessarily Best Practices
     -   Please use this information wisely, at your own risk
     -   Ideally this page will be highlighting how to get the best out of both your M365 E5 security and compliance entitlements. What is the best way to step lightly thru this and gain maximum benefit for the least effort? 

@@ -1,6 +1,15 @@
 # Get Security Done
 [aka.ms/gsd](https://aka.ms/GSD)
 
+## **Feedback**
+
+-   Please feel free to submit Feedback, Issues or requests to be added here ;-)
+-   Please raise issues here: - <https://github.com/dcaddick/gsd_public/issues>
+-   Feel free to comment in discussions: - <https://github.com/dcaddick/gsd_public/discussions>
+
+!!! Tip
+    Use the search bar - it's surprisingly good - :smile:
+
 ## **Current state**
 I have been focusing on the Microsoft Defender Security suite of tools & growing the Security business for MS Partners based on the Microsoft Security platform for the last 5+ years or so.
 
@@ -8,9 +17,6 @@ Over the years I have reviewed quite a few tenancies and a (not so) surprising t
 
 This something that really needs to change - that's what this site is about.
 Remove friction and empower customers and partners to cracking on getting things done.
-
-!!! Tip
-    Use the search bar - it's surprisingly good - :smile:
 
 ## **Inspiration**
 Inspired by Mark Simos’s [Mark’s List](https://aka.ms/markslist) and a discussion after an “In to the Breach” training exercise over a few beers it was discussed that there should be a local version focused more around “Getting Security Done” (hence the short link to GSD) with a specific focus on the M365 Security platform, but not restricted to just that as we'd like to adopt a very customer centric view point on this. (of course here in Australia we might typically refer to this as Get Shit Done - hence the GSD acronym)
