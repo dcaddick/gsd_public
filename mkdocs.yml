@@ -77,7 +77,6 @@ plugins:
       # enable_creation_date: true
   - glightbox:
     auto_caption: true
-  - linkcheck
   #- social
   #- awesome-list
   #- table-reader - DON'T use, relys on pandas, too heavy for this

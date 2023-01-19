@@ -16,4 +16,3 @@ mkdocs-git-revision-date-localized-plugin
 mkdocs-img2fig-plugin  # converts markdown encoded images to HTML figures
 mkdocs-mermaid2-plugin
 mkdocs-glightbox
-mkdocs-linkcheck
