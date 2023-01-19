@@ -75,7 +75,8 @@ plugins:
   - git-revision-date-localized:
       fallback_to_build_date: true
       # enable_creation_date: true
-  - glightbox
+  - glightbox:
+    auto_caption: true
   #- social
   #- awesome-list
   #- table-reader - DON'T use, relys on pandas, too heavy for this
@@ -124,6 +125,7 @@ extra:
 # Markdown Extensions 
 markdown_extensions:
   - attr_list
+  - meta
   - md_in_html
   - admonition
   - footnotes
