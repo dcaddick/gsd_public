@@ -1,4 +1,4 @@
-![](https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png)
+![Title](https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png)
 
 ## **Ways of working**
 First decision point - do you have **ANY** Domain Controllers within your environment? If so then you should install MDI **NOW** and make it the very top of your Security ToDo list.
@@ -11,21 +11,33 @@ Examples of **WHY** you do this first:
 
 ## **Enable Telemetry**
 
-Start here - <https://learn.microsoft.com/en-us/defender-for-identity/prerequisites>
+Start here:
+<https://learn.microsoft.com/en-us/defender-for-identity/prerequisites>
 
-1.  Capacity planning - <https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning>
-2.   Download the Sizing tool - <https://github.com/microsoft/ATA-AATP-Sizing-Tool/releases>
-3.   Download the Sensor - <https://learn.microsoft.com/en-us/defender-for-identity/download-sensor>
-4.   Install the Sensor on DC's - <https://learn.microsoft.com/en-us/defender-for-identity/install-sensor>
-5.   Basic Settings that you should review **NOW** - <https://www.microsoft.com/videoplayer/embed/RWFVEX>
+1.  Capacity planning
+<https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning>
+2.   Download the Sizing tool
+<https://github.com/microsoft/ATA-AATP-Sizing-Tool/releases>
+3.   Download the Sensor
+<https://learn.microsoft.com/en-us/defender-for-identity/download-sensor>
+4.   Install the Sensor on DC's
+<https://learn.microsoft.com/en-us/defender-for-identity/install-sensor>
+5.   Basic Settings that you should review **NOW**
+<https://www.microsoft.com/videoplayer/embed/RWFVEX>
 
 This will do for now, especially if you are in a crisis mode, check the console for the DC's being online - now move on to validation below.
 Please follow up with all other Configuration steps as soon as practible, especially if you also have ADFS in play. 
-For ADFS please also check - <https://learn.microsoft.com/en-us/defender-for-identity/active-directory-federation-services>
+
+**For ADFS** please also check - <https://learn.microsoft.com/en-us/defender-for-identity/active-directory-federation-services>
 
 ## **Validate and Test**
 
-Be conscious that if you are testing that MDI is working correctly that this may trigger **high impact** Alerts to your Blue Team or existing SecOps IF it's already installed and being monitored - or for that matter if another tooling is in place to monitor the same behaviour - so if doing some major testing it's worthwhile letting them know before hand? And on that, make sure you schedule some time to review afterwards about what testing/alerting was created & what was visible from a SecOps perspective? 
+Be conscious that if you are testing that MDI is working correctly that this may trigger **high impact** Alerts to your Blue Team or existing SecOps IF it's already installed and being monitored - or for that matter if another tooling is in place to monitor the same behaviour - so if doing some major testing it's worthwhile letting them know before hand?
+
+And on that, make sure you schedule some time to review afterwards about what testing/alerting was created & what was visible from a SecOps perspective? 
+
+!!! Warning
+    If you are getting a Pen Test done at some stage - make sure the Pen Test activity does actually appear somewhere in your telemetry - it should, and if it doesn't then you don't actually have any coverage? MDI can and will do this for you
 
 This would be valuable lessons on effectiveness - even more so if there is missing alerts?? :( 
 

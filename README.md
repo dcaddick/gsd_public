@@ -43,3 +43,13 @@ So with that, planning got under way to create [aka.ms/GSD](https://aka.ms/GSD),
 Please note this will be a mix of both Microsoft & non-Microsoft content, if it is of value and can help you with said mission of GSD for Security in the Microsoft Platform, then we'd like to include it - having said that, please feel free to provide feedback on the good, the bad and the ugly as we'd like to improve this over time.
 
 The full page that started all this can be found here [GSD](./GSD.md) doc
+
+## **How was this site created**
+From MkDocs & Material:
+
+-   [MkDocs](<https://www.mkdocs.org/>)
+-   [Github Actions Marketplace = MkDocs](<https://github.com/marketplace?category=&query=mkdocs+sort%3Apopularity-desc&type=actions&verification=>)
+-   [mkdocs-simple-plugin](<https://www.althack.dev/mkdocs-simple-plugin/v2.1.3/mkdocs_simple_plugin/plugin/>)
+-   [Material theme](<https://squidfunk.github.io/mkdocs-material/getting-started/>)
+
+Key takeway - no need to touch Docker, Linux or Python, just let a plugin do the heavy lifting for you

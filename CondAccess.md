@@ -30,21 +30,33 @@ Result:
 
 ## **The Microsoft content**
 
--   Design - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design>
--   Architecture - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-architecture>
--   Framework - <https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-framework>
--   API - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-apis>
--   Deployment - <https://github.com/Azure-Samples/azure-ad-conditional-access-apis/tree/main/03-deploy>
--   Plan - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access>
--   CA for Cloud Apps - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps>
--   Concept for CA Policies - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policies>
--   Docs - <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/>
--   Powershell syntax and examples - <https://learn.microsoft.com/en-us/powershell/module/azuread/get-azureadmsconditionalaccesspolicy?view=azureadps-2.0>
--   Deep dive: How does Conditional Access block Legacy Authentication? - <https://techcommunity.microsoft.com/t5/itops-talk-blog/deep-dive-how-does-conditional-access-block-legacy/ba-p/3265345>
+-   Design
+<https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design>
+-   Architecture
+<https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-architecture>
+-   Framework
+<https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-framework>
+-   API
+<https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-apis>
+-   Deployment
+<https://github.com/Azure-Samples/azure-ad-conditional-access-apis/tree/main/03-deploy>
+-   Plan
+<https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access>
+-   CA for Cloud Apps
+<https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps>
+-   Concept for CA Policies
+<https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policies>
+-   Docs
+<https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/>
+-   Powershell syntax and examples
+<https://learn.microsoft.com/en-us/powershell/module/azuread/get-azureadmsconditionalaccesspolicy?view=azureadps-2.0>
+-   Deep dive: How does Conditional Access block Legacy Authentication?
+<https://techcommunity.microsoft.com/t5/itops-talk-blog/deep-dive-how-does-conditional-access-block-legacy/ba-p/3265345>
 
 
 !!! Note 
-    Here is a great companion for Sentinel: 
+    Here is a great companion for Sentinel:
+
     <https://danielchronlund.com/2022/04/21/a-powerfull-conditional-access-change-dashboard-for-microsoft-sentinel/>
 >
 
@@ -59,8 +71,10 @@ Result:
 !!! Tip
     He also points out the others that have done great work in this space:
 
--   Fortigi/ConditionalAccess: <https://github.com/Fortigi/ConditionalAccess> 
--   AlexFilipin/ConditionalAccess: <https://github.com/AlexFilipin/ConditionalAccess>
+-   Fortigi/ConditionalAccess
+<https://github.com/Fortigi/ConditionalAccess> 
+-   AlexFilipin/ConditionalAccess
+<https://github.com/AlexFilipin/ConditionalAccess>
 -   DanielChronlund/DCToolbox: Tools for Microsoft cloud fans <https://github.com/DanielChronlund/DCToolbox>
 
 !!! Info
@@ -70,24 +84,28 @@ Result:
 
 ## **Validate and Test**
 
-<(https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/what-if-tool>
+-   Use the WhatIf tool
+<https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/what-if-tool>
 
+-   Thomas's page on AAD Ops
 <https://www.cloud-architekt.net/aadops-conditional-access/>
 
 
 ## **Enable Reporting**
 
+-   How to enable Reporting for CA
 <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-insights-reporting>
 
 ## **Review and Improve as needed**
 
-Rerun check with AzureAD Assessment Tool
+-   Rerun check with AzureAD Assessment Tool
 
-Possible alternative to AAD Assessment tool: [CAOptics](<https://github.com/jsa2/caOptics>) 
+-   Possible alternative to AAD Assessment tool - [CAOptics](<https://github.com/jsa2/caOptics>) 
 
 ## **Troubleshooting**
 
+-   Troubleshoot Conditional Access policy
 <https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access#troubleshoot-conditional-access-policy>
 
-
-Check for common misconfigurations - <https://www.trustedsec.com/blog/common-conditional-access-misconfigurations-and-bypasses-in-azure/>
+-   Check for common misconfigurations
+<https://www.trustedsec.com/blog/common-conditional-access-misconfigurations-and-bypasses-in-azure/>

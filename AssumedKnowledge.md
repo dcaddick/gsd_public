@@ -34,12 +34,4 @@ Subset here of the core pillars:
 -   Microsoft Defender for Cloud Apps: <http://aka.ms/mcasninja> (formerly MCAS)
 -   More at [Ninja Security Training](./Ninja.md)
 
-## **How was this site created**
-From MkDocs & Material:
 
--   [MkDocs](<https://www.mkdocs.org/>)
--   [Github Actions Marketplace = MkDocs](<https://github.com/marketplace?category=&query=mkdocs+sort%3Apopularity-desc&type=actions&verification=>)
--   [mkdocs-simple-plugin](<https://www.althack.dev/mkdocs-simple-plugin/v2.1.3/mkdocs_simple_plugin/plugin/>)
--   [Material theme](<https://squidfunk.github.io/mkdocs-material/getting-started/>)
-
-Key takeway - no need to touch Docker, Linux or Python, just let a plugin do the heavy lifting for you
