@@ -36,35 +36,36 @@
 
 ### **Enable Telemetry**
 
--   Best practices for Microsoft Sentinel - https://learn.microsoft.com/en-us/azure/sentinel/best-practices
+-   Best practices for Microsoft Sentinel
+<https://learn.microsoft.com/en-us/azure/sentinel/best-practices>
 -   Best practices for designing a Microsoft Sentinel or Azure Defender for Cloud workspace
-https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/best-practices-for-designing-a-microsoft-sentinel-or-azure/ba-p/832574
+<https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/best-practices-for-designing-a-microsoft-sentinel-or-azure/ba-p/832574>
 -   Extend Microsoft Sentinel across workspaces and tenants
-https://learn.microsoft.com/en-us/azure/sentinel/extend-sentinel-across-workspaces-tenants
+<https://learn.microsoft.com/en-us/azure/sentinel/extend-sentinel-across-workspaces-tenants>
 -   Microsoft Sentinel workspace architecture best practices
-https://learn.microsoft.com/en-us/azure/sentinel/best-practices-workspace-architecture
+<https://learn.microsoft.com/en-us/azure/sentinel/best-practices-workspace-architecture>
 
 ### **Validate and Test**
 
 -   How to Generate Microsoft Sentinel Incidents for Testing and Demos
-https://azurecloudai.blog/2021/05/24/how-to-generate-azure-sentinel-incidents-for-testing/
+<https://azurecloudai.blog/2021/05/24/how-to-generate-azure-sentinel-incidents-for-testing/>
 
 -   Microsoft Sentinel — Testing detection rules like a Ninja
-https://rogierdijkman.medium.com/microsoft-sentinel-testing-detection-rules-like-a-ninja-cac612944dd1
+<https://rogierdijkman.medium.com/microsoft-sentinel-testing-detection-rules-like-a-ninja-cac612944dd1>
 
 -   Learning with the Microsoft Sentinel Training Lab
-https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/learning-with-the-microsoft-sentinel-training-lab/ba-p/2953403
+<https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/learning-with-the-microsoft-sentinel-training-lab/ba-p/2953403>
 
 ### **Enable Reporting**
 
 -   Tutorial: Create a Power BI report from Microsoft Sentinel data
-https://learn.microsoft.com/en-us/azure/sentinel/powerbi
+<https://learn.microsoft.com/en-us/azure/sentinel/powerbi>
 
 -   Investigate incidents with Microsoft Sentinel
-https://learn.microsoft.com/en-us/azure/sentinel/investigate-cases 
+<https://learn.microsoft.com/en-us/azure/sentinel/investigate-cases> 
 
 -   Automatically create incidents from Microsoft security alerts
-https://learn.microsoft.com/en-us/azure/sentinel/create-incidents-from-alerts
+<https://learn.microsoft.com/en-us/azure/sentinel/create-incidents-from-alerts>
 
 ### **Review and Improve as needed**
 
@@ -108,11 +109,11 @@ https://learn.microsoft.com/en-us/azure/sentinel/create-incidents-from-alerts
 **Sentinel Free Data ingestion:** always remember "data collection" is NOT detection!!
 
 -   Microsoft Sentinel **benefit** for Microsoft 365 E5 Customers
-https://azure.microsoft.com/en-us/offers/sentinel-microsoft-365-offer/
+<https://azure.microsoft.com/en-us/offers/sentinel-microsoft-365-offer/>
 -   Security Data Types inc. in **500Mb daily allowance**
-https://docs.microsoft.com/en-us/azure/defender-for-cloud/enhanced-security-features-overview#what-data-types-are-included-in-the-500-mb-data-daily-allowance
+<https://docs.microsoft.com/en-us/azure/defender-for-cloud/enhanced-security-features-overview#what-data-types-are-included-in-the-500-mb-data-daily-allowance>
 -   Cost Optimization tips from Rod Trent
-https://github.com/rod-trent/Azure-Sentinel-Cost-Troubleshooting-Kit
+<https://github.com/rod-trent/Azure-Sentinel-Cost-Troubleshooting-Kit>
     -   [Managing Costs for Azure Monitor Logs]("https://github.com/rod-trent/Azure-Sentinel-Cost-Troubleshooting-Kit/blob/main/Docs/Managing%20Costs%20for%20Azure%20Monitor%20Logs.md") 
     -   [Pricing Calculators](https://github.com/rod-trent/Azure-Sentinel-Cost-Troubleshooting-Kit/blob/main/Docs/Notes-and-Resources.md)
     -   [KQL Queries](https://github.com/rod-trent/Azure-Sentinel-Cost-Troubleshooting-Kit/tree/main/KQL-Queries)
