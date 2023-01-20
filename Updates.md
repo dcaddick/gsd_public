@@ -21,6 +21,9 @@ First decision point - do you have **ANY** Domain Controllers within your enviro
 · Video Series: Learn how to #BeCyberSmart with these video tips and tricks
 ![image](https://user-images.githubusercontent.com/19640455/211226033-59cc6005-7616-4e5d-952d-5a632de478ac.png)
 
+from Matt Zorich - Incident Playbooks
+https://learn.microsoft.com/en-us/security/compass/incident-response-playbooks
+
 
 Discussions: <https://github.com/dcaddick/gsd_public/discussions>
 
