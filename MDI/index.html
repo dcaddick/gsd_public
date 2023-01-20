@@ -335,7 +335,7 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <h1>1. Microsoft Defender for Identity (MDI)</h1>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png"><img alt="" src="https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-title="Title" data-width="100%" href="https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png"><img alt="Title" src="https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png"/></a></p>
 <h2 id="ways-of-working"><strong>Ways of working</strong></h2>
 <p>First decision point - do you have <strong>ANY</strong> Domain Controllers within your environment? If so then you should install MDI <strong>NOW</strong> and make it the very top of your Security ToDo list.</p>
 <p>Examples of <strong>WHY</strong> you do this first:</p>
@@ -345,19 +345,30 @@
 <li>Security Value = <strong>Priceless</strong></li>
 </ul>
 <h2 id="enable-telemetry"><strong>Enable Telemetry</strong></h2>
-<p>Start here - <a href="https://learn.microsoft.com/en-us/defender-for-identity/prerequisites">https://learn.microsoft.com/en-us/defender-for-identity/prerequisites</a></p>
+<p>Start here:
+<a href="https://learn.microsoft.com/en-us/defender-for-identity/prerequisites">https://learn.microsoft.com/en-us/defender-for-identity/prerequisites</a></p>
 <ol>
-<li>Capacity planning - <a href="https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning">https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning</a></li>
-<li>Download the Sizing tool - <a href="https://github.com/microsoft/ATA-AATP-Sizing-Tool/releases">https://github.com/microsoft/ATA-AATP-Sizing-Tool/releases</a></li>
-<li>Download the Sensor - <a href="https://learn.microsoft.com/en-us/defender-for-identity/download-sensor">https://learn.microsoft.com/en-us/defender-for-identity/download-sensor</a></li>
-<li>Install the Sensor on DC's - <a href="https://learn.microsoft.com/en-us/defender-for-identity/install-sensor">https://learn.microsoft.com/en-us/defender-for-identity/install-sensor</a></li>
-<li>Basic Settings that you should review <strong>NOW</strong> - <a href="https://www.microsoft.com/videoplayer/embed/RWFVEX">https://www.microsoft.com/videoplayer/embed/RWFVEX</a></li>
+<li>Capacity planning
+<a href="https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning">https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning</a></li>
+<li>Download the Sizing tool
+<a href="https://github.com/microsoft/ATA-AATP-Sizing-Tool/releases">https://github.com/microsoft/ATA-AATP-Sizing-Tool/releases</a></li>
+<li>Download the Sensor
+<a href="https://learn.microsoft.com/en-us/defender-for-identity/download-sensor">https://learn.microsoft.com/en-us/defender-for-identity/download-sensor</a></li>
+<li>Install the Sensor on DC's
+<a href="https://learn.microsoft.com/en-us/defender-for-identity/install-sensor">https://learn.microsoft.com/en-us/defender-for-identity/install-sensor</a></li>
+<li>Basic Settings that you should review <strong>NOW</strong>
+<a href="https://www.microsoft.com/videoplayer/embed/RWFVEX">https://www.microsoft.com/videoplayer/embed/RWFVEX</a></li>
 </ol>
 <p>This will do for now, especially if you are in a crisis mode, check the console for the DC's being online - now move on to validation below.
-Please follow up with all other Configuration steps as soon as practible, especially if you also have ADFS in play. 
-For ADFS please also check - <a href="https://learn.microsoft.com/en-us/defender-for-identity/active-directory-federation-services">https://learn.microsoft.com/en-us/defender-for-identity/active-directory-federation-services</a></p>
+Please follow up with all other Configuration steps as soon as practible, especially if you also have ADFS in play. </p>
+<p><strong>For ADFS</strong> please also check - <a href="https://learn.microsoft.com/en-us/defender-for-identity/active-directory-federation-services">https://learn.microsoft.com/en-us/defender-for-identity/active-directory-federation-services</a></p>
 <h2 id="validate-and-test"><strong>Validate and Test</strong></h2>
-<p>Be conscious that if you are testing that MDI is working correctly that this may trigger <strong>high impact</strong> Alerts to your Blue Team or existing SecOps IF it's already installed and being monitored - or for that matter if another tooling is in place to monitor the same behaviour - so if doing some major testing it's worthwhile letting them know before hand? And on that, make sure you schedule some time to review afterwards about what testing/alerting was created &amp; what was visible from a SecOps perspective? </p>
+<p>Be conscious that if you are testing that MDI is working correctly that this may trigger <strong>high impact</strong> Alerts to your Blue Team or existing SecOps IF it's already installed and being monitored - or for that matter if another tooling is in place to monitor the same behaviour - so if doing some major testing it's worthwhile letting them know before hand?</p>
+<p>And on that, make sure you schedule some time to review afterwards about what testing/alerting was created &amp; what was visible from a SecOps perspective? </p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you are getting a Pen Test done at some stage - make sure the Pen Test activity does actually appear somewhere in your telemetry - it should, and if it doesn't then you don't actually have any coverage? MDI can and will do this for you</p>
+</div>
 <p>This would be valuable lessons on effectiveness - even more so if there is missing alerts?? :( </p>
 <ul>
 <li>Specific Validation information - <a href="https://learn.microsoft.com/en-us/defender-for-identity/configure-sensor-settings#validate-installations">https://learn.microsoft.com/en-us/defender-for-identity/configure-sensor-settings#validate-installations</a></li>
