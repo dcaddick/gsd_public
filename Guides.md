@@ -22,7 +22,9 @@
 -   [Purview eDiscovery](https://content.cloudguides.com/en-us/guides/Advanced%20eDiscovery)
 
  ![](./images/InteractiveGuides.png)
-(Still working on Tables)## Product Trials:
+(Still working on getting tables working on web site, sorry)
+
+## Product Trials:
 
 -   [Microsoft Defender for Identity](https://signup.microsoft.com/Signup?OfferId=a0db242a-96d7-4f99-bd52-05c0d5556257&ali=1)
 -   [Microsoft Defender for Office 365 P2](https://signup.microsoft.com/signup/logout?OfferId=20298c4d-d500-47fa-b3cd-a3f7d75d9253)

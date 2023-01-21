@@ -1,7 +1,7 @@
 # Author, Contriburors & Reviewers
 
 ## **About**
-GSD is my personal collection of Notes and Links regarding Getting various aspects of Defender Security platform deployed, this is something that I was collecting in OneNote as I come across good content so that I can have it "all in one place" for ready reference later.
+GSD is my personal collection of Notes and Links regarding getting various aspects of Defender Security platform deployed, this is something that I was collecting in OneNote as I come across good content so that I can have it "all in one place" for ready reference later.
 
 While I work for Microsoft Australia I curate this content in my free time, so it should goe without saying that this is not official Microsoft material. This site will contain some visual representations of the various products & will frequently reference Microsoft's own online documentation as well as occassionaly some partner-facing resources. This site does not represent Microsoft, and no warranty is given or implied. You should always work with your Microsoft account team or authorised reseller if you have any questions or concerns.
 

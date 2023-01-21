@@ -1,16 +1,8 @@
 
-### **Ways of working**
-First decision point - do you have **ANY** Domain Controllers within your environment? If so then you should install MDI **NOW** and make it the very top of your Security ToDo list.
-
-### **Enable Telemetry**
-
-### **Validate and Test**
-
-### **Enable Reporting**
-
-### **Review and Improve as needed**
-
-### **Troubleshooting**
+Not everybody consumes info in the same way, but this is how I consume/manage the constant flow of info:
+-   Text, links and graphics (pptx and pdf preferably) so that I can skim FAST
+-   Others like Video, I find it too time consuming
+-   Plus I focus on searching for the great content & then tracking the people that created that and build a network
 
 · Infographic: #BeCyberSmart with Devices and Data
 · Infographic: #BeCyberSmart with Phishing
@@ -24,6 +16,7 @@ First decision point - do you have **ANY** Domain Controllers within your enviro
 from Matt Zorich - Incident Playbooks
 https://learn.microsoft.com/en-us/security/compass/incident-response-playbooks
 
+Insider Risk
 
 Discussions: <https://github.com/dcaddick/gsd_public/discussions>
 
@@ -40,10 +33,19 @@ This covers M365 (think AIR) as well as Sentinel
 Expand on Private Communities?
 
 
-Not everybody consumes info in the same way, but this is how I consume/manage the constant flow of info:
--   Text, links and graphics (pptx and pdf preferably) so that I can skim FAST
--   Others like Video, I find it too time consuming
--   Plus I focus on searching for the great content & then tracking the people that created that and build a network
+### **Ways of working**
+
+### **Enable Telemetry**
+
+### **Validate and Test**
+
+### **Enable Reporting**
+
+### **Review and Improve as needed**
+
+### **Troubleshooting**
+
+
 
 **Technical Legacy Debt**
 -   **Goal:** Understand who owns the legacy environment
