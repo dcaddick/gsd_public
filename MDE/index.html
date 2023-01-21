@@ -209,13 +209,48 @@
 <a class="md-nav__link" href="#mde-microsoft-defender-for-endpoint">
     MDE (Microsoft Defender for Endpoint)
   </a>
+<nav aria-label="MDE (Microsoft Defender for Endpoint)" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ways-of-working">
+    Ways of working
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#enable-telemetry">
+    Enable Telemetry
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#validate-and-test">
+    Validate and Test
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#migration">
+    Migration
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#enable-reporting">
+    Enable Reporting
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#review-and-improve-as-needed">
+    Review and Improve as needed
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#troubleshooting">
+    Troubleshooting
+  </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#m365-rbac">
     M365 RBAC
   </a>
-<nav aria-label="M365 RBAC" class="md-nav">
-<ul class="md-nav__list">
+</li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#mde-using-asr-stand-alone-e3">
     MDE using ASR stand-alone (E3)
@@ -290,13 +325,48 @@
 <a class="md-nav__link" href="#mde-microsoft-defender-for-endpoint">
     MDE (Microsoft Defender for Endpoint)
   </a>
+<nav aria-label="MDE (Microsoft Defender for Endpoint)" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ways-of-working">
+    Ways of working
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#enable-telemetry">
+    Enable Telemetry
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#validate-and-test">
+    Validate and Test
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#migration">
+    Migration
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#enable-reporting">
+    Enable Reporting
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#review-and-improve-as-needed">
+    Review and Improve as needed
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#troubleshooting">
+    Troubleshooting
+  </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#m365-rbac">
     M365 RBAC
   </a>
-<nav aria-label="M365 RBAC" class="md-nav">
-<ul class="md-nav__list">
+</li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#mde-using-asr-stand-alone-e3">
     MDE using ASR stand-alone (E3)
@@ -315,29 +385,156 @@
 <h1>4. Microsoft Defender for Endpoint (MDE)</h1>
 <h2 id="mde-microsoft-defender-for-endpoint"><strong>MDE (Microsoft Defender for Endpoint)</strong></h2>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwZULy1sOxB6LxDMRu-_FvV72vfFAsTKnM1A&amp;usqp=CAU"><img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwZULy1sOxB6LxDMRu-_FvV72vfFAsTKnM1A&amp;usqp=CAU"/></a></p>
+<h3 id="ways-of-working"><strong>Ways of working</strong></h3>
+<p>Defender for Endpoint is for Endpoints, Servers actually belong in "Defender for Cloud":
+<a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migrating-mde-server-to-cloud">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migrating-mde-server-to-cloud</a></p>
 <ul>
-<li>Consider enabling Block at First Sight from AV: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-block-at-first-sight-microsoft-defender-antivirus">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-block-at-first-sight-microsoft-defender-antivirus</a></li>
-<li>Block at First Sight - test/demo: <a href="https://demo.wd.microsoft.com/Page/BAFS">https://demo.wd.microsoft.com/Page/BAFS</a></li>
-<li><strong>Demonstrate &amp; Test security controls:</strong> ASR, SmartScreen, PUA, etc... <a href="https://demo.wd.microsoft.com/">https://demo.wd.microsoft.com/</a></li>
-<li>Scenarios &amp; Features: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/defender-endpoint-demonstrations">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/defender-endpoint-demonstrations</a></li>
-<li>Plan Deployment: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/deployment-strategy">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/deployment-strategy</a></li>
-<li><strong>Linux Advanced Guidance:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/comprehensive-guidance-on-linux-deployment">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/comprehensive-guidance-on-linux-deployment</a></li>
-<li>Architecture: <a href="https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf">https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf</a></li>
-<li>Deployment Phases: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/deployment-phases">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/deployment-phases</a>
-    Defender for Endpoint is for Endpoints, Servers actually belong in "Defender for Cloud":
-    <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migrating-mde-server-to-cloud">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migrating-mde-server-to-cloud</a></li>
-<li>Configure Device Discovery: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-device-discovery">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-device-discovery</a></li>
-<li><strong>Check it's working --&gt;</strong> Simulated Attacks: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-simulations">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-simulations</a></li>
-<li>Automation Levels: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/automation-levels?view=o365-worldwide">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/automation-levels?view=o365-worldwide</a></li>
-<li><strong>Configure AIR capabilities:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-automated-investigations-remediation">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-automated-investigations-remediation</a></li>
-<li><strong>Attack Surface Reduction (ASR) rules:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction</a></li>
-<li>ASR Rules Deployment: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-deployment">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-deployment</a></li>
+<li>
+<p><strong>Architecture PDF</strong>
+<a href="https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf">https://download.microsoft.com/download/5/6/0/5609001f-b8ae-412f-89eb-643976f6b79c/mde-deployment-strategy.pdf</a></p>
+</li>
+<li>
+<p><strong>Plan your deployement</strong>
+<a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/deployment-strategy?view=o365-worldwide">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/deployment-strategy?view=o365-worldwide</a></p>
+</li>
+<li>
+<p><strong>MDE Deployment overview</strong>
+<a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/deployment-phases?view=o365-worldwide">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/deployment-phases?view=o365-worldwide</a></p>
+</li>
+<li>
+<p><strong>Phase 1 - Prepare</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/prepare-deployment?view=o365-worldwide">Link</a></p>
+<ul>
+<li>Stakeholders and approval</li>
+<li>Environment</li>
+<li>RBAC</li>
+<li>Adoption Order</li>
+</ul>
+</li>
+<li>
+<p><strong>Phase 2 - Setup</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/production-deployment?view=o365-worldwide">Link</a></p>
+<ul>
+<li>Check License state</li>
+<li>CSP Validation</li>
+<li>Tenant Config</li>
+<li>Data Centre location</li>
+<li>Network Config</li>
+</ul>
+</li>
+<li>
+<p><strong>Phase 3 - Onbaording</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/production-deployment?view=o365-worldwide">Link</a></p>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/onboarding?view=o365-worldwide">Onboarding &amp; Config</a></li>
+<li><a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/deployment-rings?view=o365-worldwide">Deployment Rings</a></li>
+<li><a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/onboarding-endpoint-configuration-manager?view=o365-worldwide">Using Config Manager</a></li>
+<li><a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/onboarding-endpoint-manager?view=o365-worldwide">Using MEM</a></li>
+</ul>
+</li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/images/cloud-native-architecture.png?view=o365-worldwide#lightbox"><img alt="" src="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/images/cloud-native-architecture.png?view=o365-worldwide#lightbox"/></a></p>
+<h3 id="enable-telemetry"><strong>Enable Telemetry</strong></h3>
+<ul>
+<li>
+<p>Onbarding &amp; Configuration
+<a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/onboarding-endpoint-manager?view=o365-worldwide">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/onboarding-endpoint-manager?view=o365-worldwide</a></p>
+</li>
+<li>
+<p>Configure Device Discovery
+<a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-device-discovery">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-device-discovery</a></p>
+</li>
+<li><strong>Check it's working --&gt;</strong> using Simulated Attacks
+<a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-simulations">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-simulations</a></li>
+<li>Automation Levels
+<a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/automation-levels?">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/automation-levels?</a></li>
+<li><strong>Configure AIR capabilities</strong>
+<a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-automated-investigations-remediation">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-automated-investigations-remediation</a></li>
+<li><strong>Attack Surface Reduction (ASR) rules</strong>
+<a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction</a></li>
+<li>
+<p><strong>ASR Rules Deployment</strong>
+<a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-deployment">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-deployment</a></p>
+</li>
+<li>
+<p>Attack surface reduction (ASR) rules report
+<a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-report?">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-report?</a></p>
+</li>
+</ul>
+<h3 id="validate-and-test"><strong>Validate and Test</strong></h3>
+<ul>
+<li>Scenarios &amp; Features listed with links to testing
+<a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/defender-endpoint-demonstrations">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/defender-endpoint-demonstrations</a></li>
+<li>Block at First Sight - test/demo
+<a href="https://demo.wd.microsoft.com/Page/BAFS">https://demo.wd.microsoft.com/Page/BAFS</a></li>
+<li><strong>Demonstrate &amp; Test security controls:</strong> ASR, SmartScreen, PUA, etc... 
+<a href="https://demo.wd.microsoft.com/">https://demo.wd.microsoft.com/</a></li>
+</ul>
+<h3 id="migration"><strong>Migration</strong></h3>
+<ul>
+<li>
+<p>Migration Guide
+<a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migration-guides?">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migration-guides?</a></p>
+</li>
+<li>
+<p>Migrate to MDE from non-Microsoft endpoint protection
+<a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/switch-to-mde-overview?">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/switch-to-mde-overview?</a></p>
+</li>
+<li>
+<p>Manage Microsoft Defender for Endpoint after initial setup or migration
+<a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/manage-mde-post-migration?">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/manage-mde-post-migration?</a></p>
+</li>
+</ul>
+<h3 id="enable-reporting"><strong>Enable Reporting</strong></h3>
+<p>Consider consolidating All reporting below into Workbooks in Sentinel, this can typically be provided by a Partner, part of an MSSP process, or you can roll your own?</p>
+<ul>
+<li>
+<p>Device health reports in MDE
+<a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/device-health-reports?">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/device-health-reports?</a></p>
+</li>
+<li>
+<p>Manage MDE Devices with MEM
+<a href="https://learn.microsoft.com/en-us/mem/intune/protect/mde-security-integration">https://learn.microsoft.com/en-us/mem/intune/protect/mde-security-integration</a></p>
+</li>
+<li>
+<p>Fix unhealthy sensors in MDE
+<a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/fix-unhealthy-sensors?">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/fix-unhealthy-sensors?</a></p>
+</li>
+<li>
+<p>Host firewall reporting in MDE
+<a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/host-firewall-reporting?view=o365-worldwide">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/host-firewall-reporting?view=o365-worldwide</a></p>
+</li>
+<li>
+<p>MDE PowerBI
+<a href="https://github.com/microsoft/MicrosoftDefenderForEndpoint-PowerBI">https://github.com/microsoft/MicrosoftDefenderForEndpoint-PowerBI</a></p>
+</li>
+<li>
+<p>PowerShell scripts using MDE public API
+<a href="https://github.com/microsoft/MicrosoftDefenderATP-API-PowerShell">https://github.com/microsoft/MicrosoftDefenderATP-API-PowerShell</a></p>
+</li>
+<li>
+<p>MDE Advanced Hunting (AH) sample queries
+<a href="https://github.com/microsoft/WindowsDefenderATP-Hunting-Queries">https://github.com/microsoft/WindowsDefenderATP-Hunting-Queries</a></p>
+</li>
+<li>
+<p>Python scripts using MDE public API
+<a href="https://github.com/microsoft/MicrosoftDefenderATP-API-Python">https://github.com/microsoft/MicrosoftDefenderATP-API-Python</a></p>
+</li>
+</ul>
+<h3 id="review-and-improve-as-needed"><strong>Review and Improve as needed</strong></h3>
+<ul>
+<li>
+<p>Consider enabling Block at First Sight from AV: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-block-at-first-sight-microsoft-defender-antivirus">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-block-at-first-sight-microsoft-defender-antivirus</a></p>
+</li>
+<li>
+<p><strong>Linux Advanced Guidance:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/comprehensive-guidance-on-linux-deployment">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/comprehensive-guidance-on-linux-deployment</a></p>
+</li>
+</ul>
+<h3 id="troubleshooting"><strong>Troubleshooting</strong></h3>
+<ul>
 <li>Troubleshooting: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/check-sensor-status">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/check-sensor-status</a></li>
 <li><strong>Troubleshooting mode for devices</strong>: <a href="https://jeffreyappel.nl/microsoft-defender-for-endpoint-troubleshooting-mode-how-to-use-it/">https://jeffreyappel.nl/microsoft-defender-for-endpoint-troubleshooting-mode-how-to-use-it/</a></li>
 <li>Migration Guide: <a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migration-guides">https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migration-guides</a></li>
 </ul>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../images/image7.png"><img alt="" src="../images/image7.png"/></a></p>
-<h2 id="m365-rbac"><strong>M365 RBAC</strong></h2>
+<h3 id="m365-rbac"><strong>M365 RBAC</strong></h3>
 <p><strong>Released late Dec 2022</strong></p>
 <ul>
 <li>Shortcut to RBAC Permissions - https://security.microsoft.com/mtp_roles</li>
@@ -347,6 +544,7 @@
 <a class="glightbox" data-desc-position="bottom" data-height="auto" data-title="image" data-width="100%" href="../images/M365_SecConfig_Permissions.png"><img alt="image" src="../images/M365_SecConfig_Permissions.png"/></a></li>
 </ul>
 <h3 id="mde-using-asr-stand-alone-e3"><strong>MDE using ASR stand-alone (E3)</strong></h3>
+<p>Handy tips and shortcuts for those that might still be trying to improve based on M365 E3 Licensing - apologies but this is not my focus, but when I do come across useful tips and links I'll add here:</p>
 <ul>
 <li><a href="https://www.computerworld.com/article/3604651/decoding-windows-defender-s-hidden-settings.html">https://www.computerworld.com/article/3604651/decoding-windows-defender-s-hidden-settings.html</a></li>
 <li><a href="https://github.com/AndyFul/ConfigureDefender">https://github.com/AndyFul/ConfigureDefender</a></li>
