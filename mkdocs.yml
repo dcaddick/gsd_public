@@ -71,7 +71,10 @@ theme:
 plugins:
   - search
   - simple
-  - git-authors
+  - git-authors:
+      show_contribution: true
+      show_line_count: true
+      show_email_address: true
   - git-revision-date-localized:
       fallback_to_build_date: true
       # enable_creation_date: true
