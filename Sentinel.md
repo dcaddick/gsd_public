@@ -69,6 +69,9 @@
 
 ### **Review and Improve as needed**
 
+-   Need to migrate from your old SIEM?
+<https://learn.microsoft.com/en-us/azure/sentinel/migration>
+
 #### **Filtering Logs** 
 
    Can be used to reduce data noise, reduce ingestion and retention/storage costs with the goal being to focus on the logs and events that are relevant - This is typically performed by one of the methods for the following scenarios:
