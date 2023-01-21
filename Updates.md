@@ -16,6 +16,8 @@ Not everybody consumes info in the same way, but this is how I consume/manage th
 from Matt Zorich - Incident Playbooks
 https://learn.microsoft.com/en-us/security/compass/incident-response-playbooks
 
+https://admin.microsoft.com/Adminportal/Home?Q=ADG#/SetupGuidance
+
 Insider Risk
 
 Discussions: <https://github.com/dcaddick/gsd_public/discussions>
