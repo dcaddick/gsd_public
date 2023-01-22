@@ -1,5 +1,8 @@
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUjkG9-rGdaKbfcCGtM3GzTaUfsSxcTmSsSg&usqp=CAU)
 
+**Recent BEC activity (Business Email Compromise)**
+<https://twitter.com/jhencinski/status/1616543412940931075?s=61&t=C1HAZW3QfTIcWUDtZNoHOw>
+
 ## **MDO (Microsoft Defender for Office)**
 
 -   Try in Audit mode: <https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/try-microsoft-defender-for-office-365>
