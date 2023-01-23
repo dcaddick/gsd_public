@@ -27,22 +27,6 @@ Quick wins to improve Security using existing M365 E5 entitlements
  -   Standardised Executive Reporting - an industry report from the CISO Lens community (June 2022)
         <https://www.cisolens.com/reports#h.z10davb23frq>
 
-## **Still to do**
-
-- [ ] Get plugins working, date updated, contributors, etc...
-- [ ] Link in announcement to discussion board
-- [ ] update About
-- [ ] Fix Tables
-- [ ] Fix images
-- [x] Assumed Knowledge
-- [x] Assumed Licenses
-- [ ] Acronym Table?
-- [ ] Short paragraph on each heading - Preview at top or separate tab?
-- [x] ToC/Index
-- [ ] Add new Theme - https://github.com/byrnereese/mkdocs-bootstrap4  ???
-- [x] Shadow Hunter & In to the Breach - Immersive workshops for SecOps
-- [ ] Zero Trust - <https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/creating-mfa-policies-with-zero-trust-advanced-deployment-guide/ba-p/3688849>
-- [ ] CISA recommendations?
 
 ## **M365 Defender Console**
 
