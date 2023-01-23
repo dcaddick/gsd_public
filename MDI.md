@@ -74,14 +74,20 @@ More details can be found here & example below - <https://learn.microsoft.com/en
 
 ## **Review and Improve as needed**
 
--   Review Security Assessments to validate what potentially needs remediation: <https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports>
--   Full list of the 44 Alerts that are being checked on your behalf when fully deployed: <https://learn.microsoft.com/en-us/defender-for-identity/alerts-overview>
--   If you do not use the default Administrator account (ideally have it disabled?) then please add it to the Honeytoken account list: <https://learn.microsoft.com/en-us/defender-for-identity/entity-tags#honeytoken-tags>
--   Audit checking via Sentinel for MDI - <https://thalpius.com/2022/12/14/microsoft-defender-for-identity-auditing-checker-using-sentinel>
+-   Review Security Assessments to validate what potentially needs remediation
+<https://learn.microsoft.com/en-us/defender-for-identity/security-assessment#assessment-reports>
+-   Full list of the 44 Alerts that are being checked on your behalf when fully deployed
+<https://learn.microsoft.com/en-us/defender-for-identity/alerts-overview>
+-   If you do not use the default Administrator account (ideally have it disabled?) then please add it to the Honeytoken account list
+<https://learn.microsoft.com/en-us/defender-for-identity/entity-tags#honeytoken-tags>
+-   Audit checking via Sentinel for MDI
+<https://thalpius.com/2022/12/14/microsoft-defender-for-identity-auditing-checker-using-sentinel>
 
 ## **Troubleshooting**
 
--   <https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-known-issues>
--   <https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-using-logs>
+-   Troubleshooting known issues
+<https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-known-issues>
+-   Troubleshooting using logs
+<https://learn.microsoft.com/en-us/defender-for-identity/troubleshooting-using-logs>
 
 
