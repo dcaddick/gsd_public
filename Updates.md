@@ -18,6 +18,12 @@ https://learn.microsoft.com/en-us/security/compass/incident-response-playbooks
 
 https://admin.microsoft.com/Adminportal/Home?Q=ADG#/SetupGuidance
 
+Change over to different way of Processing to add support for .git
+https://github.com/marketplace/actions/mkdocs-deployment
+And
+https://github.com/marketplace/actions/mkdocs-link-check
+
+
 Insider Risk
 
 Discussions: <https://github.com/dcaddick/gsd_public/discussions>
