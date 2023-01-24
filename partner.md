@@ -68,3 +68,6 @@ MS Partner - go to <https://cdx.transform.microsoft.com> and get access to 5 x 9
 
 Partner Incentives Overview:
     <https://partner.microsoft.com/en-se/partnership/partner-incentives/>
+    
+## **Licensing information**
+-   [Evergreen PDF for our Modern Work and Security product licensing matrix](https://aka.ms/M365EnterprisePlans)
