@@ -48,7 +48,7 @@
 ### **Validate and Test**
 
 -   How to Generate Microsoft Sentinel Incidents for Testing and Demos
-<https://azurecloudai.blog/2021/05/24/how-to-generate-azure-sentinel-incidents-for-testing/>
+<https://rodtrent.substack.com/p/how-to-generate-microsoft-sentinel>
 
 -   Microsoft Sentinel — Testing detection rules like a Ninja
 <https://rogierdijkman.medium.com/microsoft-sentinel-testing-detection-rules-like-a-ninja-cac612944dd1>
