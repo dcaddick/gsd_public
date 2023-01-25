@@ -35,7 +35,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#microsoft-information-protection-mipaip">
+<a class="md-skip" href="#microsoft-purview-information-protection-mpipmipaip">
           Skip to content
         </a>
 </div>
@@ -226,8 +226,23 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#microsoft-information-protection-mipaip">
-    Microsoft Information Protection (MIP/AIP)
+<a class="md-nav__link" href="#microsoft-purview-information-protection-mpipmipaip">
+    Microsoft Purview Information Protection (MPIP/MIP/AIP)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#naming-evolution-aipmipmpip">
+    Naming evolution - AIP/MIP/MPIP
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dlp-products">
+    DLP products
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ninja-security-training">
+    Ninja Security Training
   </a>
 </li>
 </ul>
@@ -273,8 +288,23 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#microsoft-information-protection-mipaip">
-    Microsoft Information Protection (MIP/AIP)
+<a class="md-nav__link" href="#microsoft-purview-information-protection-mpipmipaip">
+    Microsoft Purview Information Protection (MPIP/MIP/AIP)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#naming-evolution-aipmipmpip">
+    Naming evolution - AIP/MIP/MPIP
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dlp-products">
+    DLP products
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ninja-security-training">
+    Ninja Security Training
   </a>
 </li>
 </ul>
@@ -285,8 +315,8 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <h1>8. Microsoft Information Protection (MIP/AIP)</h1>
-<h2 id="microsoft-information-protection-mipaip"><strong>Microsoft Information Protection (MIP/AIP)</strong></h2>
-<p>This page will also cover DLP, but we'll probably build out a whole new section on Purview as this site matures, thank you for your patience - please feel free to provide feedback via raising an issue in Github.</p>
+<h2 id="microsoft-purview-information-protection-mpipmipaip"><strong>Microsoft Purview Information Protection (MPIP/MIP/AIP)</strong></h2>
+<p>This page will also cover Data Loss Prevention (DLP), but we'll probably build out a whole new section on Purview as this site matures, thank you for your patience - please feel free to provide feedback via raising an issue in Github.</p>
 <ul>
 <li>MIP/AIP - <a href="https://techcommunity.microsoft.com/t5/security-compliance-and-identity/azure-information-protection-and-the-information-protection/ba-p/3671070">https://techcommunity.microsoft.com/t5/security-compliance-and-identity/azure-information-protection-and-the-information-protection/ba-p/3671070</a></li>
 <li>Adaptive Protection (DLP rules based on Insider Risk)</li>
@@ -296,12 +326,46 @@
 <li>DLP - <a href="https://learn.microsoft.com/en-gb/microsoft-365/compliance/dlp-learn-about-dlp">https://learn.microsoft.com/en-gb/microsoft-365/compliance/dlp-learn-about-dlp</a></li>
 <li>What's new - <a href="https://learn.microsoft.com/en-gb/microsoft-365/compliance/whats-new">https://learn.microsoft.com/en-gb/microsoft-365/compliance/whats-new</a></li>
 </ul>
+<h2 id="naming-evolution-aipmipmpip"><strong>Naming evolution - AIP/MIP/MPIP</strong></h2>
+<p>Note that while some documentation still references "Azure Information Protection", management and usage of these capabilites from within the Azure Portal have been deprecated as of January 2023. Management of the Information Protection scanner's capability is now performed from within the <a href="https://compliance.microsoft.com/compliancesettings">Information protection scanner</a> menu within the Purview Compliance portal but still requires the Azure Information Protection Unified Labeling Client. Click here for details on deployment of the <a href="https://learn.microsoft.com/en-us/microsoft-365/compliance/deploy-scanner-configure-install">Unified Labeling Client</a>.</p>
+<p>The "Microsoft Information Protection" name, along with other compliance and unified data governance products, were updated in 2022 to include "Purview" name. As such it's now called "Microsoft Purview Information Protection". For additional updates to the renaming of our compliance products reference this <a href="https://www.microsoft.com/en-us/security/blog/2022/04/19/the-future-of-compliance-and-data-governance-is-here-introducing-microsoft-purview/">blog post</a></p>
+<h2 id="dlp-products"><strong>DLP products</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Product / Service</th>
+<th>Data Location</th>
+<th>Use case</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://compliance.microsoft.com/datalossprevention">Microsoft Purview Data Loss Prevention</a></td>
+<td>Endpoints, M365 data locations, bridged Data Connector locations</td>
+<td>Provides DLP capabilities primarily for M365 locations (e.g. O365, OneDrive, Teams, Yammer, SharePoint, etc.), endpoints who have MDE onboarded,  as well as locations that have been bridged to Purview via the Data Connectors capability.</td>
+</tr>
+<tr>
+<td><a href="https://compliance.microsoft.com/compliancesettings/scanner_onboarding">Microsoft Purview Information Protection Scanner</a></td>
+<td>Endpoint locations isolated from M365 SaaS services</td>
+<td>Use of this scanner is typically used to scan on-premesis data locations such as a file shares that the MDE agent cannot be deployed on. Additionally, it can be used to deploy DLP policies for disconnected resources that are "air-gapped" or simply isolated from the M365 SaaS offerings. This requires a secondary server within the network segment. Using this scanner to provide DLP on cloud connected resources is redundant and requires more overhead to manage.</td>
+</tr>
+<tr>
+<td><a href="https://security.microsoft.com/cloudapps">Defender for Cloud Apps</a></td>
+<td>Microsoft and non-Microsoft cloud</td>
+<td>With the use of "File Policies" you can address DLP for data locations that include and extend beyond M3635.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="ninja-security-training"><strong>Ninja Security Training</strong></h2>
+<ul>
+<li>MPIP Ninja Training : <a href="https://aka.ms/MIPNinja">https://aka.ms/MIPNinja</a></li>
+</ul>
 <hr/>
 <div class="md-source-file">
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 24, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 25, 2023</span>
 </small>
 </div>
 <form class="md-feedback" hidden="" name="feedback">
