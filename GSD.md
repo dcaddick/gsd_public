@@ -35,10 +35,32 @@ Quick wins to improve Security using existing M365 E5 entitlements
 -   Test Use Cases: <https://learn.microsoft.com/en-gb/microsoft-365/security/defender/integrate-microsoft-365-defender-secops-use-cases>
 -   SOC Maintenance Tasks: <https://learn.microsoft.com/en-gb/microsoft-365/security/defender/integrate-microsoft-365-defender-secops-tasks>
 
+-   Deploying Microsoft 365 just got easier - Introducing advanced deployment guides! (Dec 15th, 2022)
+<https://techcommunity.microsoft.com/t5/fasttrack-blog/deploying-microsoft-365-just-got-easier-introducing-advanced/ba-p/3635421>
+![](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/426222i86CBEA5DD5CEE5F8/image-size/large?v=v2&px=999)
+
+**Defender**
+
+-   <https://setup.microsoft.com/defender>
+-   <https://setup.microsoft.com/defender/identity>
+-   <https://setup.microsoft.com/defender/cloud-apps-setup-guide>
+-   <https://setup.microsoft.com/defender/endpoint-setup-guide>
+-   <https://setup.microsoft.com/defender/office-365-setup-guide>
+-   <https://setup.microsoft.com/intune/setup-guide>
+
+**Purview**
+-   <https://setup.microsoft.com/purview>
+-   <https://setup.microsoft.com/purview/audit-solutions-setup-guide>
+-   <https://setup.microsoft.com/purview/ediscovery-solutions-setup-guide>
+-   <https://setup.microsoft.com/purview/insider-risk-solutions-setup-guide>
+-   <https://setup.microsoft.com/purview/data-lifecycle-management-setup-guide>
+-   <https://setup.microsoft.com/purview/information-protection>
+-   <https://setup.microsoft.com/purview/security-analyzer>
+-   <https://setup.microsoft.com/purview/zero-trust-setup-guide>
 
 ## **1.   MDI (Microsoft Defender for Identity)**
 
-## **Ways of working**
+### **Ways of working**
 First decision point - do you have **ANY** Domain Controllers within your environment? If so then you should install MDI **NOW** and make it the very top of your Security ToDo list.
 
 Examples of **WHY** you do this first:
