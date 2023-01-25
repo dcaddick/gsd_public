@@ -30,16 +30,19 @@ Quick wins to improve Security using existing M365 E5 entitlements
 
 ## **M365 Defender Console**
 
--   Evaluate Defender 365: <https://learn.microsoft.com/en-gb/microsoft-365/security/defender/eval-overview>
+-   Evaluate Defender 365
     -   Good step by step guide to getting everything turned on - but it is aimed at folks just starting
--   Test Use Cases: <https://learn.microsoft.com/en-gb/microsoft-365/security/defender/integrate-microsoft-365-defender-secops-use-cases>
--   SOC Maintenance Tasks: <https://learn.microsoft.com/en-gb/microsoft-365/security/defender/integrate-microsoft-365-defender-secops-tasks>
+    -   <https://learn.microsoft.com/en-gb/microsoft-365/security/defender/eval-overview>
+-   Test Use Cases
+    <https://learn.microsoft.com/en-gb/microsoft-365/security/defender/integrate-microsoft-365-defender-secops-use-cases>
+-   SOC Maintenance Tasks
+    <https://learn.microsoft.com/en-gb/microsoft-365/security/defender/integrate-microsoft-365-defender-secops-tasks>
 
 -   Deploying Microsoft 365 just got easier - Introducing advanced deployment guides! (Dec 15th, 2022)
-<https://techcommunity.microsoft.com/t5/fasttrack-blog/deploying-microsoft-365-just-got-easier-introducing-advanced/ba-p/3635421>
+    <https://techcommunity.microsoft.com/t5/fasttrack-blog/deploying-microsoft-365-just-got-easier-introducing-advanced/ba-p/3635421>
 ![](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/426222i86CBEA5DD5CEE5F8/image-size/large?v=v2&px=999)
 
-**Defender**
+**Defender Admin Guides - Step by Step**
 
 -   <https://setup.microsoft.com/defender>
 -   <https://setup.microsoft.com/defender/identity>
@@ -48,7 +51,8 @@ Quick wins to improve Security using existing M365 E5 entitlements
 -   <https://setup.microsoft.com/defender/office-365-setup-guide>
 -   <https://setup.microsoft.com/intune/setup-guide>
 
-**Purview**
+**Purview Admin Guides - Step by Step**
+
 -   <https://setup.microsoft.com/purview>
 -   <https://setup.microsoft.com/purview/audit-solutions-setup-guide>
 -   <https://setup.microsoft.com/purview/ediscovery-solutions-setup-guide>
