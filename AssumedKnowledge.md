@@ -9,7 +9,10 @@ However, if you've already got a reasonably good handle on this, don't let us st
 ## **Assumed Licensing**
 
 **ALL** of this content is assuming that your M365 Tenant is at FULL E5 including Security and Compliance.
-For details regards M365 Features and Licensing see this: - [Feature Matrix | M365 Maps](https://m365maps.com/matrix.htm) 
+
+For official details on how our Microsoft security and compliance services are provisioned, who benefits from these services and what licensing is required reference the following: - [Microsoft 365 guidance for Security & Compliance](https://learn.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
+
+For **unofficial** details regarding M365 Features and Licensing reference the following guide: - [Feature Matrix | M365 Maps](https://m365maps.com/matrix.htm) 
 
 If you need further assistance in Licensing please contact your local Microsoft Sales rep and start from there. 
 Apologies, but this content is focused and aimed at helping people get the solutions deployed.
