@@ -18,6 +18,9 @@ https://learn.microsoft.com/en-us/security/compass/incident-response-playbooks
 
 https://admin.microsoft.com/Adminportal/Home?Q=ADG#/SetupGuidance
 
+https://github.com/Cloud-Architekt/AzureAD-Attack-Defense
+
+
 Change over to different way of Processing to add support for .git
 https://github.com/marketplace/actions/mkdocs-deployment
 And

@@ -30,15 +30,43 @@ Quick wins to improve Security using existing M365 E5 entitlements
 
 ## **M365 Defender Console**
 
--   Evaluate Defender 365: <https://learn.microsoft.com/en-gb/microsoft-365/security/defender/eval-overview>
+-   Evaluate Defender 365
     -   Good step by step guide to getting everything turned on - but it is aimed at folks just starting
--   Test Use Cases: <https://learn.microsoft.com/en-gb/microsoft-365/security/defender/integrate-microsoft-365-defender-secops-use-cases>
--   SOC Maintenance Tasks: <https://learn.microsoft.com/en-gb/microsoft-365/security/defender/integrate-microsoft-365-defender-secops-tasks>
+    -   <https://learn.microsoft.com/en-gb/microsoft-365/security/defender/eval-overview>
+-   Test Use Cases
+    <https://learn.microsoft.com/en-gb/microsoft-365/security/defender/integrate-microsoft-365-defender-secops-use-cases>
+-   SOC Maintenance Tasks
+    <https://learn.microsoft.com/en-gb/microsoft-365/security/defender/integrate-microsoft-365-defender-secops-tasks>
 
+-   Deploying Microsoft 365 just got easier - Introducing advanced deployment guides! (Dec 15th, 2022)
+
+    <https://techcommunity.microsoft.com/t5/fasttrack-blog/deploying-microsoft-365-just-got-easier-introducing-advanced/ba-p/3635421>
+
+![](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/426222i86CBEA5DD5CEE5F8/image-size/large?v=v2&px=999)
+
+**Defender Admin Guides - Step by Step**
+
+-   <https://setup.microsoft.com/defender>
+-   <https://setup.microsoft.com/defender/identity>
+-   <https://setup.microsoft.com/defender/cloud-apps-setup-guide>
+-   <https://setup.microsoft.com/defender/endpoint-setup-guide>
+-   <https://setup.microsoft.com/defender/office-365-setup-guide>
+-   <https://setup.microsoft.com/intune/setup-guide>
+
+**Purview Admin Guides - Step by Step**
+
+-   <https://setup.microsoft.com/purview>
+-   <https://setup.microsoft.com/purview/audit-solutions-setup-guide>
+-   <https://setup.microsoft.com/purview/ediscovery-solutions-setup-guide>
+-   <https://setup.microsoft.com/purview/insider-risk-solutions-setup-guide>
+-   <https://setup.microsoft.com/purview/data-lifecycle-management-setup-guide>
+-   <https://setup.microsoft.com/purview/information-protection>
+-   <https://setup.microsoft.com/purview/security-analyzer>
+-   <https://setup.microsoft.com/purview/zero-trust-setup-guide>
 
 ## **1.   MDI (Microsoft Defender for Identity)**
 
-## **Ways of working**
+### **Ways of working**
 First decision point - do you have **ANY** Domain Controllers within your environment? If so then you should install MDI **NOW** and make it the very top of your Security ToDo list.
 
 Examples of **WHY** you do this first:
@@ -458,7 +486,29 @@ Handy tips and shortcuts for those that might still be trying to improve based o
 -   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-define-the-av-baseline-part4a/>
 
 
+### **MDE (from MVP's)**
 
+-   Defender for Endpoint Policy Must Haves -
+    <https://www.linkedin.com/posts/emannon_1dfv-2dfv-3dfv-activity-6989618122601230338-q2uK>?
+-   Do you use Defender for Endpoint -
+    <https://www.linkedin.com/posts/emannon_defender-mde-zeek-activity-6989307538726948864-C2Oj>?
+-   1. Do you use MDE for EDR/NGAV❓
+-   2. Did you deploy the MDE network scanner⁉️
+    <https://www.linkedin.com/posts/emannon_msftadvocate-defender-iotsecurity-activity-6986838402071478272-dLRV>?
+-   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-what-is-defender-for-endpoint-part1/>
+-   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-configure-defender-for-endpoint-part2/>
+-   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-onboard-defender-for-endpoint-part3/>
+-   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-onboard-using-microsoft-intune-part3a/>
+-   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-onboard-using-defender-for-cloud-part3b/>
+-   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-onboard-using-azure-arc-part3c/>
+-   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-onboard-using-gpo-mecm-part3d/>
+-   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-configure-av-next-generation-protection-part4/>
+-   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-define-the-av-baseline-part4a/>
+
+ ### **Migration**
+
+-   <https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migration-guides>
+-   <https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/switch-to-mde-overview>
 
 
 
@@ -542,7 +592,7 @@ Handy tips and shortcuts for those that might still be trying to improve based o
 ### **Validate and Test**
 
 -   How to Generate Microsoft Sentinel Incidents for Testing and Demos
-<https://azurecloudai.blog/2021/05/24/how-to-generate-azure-sentinel-incidents-for-testing/>
+<https://rodtrent.substack.com/p/how-to-generate-microsoft-sentinel>
 
 -   Microsoft Sentinel — Testing detection rules like a Ninja
 <https://rogierdijkman.medium.com/microsoft-sentinel-testing-detection-rules-like-a-ninja-cac612944dd1>
@@ -670,23 +720,46 @@ This page will also cover DLP, but we'll probably build out a whole new section 
 
 ## **9.   ASD Essential 8 (now ACSC)**
 
--   Great high level on all Essential 8 - <https://www.microsoft.com/en-au/business/topic/security/essential-eight/>
--   6 videos that walk thru - <https://info.microsoft.com/AU-SCRTY-CATALOG-FY21-02Feb-14-TheEssentialEightforSecurityinPractice-SRDEM61939_CatalogDisplayPage.html>
--   MCRA <https://aka.ms/MCRA> or <https://learn.microsoft.com/en-us/security/cybersecurity-reference-architecture/mcra>
--   General on Essential 8 - <https://www.microsoft.com/en-au/business/topic/security/>
--   Daily backups: <https://www.microsoft.com/en-au/business/topic/security/essential-eight/daily-backups/>
--   Australian IRAP - <https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-australia-irap> & <https://servicetrust.microsoft.com/Viewpage/AustraliaIRAP>
--   Local Australian guide in Service Trust Portal <https://aka.ms/e8guides>
+
+
+## **ASD Essential 8 (now ACSC)**
+
+-   Great high level on all Essential 8
+<https://www.microsoft.com/en-au/business/topic/security/essential-eight/>
+-   6 videos that walk thru
+<https://info.microsoft.com/AU-SCRTY-CATALOG-FY21-02Feb-14-TheEssentialEightforSecurityinPractice-SRDEM61939_CatalogDisplayPage.html>
+-   Microsoft Cybersecurity Reference Architecture
+ <https://aka.ms/MCRA> or <https://learn.microsoft.com/en-us/security/cybersecurity-reference-architecture/mcra>
+-   General on Essential 8
+<https://www.microsoft.com/en-au/business/topic/security/>
+-   Daily backups
+<https://www.microsoft.com/en-au/business/topic/security/essential-eight/daily-backups/>
+-   Australian IRAP
+<https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-australia-irap> & <https://servicetrust.microsoft.com/Viewpage/AustraliaIRAP>
+
+**Local Australian E8 Guides**
+-   Microsoft Service Trust Portal has the local Essential 8 guides  <https://aka.ms/e8guides> here you will find the PDF's covering the following specifics - the guides below can be accessed easy enough, but you will need to sign in using your own Tenant ID to access the IRAP docs ;)
+
+- 	Microsoft General - Essential Eight - Config Macros - 2022-09
+-   Microsoft General - Essential Eight - User Application Hardening - 2022-09
+-   Microsoft General - Essential Eight - Restricting Admin Priv - 2022-09
+- 	Microsoft General - Essential Eight - Patch OS - 2022-09
+- 	Microsoft General - Essential Eight - Backup - 2022-09
+-   Microsoft General - Essential Eight - Patch Applications - 2022-09
+-   Microsoft General - Essential Eight - MFA - 2022-09
 
 ### **Hardening Guidance from ACSC**
 
--   <https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-windows-10-version-21h1-workstations>
--   <https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-365-office-2021-office-2019-and-office-2016>
--   <https://www.cyber.gov.au/acsc/view-all-content/publications/microsoft-office-macro-security>
--   <https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines>
--   [Windows Security Baseline (for use with ACSC Windows Hardening Guidelines)](https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines/blob/main/policies/Windows%20Security%20Baseline%20(for%20use%20with%20ACSC%20Windows%20Hardening%20Guidelines).json)
--   [ACSC Windows Hardening Guidelines-Attack Surface Reduction](https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines/blob/main/policies/ACSC%20Windows%20Hardening%20Guidelines-Attack%20Surface%20Reduction.json)
--   WDAC Policy creation from DTA - <https://desktop.gov.au/blueprint/abac/wdac-policy-creation.html>
+-   For Windows 10 21H1
+<https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-windows-10-version-21h1-workstations>
+-   For Office
+<https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-365-office-2021-office-2019-and-office-2016>
+-   For Macro's
+<https://www.cyber.gov.au/acsc/view-all-content/publications/microsoft-office-macro-security>
+-   For Intune
+<https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines>
+-   WDAC Policy creation from DTA
+<https://desktop.gov.au/blueprint/abac/wdac-policy-creation.html>
 
 ### **Hardening Azure AD**
 
@@ -699,60 +772,56 @@ This page will also cover DLP, but we'll probably build out a whole new section 
 
 A list of resources from DART perspective on Active Directory - courtesy
 of Matt Zorich (Twitter @reprise99)
--   BloodHound Edges - <https://bloodhound.readthedocs.io/en/latest/data-analysis/edges.html>
--   AD Security - <https://adsecurity.org/?page_id=4031>
--   [http://ired.team](https://t.co/Y4BRxwdLu5) notes - [https://ired.team/offensive-security-experiments/active-directory-kerberos-abuse...](https://t.co/0w3Uo7TOSI)
--   SID History Persistence - [https://adsecurity.org/?p=1772](https://t.co/M7QX7w31Fw)
--   How AdminSdHolder & SDProp work - [https://techcommunity.microsoft.com/t5/ask-the-directory-services-team/five-common-questions-about-adminsdholder-and-sdprop/ba-p/396293...](https://t.co/5HPCBDnuZG)
--   Recovering from systemic identity compromise - [https://learn.microsoft.com/en-us/azure/security/fundamentals/recover-from-identity-compromise](https://t.co/Dfp1IWkS7z)
--   Abusing Active Directory ACLs/ACEs - [https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/acl-persistence-abuse...](https://t.co/ZWUMlP58yv)
--   Defender for Identity Alerts Overview - [https://learn.microsoft.com/en-us/defender-for-identity/alerts-overview...](https://t.co/kkqqFsEB6i)
--   Best practices for securing AD - [https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory](https://t.co/a2suvfmpZm)
--   Mimikatz DCSync Abuse - [https://adsecurity.org/?p=1729](https://t.co/K51OQsXWSy)
--   Kerberoasting Overview - [https://ired.team/offensive-security-experiments/active-directory-kerberos-abuse/t1208-kerberoasting...](https://t.co/EqWNu84RoG)
--   Monitoring AD for signs of compromise - [https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise](https://t.co/enuOOAjAr1)
+
+-   BloodHound Edges
+<https://bloodhound.readthedocs.io/en/latest/data-analysis/edges.html>
+-   AD Security
+<https://adsecurity.org/?page_id=4031>
+-   [iRed Team](https://t.co/Y4BRxwdLu5) notes
+[https://ired.team/offensive-security-experiments/active-directory-kerberos-abuse...](https://t.co/0w3Uo7TOSI)
+-   SID History Persistence
+[https://adsecurity.org/?p=1772](https://t.co/M7QX7w31Fw)
+-   How AdminSdHolder & SDProp work
+[https://techcommunity.microsoft.com/t5/ask-the-directory-services-team/five-common-questions-about-adminsdholder-and-sdprop/ba-p/396293...](https://t.co/5HPCBDnuZG)
+-   Recovering from systemic identity compromise
+[https://learn.microsoft.com/en-us/azure/security/fundamentals/recover-from-identity-compromise](https://t.co/Dfp1IWkS7z)
+-   Abusing Active Directory ACLs/ACEs
+[https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/acl-persistence-abuse...](https://t.co/ZWUMlP58yv)
+-   Defender for Identity Alerts Overview
+[https://learn.microsoft.com/en-us/defender-for-identity/alerts-overview...](https://t.co/kkqqFsEB6i)
+-   Best practices for securing AD
+[https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory](https://t.co/a2suvfmpZm)
+-   Mimikatz DCSync Abuse
+[https://adsecurity.org/?p=1729](https://t.co/K51OQsXWSy)
+-   Kerberoasting Overview
+[https://ired.team/offensive-security-experiments/active-directory-kerberos-abuse/t1208-kerberoasting...](https://t.co/EqWNu84RoG)
+-   Monitoring AD for signs of compromise
+[https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise](https://t.co/enuOOAjAr1)
 
 ### **Identity**
 
--   Best Practices: <https://learn.microsoft.com/en-us/security/compass/compass>
--   <https://jeffreyappel.nl/tips-for-preventing-against-new-modern-identity-attacks-aitm-mfa-fatigue-prt-oauth/>
+-   Best Practices
+<https://learn.microsoft.com/en-us/security/compass/compass>
+-   From Jeffrey Appel
+<https://jeffreyappel.nl/tips-for-preventing-against-new-modern-identity-attacks-aitm-mfa-fatigue-prt-oauth/>
     look at Partner section
 -   MDCA (was MCAS) policies from AADIP P2 moving to D365 Console
--   <https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-365-security-center-defender-cloud-apps?view=o365-worldwide&WT.mc_id=AZ-MVP-5004291#control>
--   <https://www.linkedin.com/posts/sami-lamppu_microsoft-defender-for-cloud-apps-in-microsoft-activity-7011278821773471744-TcvX>?
+    -   <https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-365-security-center-defender-cloud-apps?view=o365-worldwide&WT.mc_id=AZ-MVP-5004291#control>
+    -   <https://www.linkedin.com/posts/sami-lamppu_microsoft-defender-for-cloud-apps-in-microsoft-activity-7011278821773471744-TcvX>?
 
 ### **Exchange Permissions check**
+
+These two are subtly different, the first is on mailboxes, the second is
+more focused on the Outlook Folders
 
 -   <https://office365itpros.com/2020/03/16/exchange-online-mailbox-permissions/>
 -    <https://github.com/12Knocksinna/Office365itpros/blob/master/ReportMailboxPermissionsMailboxes.PS1>
 -   <https://office365itpros.com/2020/03/23/reporting-exchange-online-folder-permissions/>
 -    <https://github.com/12Knocksinna/Office365itpros/blob/master/ReportPermissionsFolderLevel.PS1>
-> The two are subtly different, the first is on mailboxes, the second is
-> more focused on the Outlook Folders
 
-### **MDE (from MVP's)**
 
--   Defender for Endpoint Policy Must Haves -
-    <https://www.linkedin.com/posts/emannon_1dfv-2dfv-3dfv-activity-6989618122601230338-q2uK>?
--   Do you use Defender for Endpoint -
-    <https://www.linkedin.com/posts/emannon_defender-mde-zeek-activity-6989307538726948864-C2Oj>?
--   1. Do you use MDE for EDR/NGAV❓
--   2. Did you deploy the MDE network scanner⁉️
-    <https://www.linkedin.com/posts/emannon_msftadvocate-defender-iotsecurity-activity-6986838402071478272-dLRV>?
--   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-what-is-defender-for-endpoint-part1/>
--   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-configure-defender-for-endpoint-part2/>
--   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-onboard-defender-for-endpoint-part3/>
--   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-onboard-using-microsoft-intune-part3a/>
--   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-onboard-using-defender-for-cloud-part3b/>
--   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-onboard-using-azure-arc-part3c/>
--   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-onboard-using-gpo-mecm-part3d/>
--   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-configure-av-next-generation-protection-part4/>
--   <https://jeffreyappel.nl/microsoft-defender-for-endpoint-series-define-the-av-baseline-part4a/>
 
- ### **Migration**
 
--   <https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/migration-guides>
--   <https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/switch-to-mde-overview>
 
 ## **10.   Windows Defender Application Control (WDAC)**
 
