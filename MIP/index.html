@@ -342,7 +342,7 @@
 <tr>
 <td><a href="https://compliance.microsoft.com/datalossprevention">Microsoft Purview Data Loss Prevention</a></td>
 <td>Endpoints, M365 data locations, bridged Data Connector locations</td>
-<td>Provides DLP capabilities primarily for M365 locations (e.g. O365, OneDrive, Teams, Yammer, SharePoint, etc.), endpoints who have MDE onboarded,  as well as locations that have been bridged to Purview via the Data Connectors capability.</td>
+<td>Provides DLP capabilities primarily for M365 locations (e.g. O365, OneDrive, Teams, Yammer, SharePoint, etc.), endpoints who have Microsoft Defender for Endpoint (MDE) onboarded,  as well as locations that have been bridged to Purview via the Data Connectors capability.</td>
 </tr>
 <tr>
 <td><a href="https://compliance.microsoft.com/compliancesettings/scanner_onboarding">Microsoft Purview Information Protection Scanner</a></td>
@@ -352,10 +352,11 @@
 <tr>
 <td><a href="https://security.microsoft.com/cloudapps">Defender for Cloud Apps</a></td>
 <td>Microsoft and non-Microsoft cloud</td>
-<td>With the use of "File Policies" you can address DLP for data locations that include and extend beyond M3635.</td>
+<td>With the use of "File Policies" you can address DLP for data locations that include and extend beyond M3635. Note that deployment of MDE on endpoints is required for Defender for Cloud to function.</td>
 </tr>
 </tbody>
 </table>
+<p>While MDE is the primary agent that supports most of our Microsoft Security and Compliance suite solutions, some customers may have an alternative Anti-virust/Anti-malware (AV/AM) solution and wish to run MDE in passive mode. When MDE is running in passive mode, ONLY AV/AM enforcement policies are disabled. Alerting for AV/AM, along with alerting and policy enforcement for all other Microsoft Security and Compliance solutiongs (DCA, MPIP, DLP, etc..) that leverage the MDE agent will not be affected.</p>
 <h2 id="ninja-security-training"><strong>Ninja Security Training</strong></h2>
 <ul>
 <li>MPIP Ninja Training : <a href="https://aka.ms/MIPNinja">https://aka.ms/MIPNinja</a></li>
