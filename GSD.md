@@ -20,7 +20,12 @@ Quick wins to improve Security using existing M365 E5 entitlements
 -   Everything regards M365 Features and Licensing - [Feature Matrix | M365 Maps](https://m365maps.com/matrix.htm) 
     - Aaron Dinnage, Microsoft Canberra
     - Plan comparison in detail - <https://aka.ms/M365EnterprisePlans>
-    
+
+### **Latest CISO Workshop Training**
+
+[The Chief Information Security Officer (CISO) Workshop Training](<https://learn.microsoft.com/en-gb/security/ciso-workshop/the-ciso-workshop>)
+![](https://learn.microsoft.com/en-gb/security/ciso-workshop/media/ciso-workshop-overview.png)
+
 ### **Incident Response**
  -   CISO Lens Incident Response Template - November 2022 <https://www.cisolens.com/reports#h.a769cex3vkl>
  -   ACSC Exercise in a box <https://www.cyber.gov.au/exercise-in-a-box>
