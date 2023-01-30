@@ -1,5 +1,6 @@
 ## **MDC (Microsoft Defender for Cloud)**
 
+![](https://learn.microsoft.com/en-us/azure/defender-for-cloud/media/workload-protections-dashboard/sample-defender-dashboard-numbered.png#lightbox)
 
 ### **Ways of working**
 
