@@ -35,6 +35,8 @@ Quick wins to improve Security using existing M365 E5 entitlements
 
 ## **M365 Defender Console**
 
+![](https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Product-Image-365-Defender-935x518_RWUM5b?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1520&qlt=100&fit=constrain)
+
 -   Evaluate Defender 365
     -   Good step by step guide to getting everything turned on - but it is aimed at folks just starting
     -   <https://learn.microsoft.com/en-gb/microsoft-365/security/defender/eval-overview>
@@ -68,6 +70,8 @@ Quick wins to improve Security using existing M365 E5 entitlements
 -   <https://setup.microsoft.com/purview/information-protection>
 -   <https://setup.microsoft.com/purview/security-analyzer>
 -   <https://setup.microsoft.com/purview/zero-trust-setup-guide>
+
+![](https://learn.microsoft.com/en-us/microsoft-365/media/incidents-overview/incidents.png?)
 
 ## **1.   MDI (Microsoft Defender for Identity)**
 

@@ -68,6 +68,11 @@ Especially this last one on Enhanced Filters, this is where **it is possible** t
 
 ### **Review and Improve as needed**
 
+![](https://learn.microsoft.com/en-us/microsoft-365/media/email-analysis-investigations/email-analysis-evidence-example.png?view=o365-worldwide)
+
+-   The display of incident evidence for email and email clusters
+<https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/email-analysis-investigations?view=o365-worldwide#the-display-of-incident-evidence-for-email-and-email-clusters>
+
 -   Tune anti-phishing protection
 <https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-phishing-protection-tuning?view=o365-worldwide>
 
