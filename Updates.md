@@ -24,6 +24,10 @@ https://admin.microsoft.com/Adminportal/Home?Q=ADG#/SetupGuidance
 https://github.com/Cloud-Architekt/AzureAD-Attack-Defense
 
 
+Identity: 
+https://github.com/Azure/review-checklists
+
+
 Change over to different way of Processing to add support for .git
 https://github.com/marketplace/actions/mkdocs-deployment
 And
