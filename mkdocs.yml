@@ -70,7 +70,9 @@ theme:
 # Plugins
 plugins:
   - search
-  - simple
+  #- simple
+  - simple:
+    include_extensions: [".git/**"]
   - git-authors:
       show_contribution: true
       show_line_count: true
