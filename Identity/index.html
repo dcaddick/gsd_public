@@ -5,10 +5,10 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<link href="https://dcaddick.github.io/ASD/" rel="canonical"/>
+<link href="https://dcaddick.github.io/Identity/" rel="canonical"/>
 <link href="../assets/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-8.5.10" name="generator"/>
-<title>9. ASD/ACSC Essential 8 &amp; Hardening Guides - Get Security Done</title>
+<title>General Identity Tips - Get Security Done</title>
 <link href="../assets/stylesheets/main.975780f9.min.css" rel="stylesheet"/>
 <link href="../assets/stylesheets/palette.2505c338.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -35,7 +35,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#asd-essential-8-now-acsc">
+<a class="md-skip" href="#top-5-tips-re-identity">
           Skip to content
         </a>
 </div>
@@ -64,7 +64,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              9. ASD/ACSC Essential 8 &amp; Hardening Guides
+              General Identity Tips
             
           </span>
 </div>
@@ -170,8 +170,9 @@
         Assumed Knowledge
       </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../Identity/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./">
         General Identity Tips
       </a>
 </li>
@@ -220,57 +221,10 @@
         8. Microsoft Information Protection (MIP/AIP)
       </a>
 </li>
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<label class="md-nav__link md-nav__link--active" for="__toc">
-          9. ASD/ACSC Essential 8 &amp; Hardening Guides
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<a class="md-nav__link md-nav__link--active" href="./">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../ASD/">
         9. ASD/ACSC Essential 8 &amp; Hardening Guides
       </a>
-<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#asd-essential-8-now-acsc">
-    ASD Essential 8 (now ACSC)
-  </a>
-<nav aria-label="ASD Essential 8 (now ACSC)" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#hardening-guidance-from-acsc">
-    Hardening Guidance from ACSC
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#hardening-azure-ad">
-    Hardening Azure AD
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#ad-onprem">
-    AD onPrem
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#identity">
-    Identity
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#exchange-permissions-check">
-    Exchange Permissions check
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../WDAC/">
@@ -301,149 +255,33 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#asd-essential-8-now-acsc">
-    ASD Essential 8 (now ACSC)
-  </a>
-<nav aria-label="ASD Essential 8 (now ACSC)" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#hardening-guidance-from-acsc">
-    Hardening Guidance from ACSC
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#hardening-azure-ad">
-    Hardening Azure AD
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#ad-onprem">
-    AD onPrem
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#identity">
-    Identity
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#exchange-permissions-check">
-    Exchange Permissions check
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
 </nav>
 </div>
 </div>
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1>9. ASD/ACSC Essential 8 &amp; Hardening Guides</h1>
-<h2 id="asd-essential-8-now-acsc"><strong>ASD Essential 8 (now ACSC)</strong></h2>
+<h1 id="top-5-tips-re-identity">Top 5 Tips re: Identity</h1>
+<p>https://www.microsoft.com/en-us/security/blog/2023/01/09/microsoft-entra-5-identity-priorities-for-2023/
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2023/01/Graph-PNG-1024x518.png"><img alt="" src="https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2023/01/Graph-PNG-1024x518.png"/></a></p>
 <ul>
-<li>Great high level on all Essential 8
-<a href="https://www.microsoft.com/en-au/business/topic/security/essential-eight/">https://www.microsoft.com/en-au/business/topic/security/essential-eight/</a></li>
-<li>6 videos that walk thru
-<a href="https://info.microsoft.com/AU-SCRTY-CATALOG-FY21-02Feb-14-TheEssentialEightforSecurityinPractice-SRDEM61939_CatalogDisplayPage.html">https://info.microsoft.com/AU-SCRTY-CATALOG-FY21-02Feb-14-TheEssentialEightforSecurityinPractice-SRDEM61939_CatalogDisplayPage.html</a></li>
-<li>Microsoft Cybersecurity Reference Architecture
- <a href="https://aka.ms/MCRA">https://aka.ms/MCRA</a> or <a href="https://learn.microsoft.com/en-us/security/cybersecurity-reference-architecture/mcra">https://learn.microsoft.com/en-us/security/cybersecurity-reference-architecture/mcra</a></li>
-<li>General on Essential 8
-<a href="https://www.microsoft.com/en-au/business/topic/security/">https://www.microsoft.com/en-au/business/topic/security/</a></li>
-<li>Daily backups
-<a href="https://www.microsoft.com/en-au/business/topic/security/essential-eight/daily-backups/">https://www.microsoft.com/en-au/business/topic/security/essential-eight/daily-backups/</a></li>
-<li>Australian IRAP
-<a href="https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-australia-irap">https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-australia-irap</a> &amp; <a href="https://servicetrust.microsoft.com/Viewpage/AustraliaIRAP">https://servicetrust.microsoft.com/Viewpage/AustraliaIRAP</a></li>
-</ul>
-<p><strong>Local Australian E8 Guides</strong>
--   Microsoft Service Trust Portal has the local Essential 8 guides  <a href="https://aka.ms/e8guides">https://aka.ms/e8guides</a> here you will find the PDF's covering the following specifics - the guides below can be accessed easy enough, but you will need to sign in using your own Tenant ID to access the IRAP docs ;)</p>
-<ul>
-<li>Microsoft General - Essential Eight - Config Macros - 2022-09</li>
-<li>Microsoft General - Essential Eight - User Application Hardening - 2022-09</li>
-<li>Microsoft General - Essential Eight - Restricting Admin Priv - 2022-09</li>
-<li>Microsoft General - Essential Eight - Patch OS - 2022-09</li>
-<li>Microsoft General - Essential Eight - Backup - 2022-09</li>
-<li>Microsoft General - Essential Eight - Patch Applications - 2022-09</li>
-<li>Microsoft General - Essential Eight - MFA - 2022-09</li>
-</ul>
-<h3 id="hardening-guidance-from-acsc"><strong>Hardening Guidance from ACSC</strong></h3>
-<ul>
-<li>For Windows 10 21H1
-<a href="https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-windows-10-version-21h1-workstations">https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-windows-10-version-21h1-workstations</a></li>
-<li>For Office
-<a href="https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-365-office-2021-office-2019-and-office-2016">https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-365-office-2021-office-2019-and-office-2016</a></li>
-<li>For Macro's
-<a href="https://www.cyber.gov.au/acsc/view-all-content/publications/microsoft-office-macro-security">https://www.cyber.gov.au/acsc/view-all-content/publications/microsoft-office-macro-security</a></li>
-<li>For Intune
-<a href="https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines">https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines</a></li>
-<li>WDAC Policy creation from DTA
-<a href="https://desktop.gov.au/blueprint/abac/wdac-policy-creation.html">https://desktop.gov.au/blueprint/abac/wdac-policy-creation.html</a></li>
-</ul>
-<h3 id="hardening-azure-ad"><strong>Hardening Azure AD</strong></h3>
-<ul>
-<li><a href="https://learn.microsoft.com/en-us/azure/security/fundamentals/steps-secure-identity">Secure your Azure AD identity infrastructure - Azure Active Directory</a></li>
-<li>Also worth reviewing our Essential 8 guidance, especially MFA (aka.ms/e8guides)</li>
-<li>Microsoft Azure <strong>Identity Security Compass</strong> - <a href="https://learn.microsoft.com/en-us/security/compass/compass">Microsoft Security Best Practices</a></li>
-<li>Active Directory - <a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory">Best Practices for Securing Active Directory</a></li>
-</ul>
-<h3 id="ad-onprem"><strong>AD onPrem</strong></h3>
-<p>A list of resources from DART perspective on Active Directory - courtesy
-of Matt Zorich (Twitter @reprise99)</p>
-<ul>
-<li>BloodHound Edges
-<a href="https://bloodhound.readthedocs.io/en/latest/data-analysis/edges.html">https://bloodhound.readthedocs.io/en/latest/data-analysis/edges.html</a></li>
-<li>AD Security
-<a href="https://adsecurity.org/?page_id=4031">https://adsecurity.org/?page_id=4031</a></li>
-<li><a href="https://t.co/Y4BRxwdLu5">iRed Team</a> notes
-<a href="https://t.co/0w3Uo7TOSI">https://ired.team/offensive-security-experiments/active-directory-kerberos-abuse...</a></li>
-<li>SID History Persistence
-<a href="https://t.co/M7QX7w31Fw">https://adsecurity.org/?p=1772</a></li>
-<li>How AdminSdHolder &amp; SDProp work
-<a href="https://t.co/5HPCBDnuZG">https://techcommunity.microsoft.com/t5/ask-the-directory-services-team/five-common-questions-about-adminsdholder-and-sdprop/ba-p/396293...</a></li>
-<li>Recovering from systemic identity compromise
-<a href="https://t.co/Dfp1IWkS7z">https://learn.microsoft.com/en-us/azure/security/fundamentals/recover-from-identity-compromise</a></li>
-<li>Abusing Active Directory ACLs/ACEs
-<a href="https://t.co/ZWUMlP58yv">https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/acl-persistence-abuse...</a></li>
-<li>Defender for Identity Alerts Overview
-<a href="https://t.co/kkqqFsEB6i">https://learn.microsoft.com/en-us/defender-for-identity/alerts-overview...</a></li>
-<li>Best practices for securing AD
-<a href="https://t.co/a2suvfmpZm">https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory</a></li>
-<li>Mimikatz DCSync Abuse
-<a href="https://t.co/K51OQsXWSy">https://adsecurity.org/?p=1729</a></li>
-<li>Kerberoasting Overview
-<a href="https://t.co/EqWNu84RoG">https://ired.team/offensive-security-experiments/active-directory-kerberos-abuse/t1208-kerberoasting...</a></li>
-<li>Monitoring AD for signs of compromise
-<a href="https://t.co/enuOOAjAr1">https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise</a></li>
-</ul>
-<h3 id="identity"><strong>Identity</strong></h3>
-<ul>
-<li>Best Practices
-<a href="https://learn.microsoft.com/en-us/security/compass/compass">https://learn.microsoft.com/en-us/security/compass/compass</a></li>
-<li>From Jeffrey Appel
-<a href="https://jeffreyappel.nl/tips-for-preventing-against-new-modern-identity-attacks-aitm-mfa-fatigue-prt-oauth/">https://jeffreyappel.nl/tips-for-preventing-against-new-modern-identity-attacks-aitm-mfa-fatigue-prt-oauth/</a>
-    look at Partner section</li>
-<li>MDCA (was MCAS) policies from AADIP P2 moving to D365 Console<ul>
-<li><a href="https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-365-security-center-defender-cloud-apps?view=o365-worldwide&amp;WT.mc_id=AZ-MVP-5004291#control">https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-365-security-center-defender-cloud-apps?view=o365-worldwide&amp;WT.mc_id=AZ-MVP-5004291#control</a></li>
-<li><a href="https://www.linkedin.com/posts/sami-lamppu_microsoft-defender-for-cloud-apps-in-microsoft-activity-7011278821773471744-TcvX">https://www.linkedin.com/posts/sami-lamppu_microsoft-defender-for-cloud-apps-in-microsoft-activity-7011278821773471744-TcvX</a>?</li>
-</ul>
+<li>
+<p>from Matt Zorich - Incident Playbooks
+<a href="https://learn.microsoft.com/en-us/security/compass/incident-response-playbooks">https://learn.microsoft.com/en-us/security/compass/incident-response-playbooks</a></p>
 </li>
-</ul>
-<h3 id="exchange-permissions-check"><strong>Exchange Permissions check</strong></h3>
-<p>These two are subtly different, the first is on mailboxes, the second is
-more focused on the Outlook Folders</p>
-<ul>
-<li><a href="https://office365itpros.com/2020/03/16/exchange-online-mailbox-permissions/">https://office365itpros.com/2020/03/16/exchange-online-mailbox-permissions/</a></li>
-<li><a href="https://github.com/12Knocksinna/Office365itpros/blob/master/ReportMailboxPermissionsMailboxes.PS1">https://github.com/12Knocksinna/Office365itpros/blob/master/ReportMailboxPermissionsMailboxes.PS1</a></li>
-<li><a href="https://office365itpros.com/2020/03/23/reporting-exchange-online-folder-permissions/">https://office365itpros.com/2020/03/23/reporting-exchange-online-folder-permissions/</a></li>
-<li><a href="https://github.com/12Knocksinna/Office365itpros/blob/master/ReportPermissionsFolderLevel.PS1">https://github.com/12Knocksinna/Office365itpros/blob/master/ReportPermissionsFolderLevel.PS1</a></li>
+<li>
+<p>Azure AD - Attack and Defense Playbook
+<a href="https://github.com/Cloud-Architekt/AzureAD-Attack-Defense">https://github.com/Cloud-Architekt/AzureAD-Attack-Defense</a></p>
+</li>
+<li>
+<p>Identity Checklists 
+<a href="https://github.com/Azure/review-checklists">https://github.com/Azure/review-checklists</a></p>
+</li>
+<li>
+<p>What authentication and verification methods are available in Azure Active Directory?
+<a href="https://learn.microsoft.com/en-AU/azure/active-directory/authentication/concept-authentication-methods">https://learn.microsoft.com/en-AU/azure/active-directory/authentication/concept-authentication-methods</a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="https://learn.microsoft.com/en-AU/azure/active-directory/authentication/media/concept-authentication-methods/authentication-methods.png"><img alt="" src="https://learn.microsoft.com/en-AU/azure/active-directory/authentication/media/concept-authentication-methods/authentication-methods.png"/></a></p>
+</li>
 </ul>
 <hr/>
 <div class="md-source-file">
@@ -500,7 +338,7 @@ more focused on the Outlook Folders</p>
 </main>
 <footer class="md-footer">
 <nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: 8. Microsoft Information Protection (MIP/AIP)" class="md-footer__link md-footer__link--prev" href="../MIP/" rel="prev">
+<a aria-label="Previous: Assumed Knowledge" class="md-footer__link md-footer__link--prev" href="../AssumedKnowledge/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
 </div>
@@ -509,17 +347,17 @@ more focused on the Outlook Folders</p>
 <span class="md-footer__direction">
                 Previous
               </span>
-              8. Microsoft Information Protection (MIP/AIP)
+              Assumed Knowledge
             </div>
 </div>
 </a>
-<a aria-label="Next: 10. Windows Defender App Control (WDAC)" class="md-footer__link md-footer__link--next" href="../WDAC/" rel="next">
+<a aria-label="Next: Original GSD project in one Page" class="md-footer__link md-footer__link--next" href="../GSD/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                 Next
               </span>
-              10. Windows Defender App Control (WDAC)
+              Original GSD project in one Page
             </div>
 </div>
 <div class="md-footer__button md-icon">
