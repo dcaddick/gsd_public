@@ -13,19 +13,8 @@ Not everybody consumes info in the same way, but this is how I consume/manage th
 · Video Series: Learn how to #BeCyberSmart with these video tips and tricks
 ![image](https://user-images.githubusercontent.com/19640455/211226033-59cc6005-7616-4e5d-952d-5a632de478ac.png)
 
-Top 5 tips re: Identity
-https://www.microsoft.com/en-us/security/blog/2023/01/09/microsoft-entra-5-identity-priorities-for-2023/
-
-from Matt Zorich - Incident Playbooks
-https://learn.microsoft.com/en-us/security/compass/incident-response-playbooks
 
 https://admin.microsoft.com/Adminportal/Home?Q=ADG#/SetupGuidance
-
-https://github.com/Cloud-Architekt/AzureAD-Attack-Defense
-
-
-Identity: 
-https://github.com/Azure/review-checklists
 
 
 Change over to different way of Processing to add support for .git

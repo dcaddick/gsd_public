@@ -6,6 +6,7 @@ nav:
     - About this Project: 'README.md'
     - Author(s): 'Author.md' 
     - Assumed Knowledge: 'AssumedKnowledge.md'
+    - General Identity Tips: 'Identity.md'
     - Original GSD project in one Page: 'GSD.md'
     - 1. Microsoft Defender for Identity (MDI): 'MDI.md'
     - 2. Conditional Access (CA): 'CondAccess.md'
