@@ -72,7 +72,7 @@ plugins:
   - search
   #- simple
   - simple:
-      include_extensions: >-
+      include_extensions: true
       '.git/**'
   - git-authors:
       show_contribution: true
