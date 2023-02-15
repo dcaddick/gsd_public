@@ -1,6 +1,10 @@
 ## **10.   WDAC: (Windows Defender Application Control)**
 
-Work in Progress, please review all content before starting, and be cautious in deployment
+!!! danger
+
+    **Work in Progress,** please review all content before starting, and be cautious in deployment
+    Start in Test/UAT and avoid outliers like Developers
+    Documentation on this page is **very** light at the moemtn and needs more review
 
 -   From Eric Mannon: <https://www.linkedin.com/feed/update/urn:li:activity:6996238396973051904/>
 -   **Read the above article first**
