@@ -20,6 +20,14 @@ Work in Progress, please review all content before starting, and be cautious in 
 -   WDAC Policy Wizard: <https://lnkd.in/gwFuvmd4>
 -   Hunting WDAC Events in KQL: <https://lnkd.in/eJE8WHZG>
 
+### **Deeper Background**
+
+-   For those that want a deeper background on how this works, **warning** this is quite a big rabbit hole
+-   <https://medium.com/falconforce/sysmon-vs-microsoft-defender-for-endpoint-mde-internals-0x01-1e5663b10347>
+-   <https://medium.com/falconforce/microsoft-defender-for-endpoint-internals-0x02-audit-settings-and-telemetry-1d0af3ebfb27>
+-   <https://medium.com/falconforce/microsoft-defender-for-endpoint-internals-0x03-mde-telemetry-unreliability-and-log-augmentation-ec6e7e5f406f>
+-   <https://medium.com/falconforce/microsoft-defender-for-endpoint-internals-0x04-timeline-3f01282839e4>
+
 ### **Additional Resources**
 
 -   Creating a policy for machines already in use (this is the hard one)
