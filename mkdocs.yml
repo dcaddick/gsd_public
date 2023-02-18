@@ -80,8 +80,8 @@ plugins:
       show_line_count: true
       show_email_address: true
   - git-revision-date-localized:
-      #fallback_to_build_date: true
-      enable_creation_date: true
+      fallback_to_build_date: true
+      # enable_creation_date: true
   - glightbox:
       auto_caption: true
   #- social
