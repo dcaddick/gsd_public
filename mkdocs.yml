@@ -68,6 +68,7 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: logo
+docs_dir: docs
 # Plugins
 plugins:
   - search
