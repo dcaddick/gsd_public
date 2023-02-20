@@ -68,20 +68,22 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: logo
+docs_dir: docs
 # Plugins
 plugins:
   - search
-  #- simple
-  - simple:
-      include_extensions:
-      - ".git/**"
+  - simple
+  #- simple:
+  #    include_extensions:
+  #    - ".git/**"
   - git-authors:
       show_contribution: true
       show_line_count: true
       show_email_address: true
   - git-revision-date-localized:
-      fallback_to_build_date: true
-      # enable_creation_date: true
+      # fallback_to_build_date: true
+      enable_creation_date: true
+      timezone: Australia/Perth
   - glightbox:
       auto_caption: true
   #- social
