@@ -9,6 +9,18 @@ Examples of **WHY** you do this first:
 -   Larger environment 2020, client not sure but was wanting to lock down Legacy Auth, suggested that as they had E5 **strong recommendation** to deploy MDI ASAP across DC's. After getting CAB Approval to deploy, and with less than 10% coverage of DC's in just over a week it popped up with "NTDIS Exfil via SMB"
 -   Security Value = **Priceless**
 
+## **Latest Updates**  
+
+(Thanks @fabian_bader)
+
+-   Automatic Attack Disruption at machine speed
+<https://techcommunity.microsoft.com/t5/microsoft-365-defender-blog/what-s-new-in-xdr-at-microsoft-ignite/ba-p/3648872>
+-   Microsoft Defender for Identity now detects suspicious certificate usage
+<https://techcommunity.microsoft.com/t5/security-compliance-and-identity/microsoft-defender-for-identity-now-detects-suspicious/ba-p/3743335>
+-   Read the full list here:
+<https://learn.microsoft.com/en-us/defender-for-identity/whats-new#defender-for-identity-release-2198>
+
+
 ## **Enable Telemetry**
 
 Start here:
