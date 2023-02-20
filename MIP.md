@@ -1,4 +1,3 @@
-## **Microsoft Purview Information Protection (MPIP/MIP/AIP)**
 
 This page will also cover Data Loss Prevention (DLP), but we'll probably build out a whole new section on Purview as this site matures, thank you for your patience - please feel free to provide feedback via raising an issue in Github.
 
@@ -6,7 +5,15 @@ First up - to a certain degree, you will find a lot of what you need here in the
 
 You might also note that it uses Material for MkDocs as well ;-)
 
-- MIP/AIP - <https://techcommunity.microsoft.com/t5/security-compliance-and-identity/azure-information-protection-and-the-information-protection/ba-p/3671070>
+### **Ways of working**
+-   Look to enable Insider Risk & Communications compliance first
+-   This will identify specific use cases & Business Value almost immediately
+-   These can then be used to flesh out the current risks and security challenges that **need** to be addressed ASAP
+-    Start using Adaptive Protection for DLP controls to address immediate needs and pivot from this quick start to flesh out additional use cases with Project Management
+
+
+### **Latest update**
+-   MIP/AIP - <https://techcommunity.microsoft.com/t5/security-compliance-and-identity/azure-information-protection-and-the-information-protection/ba-p/3671070>
 -   Adaptive Protection (DLP rules based on Insider Risk)
 -   Login as GA (or eqiv.) - <https://admin.microsoft.com/adminportal/home?Q=ADG#/modernonboarding/mipsetupguide>
 -   ![](./images/image2.png)
