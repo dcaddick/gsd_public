@@ -1,3 +1,5 @@
+https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/eop-about?view=o365-worldwide#how-eop-works
+
 
 Not everybody consumes info in the same way, but this is how I consume/manage the constant flow of info:
 -   Text, links and graphics (pptx and pdf preferably) so that I can skim FAST
