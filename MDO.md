@@ -7,7 +7,8 @@
 **Recent BEC activity (Business Email Compromise)**
 <https://twitter.com/jhencinski/status/1616543412940931075?s=61&t=C1HAZW3QfTIcWUDtZNoHOw>
 
-
+**Great NEW update on Automation**
+<https://www.techrepublic.com/article/microsoft-defender-365-automation-fight-automated-attacks/>
 
 ### **Ways of working**
 
