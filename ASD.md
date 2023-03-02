@@ -1,5 +1,8 @@
 ## **ASD Essential 8 (now ACSC)**
 
+-   **Please start with this - ACSC Essential 8 – Health Report in Microsoft Sentinel**
+<https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/acsc-essential-8-health-report-in-microsoft-sentinel/ba-p/3755702>
+
 -   Great high level on all Essential 8
 <https://www.microsoft.com/en-au/business/topic/security/essential-eight/>
 -   6 videos that walk thru
