@@ -2,6 +2,7 @@
 
 -   **Please start with this - ACSC Essential 8 – Health Report in Microsoft Sentinel**
 <https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/acsc-essential-8-health-report-in-microsoft-sentinel/ba-p/3755702>
+![](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/446514i33DB819B58F060BA/image-size/large?v=v2&px=999)
 
 -   Great high level on all Essential 8
 <https://www.microsoft.com/en-au/business/topic/security/essential-eight/>
