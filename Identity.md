@@ -8,6 +8,8 @@
 -   from Matt Zorich - Incident Playbooks
 <https://learn.microsoft.com/en-us/security/compass/incident-response-playbooks>
 
+-   Azure Active Directory deployment plans
+<https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-deployment-plans>
 
 -   Azure AD - Attack and Defense Playbook
 <https://github.com/Cloud-Architekt/AzureAD-Attack-Defense>
