@@ -37,4 +37,3 @@ Works for Microsoft as Partner Security Solution Architect, London UK
 -   Please feel free to submit Feedback, Issues or requests to be added here ;-)
 -   Please raise issues here: - <https://github.com/dcaddick/gsd_public/issues>
 -   Feel free to comment in discussions: - <https://github.com/dcaddick/gsd_public/discussions>
-

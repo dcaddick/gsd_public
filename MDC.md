@@ -4,16 +4,17 @@
 
 ### **Ways of working**
 
+-   Defender for Cloud Labs, great resource to get started and familiar
+<https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Labs>
+
 -   Deploying and Managing Microsoft Defender for Cloud as Code
 <https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/deploying-and-managing-microsoft-defender-for-cloud-as-code/ba-p/3649653>
-
 
 -   How to deploy MDC at scale - PDF
 <https://onedrive.live.com/?authkey=%21AIzlpf%2DTsBYFMbk&cid=66C31D2DBF8E0F71&id=66C31D2DBF8E0F71%212663&parId=66C31D2DBF8E0F71%212662&o=OneUp>
 
 -   How to deploy MDC at scale - Video
 <https://www.youtube.com/watch?v=o9wHIS_QLJE>
-
 
 -   Use Azure Policies to drive each area as you progress 
     (work smarter, not harder)
