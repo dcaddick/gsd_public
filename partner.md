@@ -8,8 +8,15 @@
 Get the latest up to date on Security, Compliance and Identity Management
 <http://aka.ms/scipartnerenablement>
 
+-   **Get your storage for free as well**
+Just a reminder to those that weren't aware, you can get an entirely free Azure Data Explorer cluster - <http://aka.ms/kustofree. You get 100gb of storage, no credit card or anything required. I still use my free cluster all the time as a lab, it's a great learning environment.
+
 ## **Demo tenants = 5 x free for 90 days ea.**
 MS Partner - go to <https://cdx.transform.microsoft.com> and get access to 5 x 90 day demo Tenants for free + 1 for 1 year
+
+
+
+
 
 -   You will need to add Az Subs from either Pay-as-you-Go or MSDN for Items like Sentinel that require LAW, etc...
 -   Don't build it - **Use a premade one** - be aware that from the same location you can get access to CIE Demo tenants with additional pre-canned content for customer demos  (CIE = Customer Immersive Experiences)
