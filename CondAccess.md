@@ -23,6 +23,11 @@ Result:
     **Confirm your maturity based on this Tool ^^^^^^**
      ![](./images/AzureADAssessmentTool.png)
 
+## **Alternative way to check CA policies**
+<https://idpowertoys.com/>
+![](https://idpowertoys.com/assets/whatsnew/cadocgen.png]
+
+
 !!! Note
     **UPDATE** 142 Page - CA demystified Whitepaper - still to be reviewed 
     <https://github.com/kennethvs/cabaseline202212/blob/main/Conditional%20Access%20demystified-v1.4%20-%20December%202022.pdf>
