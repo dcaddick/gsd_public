@@ -25,7 +25,7 @@ Result:
 
 ## **Alternative way to check CA policies**
 <https://idpowertoys.com/>
-![](https://idpowertoys.com/assets/whatsnew/cadocgen.png]
+![](https://idpowertoys.com/assets/whatsnew/cadocgen.png)
 
 
 !!! Note
