@@ -25,6 +25,7 @@ Result:
 
 ## **Alternative way to check CA policies**
 <https://idpowertoys.com/>
+Use the "CA Documentor" link on the left & click on "Manual Generation" to be able to submit via JSON if you are concerned about the level of permissions required to generate as an App
 ![](https://idpowertoys.com/assets/whatsnew/cadocgen.png)
 
 
