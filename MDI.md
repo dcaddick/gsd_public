@@ -47,6 +47,9 @@ Please follow up with all other Configuration steps as soon as practible, especi
 Make sure you have the appropriate access to start with, if you have Admin rights to this tool you should see this once you have navigated to <https://security.microsoft.com> and selected > Settings > Identities > first step is to check the Sensors are deployed on **ALL** DC's
 ![](https://learn.microsoft.com/en-us/defender-for-identity/media/sensor-page.png#lightbox)
 
+The most common error is "Directory Services Object Auditing is not configured as required" - this can be fixed by following instructions at: <https://aka.ms/mdi/objectauditing> 
+![](./images/MDI_error.jpg)
+
 Be conscious that if you are testing that MDI is working correctly that this may trigger **high impact** Alerts to your Blue Team or existing SecOps IF it's already installed and being monitored - or for that matter if another tooling is in place to monitor the same behaviour - so if doing some major testing it's worthwhile letting them know before hand?
 
 And on that, make sure you schedule some time to review afterwards about what testing/alerting was created & what was visible from a SecOps perspective? 
