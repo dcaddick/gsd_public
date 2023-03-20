@@ -24,6 +24,8 @@ https://github.com/marketplace/actions/mkdocs-deployment
 And
 https://github.com/marketplace/actions/mkdocs-link-check
 
+Defender Threat Intel
+<https://ti.defender.microsoft.com/>
 
 Insider Risk
 
