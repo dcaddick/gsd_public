@@ -22,6 +22,18 @@ Quick wins to improve Security using existing M365 E5 entitlements
     - Aaron Dinnage, Microsoft Canberra
     - Plan comparison in detail - <https://aka.ms/M365EnterprisePlans>
 
+A new end-to-end Total Economic Impact study by Forrester across Microsoft's threat protection security portfolio has been released. <https://lnkd.in/dw7Hny6d>
+ 
+👉 “The best example of doing more with less is our #SOC. We have a 24/7 operation with only four people and a $250,000 managed services contract. Without Microsoft’s #XDR solution and everything working in #Sentinel, I would need 12 to 16 people working in the SOC.”
+
+✅ #ROI 231%
+✅ #Payback in < 6 months
+✅ #Reduced likelihood of a #breach 72%
+✅ #Reduced security license #costs 25%
+
+👉 Get the report: <https://lnkd.in/dw7Hny6d>
+
+
 ### **Latest CISO Workshop Training**
 
 [The Chief Information Security Officer (CISO) Workshop Training](<https://learn.microsoft.com/en-gb/security/ciso-workshop/the-ciso-workshop>)
