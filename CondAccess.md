@@ -29,9 +29,11 @@ Use the "CA Documentor" link on the left & click on "Manual Generation" to be ab
 ![](https://idpowertoys.com/assets/whatsnew/cadocgen.png)
 
 
-!!! Note
-    **UPDATE** 142 Page - CA demystified Whitepaper - still to be reviewed 
-    <https://github.com/kennethvs/cabaseline202212/blob/main/Conditional%20Access%20demystified-v1.4%20-%20December%202022.pdf>
+!!! Success
+    **Awesome list of CA Policies** Chad has done an exceptional piece of work here by creating a master list of 30 CA policies that can be imported/exported as needed - he's also gone and created KQL Queries to be able to track and validate each Policy - sensational work to reduce the effort and friction from our point of view. 
+    <https://github.com/chadmcox/Azure_AD_Conditional_Access_Policies>
+    It might also be worth checking out his other Projects like:
+    <https://github.com/chadmcox/Active_Directory_Scripts>
   
 
 ## **The Microsoft content**
