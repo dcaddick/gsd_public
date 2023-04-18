@@ -6,7 +6,13 @@
     Start in Test/UAT and avoid outliers like Developers
     Documentation on this page is **very** light at the moment and needs more review
 
--   From Eric Mannon: <https://www.linkedin.com/feed/update/urn:li:activity:6996238396973051904/>
+
+Troubleshooting:
+-   <https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/operations/wdac-debugging-and-troubleshooting>
+
+
+From Eric Mannon: 
+-   <https://www.linkedin.com/feed/update/urn:li:activity:6996238396973051904/>
 -   **Read the above article first**
 -   1st- Install WDACme on all W10 workstations
 -   2nd- Enable "Smart Application Control" in Evaluation mode on W11 endpoints that support it
