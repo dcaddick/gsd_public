@@ -14,6 +14,8 @@
 -   Azure AD - Attack and Defense Playbook
 <https://github.com/Cloud-Architekt/AzureAD-Attack-Defense>
 
+-   Enable LAPS on all devices
+<https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/introducing-windows-local-administrator-password-solution-with/ba-p/1942487>
 
 -   Identity Checklists 
 <https://github.com/Azure/review-checklists>
