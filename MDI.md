@@ -23,18 +23,23 @@ Examples of **WHY** you do this first:
 
 ## **Enable Telemetry**
 
+**Updated starting point:**
+<https://learn.microsoft.com/en-us/defender-for-identity/quick-installation-guide>
+<https://learn.microsoft.com/en-us/defender-for-identity/deploy-defender-identity>
+
 Start here:
 <https://learn.microsoft.com/en-us/defender-for-identity/prerequisites>
-
 1.  Capacity planning
 <https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning>
 2.   Download the Sizing tool
 <https://github.com/microsoft/ATA-AATP-Sizing-Tool/releases>
-3.   Download the Sensor
+3.   Service account recommendations
+<https://learn.microsoft.com/en-us/defender-for-identity/directory-service-accounts>
+4.   Download the Sensor
 <https://learn.microsoft.com/en-us/defender-for-identity/download-sensor>
-4.   Install the Sensor on DC's
+5.   Install the Sensor on DC's
 <https://learn.microsoft.com/en-us/defender-for-identity/install-sensor>
-5.   Basic Settings that you should review **NOW**
+6.   Basic Settings that you should review **NOW**
 <https://www.microsoft.com/videoplayer/embed/RWFVEX>
 
 This will do for now, especially if you are in a crisis mode, check the console for the DC's being online - now move on to validation below.
