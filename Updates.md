@@ -27,6 +27,9 @@ https://github.com/marketplace/actions/mkdocs-link-check
 Defender Threat Intel
 <https://ti.defender.microsoft.com/>
 
+MDO Config Analyzer
+<Aka.ms/defenseindepth> 
+
 Insider Risk
 
 Discussions: <https://github.com/dcaddick/gsd_public/discussions>
