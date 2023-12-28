@@ -28,7 +28,7 @@ Defender Threat Intel
 <https://ti.defender.microsoft.com/>
 
 MDO Config Analyzer
-<Aka.ms/defenseindepth> 
+<https://Aka.ms/defenseindepth> 
 
 Insider Risk
 

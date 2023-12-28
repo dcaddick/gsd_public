@@ -3,6 +3,15 @@
 -   Features
 <https://learn.microsoft.com/en-us/office365/servicedescriptions/microsoft-defender-for-office-365-features>
 
+-   Understand how EOP works:
+<https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/eop-about?view=o365-worldwide#how-eop-works>
+![](https://learn.microsoft.com/en-us/microsoft-365/media/tp_emailprocessingineopt3.png?view=o365-worldwide)
+
+-   Order and precedence of email protection
+<https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/how-policies-and-protections-are-combined?view=o365-worldwide>
+
+-   **Appendix** - It's important to understand how user allows and blocks, tenant allows and blocks, and filtering stack verdicts in EOP and Defender for Office 365 complement or contradict each other. 
+<https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/how-policies-and-protections-are-combined?view=o365-worldwide#appendix>
 
 **Recent BEC activity (Business Email Compromise)**
 <https://twitter.com/jhencinski/status/1616543412940931075?s=61&t=C1HAZW3QfTIcWUDtZNoHOw>
