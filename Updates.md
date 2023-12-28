@@ -34,8 +34,6 @@ Insider Risk
 
 Discussions: <https://github.com/dcaddick/gsd_public/discussions>
 
-![](https://media.licdn.com/dms/image/C5622AQGykC2scwbozw/feedshare-shrink_800/0/1675345228382?e=1678320000&v=beta&t=Ld7lfnsrKkIHmcA-GaSm63mMs8knJLWUjPd1vo2lEAI)
-
 <https://www.blimped.nl/managing-and-applying-purview-retention-labels-using-code/#conclusion>
 
 check out other "saved posts" from LinkedIn

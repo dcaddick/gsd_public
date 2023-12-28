@@ -18,7 +18,7 @@
 
 -   Use Azure Policies to drive each area as you progress 
     (work smarter, not harder)
-    -   Use the following policies to enable the particular Defender for Cloud plans:  
+    -   Use the following policies to enable the particular Defender for Cloud plans (links below are for your Azure portal):  
 
     -   [Configure Azure Defender for servers to be enabled](<https://portal.azure.com/#blade/Microsoft_Azure_Policy/PolicyDetailBlade/definitionId/%2Fproviders%2FMicrosoft.Authorization%2FpolicyDefinitions%2F8e86a5b6-b9bd-49d1-8e21-4bb8a0862222>) 
     -   [Configure Azure Defender for SQL servers on machines to be enabled](<https://portal.azure.com/#blade/Microsoft_Azure_Policy/PolicyDetailBlade/definitionId/%2Fproviders%2FMicrosoft.Authorization%2FpolicyDefinitions%2F50ea7265-7d8c-429e-9a7d-ca1f410191c3>) 

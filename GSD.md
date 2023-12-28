@@ -8,7 +8,7 @@ Quick wins to improve Security using existing M365 E5 entitlements
     -    Ideally this page will be highlighting how to get the best out of both your M365 E5 security and compliance entitlements. What is the best way to step lightly thru this and gain maximum benefit for the least effort? 
     -    While most of the focus here is more on the M365 SaaS Security platform elements, not necessarily on Sentinel or Azure, there will be plenty of crossover.
 
-![](./images/image1.jpg)
+![](./images/GSD_cost.jpg)
 
  
 ## **Core reference material**
@@ -677,13 +677,14 @@ Especially this last one on Enhanced Filters, this is where **it is possible** t
 -   Deploying and Managing Microsoft Defender for Cloud as Code
 <https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/deploying-and-managing-microsoft-defender-for-cloud-as-code/ba-p/3649653>
 
-
--   How to deploy MDC at scale - PDF
-<https://onedrive.live.com/?authkey=%21AIzlpf%2DTsBYFMbk&cid=66C31D2DBF8E0F71&id=66C31D2DBF8E0F71%212663&parId=66C31D2DBF8E0F71%212662&o=OneUp>
-
 -   How to deploy MDC at scale - Video
 <https://www.youtube.com/watch?v=o9wHIS_QLJE>
 
+-   A quick HowTo with step by step instructions to get started - How to Set Up and Use Microsoft Defender for Cloud
+<https://www.reblaze.com/blog/microsoft-azure-security/how-to-set-up-and-use-microsoft-defender-for-cloud/>
+
+-   Scale a Defender for Servers deployment
+<https://learn.microsoft.com/en-us/azure/defender-for-cloud/plan-defender-for-servers-scale>
 
 -   Use Azure Policies to drive each area as you progress 
     (work smarter, not harder)
@@ -1147,7 +1148,7 @@ Updated Microsoft 365 Business Premium Customer Pitch Decks:
 -   [MDI - Investigate and Respond to Attacks](https://aka.ms/InvestigateRespondwithMSDI)
 -   [MDO - Safeguard Email](https://aka.ms/SafeguardwithMSDO.InteractiveGuide)
 -   [MDO - Enable Protection](https://aka.ms/Protection_with_MSDO_InteractiveGuide)
--   [Purview Insider Risk Management](https://insider-risk-management.azureedge.net/)
+-   [Purview Insider Risk Management](https://aka.ms/insiderriskguide)
 -   [Purview Communications Risk](https://mslearn.cloudguides.com/en-us/guides/Minimize%20communication%20risks%20with%20communication%20compliance%20in%20Microsoft%20365) 
 -   [Purview Information Protection](https://mslearn.cloudguides.com/en-us/guides/Protect%20sensitive%20data%20with%20Microsoft%20Information%20Protection)
 -   [Purview Forensic investigation of Security events](https://mslearn.cloudguides.com/en-us/guides/Conduct%20forensic%20investigations%20with%20Advanced%20Audit%20in%20Microsoft%20365)
@@ -1237,8 +1238,7 @@ All content listed will require Microsoft Partner login: i.e. use your work cred
     -   Search for or Choose "[Microsoft Sentinel & Microsoft 365 Defender (SIEM & XDR)](https://cdx.transform.microsoft.com/experience-detail/b5f74c78-5bb8-487c-ac1f-265e89390be1)"
     -   Add the Customer name and you will get access to the following + the **Launch button will pop up with Partner Creds (good for
         24h)**:
-        - [SIEM&XDR_Demo_Guide_v1.0_December2022](https://dxpprodstore.blob.core.windows.net/dxpprodcontainer/7BCA54F9-A2F7-45DE-9297-CB8739A4C614/SIEM%26XDR_Demo_Guide_v1.0_December2022.docx?sv=2021-06-08&st=2022-12-15T13%3A23%3A47Z&se=2022-12-15T13%3A53%3A47Z&sr=b&sp=r&sig=3NXKSmChp8tnwiKxWfq1cg3O06uufH4UOu7hma8ECjg%3D)
-        - [XDR Sentinel Investigation Guide](https://dxpprodstore.blob.core.windows.net/dxpprodcontainer/7BCA54F9-A2F7-45DE-9297-CB8739A4C614/XDR%20Sentinel%20Investigation%20Guide.pptx?sv=2021-06-08&st=2022-12-15T13%3A23%3A53Z&se=2022-12-15T13%3A53%3A53Z&sr=b&sp=r&sig=w1abDz%2B0zgH%2FxCEBiXIQjD3vz8UiCxZMwe1YrVRQW7s%3D)
+
         - [SIEM & XDR Demo scenario walkthrough recording (Heike Ritter - 59m)](https://msit.microsoftstream.com/video/50d70840-98dc-ac1e-c9d6-f1ed700f48ac?referrer=https:%2F%2Fstatics.teams.cdn.office.net%2F)
     -   SIEM & XDR - CxE walks you through the new security operation demo based on the AiTM (Adversary in the Middle) phishing attack leveraging both Microsoft 365 Defender & Microsoft Sentinel.
     -   Defender Security Console - <https://security.microsoft.com/homepage?tid=4b2462a4-bbee-495a-a0e1-f23ae524cc9c>

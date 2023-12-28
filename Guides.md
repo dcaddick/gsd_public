@@ -15,7 +15,7 @@
 -   [MDI - Investigate and Respond to Attacks](https://aka.ms/InvestigateRespondwithMSDI)
 -   [MDO - Safeguard Email](https://aka.ms/SafeguardwithMSDO.InteractiveGuide)
 -   [MDO - Enable Protection](https://aka.ms/Protection_with_MSDO_InteractiveGuide)
--   [Purview Insider Risk Management](https://insider-risk-management.azureedge.net/)
+-   [Purview Insider Risk Management](https://aka.ms/insiderriskguide)
 -   [Purview Communications Risk](https://mslearn.cloudguides.com/en-us/guides/Minimize%20communication%20risks%20with%20communication%20compliance%20in%20Microsoft%20365) 
 -   [Purview Information Protection](https://mslearn.cloudguides.com/en-us/guides/Protect%20sensitive%20data%20with%20Microsoft%20Information%20Protection)
 -   [Purview Forensic investigation of Security events](https://mslearn.cloudguides.com/en-us/guides/Conduct%20forensic%20investigations%20with%20Advanced%20Audit%20in%20Microsoft%20365)

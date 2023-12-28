@@ -5,7 +5,9 @@
 ![](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/446514i33DB819B58F060BA/image-size/large?v=v2&px=999)
 
 -   Great high level on all Essential 8
-<https://www.microsoft.com/en-au/business/topic/security/essential-eight/>
+<https://aka.ms/e8guides>
+-   Collection of Australian M365 content on Essential 8
+<https://m365maps.com/australia.htm>
 -   6 videos that walk thru
 <https://info.microsoft.com/AU-SCRTY-CATALOG-FY21-02Feb-14-TheEssentialEightforSecurityinPractice-SRDEM61939_CatalogDisplayPage.html>
 -   Microsoft Cybersecurity Reference Architecture
@@ -16,17 +18,19 @@
 <https://www.microsoft.com/en-au/business/topic/security/essential-eight/daily-backups/>
 -   Australian IRAP
 <https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-australia-irap> & <https://servicetrust.microsoft.com/Viewpage/AustraliaIRAP>
+-   Implmenting Essential 8 with Microsoft tooling
+![](./images/Essential-8.png)
 
 **Local Australian E8 Guides**
--   Microsoft Service Trust Portal has the local Essential 8 guides  <https://aka.ms/e8guides> here you will find the PDF's covering the following specifics (the guides below can be accessed easy enough, but you will need to sign in using your own Tenant ID to access the IRAP docs)
+-   Microsoft Service Trust Portal has the local Essential 8 guides  <https://aka.ms/e8guides> here you will find the documentations covering the following specifics (dated Aug 2023) 
 
-- 	Microsoft General - Essential Eight - Config Macros - 2022-09
--   Microsoft General - Essential Eight - User Application Hardening - 2022-09
--   Microsoft General - Essential Eight - Restricting Admin Priv - 2022-09
-- 	Microsoft General - Essential Eight - Patch OS - 2022-09
-- 	Microsoft General - Essential Eight - Backup - 2022-09
--   Microsoft General - Essential Eight - Patch Applications - 2022-09
--   Microsoft General - Essential Eight - MFA - 2022-09
+- 	Microsoft General - Essential Eight - Config Macros
+-   Microsoft General - Essential Eight - User Application Hardening
+-   Microsoft General - Essential Eight - Restricting Admin Priv
+- 	Microsoft General - Essential Eight - Patch OS
+- 	Microsoft General - Essential Eight - Backup
+-   Microsoft General - Essential Eight - Patch Applications 
+-   Microsoft General - Essential Eight - MFA
 
 ### **Hardening Guidance from ACSC**
 
@@ -35,7 +39,9 @@
 -   For Office
 <https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-365-office-2021-office-2019-and-office-2016>
 -   For Macro's
-<https://www.cyber.gov.au/acsc/view-all-content/publications/microsoft-office-macro-security>
+    -   Restricting Microsoft Office Macros <https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/restricting-microsoft-office-macros> & 
+    -   Technical example: Configure macro settings <https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-configure-macro-settings>
+
 -   For Intune
 <https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines>
 -   WDAC Policy creation from DTA
