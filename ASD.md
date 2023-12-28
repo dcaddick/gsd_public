@@ -13,9 +13,9 @@
 -   Microsoft Cybersecurity Reference Architecture
  <https://aka.ms/MCRA> or <https://learn.microsoft.com/en-us/security/cybersecurity-reference-architecture/mcra>
 -   General on Essential 8
-<https://www.microsoft.com/en-au/business/topic/security/>
+<https://learn.microsoft.com/en-us/compliance/essential-eight/e8-overview>
 -   Daily backups
-<https://www.microsoft.com/en-au/business/topic/security/essential-eight/daily-backups/>
+<https://learn.microsoft.com/en-us/compliance/essential-eight/e8-backups>
 -   Australian IRAP
 <https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-australia-irap> & <https://servicetrust.microsoft.com/Viewpage/AustraliaIRAP>
 -   Implmenting Essential 8 with Microsoft tooling

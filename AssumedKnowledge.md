@@ -24,7 +24,7 @@ Apologies, but this content is focused and aimed at helping people get the solut
 [The Chief Information Security Officer (CISO) Workshop Training](<https://learn.microsoft.com/en-gb/security/ciso-workshop/the-ciso-workshop>)
 ![](https://learn.microsoft.com/en-gb/security/ciso-workshop/media/ciso-workshop-overview.png)
 
--   **Microsoft Cybersecurity Reference Architecture -- <https://aka.ms/MCRA>** - [**Direct link**](<https://github.com/MicrosoftDocs/security/blob/main/Downloads/microsoft-cybersecurity-reference-architectures.pptx?raw=true>)  
+-   **Microsoft Cybersecurity Reference Architecture -- <https://aka.ms/MCRA>** - [**Direct link**](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftDocs%2Fsecurity%2Fmain%2FDownloads%2Fmcra-december-2023.pptx&wdOrigin=BROWSELINK)  
 -   **Security collateral inc. CISO Workshops, and lots more -- <https://aka.ms/MarksList>**
     -   Please - if you haven't come across these two links above before now - feel free to go and review and come back after and pick up here when done.
 

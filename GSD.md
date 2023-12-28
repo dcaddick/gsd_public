@@ -883,7 +883,7 @@ Especially this last one on Enhanced Filters, this is where **it is possible** t
 <https://docs.microsoft.com/en-us/azure/defender-for-cloud/enhanced-security-features-overview#what-data-types-are-included-in-the-500-mb-data-daily-allowance>
 -   Cost Optimization tips from Rod Trent
 <https://github.com/rod-trent/Azure-Sentinel-Cost-Troubleshooting-Kit>
-    -   [Managing Costs for Azure Monitor Logs]("https://github.com/rod-trent/Azure-Sentinel-Cost-Troubleshooting-Kit/blob/main/Docs/Managing%20Costs%20for%20Azure%20Monitor%20Logs.md") 
+    -   [Managing Costs for Azure Monitor Logs](https://github.com/rod-trent/Azure-Sentinel-Cost-Troubleshooting-Kit/blob/main/Docs/Managing%20Costs%20for%20Azure%20Monitor%20Logs.md) 
     -   [Pricing Calculators](https://github.com/rod-trent/Azure-Sentinel-Cost-Troubleshooting-Kit/blob/main/Docs/Notes-and-Resources.md)
     -   [KQL Queries](https://github.com/rod-trent/Azure-Sentinel-Cost-Troubleshooting-Kit/tree/main/KQL-Queries)
     -   [Clive's Workspace Workbook](https://github.com/rod-trent/Azure-Sentinel-Cost-Troubleshooting-Kit/blob/main/Workbooks/External-Resource-List.md)
@@ -955,22 +955,22 @@ This site is very comprehensive, and should have most answers, and will add more
 -   Microsoft Cybersecurity Reference Architecture
  <https://aka.ms/MCRA> or <https://learn.microsoft.com/en-us/security/cybersecurity-reference-architecture/mcra>
 -   General on Essential 8
-<https://www.microsoft.com/en-au/business/topic/security/>
+<https://learn.microsoft.com/en-us/compliance/essential-eight/e8-overview>
 -   Daily backups
-<https://www.microsoft.com/en-au/business/topic/security/essential-eight/daily-backups/>
+<https://learn.microsoft.com/en-us/compliance/essential-eight/e8-overview/e8-backups>
 -   Australian IRAP
 <https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-australia-irap> & <https://servicetrust.microsoft.com/Viewpage/AustraliaIRAP>
 
 **Local Australian E8 Guides**
 -   Microsoft Service Trust Portal has the local Essential 8 guides  <https://aka.ms/e8guides> here you will find the PDF's covering the following specifics - the guides below can be accessed easy enough, but you will need to sign in using your own Tenant ID to access the IRAP docs ;)
 
-- 	Microsoft General - Essential Eight - Config Macros - 2022-09
--   Microsoft General - Essential Eight - User Application Hardening - 2022-09
--   Microsoft General - Essential Eight - Restricting Admin Priv - 2022-09
-- 	Microsoft General - Essential Eight - Patch OS - 2022-09
-- 	Microsoft General - Essential Eight - Backup - 2022-09
--   Microsoft General - Essential Eight - Patch Applications - 2022-09
--   Microsoft General - Essential Eight - MFA - 2022-09
+- 	Microsoft General - Essential Eight - Config Macros
+-   Microsoft General - Essential Eight - User Application Hardening
+-   Microsoft General - Essential Eight - Restricting Admin Priv
+- 	Microsoft General - Essential Eight - Patch OS
+- 	Microsoft General - Essential Eight - Backup
+-   Microsoft General - Essential Eight - Patch Applications
+-   Microsoft General - Essential Eight - MFA
 
 ### **Hardening Guidance from ACSC**
 
