@@ -18,7 +18,7 @@
 <https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-australia-irap> & <https://servicetrust.microsoft.com/Viewpage/AustraliaIRAP>
 
 **Local Australian E8 Guides**
--   Microsoft Service Trust Portal has the local Essential 8 guides  <https://aka.ms/e8guides> here you will find the PDF's covering the following specifics - the guides below can be accessed easy enough, but you will need to sign in using your own Tenant ID to access the IRAP docs ;)
+-   Microsoft Service Trust Portal has the local Essential 8 guides  <https://aka.ms/e8guides> here you will find the PDF's covering the following specifics (the guides below can be accessed easy enough, but you will need to sign in using your own Tenant ID to access the IRAP docs)
 
 - 	Microsoft General - Essential Eight - Config Macros - 2022-09
 -   Microsoft General - Essential Eight - User Application Hardening - 2022-09

@@ -41,5 +41,3 @@ Subset here of the core pillars:
 -   Microsoft Defender for O365 : <https://aka.ms/mdoninja>
 -   Microsoft Defender for Cloud Apps: <http://aka.ms/mcasninja> (formerly MCAS)
 -   More at [Ninja Security Training](./Ninja.md)
-
-
