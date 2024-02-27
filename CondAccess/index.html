@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../assets/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.11">
     
     
       
@@ -26,7 +26,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e359304.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
@@ -66,17 +66,15 @@
     
     
    <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
-        html.glightbox-open { overflow: initial; height: 100%; }
-        .gslide-title { margin-top: 0px; user-select: text; }
-        .gslide-desc { color: #666; user-select: text; }
-        .gslide-image img { background: white; }
-        
-            .gscrollbar-fixer { padding-right: 15px; }
-            .gdesc-inner { font-size: 0.75rem; }
-            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
-            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
-            </style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -883,7 +881,7 @@
 
   <h1>2. Conditional Access (CA)</h1>
 
-<p><a class="glightbox" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_LHXQ7ucR3-MQZM3NO-a4_WRckjsP9FcUA&amp;usqp=CAU" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_LHXQ7ucR3-MQZM3NO-a4_WRckjsP9FcUA&amp;usqp=CAU" /></a></p>
+<p><a class="glightbox" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_LHXQ7ucR3-MQZM3NO-a4_WRckjsP9FcUA&amp;usqp=CAU" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_LHXQ7ucR3-MQZM3NO-a4_WRckjsP9FcUA&amp;usqp=CAU" /></a></p>
 <h2 id="ways-of-working"><strong>Ways of working</strong></h2>
 <p>First decision point - how are we going to do this?
 Questions to help you determine this are:</p>
@@ -898,19 +896,19 @@ Questions to help you determine this are:</p>
 <ul>
 <li>Fast and quick - start with telemetry below and do it on the fly using the 14 default Policies in ReportOnly Mode, iterate from there...
     <a href="https://portal.azure.com/#view/Microsoft_AAD_ConditionalAccess/CaTemplates.ReactView">View 14 x CA Policy Templates</a></li>
-<li>Larger implmentations - please take the time to review the process below to enable via "CA-as-Code" as the ROI is well worth it - especially if doing it for more than one customer or tenant <img alt="😉" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f609.svg" title=":wink:" /></li>
+<li>Larger implmentations - please take the time to review the process below to enable via "CA-as-Code" as the ROI is well worth it - especially if doing it for more than one customer or tenant <img alt="😉" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f609.svg" title=":wink:" /></li>
 </ul>
 <h2 id="enable-telemetry"><strong>Enable Telemetry</strong></h2>
 <div class="admonition warning">
 <p class="admonition-title"><strong>NOTE: please be aware there is no inherent "BLOCK" by default</strong></p>
 <p>You need to make sure you are BLOCKING by default unless explicitly allowing access - walk thru the 14 default Policies to better understand this. To make sure that you are fully covered please use this PowerBI based tool <strong><a href="https://github.com/AzureAD/AzureADAssessment">https://github.com/AzureAD/AzureADAssessment</a></strong> 
 <strong>Confirm your maturity based on this Tool <sup>^</sup><sup>^</sup></strong>
- <a class="glightbox" href="../images/AzureADAssessmentTool.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/AzureADAssessmentTool.png" /></a></p>
+ <a class="glightbox" href="../images/AzureADAssessmentTool.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/AzureADAssessmentTool.png" /></a></p>
 </div>
 <h2 id="alternative-way-to-check-ca-policies"><strong>Alternative way to check CA policies</strong></h2>
 <p><a href="https://idpowertoys.com/">https://idpowertoys.com/</a>
 Use the "CA Documentor" link on the left &amp; click on "Manual Generation" to be able to submit via JSON if you are concerned about the level of permissions required to generate as an App
-<a class="glightbox" href="https://idpowertoys.com/assets/whatsnew/cadocgen.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="https://idpowertoys.com/assets/whatsnew/cadocgen.png" /></a></p>
+<a class="glightbox" href="https://idpowertoys.com/assets/whatsnew/cadocgen.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="https://idpowertoys.com/assets/whatsnew/cadocgen.png" /></a></p>
 <div class="admonition success">
 <p class="admonition-title">Success</p>
 <p><strong>Awesome list of CA Policies</strong> Chad has done an exceptional piece of work here by creating a master list of 30 CA policies that can be imported/exported as needed - he's also gone and created KQL Queries to be able to track and validate each Policy - sensational work to reduce the effort and friction from our point of view. 
@@ -959,7 +957,7 @@ It might also be worth checking out his other Projects like:
 <p>Excellent article here that is really worth the time reading as this will highlight how to enable this in detail: <a href="https://www.cloud-architekt.net/aadops-conditional-access/">https://www.cloud-architekt.net/aadops-conditional-access/</a></p>
 </li>
 </ul>
-<p><a class="glightbox" href="https://www.cloud-architekt.net/assets/images/2021-08-11-aadops-conditional-access/aadops4.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="https://www.cloud-architekt.net/assets/images/2021-08-11-aadops-conditional-access/aadops4.png" /></a></p>
+<p><a class="glightbox" href="https://www.cloud-architekt.net/assets/images/2021-08-11-aadops-conditional-access/aadops4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="https://www.cloud-architekt.net/assets/images/2021-08-11-aadops-conditional-access/aadops4.png" /></a></p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>He also points out the others that have done great work in this space:</p>
@@ -1266,10 +1264,10 @@ It might also be worth checking out his other Projects like:
       </div>
       <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes", "navigation.instant", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes", "navigation.instant", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../assets/javascripts/bundle.8fd75fb4.min.js"></script>
       
     
   <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
