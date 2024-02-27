@@ -95,6 +95,7 @@ There is a lot more to be covered, but this will do for now, if you have questio
 To enable Defender for Cloud Apps to track Generative AI SaaS apps in your tenant, follow these steps:
 
 **Discover Generative AI Apps:**
+
 -   Microsoft Defender for Cloud Apps provides capabilities to discover and manage Generative AI apps. Start by gaining visibility into the Generative AI apps currently in use.
 -   The cloud app catalog now contains hundreds of new Generative AI apps that enable security teams to discover and understand the risk associated with each app.
 -   A new category specifically for “Generative AI” has been added to streamline this process. [You can use this category in policies and tags to automate controls based on risk scores or compliance standards](<https://learn.microsoft.com/en-us/defender-cloud-apps/release-notes#new-cloud-app-catalog-category-for-generative-ai>)
