@@ -96,15 +96,15 @@ To enable Defender for Cloud Apps to track Generative AI SaaS apps in your tenan
 
 **Discover Generative AI Apps:**
 
-1. Microsoft Defender for Cloud Apps provides capabilities to discover and manage Generative AI apps. Start by gaining visibility into the Generative AI apps currently in use.
-2. The cloud app catalog now contains hundreds of new Generative AI apps that enable security teams to discover and understand the risk associated with each app.
-3. A new category specifically for “Generative AI” has been added to streamline this process. [You can use this category in policies and tags to automate controls based on risk scores or compliance standards](<https://learn.microsoft.com/en-us/defender-cloud-apps/release-notes#new-cloud-app-catalog-category-for-generative-ai>)
+* Microsoft Defender for Cloud Apps provides capabilities to discover and manage Generative AI apps. Start by gaining visibility into the Generative AI apps currently in use.
+* The cloud app catalog now contains hundreds of new Generative AI apps that enable security teams to discover and understand the risk associated with each app.
+* A new category specifically for “Generative AI” has been added to streamline this process. [You can use this category in policies and tags to automate controls based on risk scores or compliance standards](<https://learn.microsoft.com/en-us/defender-cloud-apps/release-notes#new-cloud-app-catalog-category-for-generative-ai>)
 
 **Setup Policies:**
 
-4. Configure policies to automatically trigger alerts when new Generative AI apps are used within your organization.
-5. Create policy as per Blog article in link above
-6. For organizations using Defender for Endpoint integration, apps tagged as “unsanctioned” will be instantly blocked on onboarded devices.
+* Configure policies to automatically trigger alerts when new Generative AI apps are used within your organization.
+* Create policy as per Blog article in link above
+* For organizations using Defender for Endpoint integration, apps tagged as “unsanctioned” will be instantly blocked on onboarded devices.
 
 **Monitor Usage:**
 
@@ -120,13 +120,14 @@ To enable Defender for Cloud Apps to track Generative AI SaaS apps in your tenan
 Remember that Generative AI adoption is growing rapidly, and having effective visibility and control over these apps is crucial for maintaining security without disrupting productivity. By following these steps, you’ll be better equipped to manage Generative AI apps in your tenant! 🚀🔒
 
 For detailed documentation on each step, refer to the following links:
+
 -   [Discover, monitor, and protect the use of Generative AI apps](<https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/discover-monitor-and-protect-the-use-of-generative-ai-apps/ba-p/3999228>)
 -   [Working with discovered apps - Microsoft Defender for Cloud Apps](<https://learn.microsoft.com/en-us/defender-cloud-apps/discovered-apps>)
 -   [Cloud app catalog and risk scores - Microsoft Defender for Cloud Apps](<https://learn.microsoft.com/en-us/defender-cloud-apps/risk-score>)
 
 For those who prefer a Video - check Andre's session here - [Microsoft Defender for Cloud Apps - Why "CASB" and how it can help monitor and control ChatGPT usage](<https://youtu.be/8ysJBowXzGU?si=c8wVLJK0ritrzaLl>)
 
-I'll try and add some screenshots later
+I'll try and add some screenshots later...
 
 ### **Troubleshooting**
 
