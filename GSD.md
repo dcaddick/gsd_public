@@ -101,7 +101,7 @@ Examples of **WHY** you do this first:
 
 Start here - <https://learn.microsoft.com/en-us/defender-for-identity/prerequisites>
 1.  Capacity planning - <https://learn.microsoft.com/en-us/defender-for-identity/capacity-planning>
-2.   Download the Sizing tool - <https://github.com/microsoft/ATA-AATP-Sizing-Tool/releases>
+2.  Download the Sizing tool - <https://github.com/microsoft/ATA-AATP-Sizing-Tool/releases>
 3.   Download the Sensor - <https://learn.microsoft.com/en-us/defender-for-identity/download-sensor>
 4.   Install the Sensor on DC's - <https://learn.microsoft.com/en-us/defender-for-identity/install-sensor>
 5.   Basic Settings that you should review **NOW** - <https://www.microsoft.com/videoplayer/embed/RWFVEX>
