@@ -115,7 +115,7 @@ For detailed documentation on each step, refer to the following links:
 -   [Working with discovered apps - Microsoft Defender for Cloud Apps](<https://learn.microsoft.com/en-us/defender-cloud-apps/discovered-apps>)
 -   [Cloud app catalog and risk scores - Microsoft Defender for Cloud Apps](<https://learn.microsoft.com/en-us/defender-cloud-apps/risk-score>)
 
-For those who prefer a Video - check Andre's session here - https://youtu.be/8ysJBowXzGU?si=c8wVLJK0ritrzaLl
+For those who prefer a Video - check Andre's session here - [Microsoft Defender for Cloud Apps - Why "CASB" and how it can help monitor and control ChatGPT usage](<https://youtu.be/8ysJBowXzGU?si=c8wVLJK0ritrzaLl>)
 
 I'll try and add some screenshots later
 
