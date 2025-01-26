@@ -14,7 +14,7 @@
 <https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/how-policies-and-protections-are-combined?view=o365-worldwide#appendix>
 
 **Recent BEC activity (Business Email Compromise)**
-<https://twitter.com/jhencinski/status/1616543412940931075?s=61&t=C1HAZW3QfTIcWUDtZNoHOw>
+<https://x.com/jhencinski/status/1616543412940931075?s=61&t=C1HAZW3QfTIcWUDtZNoHOw>
 
 **Great NEW update on Automation**
 <https://www.techrepublic.com/article/microsoft-defender-365-automation-fight-automated-attacks/>

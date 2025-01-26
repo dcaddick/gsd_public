@@ -57,7 +57,7 @@
 ### **AD onPrem**
 
 A list of resources from DART perspective on Active Directory - courtesy
-of Matt Zorich (Twitter @reprise99)
+of Matt Zorich (X @reprise99)
 
 -   BloodHound Edges
 <https://bloodhound.readthedocs.io/en/latest/data-analysis/edges.html>
