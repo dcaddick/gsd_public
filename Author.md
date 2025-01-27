@@ -17,7 +17,7 @@ I admit it's my fault 😆, as I started collecting all the useful links that I 
 Works for Microsoft as Senior Security Specialist, Perth Western Australia
 
 -   **GitHub**: <https://github.com/dcaddick/>
--   **Twitter**: <https://twitter.com/dcaddick>
+-   **X**: <https://x.com/dcaddick>
 -   **LinkedIn**: <https://linkedin.com/in/dcaddick/>
 
 **Martin Caddick**

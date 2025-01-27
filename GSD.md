@@ -545,7 +545,7 @@ Handy tips and shortcuts for those that might still be trying to improve based o
 
 
 **Recent BEC activity (Business Email Compromise)**
-<https://twitter.com/jhencinski/status/1616543412940931075?s=61&t=C1HAZW3QfTIcWUDtZNoHOw>
+<https://x.com/jhencinski/status/1616543412940931075?s=61&t=C1HAZW3QfTIcWUDtZNoHOw>
 
 
 
@@ -995,7 +995,7 @@ This site is very comprehensive, and should have most answers, and will add more
 ### **AD onPrem**
 
 A list of resources from DART perspective on Active Directory - courtesy
-of Matt Zorich (Twitter @reprise99)
+of Matt Zorich (X @reprise99)
 
 -   BloodHound Edges
 <https://bloodhound.readthedocs.io/en/latest/data-analysis/edges.html>

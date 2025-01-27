@@ -39,7 +39,7 @@ Discussions: <https://github.com/dcaddick/gsd_public/discussions>
 check out other "saved posts" from LinkedIn
 https://www.linkedin.com/my-items/saved-posts/
 
-https://twitter.com/jeffreyappel7/status/1616196538337792009?s=61&t=4qPz80pQqXdQmuvndvnOPw
+https://x.com/jeffreyappel7/status/1616196538337792009?s=61&t=4qPz80pQqXdQmuvndvnOPw
 
 
 Automate from Outlook ToDo into Planner 
