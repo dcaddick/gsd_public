@@ -119,9 +119,6 @@ Be conscious that if you are testing that MDI is working correctly that this may
 This would be valuable lessons on effectiveness - even more so if there is missing alerts?? :( 
 
 -   Specific Validation information - <https://learn.microsoft.com/en-us/defender-for-identity/configure-sensor-settings#validate-installations>
--   Make sure that Advanced Settings has Integration enabled - <https://learn.microsoft.com/en-us/defender-for-identity/classic-integrate-mde>
--   Make doubly sure this Integration is enabled between ALL elements of MDI, MDE, MDO, MDCA and the M365 Defender Console
-![](https://learn.microsoft.com/en-us/defender-for-identity/media/msde-enable.png)
 -   Use Attack Simulations to **validate MDI is installed correctly** and Alerts are being surfaced accurately:
     <https://learn.microsoft.com/en-us/defender-for-identity/playbooks>
 -   Use Labs for **in depth checking**: <https://learn.microsoft.com/en-us/defender-for-identity/playbook-lab-overview>
@@ -726,7 +723,6 @@ Especially this last one on Enhanced Filters, this is where **it is possible** t
 
 -   How to validate Azure Key Vault Threat Detection alerts
 <https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/validating-azure-key-vault-threat-detection-in-microsoft/ba-p/1220336>
-![](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/176210i3797170A498B50D1/image-size/large?v=v2&px=999)
 
 -   Trigger a test alert for Microsoft Defender for Storage
 <https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-storage-test>
