@@ -98,22 +98,19 @@ To enable Defender for Cloud Apps to track Generative AI SaaS apps in your tenan
 
 * Microsoft Defender for Cloud Apps provides capabilities to discover and manage Generative AI apps. Start by gaining visibility into the Generative AI apps currently in use.
 * The cloud app catalog now contains hundreds of new Generative AI apps that enable security teams to discover and understand the risk associated with each app.
-* A new category specifically for “Generative AI” has been added to streamline this process. [You can use this category in policies and tags to automate controls based on risk scores or compliance standards](<https://learn.microsoft.com/en-us/defender-cloud-apps/release-notes#new-cloud-app-catalog-category-for-generative-ai>)
-![](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/531518i10AB54FB82EF667A/image-size/large?v=v2&px=999)
 
 **Setup Policies:**
 
 * Configure policies to automatically trigger alerts when new Generative AI apps are used within your organization.
 * Create policy as per Blog article in link above
 * For organizations using Defender for Endpoint integration, apps tagged as “unsanctioned” will be instantly blocked on onboarded devices.
-* ![](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/531520i25B90E23CC2F653D/image-size/large?v=v2&px=999)
 
 **Monitor Usage:**
 
 * Regularly review the list of Generative AI apps in use.
 * Leverage the Defender for Cloud Apps dashboard to track app activity and assess risk factors.
 * [Consider generating a Cloud Discovery executive report to identify top potential risks and plan workflows for risk mitigation](<https://learn.microsoft.com/en-us/defender-cloud-apps/discovered-apps>)
-* Monitoring useage per person can be achieved in the console in the lower right hand side
+* Monitoring usage per person can be achieved in the console in the lower right hand side
 ![Alt text](image.png)
 
 **Microsoft Purview Integration:**

@@ -13,7 +13,7 @@ Quick wins to improve Security using existing M365 E5 entitlements
  
 ## **Core reference material**
 
--   **Microsoft Cybersecurity Reference Architecture -- <https://aka.ms/MCRA>** - [**Direct link**](<https://github.com/MicrosoftDocs/security/blob/main/Downloads/microsoft-cybersecurity-reference-architectures.pptx?raw=true>) 
+-   **Microsoft Cybersecurity Reference Architecture -- <https://aka.ms/MCRA>** - [**Direct link**](<https://github.com/MicrosoftDocs/security/blob/main/Downloads/mcra-december-2023.pptx?raw=true>) 
 -   **Security collateral inc. CISO Workshops, and lots more -- <https://aka.ms/MarksList>**
     -   Please - if you haven't come across these two links above
         before now - go and review and come back after
@@ -37,7 +37,7 @@ A new end-to-end Total Economic Impact study by Forrester across Microsoft's thr
 ### **Latest CISO Workshop Training**
 
 [The Chief Information Security Officer (CISO) Workshop Training](<https://learn.microsoft.com/en-gb/security/ciso-workshop/the-ciso-workshop>)
-![](https://learn.microsoft.com/en-gb/security/ciso-workshop/media/ciso-workshop-overview.png)
+![](https://learn.microsoft.com/en-us/security/adoption/media/adoption/chief-information-security-officer-workshop.png)
 
 ### **Incident Response**
  -   CISO Lens Incident Response Template - November 2022 <https://www.cisolens.com/reports#h.a769cex3vkl>
@@ -62,7 +62,7 @@ A new end-to-end Total Economic Impact study by Forrester across Microsoft's thr
 
     <https://techcommunity.microsoft.com/t5/fasttrack-blog/deploying-microsoft-365-just-got-easier-introducing-advanced/ba-p/3635421>
 
-![](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/426222i86CBEA5DD5CEE5F8/image-size/large?v=v2&px=999)
+![](https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS0zNjM1NDIxLTQyNjIyMmk4NkNCRUE1REQ1Q0VFNUY4?image-dimensions=750x750&revision=44)
 
 **Defender Admin Guides - Step by Step**
 
@@ -979,7 +979,7 @@ This site is very comprehensive, and should have most answers, and will add more
 -   For Office
 <https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-365-office-2021-office-2019-and-office-2016>
 -   For Macro's
-<https://www.cyber.gov.au/acsc/view-all-content/publications/microsoft-office-macro-security>
+<https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/restricting-microsoft-office-macros>
 -   For Intune
 <https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines>
 -   WDAC Policy creation from DTA
