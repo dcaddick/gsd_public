@@ -1,4 +1,4 @@
-![Title](https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png)
+![Title](https://learn.microsoft.com/en-us/defender-for-identity/media/architecture/architecture.png)
 
 ## **Ways of working**
 First decision point - do you have **ANY** Domain Controllers within your environment? If so then you should install MDI **NOW** and make it the very top of your Security ToDo list.
@@ -65,15 +65,10 @@ And on that, make sure you schedule some time to review afterwards about what te
 This would be valuable lessons on effectiveness - even more so if there is missing alerts?? :( 
 
 -   Specific Validation information - <https://learn.microsoft.com/en-us/defender-for-identity/configure-sensor-settings#validate-installations>
--   Make sure that Advanced Settings has Integration enabled - <https://learn.microsoft.com/en-us/defender-for-identity/classic-integrate-mde>
--   Make doubly sure this Integration is enabled between ALL elements of MDI, MDE, MDO, MDCA and the M365 Defender Console
-![](https://learn.microsoft.com/en-us/defender-for-identity/media/msde-enable.png)
 -   Use Attack Simulations to **validate MDI is installed correctly** and Alerts are being surfaced accurately:
     <https://learn.microsoft.com/en-us/defender-for-identity/playbooks>
 -   Use Labs for **in depth checking**: <https://learn.microsoft.com/en-us/defender-for-identity/playbook-lab-overview>
 -   <https://learn.microsoft.com/en-us/defender-for-identity/playbook-domain-dominance>
--   Go to <https://portal.atp.azure.com> and if you see this, it's not been installed correctly
-![](./images/image3.png)
 
 ## **Enable Reporting**
 

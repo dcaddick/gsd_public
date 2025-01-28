@@ -2,7 +2,7 @@
 
 -   **Please start with this - ACSC Essential 8 – Health Report in Microsoft Sentinel**
 <https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/acsc-essential-8-health-report-in-microsoft-sentinel/ba-p/3755702>
-![](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/446514i33DB819B58F060BA/image-size/large?v=v2&px=999)
+![](https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS0zNzU1NzAyLTQ0NjUxNGkzM0RCODE5QjU4RjA2MEJB)
 
 -   Great high level on all Essential 8
 <https://aka.ms/e8guides>
@@ -13,9 +13,9 @@
 -   Microsoft Cybersecurity Reference Architecture
  <https://aka.ms/MCRA> or <https://learn.microsoft.com/en-us/security/cybersecurity-reference-architecture/mcra>
 -   General on Essential 8
-<https://learn.microsoft.com/en-us/compliance/essential-eight/e8-overview>
+<https://learn.microsoft.com/en-us/compliance/anz/e8-overview>
 -   Daily backups
-<https://learn.microsoft.com/en-us/compliance/essential-eight/e8-backups>
+<https://learn.microsoft.com/en-us/compliance/anz/e8-backups>
 -   Australian IRAP
 <https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-australia-irap> & <https://servicetrust.microsoft.com/Viewpage/AustraliaIRAP>
 -   Implmenting Essential 8 with Microsoft tooling

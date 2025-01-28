@@ -56,7 +56,6 @@
 
 -   How to validate Azure Key Vault Threat Detection alerts
 <https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/validating-azure-key-vault-threat-detection-in-microsoft/ba-p/1220336>
-![](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/176210i3797170A498B50D1/image-size/large?v=v2&px=999)
 
 -   Trigger a test alert for Microsoft Defender for Storage
 <https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-storage-test>

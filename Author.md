@@ -30,7 +30,7 @@ Works for oobe in Canberra and absolute gun at Automating Markdown - thanks for 
 Thanks for reviewing and providing feedback and advice
 Works for Microsoft as Partner Security Solution Architect, London UK
 
--   **LinkedIn**: <https://www.linkedin.com/in/josepinos365/>
+-   **LinkedIn**: <https://linkedin.com/in/jose365/>
 
 ## **Feedback**
 
