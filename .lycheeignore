@@ -1,2 +1,3 @@
 ^https://portal\.azure\.com/#blade/.*$
 ^https://portal\.azure\.com/#view/.*$
+^https://rodrent\.substack\.com*$
