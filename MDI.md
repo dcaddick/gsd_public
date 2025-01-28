@@ -1,4 +1,4 @@
-![Title](https://learn.microsoft.com/en-us/defender-for-identity/media/architecture-topology.png)
+![Title](https://learn.microsoft.com/en-us/defender-for-identity/media/architecture/architecture.png)
 
 ## **Ways of working**
 First decision point - do you have **ANY** Domain Controllers within your environment? If so then you should install MDI **NOW** and make it the very top of your Security ToDo list.

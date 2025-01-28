@@ -955,9 +955,9 @@ This site is very comprehensive, and should have most answers, and will add more
 -   Microsoft Cybersecurity Reference Architecture
  <https://aka.ms/MCRA> or <https://learn.microsoft.com/en-us/security/cybersecurity-reference-architecture/mcra>
 -   General on Essential 8
-<https://learn.microsoft.com/en-us/compliance/essential-eight/e8-overview>
+<https://learn.microsoft.com/en-us/compliance/anz/e8-overview>
 -   Daily backups
-<https://learn.microsoft.com/en-us/compliance/essential-eight/e8-overview/e8-backups>
+<https://learn.microsoft.com/en-us/compliance/anz/e8-backups>
 -   Australian IRAP
 <https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-australia-irap> & <https://servicetrust.microsoft.com/Viewpage/AustraliaIRAP>
 

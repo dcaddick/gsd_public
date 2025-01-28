@@ -24,9 +24,9 @@ Result:
      ![](./images/AzureADAssessmentTool.png)
 
 ## **Alternative way to check CA policies**
-<https://idpowertoys.com/>
+<https://idpowertoys.merill.net/>
 Use the "CA Documentor" link on the left & click on "Manual Generation" to be able to submit via JSON if you are concerned about the level of permissions required to generate as an App
-![](https://idpowertoys.com/assets/whatsnew/cadocgen.png)
+![](https://idpowertoys.merill.net/assets/whatsnew/cadocgen.png)
 
 
 !!! Success
@@ -59,7 +59,7 @@ Use the "CA Documentor" link on the left & click on "Manual Generation" to be ab
 -   Powershell syntax and examples
 <https://learn.microsoft.com/en-us/powershell/module/azuread/get-azureadmsconditionalaccesspolicy?view=azureadps-2.0>
 -   Deep dive: How does Conditional Access block Legacy Authentication?
-<https://techcommunity.microsoft.com/t5/itops-talk-blog/deep-dive-how-does-conditional-access-block-legacy/ba-p/3265345>
+<https://techcommunity.microsoft.com/blog/itopstalkblog/deep-dive-how-does-conditional-access-block-legacy-authentication/3265345>
 
 
 !!! Note 
