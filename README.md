@@ -1,7 +1,7 @@
 # Get Security Done
 Please note that this link is now deprecated since I have resigned from Microsoft
 [aka.ms/gsd](https://aka.ms/GSD).
-The new default link will be: https://dcaddick.github.io/gsd_public/GSD/
+The new default link will be: <https://dcaddick.github.io/gsd_public/GSD/>
 
 ## **Feedback**
 
