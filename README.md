@@ -1,5 +1,7 @@
 # Get Security Done
-[aka.ms/gsd](https://aka.ms/GSD)
+Please note that this link is now deprecated since I have resigned from Microsoft
+[aka.ms/gsd](https://aka.ms/GSD).
+The new default link will be: https://dcaddick.github.io/gsd_public/GSD/
 
 ## **Feedback**
 
@@ -38,7 +40,7 @@ Please work thru these from top to bottom:
 As you might have guessed by now, this is no small undertaking, so please bear with us while this gets built out. In the meantime we will continue to share any handy tips and tricks to reduce friction for those of you at the Deployment "coal face"
 
 ## **Work in Progress**
-So with that, planning got under way to create [aka.ms/GSD](https://aka.ms/GSD), and of course we could always refer to this as Global Security Deployment? Please be aware this should always be considered a "work in progress" and will be updated as we go.
+So with that, planning got under way to create [aka.ms/GSD](https://aka.ms/GSD) (now deprecated), and of course we could always refer to this as Global Security Deployment? Please be aware this should always be considered a "work in progress" and will be updated as we go.
 
 Please note this will be a mix of both Microsoft & non-Microsoft content, if it is of value and can help you with said mission of GSD for Security in the Microsoft Platform, then we'd like to include it - having said that, please feel free to provide feedback on the good, the bad and the ugly as we'd like to improve this over time.
 
