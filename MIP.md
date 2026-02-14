@@ -6,20 +6,21 @@ First up - to a certain degree, you will find a lot of what you need here in the
 You might also note that it uses Material for MkDocs as well ;-)
 
 ### **Ways of working**
--   Look to enable Insider Risk & Communications compliance first
--   This will identify specific use cases & Business Value almost immediately
--   These can then be used to flesh out the current risks and security challenges that **need** to be addressed ASAP
--    Start using Adaptive Protection for DLP controls to address immediate needs and pivot from this quick start to flesh out additional use cases with Project Management
 
+- Look to enable Insider Risk & Communications compliance first
+- This will identify specific use cases & Business Value almost immediately
+- These can then be used to flesh out the current risks and security challenges that **need** to be addressed ASAP
+- Start using Adaptive Protection for DLP controls to address immediate needs and pivot from this quick start to flesh out additional use cases with Project Management
 
 ### **Latest update**
--   MIP/AIP - <https://techcommunity.microsoft.com/t5/security-compliance-and-identity/azure-information-protection-and-the-information-protection/ba-p/3671070>
--   Adaptive Protection (DLP rules based on Insider Risk)
--   Login as GA (or eqiv.) - <https://admin.microsoft.com/adminportal/home?Q=ADG#/modernonboarding/mipsetupguide>
--   ![](./images/image2.png)
--   Docs - <https://learn.microsoft.com/en-gb/microsoft-365/compliance/information-protection>
--   DLP - <https://learn.microsoft.com/en-gb/microsoft-365/compliance/dlp-learn-about-dlp>
--   What's new - <https://learn.microsoft.com/en-gb/microsoft-365/compliance/whats-new>
+
+- MIP/AIP - <https://techcommunity.microsoft.com/t5/security-compliance-and-identity/azure-information-protection-and-the-information-protection/ba-p/3671070>
+- Adaptive Protection (DLP rules based on Insider Risk)
+- Login as GA (or eqiv.) - <https://admin.microsoft.com/adminportal/home?Q=ADG#/modernonboarding/mipsetupguide>
+- ![](./images/image2.png)
+- Docs - <https://learn.microsoft.com/en-gb/microsoft-365/compliance/information-protection>
+- DLP - <https://learn.microsoft.com/en-gb/microsoft-365/compliance/dlp-learn-about-dlp>
+- What's new - <https://learn.microsoft.com/en-gb/microsoft-365/compliance/whats-new>
 
 ## **Naming evolution - AIP/MIP/MPIP**
 
@@ -28,6 +29,7 @@ Note that while some documentation still references "Azure Information Protectio
 The "Microsoft Information Protection" name, along with other compliance and unified data governance products, were updated in 2022 to include "Purview" name. As such it's now called "Microsoft Purview Information Protection". For additional updates to the renaming of our compliance products reference this [blog post](https://www.microsoft.com/en-us/security/blog/2022/04/19/the-future-of-compliance-and-data-governance-is-here-introducing-microsoft-purview/)
 
 ## **DLP products**
+
 | Product / Service | Data Location | Use case |
 |---|---|---|
 | [Microsoft Purview Data Loss Prevention](https://compliance.microsoft.com/datalossprevention) | Endpoints, M365 data locations, bridged Data Connector locations | Provides DLP capabilities primarily for M365 locations (e.g. O365, OneDrive, Teams, Yammer, SharePoint, etc.), endpoints who have Microsoft Defender for Endpoint (MDE) onboarded,  as well as locations that have been bridged to Purview via the Data Connectors capability. |
@@ -38,5 +40,4 @@ While MDE is the primary agent that supports most of our Microsoft Security and 
 
 ## **Ninja Security Training**
 
--   MPIP Ninja Training : <https://aka.ms/MIPNinja>
-
+- MPIP Ninja Training : <https://aka.ms/MIPNinja>
