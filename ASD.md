@@ -8,8 +8,6 @@
 <https://aka.ms/e8guides>
 - Collection of Australian M365 content on Essential 8
 <https://m365maps.com/australia.htm>
-- 6 videos that walk thru
-<https://info.microsoft.com/AU-SCRTY-CATALOG-FY21-02Feb-14-TheEssentialEightforSecurityinPractice-SRDEM61939_CatalogDisplayPage.html>
 - Microsoft Cybersecurity Reference Architecture
  <https://aka.ms/MCRA> or <https://learn.microsoft.com/en-us/security/cybersecurity-reference-architecture/mcra>
 - General on Essential 8
@@ -52,7 +50,6 @@
 
 - [Secure your Azure AD identity infrastructure - Azure Active Directory](https://learn.microsoft.com/en-us/azure/security/fundamentals/steps-secure-identity)
 - Also worth reviewing our Essential 8 guidance, especially MFA (aka.ms/e8guides)
-- Microsoft Azure **Identity Security Compass** - [Microsoft Security Best Practices](https://learn.microsoft.com/en-us/security/compass/compass)
 - Active Directory - [Best Practices for Securing Active Directory](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory)
 
 ### **AD onPrem**

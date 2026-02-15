@@ -22,6 +22,7 @@ Apologies, but this content is focused and aimed at helping people get the solut
 ### **Latest CISO Workshop Training**
 
 [The Chief Information Security Officer (CISO) Workshop Training](<https://learn.microsoft.com/en-gb/security/ciso-workshop/the-ciso-workshop>)
+[The Chief Information Security Officer (CISO) Workshop Training (in Video format)](<https://learn.microsoft.com/en-gb/security/adoption/the-ciso-workshop-videos>)
 ![](https://learn.microsoft.com/en-us/security/adoption/media/adoption/chief-information-security-officer-workshop.png)
 
 - **Microsoft Cybersecurity Reference Architecture -- <https://aka.ms/MCRA>** - [**Direct link**](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftDocs%2Fsecurity%2Fmain%2FDownloads%2Fmcra-december-2023.pptx&wdOrigin=BROWSELINK)  
@@ -42,3 +43,5 @@ Subset here of the core pillars:
 - Microsoft Defender for O365 : <https://aka.ms/mdoninja>
 - Microsoft Defender for Cloud Apps: <http://aka.ms/mcasninja> (formerly MCAS)
 - More at [Ninja Security Training](./Ninja.md)
+- Search for all the latest at: <https://adoption.microsoft.com/en-us/ninja-show>
+  Plus has NinjaCat downloads ^^^
