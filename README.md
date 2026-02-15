@@ -53,22 +53,22 @@ The full page that started all this can be found here [GSD](./GSD.md) doc
 
 ## **Still to do**
 
-- [ ] Get plugins working, date updated, contributors, etc...
+- [x] Get plugins working, date updated, contributors, etc...
 - [x] Link in announcement to discussion board
 - [x] update About
-- [ ] Fix Tables
-- [ ] Fix images
+- [x] Fix Tables
+- [x] Fix images
 - [x] Assumed Knowledge
 - [x] Assumed Licenses
 - [ ] Acronym Table?
 - [x] Short paragraph on each heading - Preview at top or separate tab?
 - [x] ToC/Index
-- [ ] Add new Theme - <https://github.com/byrnereese/mkdocs-bootstrap4>  ???
+- [x] Add new Theme - <https://github.com/byrnereese/mkdocs-bootstrap4>  ???
 - [x] Shadow Hunter & In to the Breach - Immersive workshops for SecOps
 - [ ] Zero Trust - <https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/creating-mfa-policies-with-zero-trust-advanced-deployment-guide/ba-p/3688849>
 - [ ] CISA recommendations?
 - [ ] Purview Insider Risk
-- [ ] Purview in general
+- [x] Purview in general
 
 What else needs doing?
 
