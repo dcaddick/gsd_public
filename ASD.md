@@ -48,12 +48,6 @@
 - WDAC Policy creation from DTA
 <https://desktop.gov.au/blueprint/abac/wdac-policy-creation.html>
 
-### **Hardening Azure AD**
-
-- [Secure your Azure AD identity infrastructure - Azure Active Directory](https://learn.microsoft.com/en-us/azure/security/fundamentals/steps-secure-identity)
-- Also worth reviewing our Essential 8 guidance, especially MFA (aka.ms/e8guides)
-- Active Directory - [Best Practices for Securing Active Directory](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory)
-
 ### **AD onPrem**
 
 A list of resources from DART perspective on Active Directory - courtesy
@@ -83,17 +77,6 @@ of Matt Zorich (X @reprise99)
 [https://ired.team/offensive-security-experiments/active-directory-kerberos-abuse/t1208-kerberoasting...](https://t.co/EqWNu84RoG)
 - Monitoring AD for signs of compromise
 [https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise](https://t.co/enuOOAjAr1)
-
-### **Identity**
-
-- Best Practices
-<https://learn.microsoft.com/en-us/security/compass/compass>
-- From Jeffrey Appel
-<https://jeffreyappel.nl/tips-for-preventing-against-new-modern-identity-attacks-aitm-mfa-fatigue-prt-oauth/>
-    look at Partner section
-- MDCA (was MCAS) policies from AADIP P2 moving to D365 Console
-  - <https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-365-security-center-defender-cloud-apps?view=o365-worldwide&WT.mc_id=AZ-MVP-5004291#control>
-  - <https://www.linkedin.com/posts/sami-lamppu_microsoft-defender-for-cloud-apps-in-microsoft-activity-7011278821773471744-TcvX>?
 
 ### **Exchange Permissions check**
 
