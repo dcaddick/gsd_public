@@ -86,3 +86,14 @@ From MkDocs & Material:
 - [Material theme](<https://squidfunk.github.io/mkdocs-material/getting-started/>)
 
 Key takeway - no need to touch Docker, Linux or Python, just let a plugin do the heavy lifting for you
+## External repository connection
+
+This repository is now configured with a Git remote named `secondbrain` that points to:
+
+- https://github.com/dcaddick/DCs-SecondBrain
+
+You can verify with:
+
+```bash
+git remote -v
+```
